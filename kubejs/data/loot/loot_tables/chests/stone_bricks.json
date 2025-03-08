@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/andesite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/dacite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/rhyolite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/chert"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/dolomite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/shale"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/gabbro"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/diorite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/granite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:brick/marble"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+  "tfcoreprocessing:compressed/bismuthinite",
+"tfcoreprocessing:compressed/cassiterite",
+"tfcoreprocessing:compressed/garnierite",
+"tfcoreprocessing:compressed/hematite",
+"tfcoreprocessing:compressed/limonite",
+"tfcoreprocessing:compressed/magnetite",
+"tfcoreprocessing:compressed/malachite",
+"tfcoreprocessing:compressed/native_copper",
+"tfcoreprocessing:compressed/native_gold",
+"tfcoreprocessing:compressed/native_silver",
+"tfcoreprocessing:compressed/sphalerite",
+"tfcoreprocessing:compressed/tetrahedrite" 
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "bakery:bun"
+  },
+  "hunger": 2,
+  "saturation": 1.5,
+  "decay_modifier": 1.25,
+  "grain": 1.5
+}

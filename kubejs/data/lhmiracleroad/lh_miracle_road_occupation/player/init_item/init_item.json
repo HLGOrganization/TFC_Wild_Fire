@@ -1,0 +1,205 @@
+[
+  {
+    "id": "primitive",
+    "items": [
+      {
+        "item": "call_of_yucutan:flint_spear",
+        "quantity": "1"
+      },
+      {
+        "item": "tfc_textile_coldsweat:raw_shirt",
+        "quantity": "1"
+      },
+      {
+        "item": "tfc_textile_coldsweat:raw_pants",
+        "quantity": "1"
+      },
+      {
+        "item": "tfc:food/beef",
+        "quantity": "4"
+      },
+      {
+        "item": "tfc:food/cranberry",
+        "quantity": "4"
+      }
+    ]
+  },
+  {
+    "id": "hunter",
+    "items": [
+      {
+        "item": "call_of_yucutan:silex_tecpatl",
+        "quantity": "1"
+      },
+      {
+        "item": "bsa:stone/javelin/flint",
+        "quantity": "1"
+      },
+      {
+        "item": "minecraft:bow",
+        "quantity": "1"
+      },
+      {
+        "item": "minecraft:arrow",
+        "quantity": "20"
+      },
+      {
+        "item": "animaltrap:empty",
+        "quantity": "1"
+      },
+      {
+        "item": "animaltrap:small_animals_bait",
+        "quantity": "5"
+      },
+      {
+        "item": "tfc:food/cooked_wolf",
+        "quantity": "3"
+      }
+    ]
+  },
+  {
+    "id": "shepherd",
+    "items": [
+      {
+        "item": "tfc:spawn_egg/sheep",
+        "quantity": "2"
+      },
+      {
+        "item": "minecraft:lead",
+        "quantity": "2"
+      },
+      {
+        "item": "tfc:food/barley",
+        "quantity": "6"
+      },
+      {
+        "item": "tfc:seeds/barley",
+        "quantity": "6"
+      },
+      {
+        "item": "tfc:food/barley_bread",
+        "quantity": "4"
+      },
+      {
+        "item": "minecraft:leather_boots",
+        "quantity": "1"
+      }
+    ]
+  },
+  {
+    "id": "explorer",
+    "items": [
+      {
+        "item": "tfccanes:walking_cane",
+        "quantity": "1"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": "1"
+      },
+      {
+        "item": "valhelsia_structures:explorers_tent",
+        "quantity": "1"
+      },
+      {
+        "item": "backpacked_tfc:backpack",
+        "quantity": "1"
+      },
+      {
+        "item": "majruszsaccessories:adventurer_kit",
+        "quantity": "1"
+      },
+      {
+        "item": "tfc:torch",
+        "quantity": "8"
+      },
+      {
+        "item": "tfc:food/barley_bread",
+        "quantity": "4"
+      }
+    ]
+  },
+  {
+    "id": "engineer",
+    "items": [
+      {
+        "item": "ad_astra:ti_69",
+        "quantity": "1"
+      },
+      {
+        "item": "create:goggles",
+        "quantity": "1"
+      },
+      {
+        "item": "artifacts:universal_attractor",
+        "quantity": "1"
+      },
+      {
+        "item": "artifacts:night_vision_goggles",
+        "quantity": "1"
+      },
+      {
+        "item": "create:brown_toolbox",
+        "quantity": "1"
+      },
+      {
+        "item": "ad_astra:wrench",
+        "quantity": "1"
+      },
+      {
+        "item": "kubejs:instant_gel_love",
+        "quantity": "2"
+      }
+    ]
+  },
+  {
+    "id": "crewmate",
+    "items": [
+      {
+        "item": "ad_astra:ti_69",
+        "quantity": "1"
+      },
+      {
+        "item": "simplehats:astronaut",
+        "quantity": "1"
+      },
+      {
+        "item": "ad_astra:space_suit",
+        "quantity": "1"
+      },
+      {
+        "item": "artifacts:antidote_vessel",
+        "quantity": "1"
+      },
+      {
+        "item": "minecraft:spyglass",
+        "quantity": "1"
+      },
+      {
+        "item": "kubejs:instant_gel_classic",
+        "quantity": "2"
+      }
+    ]
+  },
+  {
+    "id": "prisoner",
+    "items": [
+      {
+        "item": "artifacts:golden_hook",
+        "quantity": "1"
+      },
+      {
+        "item": "butcher:humanmeat",
+        "quantity": "5"
+      },
+      {
+        "item": "majruszsdifficulty:tattered_chestplate",
+        "quantity": "1"
+      },
+      {
+        "item": "majruszsdifficulty:tattered_leggings",
+        "quantity": "1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3448C5F4EBDB1A16"
+	group: "2BD524ABD6AD1EEE"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "tfc:metal/double_ingot/steel"
+	}
+	id: "3448C5F4EBDB1A16"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A6067EFAE9D19C1"]
+			description: [
+				"当你获得钢铁之后，群峦本体的内容就剩的不多了，不过，本整合包扩展的ad星际制造火箭需要大量的钢铁，所以建议在这个阶段发展的同时，制作刷铁机与钢铁产线，"
+				"钢后续制造黑钢以及史诗金属“&b秘银&r”和”&6精金&r“也需要很多"
+				""
+				"从原始人生活到现在是时候摒弃手工业来到工业自动化生活了!!!!"
+				"&n如果不了解“机械动力”和“沉浸工程”这两个mod的新玩家，建议多看这两个模组的独立章节以便更好的制造工业产线&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			id: "72432121EE248C7B"
+			rewards: [{
+				id: "57FBA0AD1AF46D65"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			subtitle: "完成了最大的挑战，后续的事情就比较简单了"
+			tasks: [{
+				id: "657D2F8A4D02137F"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "第四章：钢铁之魂"
+			x: 3.5d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"3933AA974EAACD79"
+				"72432121EE248C7B"
+			]
+			description: [
+				"我猜你早就划够了皮划艇，也可能去试了划艇发现不大理想。没关系，在拥有了钢之后，你将会能够建造一艘海上的庞然巨物——单桅帆船！这个大家伙最多能容纳13个箱子，乘坐7个人，在顺风的情况下以很快的速度航行，并携带最多6门加农炮！"
+				""
+				"单桅帆船的造价十分高昂，需要大量的钢、铜、羊毛及其他材料，且你还需要一段时间来学习如何操作帆船。如果你决定建造帆船，可以查阅书籍。看向帆船的桅杆以完成该任务。"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmaciv:sextant"
+			}
+			id: "6222CD178F9A72B5"
+			rewards: [{
+				id: "78AB6F3B06150136"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "世界上某些地方人类无法靠近，但帆船却可以。——艾伦·维利耶"
+			tasks: [{
+				icon: "firmaciv:cannon"
+				id: "2EF654F6F46298F1"
+				observe_type: 5
+				timer: 0L
+				title: "观察帆船的桅杆和风帆"
+				to_observe: "firmaciv:vehicle_switch_sail"
+				type: "observation"
+			}]
+			title: "船坚炮利"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: [
+				"钢管道和钢泵是能够搬运流体源的装置。将曲轴用钢棒连接到钢泵较窄的那段，若观察到钢泵中有木块跟随钢棒运动即代表钢泵开始工作。用钢管道连接钢泵的底部到水源方块，管道的末端必须放在水中，管道的末端距离钢泵不能超过16格。"
+				""
+				"如果搭建成功，钢泵较宽的那头就会出现水源方块，一个钢泵会尝试填充最大32格的封闭区域，如果这个区域大于32格，就不会进行填充。"
+			]
+			icon: "tfc:steel_pump"
+			id: "68180ECE6863FA8B"
+			rewards: [{
+				id: "6449B1911D98B4E9"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "群峦本体唯一搬运流体源的方式"
+			tasks: [
+				{
+					id: "7EDA5E362B492F4D"
+					item: "tfc:steel_pump"
+					type: "item"
+				}
+				{
+					id: "00DC3C9412CDE4D1"
+					item: "tfc:steel_pipe"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: ["你已经准备好14块钢锭在这等着了，不是吗？"]
+			id: "6AB49CFCB58E3D6B"
+			rewards: [{
+				id: "67B9A4BE55018AE0"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "你该学会预判了"
+			tasks: [{
+				id: "3448A564C61BF56D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/steel"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: ["打火石被群峦作者的恶意安排到了钢阶段才能制作，它的用法除了右键点火也没有别的什么了。"]
+			id: "0448F81C69D7FCA5"
+			rewards: [{
+				id: "79E14AC4B75BCD48"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "你怎么才来？"
+			tasks: [{
+				id: "4E9A859A547E0F1D"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: ["曲轴是一个能够将旋转力转变为线性力的装置，曲轴的工作需要手持钢棒对曲轴右键，动力从曲轴的背面输入，从曲轴的左面由钢棒输出，连接曲轴的机器需要放置在曲轴左侧距离曲轴一格的位置。目前可以连接曲轴的机器有钢泵和风箱，连接曲轴的风箱会自己进行鼓风，使有燃料的木炭炉一直保持在炽白温度。"]
+			hide_dependency_lines: true
+			icon: "tfc:crankshaft"
+			id: "0B1668F8FF1ECD7B"
+			rewards: [{
+				id: "68A8A64BEC740573"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "一些简单的机械原理"
+			tasks: [
+				{
+					id: "3046CB87ADA59DDF"
+					item: "tfc:crankshaft"
+					type: "item"
+				}
+				{
+					id: "00BBB25755A5975B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/rod/steel"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AB49CFCB58E3D6B"]
+			description: ["制作黑钢需要先制作脆钢，一种钢、镍和黑铜的合金，因此先收集些黑铜和镍吧。"]
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/nickel"
+			}
+			id: "75223535BFA1B142"
+			rewards: [{
+				id: "4619CFE79BDA3E85"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 10L
+					id: "72A3817F02BCE155"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/nickel"
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0C520128A178FACD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/black_bronze"
+					}
+					type: "item"
+				}
+			]
+			title: "镍锭"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AB49CFCB58E3D6B"]
+			description: [
+				"铬铁矿——现在你应该知道他不是铁了——是一种铬矿，可以在地下深处找到大片矿脉，铬是不锈钢——一种钢、铬与镍的合金——的原材料。"
+				""
+				"&l小知识&r：铬薄板可以代替铁薄板成为高炉砖块的蒙皮，而且铬铁产量比较大，一般挖一次就一段时间不缺了，唯一缺点就是铬薄板需要钢砧才能进行敲制、如果你比较缺铁或者不想浪费铁来制作高炉蒙皮，可以用廉价的铬作为替代"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmalife:metal/ingot/chromium"
+			}
+			id: "0C2E97A138486954"
+			rewards: [{
+				id: "12CA515E25673098"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "10B8D6C08B6A6E0F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmalife:metal/ingot/chromium"
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7F969A0EE73BCB82"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/nickel"
+					}
+					type: "item"
+				}
+			]
+			title: "铬锭"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C2E97A138486954"]
+			description: ["将钢、镍和铬按照一定比例混合就可以得到不锈钢。不锈钢的用途不算很多，但也不能没有。例如其可用于建造不锈钢温室、制作加工速度是干燥垫12倍的太阳能干燥器。"]
+			hide: false
+			hide_dependency_lines: true
+			id: "418943718040C326"
+			rewards: [{
+				id: "30243E58AC40E103"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "不生锈是唯一的价值"
+			tasks: [{
+				id: "74811A37276979D8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "firmalife:metal/ingot/stainless_steel"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75223535BFA1B142"]
+			description: ["将钢、镍和黑铜按照一定比例混合就可以得到脆钢。"]
+			id: "58B1D2FE24BF1134"
+			rewards: [{
+				id: "34CF48EA31CDFACD"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "太脆了以致于当不了五级金属"
+			tasks: [{
+				id: "458AD05150935012"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/weak_steel"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58B1D2FE24BF1134"]
+			description: ["将脆钢锭和生铁锭焊接在一起可以得到高碳黑钢锭，锻打高碳黑钢锭即可得到黑钢锭。黑钢锭是五级金属，除了锻造黑钢工具以外几乎没有别的用途，最大的用途还是用于锻造红蓝钢。"]
+			hide: true
+			id: "4DFF7818B50623B5"
+			rewards: [{
+				id: "09ADD1B4CB9B71D2"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "黑夜给了我黑色的眼睛，我却用它来锻黑钢"
+			tasks: [{
+				id: "125439D3026E04C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/black_steel"
+				}
+				type: "item"
+			}]
+			title: "&3如黑夜般深邃"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4DFF7818B50623B5"]
+			hide: true
+			icon: "tfc:crucible"
+			id: "446F9DA4F13E0AA6"
+			rewards: [{
+				id: "0BD542017E8D0545"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "准备好迎来最复杂的合金配方"
+			tasks: [{
+				id: "26C4C7136AF90583"
+				type: "checkmark"
+			}]
+			title: "&e史诗合金"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["446F9DA4F13E0AA6"]
+			description: ["制作蓝钢需要先制作脆蓝钢，一种黑钢、钢、铋铜和纹银的合金。"]
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/sterling_silver"
+			}
+			id: "419D1651505D2B46"
+			rewards: [{
+				id: "53CF2CE452C52C71"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 10L
+					id: "03406F5786149A47"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/bismuth_bronze"
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "751189AEB0002AB5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/sterling_silver"
+					}
+					type: "item"
+				}
+			]
+			title: "纹银锭"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["419D1651505D2B46"]
+			description: ["将黑钢、钢、铋铜和纹银按照一定比例混合就可以得到劣等秘银"]
+			hide: false
+			id: "7BED755237B36ACA"
+			rewards: [{
+				id: "01454BC07A1673EC"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "秘银青春版"
+			tasks: [{
+				id: "1400DE394149402F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/weak_blue_steel"
+				}
+				type: "item"
+			}]
+			title: "劣等秘银"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7BED755237B36ACA"]
+			description: ["将劣等秘银锭和黑钢锭焊接在一起可以得到高碳秘银锭，锻打高碳秘银锭即可得到&b秘银&r锭。&b秘银&r是最高级的六级金属，可以制造最高等级的装备和武器，并拥有一些新配方。性能与&6精金&r并太大差别。"]
+			id: "16ED3FE9D5BD6956"
+			rewards: [{
+				id: "2547CA0B02281172"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "&b蓝色是冷漠"
+			tasks: [{
+				id: "33CB50C3834DE3A5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/blue_steel"
+				}
+				type: "item"
+			}]
+			title: "&9忧郁蓝调"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["446F9DA4F13E0AA6"]
+			description: ["制作红钢需要先制作劣等精金，一种黑钢、钢、黄铜和玫瑰金的合金。"]
+			hide: false
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/rose_gold"
+			}
+			id: "0CB5C3D905F4A3F1"
+			rewards: [{
+				id: "43F3F7EBD088EF95"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 10L
+					id: "4031C7CAB7F455F3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/brass"
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3860E2631128CE9A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/rose_gold"
+					}
+					type: "item"
+				}
+			]
+			title: "玫瑰金锭"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0CB5C3D905F4A3F1"]
+			description: ["将黑钢、钢、黄铜和玫瑰金按照一定比例混合就可以得到劣等精金。"]
+			hide: false
+			id: "4153C222DFD9B0D9"
+			rewards: [{
+				id: "3A024CAE6831504E"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "精金青春版"
+			tasks: [{
+				id: "191E34BAACFD9796"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/weak_red_steel"
+				}
+				type: "item"
+			}]
+			title: "劣等精金"
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4153C222DFD9B0D9"]
+			description: ["将劣等精金锭和黑钢锭焊接在一起可以得到高碳精金锭，锻打高碳精金锭即可得到&6精金&r锭。&6精金&r是最高级的六级金属，可以制造最高等级的装备和武器，并拥有一些新配方。性能与&b秘银&r并太大差别。"]
+			id: "4390977A27252D9E"
+			rewards: [{
+				id: "615D16049F1828D0"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "&c红色是毁灭"
+			tasks: [{
+				id: "08BFEF0AD62DEDEF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/red_steel"
+				}
+				type: "item"
+			}]
+			title: "&4分外眼红"
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: [
+				"储物抽屉是一个可以大量堆叠1/2/3/4个物品的神奇存储方块，他的大量存储功能很适合工业化分类，比如让一些作物的副产物单独在一个方块存储"
+				""
+				"相关的教程可以在b站搜索,本任务不再赘述"
+			]
+			icon: "functionalstorage:oak_1"
+			id: "5ECF9093FFEE6BC6"
+			rewards: [{
+				id: "03EED06402AEDACE"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "打破堆叠限制"
+			tasks: [{
+				id: "16CACEDC366917FA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			title: "抽屉：异次元收纳宝库"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5ECF9093FFEE6BC6"]
+			description: ["存储量非常大的单方块流体储罐,并且可以存储多种不同流体，如果只是存取流体，那他足够了，比机械动力的铜储罐好上几百倍"]
+			icon: "functionalstorage:fluid_1"
+			id: "0DCF5F18439C773F"
+			rewards: [{
+				id: "674E95AC9AEBC71C"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "超级压缩"
+			tasks: [{
+				id: "46FACBF3AC33B976"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			title: "那个铜做的流体储罐是真不熟"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DCF5F18439C773F"]
+			description: ["现在，使用钢板合成不同等级的存储升级，让你的存储抽屉堆叠的上限更多更多吧"]
+			icon: "functionalstorage:copper_upgrade"
+			id: "751B81E18D2089CB"
+			rewards: [{
+				id: "5951F5EB81BD7425"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "大大大！"
+			tasks: [{
+				id: "4BC7273F34D80924"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			title: "升级？"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: ["现在你可以用钢来制作保存食物的冰箱，只不过这个冰箱需要耗电制冷，要确保他通入Fe电源再开启使用"]
+			id: "61925C98524F93F2"
+			rewards: [{
+				id: "793865E366EFCDA1"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "百事和可口相比，我觉得冰镇更好"
+			tasks: [{
+				id: "334B9F22089202AA"
+				item: "tfcea:refrigerator"
+				type: "item"
+			}]
+			title: "冰箱？太好辣"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: [
+				"&e&n汤姆的简易存储&r&r是一个能把&a存储方块&r整合到一起的一个mod，有了它再也不用担心物品分类，只要把箱子全部连接在一起，就可以通过控制一个终端来查找所有箱子的物品的功能来整合,后期获得的无线终端更是非常厉害，做好了他就相当于做了个无限量扩展的背包"
+				""
+				"相关的教程可以在b站搜索,本任务不再赘述"
+			]
+			icon: "toms_storage:ts.adv_wireless_terminal"
+			id: "4E9DF8D9E5E633DB"
+			rewards: [{
+				id: "111E013486B75248"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "高级整合器"
+			tasks: [
+				{
+					id: "5DFD73341E4C96D5"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "0938BBE0C808EE4E"
+					item: "toms_storage:ts.trim"
+					type: "item"
+				}
+				{
+					id: "653253DD5734D049"
+					item: "toms_storage:ts.inventory_proxy"
+					type: "item"
+				}
+				{
+					id: "3304761F53F25030"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			title: "汤姆的简易存储：箱子缝合怪"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["751B81E18D2089CB"]
+			description: ["这是你可以获得的最强升级了，装上之后你的抽屉都不一定有装满的那一天"]
+			id: "2BEB019453D0D72E"
+			rewards: [{
+				id: "5409149EB81F298F"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "pentagon"
+			subtitle: "目前可以得到的最强升级"
+			tasks: [{
+				id: "4C66EF2F2D52CD88"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			title: "最强升级！"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9DF8D9E5E633DB"]
+			description: ["现在你可以通过终端来直接访问整个箱子系统的同时在终端里面自主合成道具，非常方便"]
+			id: "56EF21FEFEAE6561"
+			rewards: [{
+				id: "1EB9C0718D11C8DC"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "合成终端"
+			tasks: [{
+				id: "089A9BDDED6BDE4A"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			title: "更方便的终端"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56EF21FEFEAE6561"]
+			description: ["无线终端可以使你在绑定的存储终端附近16格的范围自由无线取出交互终端内的功能，已经非常方便了，只不过想要当百宝袋使用还有些距离……"]
+			id: "2253B558069A17CE"
+			rewards: [{
+				id: "074C0CEB343A8E22"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "无线！"
+			tasks: [{
+				id: "3114C2C3B46D6F4B"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "更更方便的终端"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2253B558069A17CE"]
+			description: [
+				"高级无线终端可以让你在64格内交互绑定的存储终端，在该终端附近制造一个等级1的信标可以让他在主世界任意范围无线交互，如果这个信标的等级更高，可以跨纬度任意交互！"
+				""
+				"&a&l&n不过交互的前提是无线终端的区块正在被加载！&r&r&r"
+			]
+			id: "352CF88DF3F1E977"
+			rewards: [{
+				id: "283552E87BE7D102"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "pentagon"
+			subtitle: "天涯若比邻"
+			tasks: [{
+				id: "03B4AAB81DA7CA1D"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "更更更方便的终端"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7B683E6229C358F4"
+			rewards: [{
+				id: "0B1CDC5005FCFC5F"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "07CB3927A0888D62"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7B683E6229C358F4"]
+			id: "7DBB29EBBC77608E"
+			rewards: [{
+				id: "6F057E5A0ED2CAE4"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26A66F2B5CBD66AC"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: [
+				"&4&n若你不知道烈焰人燃烧室与超级加热的用途烦请观看机械动力章节！！！&r&r"
+				""
+				"烈焰人蛋糕&e无法制作&r之后，让烈焰人燃烧室&b超级加热&r的办法只有汽油与柴油，然而柴油和汽油对于后续火箭燃料制作至关重要，所以一般无法让烈焰人持续不断的喝油"
+				""
+				"而电磁炉可以很好的解决问题，只要有持续的输出热量，就可以不断的发热，虽然速度较慢，但是好在消耗量较小，搭配蒸汽机和旋转发电可以很轻松的让蒸汽机自产自销达到白嫖应力"
+				""
+				"后续的热量升级更是让电磁炉可以持续不断的&b超级加热&r，以使需要&b超级加热&r状态的配方变得自由"
+			]
+			id: "67B82C65D10099EB"
+			rewards: [{
+				id: "7EABA905DF675D16"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "不能煮火锅，不能"
+			tasks: [{
+				id: "0AA85A62BC75BB5D"
+				item: "moreburners:electric_burner"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67B82C65D10099EB"]
+			description: ["热量升级能让电磁炉成为可以以200fe/t消耗电量而持续不断超级加热的发热猛兽"]
+			id: "4215B01BAA98CCCD"
+			rewards: [{
+				id: "7DC41A5F9177508A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "更好的内核"
+			tasks: [{
+				id: "0140E3F410163FBF"
+				item: "moreburners:heat_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4215B01BAA98CCCD"]
+			icon: "create:creative_blaze_cake"
+			id: "7701AB9FC0CC8B3F"
+			rewards: [{
+				id: "7B753AF97BF8EBE9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1C90A3AB6BFA6481"
+				type: "checkmark"
+			}]
+			title: "恭喜你，你超级加热自由了！"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4390977A27252D9E"
+				"16ED3FE9D5BD6956"
+				"1D0D581F153F3912"
+			]
+			id: "583ECBD21EE506B5"
+			invisible: true
+			rewards: [{
+				id: "072F343226146C74"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CEED06524B6D5D7"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "再会了"
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4390977A27252D9E"
+				"16ED3FE9D5BD6956"
+				"7E668B651B6954CB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"你觉得，就这样做完精金秘银之后这章节就结束了？"
+				"不，还没有，接下来你应该去看机械动力和沉浸工程章节并学习大多数主要内容"
+				"【除非你是一个老手】"
+				""
+				"直到做出电弧炉我才能认为你有足够的制钢实力才能让你继续下一章"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "immersiveengineering:arc_furnace"
+			id: "1D0D581F153F3912"
+			rewards: [{
+				id: "17688D8A2D4B24C2"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "钢章节远比你想的还要长"
+			tasks: [{
+				id: "37A4FF2F0993AF70"
+				type: "checkmark"
+			}]
+			title: "电弧炉？"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: ["马口铁是一个非常轻薄的金属，虽然成本较高，但是他的卫生程度不是陶器可以比拟的"]
+			id: "30BE0FFFDCBE95A7"
+			subtitle: "食品级金属！"
+			tasks: [{
+				id: "78FAF1E33C2D586A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "artisanal:metal/tinplate"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30BE0FFFDCBE95A7"]
+			description: [
+				"之前的小陶罐是不是让你觉得非常繁琐，又需要炼油封装还只能装小食物，一点也不好用，那么我将为你介绍：&b&l罐头！&r&r"
+				""
+				"罐头虽然成本较高但是可以装任意食物，并且不需要任何油脂封装，装入罐头后只需要加热至&7热**&r消毒即可享受超长时间的保质期"
+				"后续上太空之后将很难找到合适的食物，那么罐头那超高的保质期无愧于&e&l太空食品&r&r的名号"
+				""
+				"&n如果要说他唯一的缺点就是密封之后需要开罐器才能食用&r"
+			]
+			id: "29F332E1454FED83"
+			subtitle: "罐头食品！"
+			tasks: [{
+				id: "29A1B015DB01EA09"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "artisanal:metal/tin_can"
+				}
+				type: "item"
+			}]
+			title: "真正的太空级食物"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29F332E1454FED83"]
+			description: [
+				"如果你没有开罐器，可以直接用锤子把罐头食物敲出来，虽然这样会让你得到一个瘪瘪的罐头，这样处理罐头会非常麻烦，不建议这样"
+				""
+				"吃好罐头之后的清洗流程和小陶罐一样"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "artisanal:metal/dented_tin_can"
+			}
+			id: "5B19B23180359500"
+			subtitle: "毕竟是金属做的，浪费太不值了"
+			tasks: [{
+				id: "0B9B65A8FB60E744"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "关于罐头回收"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72432121EE248C7B"]
+			description: ["精妙背包是一款十分强大的存储模组，它提供了一个名叫背包的装备，既可以背在身上当做额外的存储空间，还可以放在地上当做大容量箱子。不仅如此，该背包还能够使用铁锭、金锭、钻石进行升级，最高级的背包拥有堪比钻石箱子的巨大储存量，还能够通过装载多种升级模组获得更强大的功能。最重要的是，它不受群峦本身重量系统的影响，也就是说你甚至可以在身上背好几十个装满水的大桶而不用担心超重！而如此强大的背包造价却十分的低廉，只需要四根羊毛纱，四块皮革和一个箱子，可以说是只要做出来就能颠覆游戏体验的bug级装备了。"]
+			hide: false
+			hide_dependent_lines: true
+			id: "2578A42ACFFDE9A1"
+			rewards: [{
+				id: "61E5EF918F3A901D"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "这份力量本不属于群峦星人"
+			tasks: [{
+				id: "6A3CF892AFE145B1"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							982666451
+							1586841106
+							-2064115747
+							840676418
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+	]
+	title: "第四章：钢铁之魂"
+}

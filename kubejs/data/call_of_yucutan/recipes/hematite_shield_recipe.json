@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    "b": {
+      "item": "call_of_yucutan:hematite"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:hematite_shield",
+    "count": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "碗",
+  "category": "tfc:mechanics",
+  "icon": "tfc:ceramic/bowl",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)碗$() 是一种多功能的工具，可用于做$(l:mechanics/salad)沙拉$(), 煮 $(l:mechanics/pot)汤$(),  $(l:mechanics/decay#salting)腌制$()肉类,或是将$(thing)粉末$()涂到$(l:mechanics/glassworking_applications#coloring)玻璃$()上，以改变玻璃的颜色。$(br2)碗可以通过$(thing)制陶$()制作, 做法是用粘土敲成一个碗的形状，然后烧制它。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "tfc:clay_knapping/bowl_4",
+      "text": "使用敲的方法一次可以制作多个未烧制的碗。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/vanilla/bowl",
+      "title": "木碗",
+      "text": "碗也能通过用木头与$(thing)胶水$()合成来制作。$(br2)$(thing)胶水$()能通过在木桶浸泡$(thing)骨粉$()制成，木桶中需要装 $(l:mechanics/barrels#limewater)石灰水$()."
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfc:barrel/glue",
+      "text": "碗可以像方块一样被放在地上。当被放置时，它们能被填满任何形式的$(thing)粉末$() - 在$(l:mechanics/quern)手推磨$()中研磨矿石、矿物或宝石的产物."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:powders",
+      "title": "粉末",
+      "link_recipes": false,
+      "text": "装粉末的碗最多可容纳16种特定粉末。要加入物品,拿着粉末按 $(item)$(k:key.use)$().要取出物品,空手按$(item)$(k:key.use)$().$(br2)$(item)$(k:key.sneak)$() 键可以一次性取出所有碗内的物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:powder/salt",
+      "link_recipes": false,
+      "text": "如果碗里有盐，拿着未加盐的生肉点击它会使肉加盐。这和在你的物品栏中盐腌制肉是一样的。"
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tfc:ceramic/unfired_bowl": 1,
+    "tfc:ceramic/bowl": 1,
+    "minecraft:bowl": 2
+  }
+}

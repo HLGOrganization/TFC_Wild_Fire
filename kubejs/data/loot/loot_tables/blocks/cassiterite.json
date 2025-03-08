@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_cassiterite",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_cassiterite",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_cassiterite",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

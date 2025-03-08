@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:cryo_freezing",
+  "cookingtime": 51200,
+  "energy": 20,
+  "ingredient": {
+    "item": "farmersdelight:melon_popsicle"
+  },
+  "result": {
+    "fluid": "ad_astra:cryo_fuel",
+    "millibuckets": 10
+  }
+}

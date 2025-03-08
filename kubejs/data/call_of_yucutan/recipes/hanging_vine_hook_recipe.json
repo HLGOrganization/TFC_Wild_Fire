@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "b b",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:elder_bone"
+    },
+    "b": {
+      "item": "call_of_yucutan:mystic_vine"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:hanging_vine_hook",
+    "count": 1
+  }
+}

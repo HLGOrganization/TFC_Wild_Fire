@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag":"forge:sawdust"
+    },
+    {
+      "tag":"forge:sawdust"
+    },
+    {
+      "tag":"forge:sawdust"
+    },
+    {
+      "tag":"forge:sawdust"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:kindle/wood_pellets"
+  }
+}

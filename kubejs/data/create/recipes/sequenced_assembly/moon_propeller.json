@@ -1,0 +1,19 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "a":{"item": "ad_astra:desh_plate"},
+      "b":{"item": "tfc:metal/double_sheet/steel"},
+      "c":{"item": "kubejs:basic_propeller"},
+      "d":{"item": "ad_astra:desh_fluid_pipe"}
+    },
+    "pattern": [
+        " a ",
+        "bcb",
+        " d "
+    ],
+    "result": {
+      "item": "kubejs:moon_propeller"
+    }
+  }
+  

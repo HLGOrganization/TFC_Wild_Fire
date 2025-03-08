@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:copper_fragments",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:copper_link",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:rusty_copper_scrap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:rusty_copper_link",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:rusty_bronze_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:rusty_bronze_link",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

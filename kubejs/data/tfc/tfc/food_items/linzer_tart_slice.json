@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:linzer_tart_slice"
+  },
+  "hunger": 2,
+  "saturation": 2.5,
+  "decay_modifier": 2,
+  "grain": 1,
+  "fruit": 2
+}

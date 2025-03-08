@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wood_fired_oven",
+  "pattern": [
+    "BCB",
+    "B B",
+    "BLB"
+  ],
+  "key": {
+    "B": {
+      "item": "tfc:rock/bricks/shale"
+    },
+    "C": {
+      "item": "castirongrill:cast_iron_grill"
+    },
+    "L": {
+      "item": "vinery:stackable_log"
+    }
+  },
+  "result": {
+    "item": "bakery:deepslate_stove"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:compressed/tetrahedrite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:refined/tetrahedrite",
+      "count":4
+  }
+}

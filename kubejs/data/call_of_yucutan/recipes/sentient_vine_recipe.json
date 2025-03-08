@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aa ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:mystic_vine"
+    },
+    "b": {
+      "item": "call_of_yucutan:elder_bone"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:sentient_vine",
+    "count": 1
+  }
+}

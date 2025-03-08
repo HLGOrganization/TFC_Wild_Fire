@@ -1,0 +1,27 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "沙拉",
+  "category": "tfc:mechanics",
+  "icon": "tfc:textures/item/food/protein_salad.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)沙拉$()是在$(thing)碗$()中做出的餐食，它能包含最多五种$(thing)水果$(), $(thing)蔬菜$(),或是$(thing)熟肉$()。$(br2)沙拉是烹饪方式最简单的菜肴之一, 它只需要一个$(l:mechanics/bowls)碗$()。首先，拿着 $(thing)碗$，按$(item)$(k:key.use)$()键，当按着$(item)$(k:key.sneak)$()时。这将打开沙拉的制作面板。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:salads",
+      "title": "",
+      "link_recipes": false,
+      "text": "最顶部的物品槽中最多能加入五种原料。$(thing)碗$()能被放入左下方的槽位。当你做完这些，成品沙拉就能从右下方的槽位被拿出来了。"
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tfc:food/fruit_salad": 0,
+    "tfc:food/dairy_salad": 0,
+    "tfc:food/vegetables_salad": 0,
+    "tfc:food/protein_salad": 0,
+    "tfc:food/grain_salad": 0
+  }
+}

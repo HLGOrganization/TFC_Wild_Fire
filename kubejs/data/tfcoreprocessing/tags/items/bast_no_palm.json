@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+  {"id":"tfcwoodwork:bast/acacia", "required": false },
+    {"id":"tfcwoodwork:bast/ash", "required": false },
+    {"id":"tfcwoodwork:bast/aspen", "required": false },
+    {"id":"tfcwoodwork:bast/birch", "required": false },
+    {"id":"tfcwoodwork:bast/blackwood", "required": false },
+    {"id":"tfcwoodwork:bast/chestnut", "required": false },
+    {"id":"tfcwoodwork:bast/douglas_fir", "required": false },
+    {"id":"tfcwoodwork:bast/hickory", "required": false },
+    {"id":"tfcwoodwork:bast/kapok", "required": false },
+    {"id":"tfcwoodwork:bast/mangrove", "required": false },
+    {"id":"tfcwoodwork:bast/maple", "required": false },
+    {"id":"tfcwoodwork:bast/oak", "required": false },
+    {"id":"tfcwoodwork:bast/pine", "required": false },
+    {"id":"tfcwoodwork:bast/rosewood", "required": false },
+    {"id":"tfcwoodwork:bast/sequoia", "required": false },
+    {"id":"tfcwoodwork:bast/spruce", "required": false },
+    {"id":"tfcwoodwork:bast/sycamore", "required": false },
+    {"id":"tfcwoodwork:bast/white_cedar", "required": false },
+    {"id":"tfcwoodwork:bast/willow", "required": false }
+  ]
+}

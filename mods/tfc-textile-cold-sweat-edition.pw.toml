@@ -1,0 +1,13 @@
+name = "TFC Textile"
+filename = "textile-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b993cf966a27907bfac0c272ed256958de078852"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6178298
+project-id = 1131271

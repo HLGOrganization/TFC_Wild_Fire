@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    },
+    {
+      "item": "tfc:glue"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coal_pellets"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:kindle/coal_briquette",
+      "count": 2
+  }
+}

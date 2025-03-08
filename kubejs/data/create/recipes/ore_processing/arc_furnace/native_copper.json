@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "base_ingredient": {
+      "item": "tfcoreprocessing:roasted_brick/native_copper"
+    },
+    "count": 5
+  },
+  "results": [
+    {
+      "item": "tfc:metal/ingot/copper",
+    "count": 3
+    }
+  ],
+  "additives": [],
+  "time": 200,
+  "energy": 25600
+}

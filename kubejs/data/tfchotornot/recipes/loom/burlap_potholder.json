@@ -1,0 +1,14 @@
+{
+  "type": "tfc:loom",
+  "ingredient": {
+    "ingredient": {
+      "item": "tfc:burlap_cloth"
+    },
+    "count": 2
+  },
+  "result": {
+    "item": "tfchotornot:burlap_potholder"
+  },
+  "steps_required": 16,
+  "in_progress_texture": "tfc:block/burlap"
+}

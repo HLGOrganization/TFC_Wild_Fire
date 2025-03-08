@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "base_ingredient": {
+      "item": "ad_astra:raw_desh"
+    }
+  },
+  "results": [
+    {
+      "item": "ad_astra:desh_ingot"
+    }
+  ],
+  "additives": [],
+  "time": 200,
+  "energy": 12800
+}

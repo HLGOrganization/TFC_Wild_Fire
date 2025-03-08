@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/wood"
+  },
+  "result_item": {
+    "item": "tfc:torch",
+    "count": 2
+  },
+  "temperature": 350,
+  "use_durability": true
+}

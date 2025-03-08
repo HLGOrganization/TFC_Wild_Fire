@@ -1,0 +1,13 @@
+name = "Bad Horse Fix"
+filename = "Bad-Horse-Fix-1.0.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0482e3ba532dc16bc7893913adb96c23c1942b0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5250820
+project-id = 999835

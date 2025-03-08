@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:polished_ritual_rock_slab"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:ritual_rock_pillar",
+    "count": 2
+  }
+}

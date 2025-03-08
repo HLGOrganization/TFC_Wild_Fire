@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tfchotornot:mittens",
+    "tfchotornot:burlap_potholder",
+    "tfchotornot:silk_potholder",
+    "tfchotornot:wool_potholder",
+    "#tfchotornot:tongs",
+    "#tfchotornot:insulating_heatable"
+  ]
+}

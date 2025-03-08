@@ -1,0 +1,13 @@
+name = "Snow Pig [Forge]"
+filename = "snowpig-1.20.1-6.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0498bb654d9d670896d7b65f28157696586a4aef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5301670
+project-id = 410500

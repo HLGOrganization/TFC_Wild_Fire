@@ -1,0 +1,30 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+      {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "brewery:dried_corn"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "minecraft:water",
+        "amount": 100
+      }
+    }
+  ],
+  "cup": {
+    "item": "drinkbeer:empty_beer_mug",
+    "count": 4
+  },
+  "brewing_time": 56000,
+  "result": {
+    "item": "drinkbeer:beer_mug_blaze_stout",
+    "count": 4
+  }
+}

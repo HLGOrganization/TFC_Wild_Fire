@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:small_raw_hide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:medium_raw_hide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:large_raw_hide"
+        }
+      ]
+    }
+  ]
+}

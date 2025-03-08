@@ -1,0 +1,40 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "tag": "firmalife:smoking_fuel"
+    },
+    {
+      "item": "tfc:torch"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 8,
+      "item": "minecraft:charcoal"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "a":{"item": "kubejs:venus_plating"},
+      "b":{"tag": "forge:glass_panes"},
+      "c":{"item": "kubejs:hologram_frontpanel"},
+      "d":{"tag": "interiors:chairs"},
+      "e":{"item": "vintageimprovements:ostrum_spring"},
+      "f":{"item": "ad_astra:ostrum_engine"}
+    },
+    "pattern": [
+        "aba",
+        "aca",
+        "ada",
+        "efe"
+    ],
+    "result": {
+      "item": "kubejs:explorer_cabin"
+    }
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+      "item": "tfc:ore/lignite"
+    },
+    "result": {
+      "item": "tfcoreprocessing:kindle/coal_dust",
+      "count": 4
+    }
+  }

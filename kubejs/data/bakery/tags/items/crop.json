@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:food/oat",
+    "tfc:food/wheat",
+    "tfc:food/barley",
+    "tfc:food/rye"
+  ]
+}

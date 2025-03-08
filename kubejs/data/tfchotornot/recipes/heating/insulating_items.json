@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "tfchotornot:insulating_heatable"
+  },
+  "result_item": {
+    "item": "tfc:powder/wood_ash",
+    "count": 2
+  },
+  "temperature": 600,
+  "use_durability": true
+}

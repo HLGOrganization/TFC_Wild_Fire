@@ -1,0 +1,82 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "造纸术",
+  "category": "tfc:mechanics",
+  "icon": "tfc:unrefined_paper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "纸是用经过加工的$(l:mechanics/crops#papyrus)纸莎草$()的作物制成的。纸在写$(thing)书$()与绘制$(thing)地图$()等需要写字的领域是很有用的。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/papyrus_strips",
+      "text": "纸莎草必须先被用$(thing)刀$()剪切成条状。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfc:barrel/soaked_papyrus_strip",
+      "text": "随后，将条状的纸莎草放入装满了$(thing)水$()的$(l:mechanics/barrels)大桶$()中浸泡。"
+    },
+    {
+      "type": "tfc:loom_recipe",
+      "recipe": "tfc:loom/unrefined_paper",
+      "text": "随后，将浸泡过的条状纸莎草在织机上编织在一起，制成$(thing)未加工的纸$()。最后，它必须被放置在原木上，并进行$(l:mechanics/leather_making#scraping)打磨$()，才能被制成$(thing)纸。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/vanilla/map",
+      "recipe2": "tfc:crafting/vanilla/name_tag"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:writable_book",
+      "recipe2": "minecraft:book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wood/pine_lectern",
+      "recipe2": "tfc:crafting/wood/kapok_bookshelf"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "翻到下一页以了解用羊皮纸工艺造纸的方法。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "parchment",
+      "text": "$(thing)羊皮纸工艺$()需要准备一张刮过的毛皮。复习一下$(l:mechanics/leather_making)皮革工艺篇章$()，那里已经告知了制作方法。羊皮纸工艺需要使用到一些不同的物品。首先，需要$(thing)浮石$()。浮石能在靠近$(l:the_world/geology)火山$()的地表旁找到，也可以从处理安山岩、流纹岩与英安岩的矿床的$(l:mechanics/sluices)洗矿槽$()或者$(l:mechanics/panning)淘金盘$()中获取。",
+      "title": "羊皮纸"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:groundcover/pumice"
+        }
+      },
+      "name": "浮石",
+      "text": "一个放在地上的浮石。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/large_treated_hide",
+      "text": "将浮石、一把锤子和刮过的毛皮合成将得到部分$(thing)经过处理的毛皮$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/parchment",
+      "text": "完成整个工艺需要经过处理的毛皮、$(l:mechanics/glassworking#lime)石灰粉$()与一个新鲜鸡蛋，随后将会产出可用的纸张。"
+    }
+  ],
+  "read_by_default": true
+}

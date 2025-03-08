@@ -1,0 +1,39 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:foods/raw_meats"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:foods/raw_meats"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:foods/raw_meats"
+      }
+    },
+    {
+      "tag": "forge:dusts/salt"
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "firmalife:food/butter"
+      }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 2,
+    "item": "brewery:sausage"
+  }
+}

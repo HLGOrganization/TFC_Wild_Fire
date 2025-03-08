@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:fragment_of_death"
+    },
+    "b": {
+      "item": "call_of_yucutan:elder_bone"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:bone_torch",
+    "count": 8
+  }
+}

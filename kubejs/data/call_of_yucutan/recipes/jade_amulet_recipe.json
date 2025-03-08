@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    "b": {
+      "item": "call_of_yucutan:jade_block"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:jade_amulet",
+    "count": 1
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bakery:vegetable_sandwich",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bakery:sandwich",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:egg_sandwich",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:smoked_ham",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:chicken_sandwich",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:hamburger",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:mutton_wrap",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:stuffed_potato",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:dumplings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:shepherds_pie",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:honey_glazed_ham",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:steak_and_potatoes",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:ratatouille",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:villagers_fright",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:apple_cider",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:mellohi_wine",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

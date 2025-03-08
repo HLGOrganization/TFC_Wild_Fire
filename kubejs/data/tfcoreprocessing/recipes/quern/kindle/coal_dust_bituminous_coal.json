@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+      "item": "tfc:ore/bituminous_coal"
+    },
+    "result": {
+      "item": "tfcoreprocessing:kindle/coal_dust",
+      "count": 6
+    }
+  }

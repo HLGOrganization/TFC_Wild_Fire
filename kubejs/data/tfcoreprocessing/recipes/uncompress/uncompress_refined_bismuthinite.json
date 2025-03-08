@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:compressed/bismuthinite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:refined/bismuthinite",
+      "count":4
+  }
+}

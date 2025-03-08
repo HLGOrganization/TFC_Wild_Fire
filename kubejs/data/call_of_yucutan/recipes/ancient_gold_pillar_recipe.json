@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:ancient_gold"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:ancient_gold_pillar",
+    "count": 2
+  }
+}

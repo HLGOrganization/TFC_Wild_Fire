@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:thatch"
+  },
+  "result": {
+    "item": "tfcoreprocessing:kindle/sawdust",
+    "count": 1
+  }
+}

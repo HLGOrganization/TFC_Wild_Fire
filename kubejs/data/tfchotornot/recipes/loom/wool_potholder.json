@@ -1,0 +1,14 @@
+{
+  "type": "tfc:loom",
+  "ingredient": {
+    "ingredient": {
+      "item": "tfc:wool_cloth"
+    },
+    "count": 2
+  },
+  "result": {
+    "item": "tfchotornot:wool_potholder"
+  },
+  "steps_required": 16,
+  "in_progress_texture": "minecraft:block/white_wool"
+}

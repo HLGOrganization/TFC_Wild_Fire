@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "a":{"item": "kubejs:advanced_plating"},
+      "b":{"tag": "forge:glass_panes"},
+      "c":{"item": "kubejs:moon_crystal_panel"},
+      "e":{"tag": "create:seats"},
+      "d":{"item": "vintageimprovements:desh_spring"},
+      "f":{"item": "ad_astra:desh_engine"}
+    },
+    "pattern": [
+        " a ",
+        "aba",
+        "aca",
+        "ded",
+        " f "
+    ],
+    "result": {
+      "item": "kubejs:advanced_cabin"
+    }
+  }
+  

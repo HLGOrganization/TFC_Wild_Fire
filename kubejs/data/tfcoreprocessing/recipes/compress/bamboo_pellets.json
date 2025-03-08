@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+     "item": "tfcoreprocessing:kindle/bamboo_fiber"
+    },
+    {
+      "item": "tfcoreprocessing:kindle/bamboo_fiber"
+    },
+    {
+      "item": "tfcoreprocessing:kindle/bamboo_fiber"
+    },
+    {
+      "item": "tfcoreprocessing:kindle/bamboo_fiber"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:kindle/bamboo_pellets"
+  }
+}

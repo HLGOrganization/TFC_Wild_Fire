@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "XYX",
+    "ZXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "firmalife:barrel_stave"
+    },
+    "Y": {
+      "tag": "tfc:barrels"
+    },
+    "Z": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "drinkbeer:beer_barrel",
+    "count":1
+  }
+}

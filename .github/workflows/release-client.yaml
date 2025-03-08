@@ -59,7 +59,7 @@ jobs:
           chmod +x ./packwiz
       - name: 检测并生成mods meta信息
         run: |
-          ./packwiz curseforge detect
+          ./packwiz curseforge detect || true
       - name: 更新index
         run: |
           ./packwiz refresh

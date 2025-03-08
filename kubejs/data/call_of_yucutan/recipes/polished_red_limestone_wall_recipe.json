@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:polished_red_limestone"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:polished_red_limestone_wall",
+    "count": 6
+  }
+}

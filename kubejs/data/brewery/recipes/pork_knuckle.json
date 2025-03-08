@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "tfc:food/pork"
+      }
+    },
+    {
+      "tag": "forge:dusts/salt"
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "firmalife:food/butter"
+      }
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "brewery:pork_knuckle"
+  }
+}

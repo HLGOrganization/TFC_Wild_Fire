@@ -1,0 +1,33 @@
+{
+  "type": "bakery:crafting_bowl",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:crop"
+      }
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": {
+          "tag": "tfc:milks"
+        },
+        "amount": 100
+    },
+    {
+      "item": "minecraft:water_bucket"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:sweetener"
+      }
+    }
+  ],
+  "result": {
+    "item": "bakery:dough",
+    "count": 
+  }
+}

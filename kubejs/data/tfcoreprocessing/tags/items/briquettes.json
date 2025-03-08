@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tfcoreprocessing:kindle/charcoal_briquette",
+    "tfcoreprocessing:kindle/charcoal_graphite_briquette",
+    "tfcoreprocessing:kindle/charcoal_wood_briquette",
+    "tfcoreprocessing:kindle/coke_charcoal_briquette",
+    "tfcoreprocessing:kindle/coke_briquette",
+    "tfcoreprocessing:kindle/coal_briquette",
+    "tfcoreprocessing:kindle/low_charcoal_briquette"
+  ]
+}

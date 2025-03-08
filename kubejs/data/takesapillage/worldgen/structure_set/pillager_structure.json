@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "takesapillage:bastille",
+      "weight": 1
+    },
+    {
+      "structure": "takesapillage:pillager_camp",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 37,
+    "separation": 32,
+    "salt": 105205625,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
+  }
+}

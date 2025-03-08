@@ -1,0 +1,13 @@
+name = "More Create Burners"
+filename = "moreburners-1.20.1-0.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "720a731b89a405a834c4b8c6357d89c2f82bbe6e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6104568
+project-id = 1111030

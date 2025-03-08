@@ -1,0 +1,26 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "firmalife:foods/chocolate"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "firmalife:foods/chocolate"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "bakery:cake_dough"
+      }
+    }
+  ],
+  "item": "createaddition:chocolate_cake",
+  "count": 1,
+  "experience": 0.15
+}

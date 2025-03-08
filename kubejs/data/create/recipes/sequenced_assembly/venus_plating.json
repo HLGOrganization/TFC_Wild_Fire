@@ -1,0 +1,125 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/black_steel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "kubejs:venus_plating"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "ad_astra:ostrum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "tfc:metal/double_sheet/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "vintageimprovements:laser_cutting",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+		}
+	],
+	"energy": 2000,
+	"maxChargeRate": 50
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "ad_astra:ostrum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "tfc:metal/double_sheet/blue_steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "ad_astra:ostrum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "tfc:metal/double_sheet/black_steel"
+  }
+}

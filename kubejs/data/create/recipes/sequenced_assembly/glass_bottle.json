@@ -1,0 +1,15 @@
+{
+	"type":"vintageimprovements:turning",
+	"ingredients": [
+		{
+			"item": "minecraft:glass"
+		}
+	],
+	"results": [
+		{
+			"item": "vinery:wine_bottle",
+			"count": 4
+		}
+	],
+	"processingTime": 100
+}

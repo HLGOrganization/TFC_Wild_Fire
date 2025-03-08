@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_limonite",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_limonite",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_limonite",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

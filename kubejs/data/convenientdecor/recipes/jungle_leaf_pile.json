@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "convenientdecor:leaf_pile"
+    },
+    {
+      "tag": "minecraft:leaves",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "convenientdecor:jungle_leaf_pile",
+    "count": 4
+  }
+}

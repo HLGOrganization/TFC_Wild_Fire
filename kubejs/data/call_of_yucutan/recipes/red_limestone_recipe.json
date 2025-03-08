@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:tuff"
+    },
+    "b": {
+      "item": "minecraft:quartz"
+    },
+    "c": {
+      "item": "minecraft:calcite"
+    },
+    "d": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:red_limestone",
+    "count": 4
+  }
+}

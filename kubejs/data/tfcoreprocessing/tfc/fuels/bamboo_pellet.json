@@ -1,0 +1,9 @@
+{
+  "ingredient": [
+    {
+      "item": "tfcoreprocessing:kindle/bamboo_pellets"
+    }
+  ],
+  "duration": 1000,
+  "temperature": 745
+}

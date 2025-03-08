@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:jade"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:jade_block",
+    "count": 1
+  }
+}

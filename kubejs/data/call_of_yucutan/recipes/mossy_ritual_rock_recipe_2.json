@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:ritual_rocks"
+    },
+    "b": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:mossy_ritual_rocks",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "materials": [
+    {"item": {"item": "kubejs:standard_type_muzzle_brake_parts_steel" },"count": 2},
+    {"item": {"item": "kubejs:standard_type_gun_body_parts_steel" },"count": 1},
+    {"item": {"item": "kubejs:standard_type_grip_parts_steel" },"count": 1},  
+    {"item": {"item": "tfc:metal/ingot/steel" },"count": 2},
+    {"item": {"item": "tfc:metal/ingot/wrought_iron" },"count": 3}
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:db_long"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

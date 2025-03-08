@@ -1,0 +1,46 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "染色",
+  "category": "tfc:mechanics",
+  "icon": "minecraft:red_dye",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "全部16种原版$(thing)染色的颜色$()都能以物品形式获得。大多数花卉与其他五颜六色的植物能在$(l:mechanics/quern)手推磨$()中被研磨成染料。$(l:the_world/ores_and_minerals)金属矿物$()的粉末能通过合成直接变成染料。$(l:the_world/ores_and_minerals#graphite)石墨$()、$(l:the_world/ores_and_minerals#kaolinite)高岭石$()、$(l:the_world/ores_and_minerals#sylvite)钾盐$()、$(l:the_world/ores_and_minerals#lapis_lazuli)青金石$()、焦炭与木炭粉末也能被合成以得到染料。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:bucket/red_dye",
+      "title": "液体染料",
+      "link_recipes": false,
+      "text": "染料同样能被制成液体。将一个染料物品与1000mB的$(item)水$()在一口$(l:mechanics/pot)锅$()中煮沸能得到同样数量的$(thing)液体染料$()。液体染料可以在$(l:mechanics/barrels)桶$()中给物品染色。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfc:barrel/dye/red_concrete_powder",
+      "text": "在桶中染色比使用染料直接染色要更经济，前者只需要25mB的染色液体。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfc:barrel/dye/disc_chirp",
+      "text": "液体染料能被用来收尾$(item)音乐唱片$()的制作工序。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfc:barrel/dye/red_leather",
+      "text": "液体染料甚至可以直接给皮革染色！"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "anchor": "lye",
+      "recipe": "tfc:barrel/dye/bleach_concrete_powder",
+      "text": "将五个$(item)木灰$()与1000mB的$(item)水$()在一口$(l:mechanics/pot)锅$()中煮沸将得到碱液。用25mB的碱液可以清除一个物品的染色。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(item)黑色染料$()用作$(l:mechanics/scribing_table)命名台$()。$(li)$(item)红色染料$()用作$(l:mechanics/powderkegs)火药桶$()。$(li)未烧制的$(l:mechanics/decay#small_vessels)小缸$()与$(l:mechanics/decay#large_vessels)大缸$()也可以被染色哦$()！",
+      "title": "Miscellaneous"
+    }
+  ],
+  "read_by_default": true
+}

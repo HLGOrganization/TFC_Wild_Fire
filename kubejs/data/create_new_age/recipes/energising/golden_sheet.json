@@ -1,0 +1,14 @@
+{
+  "type": "create_new_age:energising",
+  "energy_needed": 2000,
+  "ingredients": [
+    {
+      "tag": "forge:plates/gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:overcharged_golden_sheet"
+    }
+  ]
+}

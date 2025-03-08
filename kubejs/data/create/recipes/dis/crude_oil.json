@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluidTag": "forge:crude_oil",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "kubejs:heavy_oil",
+      "amount": 60
+    },
+    {
+      "fluid": "kubejs:naphtha",
+      "amount": 40
+    }
+  ]
+}

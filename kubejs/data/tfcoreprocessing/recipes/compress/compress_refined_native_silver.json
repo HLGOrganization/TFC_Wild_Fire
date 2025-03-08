@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:refined/native_silver"
+    },
+    {
+      "item":"tfcoreprocessing:refined/native_silver"
+    },
+    {
+      "item":"tfcoreprocessing:refined/native_silver"
+    },
+    {
+      "item":"tfcoreprocessing:refined/native_silver"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:compressed/native_silver"
+  }
+}

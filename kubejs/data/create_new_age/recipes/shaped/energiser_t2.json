@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "create_new_age:energiser_t1"
+    },
+    "G": {
+      "item": "create_new_age:overcharged_gold"
+    },
+    ".":{
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "pattern": [
+    "G#G",
+    " . ",
+    " . "
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_new_age:energiser_t2"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "createutilities:graviton_tube"
+    },
+    "Y": {
+      "item": "createutilities:void_casing"
+    },
+    "Z": {
+      "tag": "forge:plates/copper"
+    },
+    "W": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "pattern": [
+    " X ",
+    "ZYZ",
+    " W "
+  ],
+  "result": {
+    "item": "createutilities:void_battery"
+  }
+}

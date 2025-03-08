@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:lava",
+        "createdieselgenerators:gasoline",
+        "createdieselgenerators:plant_oil",
+        "createdieselgenerators:diesel",
+        "createdieselgenerators:biodiesel",
+        "createaddition:seed_oil",
+        "immersiveengineering:biodiesel",
+        "ad_astra:fuel"
+    ]
+}

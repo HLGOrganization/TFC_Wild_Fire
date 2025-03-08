@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "additives": [
+    {
+      "item": "tfc:powder/flux"
+    }
+  ],
+  "input": {
+    "tag": "forge:sand"
+  },
+  "time": 50,
+  "energy": 10240
+}

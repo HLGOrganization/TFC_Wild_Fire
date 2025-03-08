@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "tfc:stick_bundle"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 2,
+      "item": "tfcoreprocessing:kindle/sawdust"
+    },
+    {
+      "chance": 0.2,
+      "count": 2,
+      "item": "tfcoreprocessing:kindle/sawdust"
+    }
+  ]
+}

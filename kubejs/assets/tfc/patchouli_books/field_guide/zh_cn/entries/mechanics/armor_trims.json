@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "盔甲装饰",
+  "category": "tfc:mechanics",
+  "icon": "minecraft:rib_armor_trim_smithing_template",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "盔甲装饰是由一个$(thing)装饰材料$()与一个$(l:mechanics/sewing_table)锻造模板$()制成的。在群峦世界中，所有的宝石，包括纯银、黄金、玫瑰金和铋，都能用来作装饰材料。盔甲装饰正如它的名字，仅仅有装饰的作用。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/vanilla/smithing_table",
+      "text": "锻造台可用于将盔甲装饰装到群峦的装甲上。"
+    }
+  ],
+  "read_by_default": true
+}

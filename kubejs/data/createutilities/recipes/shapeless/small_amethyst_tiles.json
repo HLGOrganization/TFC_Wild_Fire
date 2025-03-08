@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createutilities:amethyst_tiles"
+    }
+  ],
+  "result": {
+    "item": "createutilities:small_amethyst_tiles"
+  }
+}

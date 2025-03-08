@@ -1,0 +1,35 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+          "item": "tfcoreprocessing:compressed/limonite"
+    }
+,
+    {
+          "item": "tfcoreprocessing:compressed/limonite"
+    }
+,
+    {
+          "item": "tfcoreprocessing:compressed/limonite"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "minecraft:water",
+    "amount": 100
+  },
+  "duration": 2000,
+  "temperature": 300,
+  "item_output": [
+    {
+      "item":"tfcoreprocessing:roasted_brick/limonite"
+    }
+,
+    {
+      "item":"tfcoreprocessing:roasted_brick/limonite"
+    }
+,
+    {
+      "item":"tfcoreprocessing:roasted_brick/limonite"
+    }
+  ]
+}

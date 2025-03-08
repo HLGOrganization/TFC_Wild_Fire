@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "kubejs:iceland_mutton"
+  },
+  "category": "meat",
+  "hunger": 2,
+  "saturation": 1,
+  "decay_modifier": 0.0114,
+  "protein": 0.1
+}

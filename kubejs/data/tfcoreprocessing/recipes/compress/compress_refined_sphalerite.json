@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:compressed/sphalerite"
+  }
+}

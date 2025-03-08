@@ -1,0 +1,269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4EF050249B2A79A4"
+	group: "2BD524ABD6AD1EEE"
+	hide_quest_details_until_startable: true
+	icon: "ad_astra:moon_globe"
+	id: "4EF050249B2A79A4"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17A1BC8ECD139173"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_2_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 3000L
+							Fluid: "ad_astra:fuel"
+						}]
+					}
+				}
+			}
+			id: "403C506DF16CC105"
+			tasks: [{
+				id: "21F82A2CFFDB23C6"
+				title: "准备好跨越星空了吗"
+				type: "checkmark"
+			}]
+			title: "第六章：星空"
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["403C506DF16CC105"]
+			icon: "ad_astra:mars_globe"
+			id: "01D6D83DA5296A20"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				advancement: "ad_astra:mars"
+				criterion: ""
+				id: "15D0E07E41877A39"
+				type: "advancement"
+			}]
+			title: "火星"
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01D6D83DA5296A20"]
+			id: "675984409D6F6053"
+			tasks: [{
+				id: "2A83EA38923F2E51"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["403C506DF16CC105"]
+			id: "0741E16B6AE9F52F"
+			tasks: [{
+				advancement: "mekanismgenerators:solar_generator"
+				criterion: ""
+				id: "6A3F13C58CE6D231"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01D6D83DA5296A20"]
+			id: "3CDB1003D3D7B3FC"
+			tasks: [{
+				id: "05386A7E2D429E34"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3CDB1003D3D7B3FC"
+				"675984409D6F6053"
+			]
+			id: "48C217796BFAE34E"
+			shape: "hexagon"
+			tasks: [{
+				id: "19043471660285BE"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["48C217796BFAE34E"]
+			id: "4470EA6D5135A4A3"
+			tasks: [{
+				id: "77C76DBEF5333923"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 20.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										247048816
+										-2120596382
+										-1901938851
+										1365436883
+									]
+								}
+							}
+							heavy: 20.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["48C217796BFAE34E"]
+			id: "2E2329274F662895"
+			tasks: [{
+				id: "31F68F9D33C80311"
+				type: "custom"
+			}]
+			title: "三阶火箭船舱板"
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01D6D83DA5296A20"]
+			id: "37F645CEEBAD3D48"
+			tasks: [{
+				id: "09F14EB43C115820"
+				type: "custom"
+			}]
+			title: "玛雅遗迹"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["01D6D83DA5296A20"]
+			id: "1EA61E9187BD4AE1"
+			tasks: [{
+				id: "6F69B5F888F04DB9"
+				type: "custom"
+			}]
+			title: "外星人！"
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["48C217796BFAE34E"]
+			id: "0D4E34725A59B025"
+			tasks: [{
+				id: "2B9917C18D2CA88C"
+				type: "custom"
+			}]
+			title: "推进器"
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0D4E34725A59B025"
+				"2E2329274F662895"
+				"4470EA6D5135A4A3"
+				"3B8B9D2264FB402F"
+			]
+			id: "2F52000D48C50A69"
+			shape: "gear"
+			tasks: [{
+				advancement: "ad_astra:tier_3_rocket"
+				criterion: ""
+				id: "2604F328F035F51A"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2F52000D48C50A69"]
+			id: "4302F2D1F26E164D"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				advancement: "ad_astra:mercury"
+				criterion: ""
+				id: "6B4E22D574143074"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2F52000D48C50A69"]
+			id: "7527AE0C9CE10761"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				advancement: "ad_astra:venus"
+				criterion: ""
+				id: "3C6D445E8276FB77"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4302F2D1F26E164D"
+				"7527AE0C9CE10761"
+			]
+			id: "61666237D6514C2B"
+			tasks: [{
+				id: "4D6A0BD4D4C57DBC"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7527AE0C9CE10761"]
+			id: "146DFF9925528334"
+			tasks: [{
+				id: "2932EB067D74AF56"
+				item: "createoreexcavation:netherite_drill"
+				type: "item"
+			}]
+			title: "下界合金矿脉"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["48C217796BFAE34E"]
+			id: "3B8B9D2264FB402F"
+			tasks: [{
+				id: "3DAED42798614FE5"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+	]
+	title: "第六章：星空"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+      {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "firmalife:ice_shavings"
+    },
+    {
+      "tag": "loot:apples"
+    },
+    {
+      "item": "firmalife:ice_shavings"
+    }
+  ],
+  "cup": {
+    "item": "drinkbeer:empty_beer_mug",
+    "count": 4
+  },
+  "brewing_time": 56000,
+  "result": {
+    "item": "drinkbeer:beer_mug_haars_icey_pale_lager",
+    "count": 4
+  }
+}

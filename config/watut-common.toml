@@ -1,0 +1,6 @@
+
+#General mod settings
+[general]
+	#-
+	announceIdleStatesInChat = false
+

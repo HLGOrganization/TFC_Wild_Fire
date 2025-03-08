@@ -1,0 +1,158 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "机械动力",
+  "category": "tfc:mechanics",
+  "icon": "tfc:wood/water_wheel/oak",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "机械动力是一种通过利用风力或水力，让物体旋转并移动的艺术。$(br2)实际上，许多设备都可以连接到机械动力网上，使其自动化地工作，或为其他功能提供能量。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "想要开始利用机械动力，你先需要一个动力$(thing)源$()。$(br2)$(l:mechanics/mechanical_power#windmill)风车$()是一种利用风力的解决方案。它们几乎能在任何有足够空间的地方搭建。$(br2)$(l:mechanics/mechanical_power#water_wheel)水车$()是一种相比风车而言相对更强的动力源，它们能利用你能找到的$(thing)河流$()中蕴含的水力资源。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "windmill",
+      "text": "$(thing)风车$()是一种利用风力来为$(l:mechanics/mechanical_power#axle)传动杆$()提供旋转力的动力源. 它们占地面积很大，需要放置在一个13 x 13 x 1的完全无障碍的区域。要想建造一个风车，您首先需要一个$(thing)传动杆$(), 你还需要一个或多个$(thing)风车叶片$()",
+      "title": "风车"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/windmill_blade",
+      "text": "$(thing)风车叶片$()可以使用布料制作。单个风车能最多有五个风车叶片，风车叶片越多，提供的旋转速度越快。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要想建造一个风车, 首先在任意水平方向放置一个 $(l:mechanics/mechanical_power#axle)传动杆$()。随后，对着它按$(item)$(k:key.use)$() 安装最多五个$(thing)风车叶片$() 以在传动杆上安装，就能完成风车的建造了。它会慢慢地开始旋转。$(br2)如果传动杆已经被连接到了另一个动力源，或没有足够的空间，风车可能会被损坏。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "tfc:windmill",
+      "name": "",
+      "text": "",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "water_wheel",
+      "text": "$(thing)水车$() 是一种利用流动的水流$(3)河流$()中流动的水流蕴含的水力资源的能源的解决方案。当水车被放置在最佳位置时，它们将以尽可能快的速度旋转。$(br2)水车需要放置在一个5 x 5 x 1的空间。注意，如果水车周围的区域有任何障碍物，水车可能会被破坏。",
+      "title": "水车"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wood/oak_water_wheel",
+      "title": " ",
+      "text": "或是传动杆已经被连接到了其他动力源。$(br2)水车可以简单地用木材制作。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "为了放置一个$(thing)水车$(), 只需要简单地将它连接到任何$(thing)传动杆$()的末端。传动杆应该处于流动的水流，比如河流中的水流，的上方一个或两个方块的位置。$(br2)低于传动杆高度的水在流动时会使水车加速旋转。任何其他地方的水，或传动杆下方的静止的水，都会阻碍车轮的运动，并导致车轮最后减速或停止。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "tfc:water_wheel",
+      "name": "",
+      "text": "A $(thing)Water Wheel$()",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "anchor": "axle",
+      "recipe": "tfc:crafting/wood/oak_axle",
+      "title": "传动杆",
+      "text": "传动杆好比就是是旋转动力网中的面包和黄油，是将旋转力从一个位置传递到另一个位置的功能性方块。它们最长可以连接五格远，但再远它们就会断开！"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wood/oak_encased_axle",
+      "title": "齿轮箱",
+      "text": "你也可以合成 $(thing)封闭式$()的传动杆。它们可以被单独放置，也可以放置在现有传动杆的顶部。$(br2)不过，要在更远距离的情况下传输动力，你需要用到$(l:mechanics/mechanical_power#gearbox)齿轮箱$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "anchor": "gearbox",
+      "recipe": "tfc:crafting/wood/oak_gear_box",
+      "title": "齿轮箱",
+      "text": "$(thing)齿轮箱$()是一种改变旋转力$(thing)方向$()的方式，通过使用$(l:https://en.wikipedia.org/wiki/Gear)齿轮$()。它们在您想要将很长的$(l:mechanics/mechanical_power#axle)传动杆$()连接到一起时会很有用。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "想要使用一个齿轮箱，他的侧面必须要经过配置。按 $(item)$(k:key.use)$() 当拿着 $(thing)锤子$()的时候，对着齿轮箱的任何面都行，这样可以启用齿轮箱在那个面的输入/输出。$(br2)请注意，由于其内部结构，齿轮箱只能在两个同时旋转的不同的旋转的传动杆上启用输入/输出面。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wood/oak_clutch",
+      "title": "离合器",
+      "text": "$(thing)离合器$()是一种通过$(c)红石$()来控制动力网中的动力的设施。 它也是一个 $(l:mechanics/mechanical_power#axle)封闭式传动杆$(), 当通入红石信号时会切断动力, 允许旋转力只在它未收到红石信号时能传导。"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "一种使用$(thing)离合器$()的实例。",
+      "multiblocks": [
+        "tfc:clutch_off",
+        "tfc:clutch_on"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "quern",
+      "text": "$(l:mechanics/quern)手推磨$()是一种可以被连接进动力网中的装置, 只需在其上方放置一个垂直的传动杆即可。 当连接动力时，手推磨无法被手动转动，相反，它将在上方传动杆旋转时自动地研磨物品。$(br2)手推磨研磨的速度和传动杆旋转的速度呈正相关。",
+      "title": "手推磨的自动化"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "tfc:rotating_quern",
+      "name": "",
+      "text": "A $(thing)Quern$() connected to an $(l:mechanics/mechanical_power#axle)Axle$().",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "trip_hammer",
+      "text": "另一个机械设备是$(thing)杵锤$()。杵锤可以自动化地在$(l:mechanics/anvils)铁砧$()上执行锻造程序。杵锤需要一个$(thing)叶片式传动杆$()才能工作。叶片式传动杆的工作方式与正常传动杆无异，但它还有一个叶片，这能与锤交互。 ",
+      "title": "杵锤"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wood/oak_bladed_axle",
+      "recipe2": "tfc:crafting/trip_hammer"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X "
+          ],
+          [
+            "YZ"
+          ],
+          [
+            "0 "
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:wood/bladed_axle/oak[axis=x]",
+          "Y": "tfc:trip_hammer[facing=north]",
+          "Z": "tfc:metal/anvil/copper[facing=west]"
+        }
+      },
+      "name": "",
+      "text": "设置杵锤的一个小教程",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "将一个杵锤放在传动杆下方，按 $(item)$(k:key.use)$() 以对其添加锤头。锤头必须是金属制的。请确保杵锤的朝向使叶片式传动杆可以向下推动杵锤手柄。随后，锤头将撞击放置在它前面的铁砧。杵锤将一直记录$(thing)'命中'$()这一行为, 并且总是将游标移向目标，而不再需要玩家的输入。如果锭的温度不够热，或者铁砧的等级不正确，一声低沉的金属撞击声会提醒你。 "
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tag:tfc:water_wheels": 6,
+    "tag:tfc:axles": 10,
+    "tag:tfc:gear_boxes": 11,
+    "tag:tfc:clutches": 14
+  }
+}

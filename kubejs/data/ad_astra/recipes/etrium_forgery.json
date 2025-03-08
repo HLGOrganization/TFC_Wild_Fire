@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "base_ingredient": {
+      "item": "ad_astra:etrium_nugget"
+    },
+    "count": 9
+  },
+  "results": [
+    {
+      "item": "ad_astra:etrium_ingot"
+    }
+  ],
+  "additives": [],
+  "time": 500,
+  "energy": 51200
+}

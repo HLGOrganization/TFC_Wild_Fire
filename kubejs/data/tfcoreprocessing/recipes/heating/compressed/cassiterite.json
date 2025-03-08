@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcoreprocessing:compressed/cassiterite"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/tin",
+    "amount": 40
+  },
+  "temperature": 230
+}

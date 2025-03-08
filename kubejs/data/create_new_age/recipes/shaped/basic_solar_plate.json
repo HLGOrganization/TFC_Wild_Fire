@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "|": {
+      "item": "create_new_age:heat_pipe"
+    },
+    ".": {
+      "item": "minecraft:iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "###",
+    ".|.",
+    ".|."
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_new_age:basic_solar_heating_plate"
+  },
+  "show_notification": true
+}

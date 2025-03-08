@@ -1,0 +1,32 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+    {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": {
+          "tag": "tfc:milks"
+        },
+        "amount": 100
+      }
+    }
+  ],
+  "cup": {
+    "item": "brewery:beer_mug",
+    "count": 4
+  },
+  "brewing_time": 56000,
+  "result": {
+    "item": "drinkbeer:beer_mug_blaze_milk_stout",
+    "count": 4
+  }
+}

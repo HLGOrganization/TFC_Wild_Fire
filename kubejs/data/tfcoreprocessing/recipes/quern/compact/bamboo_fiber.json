@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+    "item": "minecraft:bamboo"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+    "item": "tfcoreprocessing:kindle/bamboo_fiber"
+    },
+    {
+      "chance": 0.1,
+      "count": 1,
+    "item": "tfcoreprocessing:kindle/bamboo_fiber"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa ",
+    "aba",
+    " aa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:elder_bone"
+    },
+    "b": {
+      "item": "call_of_yucutan:fragment_of_death"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:fist_of_doom",
+    "count": 1
+  }
+}

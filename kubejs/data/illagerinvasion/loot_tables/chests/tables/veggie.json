@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/beet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/cabbage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/garlic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/onion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/potato"
+        }
+      ]
+    }
+  ]
+}

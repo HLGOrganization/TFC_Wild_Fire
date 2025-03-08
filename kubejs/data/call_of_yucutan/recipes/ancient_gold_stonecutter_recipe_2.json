@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "call_of_yucutan:ancient_golds"
+  },
+  "result": "call_of_yucutan:ancient_gold_stairs"
+}

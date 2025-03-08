@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create_new_age:blank_circuit"
+    },
+    {
+      "item": "create_new_age:copper_wire"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:copper_circuit"
+    }
+  ]
+}

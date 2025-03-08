@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "tfc:ore/halite"
+    }
+  ],
+  "processingTime": 25,
+  "results": [
+    {
+      "count": 4,
+      "item": "tfc:powder/salt"
+    }
+  ]
+}

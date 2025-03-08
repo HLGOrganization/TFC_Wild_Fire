@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:sweetberry_cupcake"
+  },
+  "hunger": 1.25,
+  "saturation": 2.5,
+  "decay_modifier": 1.9,
+  "grain": 0.75,
+  "fruit": 2.0
+}

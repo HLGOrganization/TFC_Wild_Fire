@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:hematite"
+    },
+    "b": {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    "c": {
+      "item": "call_of_yucutan:red_limestone"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:reflector",
+    "count": 1
+  }
+}

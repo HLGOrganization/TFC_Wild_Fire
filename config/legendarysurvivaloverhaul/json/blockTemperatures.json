@@ -1,0 +1,698 @@
+{
+  "create:blaze_burner": [
+    {
+      "properties": {
+        "blaze": "smouldering"
+      },
+      "temperature": 2.5
+    },
+    {
+      "properties": {
+        "blaze": "kindled"
+      },
+      "temperature": 5.0
+    },
+    {
+      "properties": {
+        "blaze": "seething"
+      },
+      "temperature": 7.5
+    }
+  ],
+  "moreburners:electric_burner": [
+    {
+      "properties": {
+        "blaze": "smouldering"
+      },
+      "temperature": 2.5
+    },
+    {
+      "properties": {
+        "blaze": "kindled"
+      },
+      "temperature": 5.0
+    },
+    {
+      "properties": {
+        "blaze": "seething"
+      },
+      "temperature": 7.5
+    }
+  ],
+  "minecraft:soul_wall_torch": [
+    {
+      "properties": {},
+      "temperature": 0.75
+    }
+  ],
+  "legendarysurvivaloverhaul:heater": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 15.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "minecraft:campfire": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 10.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "minecraft:soul_torch": [
+    {
+      "properties": {},
+      "temperature": -1.5
+    }
+  ],
+  "tfc:torch": [
+    {
+      "properties": {},
+      "temperature": 1.5
+    }
+  ],
+  "minecraft:smoker": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "false": "true"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "legendarysurvivaloverhaul:cooler": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": -15.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "minecraft:furnace": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "legendarysurvivaloverhaul:ice_fern_crop": [
+    {
+      "properties": {
+        "age": "3"
+      },
+      "temperature": -1.5
+    }
+  ],
+  "minecraft:magma_block": [
+    {
+      "properties": {},
+      "temperature": 12.0
+    }
+  ],
+  "minecraft:lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tfc:spring_water": [
+    {
+      "properties": {},
+      "temperature": 3.5
+    }
+  ],
+  "minecraft:jack_o_lantern": [
+    {
+      "properties": {},
+      "temperature": 3.0
+    }
+  ],
+  "tfc:jack_o_lantern": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/none": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/circle": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/creeper": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/axe": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/hammer": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/pickaxe": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/left": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "firmalife:lit_pumpkin/right": [
+    {
+      "properties": {},
+      "temperature": 2.5
+    }
+  ],
+  "tfc:rock/magma/granite": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "tfc:rock/magma/diorite": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "tfc:rock/magma/gabbro": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "tfc:rock/magma/rhyolite": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "tfc:rock/magma/basalt": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "tfc:rock/magma/andesite": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "tfc:rock/magma/dacite": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "tfc:sea_ice": [
+    {
+      "properties": {},
+      "temperature": -2.0
+    }
+  ],
+  "bakery:brick_stove": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ],
+  "minecraft:soul_campfire": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": -10.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "immersiveengineering:coke_oven": [
+    {
+      "properties": {
+        "active": "true"
+      },
+      "temperature": 6.5
+    },
+    {
+      "properties": {
+        "active": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "tfc:bloomery": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 10.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "tfc:blast_furnace": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 10.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "valhelsia_structures:brazier": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 7.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "valhelsia_structures:soul_brazier": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": -5.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "tfc:firepit": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 8.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "tfc:grill": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 8.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "tfc:pot": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 8.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:cured_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:insulated_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:cured_rustic_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:insulated_rustic_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:cured_tile_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:insulated_tile_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:cured_stone_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "firmalife:insulated_stone_oven_bottom": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "castirongrill:cast_iron_grill_firepit": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 8.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "tfc:charcoal_forge": [
+    {
+      "properties": {
+        "heat_level": "7"
+      },
+      "temperature": 13.0
+    },
+    {
+      "properties": {
+        "heat_level": "6"
+      },
+      "temperature": 11.5
+    },
+    {
+      "properties": {
+        "heat_level": "5"
+      },
+      "temperature": 10
+    },
+    {
+      "properties": {
+        "heat_level": "4"
+      },
+      "temperature": 8.5
+    },
+    {
+      "properties": {
+        "heat_level": "3"
+      },
+      "temperature": 7.0
+    },
+    {
+      "properties": {
+        "heat_level": "2"
+      },
+      "temperature": 4.5
+    },
+    {
+      "properties": {
+        "heat_level": "1"
+      },
+      "temperature": 2.5
+    },
+    {
+      "properties": {
+        "heat_level": "0"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "farmersdelight:stove": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 7.5
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "minecraft:torch": [
+    {
+      "properties": {},
+      "temperature": 1.5
+    }
+  ],
+  "minecraft:wall_torch": [
+    {
+      "properties": {},
+      "temperature": 1.5
+    }
+  ],
+  "minecraft:flowing_lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "legendarysurvivaloverhaul:sun_fern_crop": [
+    {
+      "properties": {
+        "age": "3"
+      },
+      "temperature": 1.5
+    }
+  ],
+  "minecraft:fire": [
+    {
+      "properties": {},
+      "temperature": 7.0
+    }
+  ],
+  "minecraft:soul_fire": [
+    {
+      "properties": {},
+      "temperature": -7.0
+    }
+  ],
+  "minecraft:blast_furnace": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "temperature": 6.0
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "ad_astra:etrionic_blast_furnace": [
+    {
+      "properties": {
+        "lit": "true",
+        "powered": "true"
+      },
+      "temperature": 64.0
+    },
+    {
+      "properties": {
+        "lit": "true",
+        "powered": "false"
+      },
+      "temperature": 32.0
+    },
+    {
+      "properties": {
+        "lit": "false",
+        "powered": "true"
+      },
+      "temperature": 8.0
+    },
+    {
+      "properties": {
+        "lit": "false",
+        "powered": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "ad_astra:cryo_freezer": [
+    {
+      "properties": {
+        "lit": "true",
+        "powered": "true"
+      },
+      "temperature": -450.0
+    },
+    {
+      "properties": {
+        "lit": "true",
+        "powered": "false"
+      },
+      "temperature": -48.0
+    },
+    {
+      "properties": {
+        "lit": "false",
+        "powered": "true"
+      },
+      "temperature": -12.0
+    },
+    {
+      "properties": {
+        "lit": "false",
+        "powered": "false"
+      },
+      "temperature": 0.0
+    }
+  ]
+}

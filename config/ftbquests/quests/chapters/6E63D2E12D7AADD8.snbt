@@ -1,0 +1,2241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6E63D2E12D7AADD8"
+	group: "2BD524ABD6AD1EEE"
+	hide_quest_details_until_startable: true
+	icon: "create:wrench"
+	id: "6E63D2E12D7AADD8"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B5183C1350A06FF"]
+			description: [
+				"机械动力是一种注重于构建产线的工业mod，通过推进这个mod的流程，你将构建更有效率的自动化产线，将大部分工序简化为机器进行。最终建造发电机、核电站、无限矿物、刷铁机与列车系统！"
+				""
+				"本任务线将从获得机械动力mod的核心材料：安山合金开始，带领你详细地了解机械动力的全部流程，包括其附属mod Create New Age。"
+				""
+				"机械动力具有内置的完整教程，且配有图文说明，相对更加简洁且容易理解。只需要对着大部分机械动力的物品按住shift或者w即可观看。"
+				""
+				"注：TFCR的官方服务器已禁止机械动力相关的较多物品，因此在官服中本任务线无法完成。"
+			]
+			icon: "create:wrench"
+			id: "648DA94A24E63FD6"
+			rewards: [{
+				id: "1B76FBD1BE80C9ED"
+				type: "xp"
+				xp: 50
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "159FACF19571B602"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "欢迎来到机械动力"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["648DA94A24E63FD6"]
+			description: [
+				"机械动力的核心材料：安山合金，需要用到安山岩。这个安山岩并不是你在群峦世界中挖的安山岩（那个只算作普通石头），而是原版安山岩。你无法在群峦世界中挖掘到原版安山岩，但幸运的是，原版的石英合成安山岩的配方得到了保留。"
+				""
+				"说到石英的获取，你应该在跑图中看见过在地面上凸出来的玄武岩质半球形黑色石块，这种石块被称作石英晶洞，其中含有石英。石英晶洞中含有三种方块：石英块、石英母岩和石英晶簇。石英块可以在砧板上敲成石英，石英母岩能够每隔一段时间生成石英晶簇，而石英晶簇被破坏后掉落石英。"
+				""
+				"要合成安山岩，需要将圆石与石英合成闪长岩，再用闪长岩与圆石合成安山岩。安山岩与铁粒即可合成安山合金。"
+				""
+				"发展机械动力需要大量的安山合金，同理也就需要大量的石英。你不需要耗费大量精力寻找石英晶洞。你可以放置石英母岩等待其自动长出石英，也可以用沙子与石英合成两个石英种子。石英种子在装有淡水的大桶内密封十个小时就能变成石英，每个石英需要消耗500mb淡水。"
+			]
+			icon: "create:andesite_alloy"
+			id: "2C8CA898AC4C8DFE"
+			rewards: [{
+				id: "7654C32A1CC84C2D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "3ABF1FE97EA1C152"
+					item: "tfc_ie_addon:mineral/quartz_shard"
+					type: "item"
+				}
+				{
+					id: "31E239E6CFD72170"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "08D9B34863AA05D7"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "安山合金"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["安山机壳由手持安山合金右键去皮原木合成。安山机壳用于制造机械动力中大部分基础机器，其美观性也可用作装饰方块，手持扳手潜行右键可快速拆除安山机壳。"]
+			hide_dependency_lines: true
+			id: "2BFB2821B55B2EDE"
+			rewards: [{
+				id: "45A701253D2F25B3"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			subtitle: "一个个简单的机器组成了机械动力的流水线"
+			tasks: [{
+				id: "159EA0401EA67A0C"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "机械基础"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["075AE6BBAE11F698"]
+			description: ["磁铁矿块，或者说磁铁块，是本附属mod发电机的一部分，后续最高可以升级成钻石级的。磁铁块本身拥有磁感应强度这一属性，等级越高强度数值越高。"]
+			id: "2BBF1B0D9F85274B"
+			rewards: [{
+				id: "6D8F27C2B8E55284"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4287D81632C13F63"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["将磁铁矿粉末经过两次四合一就能合成磁铁矿块，这个磁铁矿块用于合成机械动力的磁铁矿块，是New Age的基础物品。"]
+			hide_dependency_lines: true
+			id: "075AE6BBAE11F698"
+			rewards: [{
+				id: "066CCF71492A003B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "109C83E7DE88B6A3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfcorewashing:pellet_magnetite"
+				}
+				type: "item"
+			}]
+			title: "New Age基础"
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AA572EF2EA4F7BB"]
+			description: ["铜机壳用于给管道套壳子，还用于制造后续的机器。"]
+			id: "1005BE3C28B3739A"
+			rewards: [{
+				id: "14D394DB1E18B1DC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			subtitle: "绝不漏水"
+			tasks: [{
+				id: "42AE366F842D3F8A"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75ADB32D28D01951"]
+			description: [
+				"在机械动力中，机器必须被接入一种动力才能工作，这种动力叫做“应力”，应力由应力发生装置产生，前期常用的应力发生装置有风车和水车。"
+				""
+				"风车需要在风车轴承面前构建多方块结构才能使用，这个多方块结构中必须有不少于8个羊毛方块或风帆方块，空手右击风车轴承以使其构建风车多方块结构并开始工作。动态结构上的羊毛或风帆放块越多风车产生的应力越多，但是有上限。风车除了做为应力发生装置以外还可以用于装饰。"
+				""
+				"水车和大水车使用方法相同，只要生效范围内有流动水即可开始工作，且只要附近有一格流动水就可以满效率工作。"
+			]
+			icon: "create:water_wheel"
+			id: "1C1BC469151DF73C"
+			rewards: [{
+				id: "2F68108992AA2E09"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			subtitle: "移不走的两座大山"
+			tasks: [
+				{
+					id: "2DBF224EC3D76392"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "3ECEE6E6BADE8469"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "1FAD55896BFE5365"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "27BDA9F41ADAB8DB"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "基础产能"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["传动杆由两块安山合金纵向合成。传动杆用于传输动力，你可以手持安山机壳右键为其套上壳子，两个转速不同的传动杆相互接触会使较低转速的传动系统转速强行提高至较高的转速，两个方向不同的传动杆相互接触会导致你刚放上去的那个传动杆被破坏。"]
+			hide_dependency_lines: true
+			id: "75ADB32D28D01951"
+			rewards: [{
+				id: "70030EA9DDCFEAF5"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "旋转力，人类最早应用的力"
+			tasks: [{
+				id: "0ACD56AA4E69D004"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "传动基础"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["545435214C14571C"]
+			description: ["十字齿轮箱是一种能够实现动力分散的方块，能够将一个方向的方向分散到三个方向，十字齿轮箱相对的两个面转动方向是相反的。十字齿轮箱有竖直的版本，能够通过扳手旋转或者十字齿轮箱合成获得。"]
+			id: "70B1AC12C3B73185"
+			rewards: [{
+				id: "6EC543676A2F5D02"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "内部结构很有趣"
+			tasks: [{
+				id: "1577E26ACBDCBAC2"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2BFB2821B55B2EDE"]
+			description: [
+				"动力搅拌器是一种用于执行搅拌的机器，需要接入动力且在其下方两格有工作盆时才能工作。动力搅拌器可以执行两种配方，一种是搅拌的配方，另一种是无序合成的配方。"
+				""
+				"工作盆是一种工作辅助方块，可以存储九种以物流形式输入的最多16个物品或以掉落物形式输入的最多64个物品以及两种最多1000mb的流体，且六个方向都可以输入输出。工作盆侧面有一个配方过滤插槽，可以用于设定目标产物以避免配方混淆。工作盆在侧下方有置物台、溜槽、传送带、垂直放置的机械动力漏斗、工作盆之类的开放式存储方块时，会出现一个开口并尝试自动输出物品。在动态结构上倒置的工作盆会将其中的物品以掉落物的形式掉出。"
+			]
+			icon: "create:mechanical_mixer"
+			id: "6E0D1DF72B94ADC9"
+			rewards: [{
+				id: "6A9093EB7613FE75"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "这里没有奶昔"
+			tasks: [
+				{
+					id: "3FAF28E3A089AB92"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "7625BD0EDFC28FDE"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "混合搅拌"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BFB2821B55B2EDE"]
+			description: [
+				"动力辊压机是一种用于将物品压制的机器，需要接入动力才能工作。在其下方两格没有辅助方块或有置物台和传送带时会执行金属压片的配方 ，在其下方一格有工作盆时会执行压块塑形的配方。"
+				""
+				"置物台是一种容器和工作辅助方块，可以存储一批物品——一次输入的最少1个最多64个物品。置物台可以从六个方向输入物品，也可以接收掉落物，但在其存储的一批物品离开之前不会再接收其他物品。"
+			]
+			icon: "create:mechanical_press"
+			id: "5E2EF32B142A1F00"
+			rewards: [{
+				id: "03C8BFCBD5337706"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "锻造？什么是锻造？"
+			tasks: [
+				{
+					id: "2D150A476708E760"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "282C401EC084F92B"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "一锤子买卖"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E0D1DF72B94ADC9"]
+			description: ["石磨是一种接入动力后能够执行研磨配方的机器。其工作原理跟手推磨差不多，不过配方不同、能够接入物流且不会损坏。"]
+			id: "09FF39E8779DCF92"
+			rewards: [{
+				id: "542C079939C5DD00"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "是石磨不是石墨"
+			tasks: [{
+				id: "162DD438E7B2A692"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "不手推磨"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43ED67D161B4D11E"]
+			description: [
+				"矿车装配站是用于构建矿车移动结构的机器，适用于建造一个持续存在的移动结构。需要使用矿车装配站，你需要放置一个铁轨，再把装配站放置在铁轨上，并在铁轨上再放一个矿车（可以是储存矿车动力矿车之类）。处于红石激活状态的矿车装配站能够将其上方被强力胶粘在一起的方块全部移动结构化并连接在矿车上将其转化为装配矿车，而未激活的状态可以将装配矿车上移动结构化的方块变回方块。"
+				""
+				"装配矿车在开动时可以带动其上方的移动结构移动，移动结构上的一些容器可以打开，一些机械动力的机器也可以正常工作，因此装配矿车经常用来建造水平盾构机。"
+			]
+			id: "790918B6292256FE"
+			rewards: [{
+				id: "3B6E3E1072DB77D7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "将大大的梦想，装在小小的矿车里面"
+			tasks: [{
+				id: "36DED726AECA4EC0"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CF285001286EB5B"]
+			description: ["动力钻头是一个可以用于移动结构上的机器，当接入动力或被安装在移动结构上时，它将试图破坏它正面所对的方块，如果安装在移动结构上且移动结构上有容器，掉落物就会被转移到容器里。"]
+			id: "45A01E8B81172528"
+			rewards: [{
+				id: "4831FDF40C9F3AA9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "40C285E13BD3845D"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "突破天际"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E2EF32B142A1F00"]
+			description: [
+				"鼓风机是一种接通动力后产生气流的方块，这种气流能穿过不是完整一格的方块，推动或拉动掉落物和实体，使溜槽中的物品向上传输。当气流经过特定方块后，它将被转变为特殊气流，能够执行一些特殊配方。"
+				""
+				"TFCRban掉了大部分气流配方，只保留了一种：洗涤。当气流经过水时，产生的特殊气流可以执行这种配方，这种配方可以影响掉落物或者放在传送带和置物台上的物品。有了洗涤鼓风机，你就可以换掉洗矿槽了。"
+				""
+				"小技巧：掉落物可以受到多个方向的鼓风机影响，你可以在多面加入鼓风机，以及让掉落物掉在非一格高上的方块上（如烈焰人燃烧室）以使其同时受上下两个鼓风机的气流影响。"
+			]
+			id: "2B6C10EBEFAC8A8E"
+			rewards: [{
+				id: "2C91F48C35D5FA17"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "可惜没跟群峦联动"
+			tasks: [{
+				id: "6407A75100A24FC2"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "更强风吹拂"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01439887E8F1802C"]
+			description: [
+				"机械手是一种接入动力后可以模仿玩家行为的机器，其有两种工作模式，第一种是手持物品对另一种物品进行加工，第二种是手持武器攻击，两种模式的切换可通过扳手进行切换。机械手上具有一个过滤槽，可以用于指定机械手手上拿着的物品。"
+				""
+				"机械手的第一种模式需要其下方两格有置物台或者传送带才能工作，能够进行一些比如手持安山合金将去皮原木加工的加工；第二种模式则可以发挥武器本身具有的附魔与特性，与真人在使用并无差异。"
+			]
+			id: "1450C76C168E8678"
+			rewards: [{
+				id: "392AFA7411519544"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "王之右手"
+			tasks: [{
+				id: "00C3701288E149D1"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DC9620F74CF73F0"]
+			description: [
+				"传送带是一种集传动与物流与一体的方块，它需要被套在两个在同一直线上的传动杆上才能放置。传送带方块可以从六个面输入输出，且能够接收掉落物，其接收物品的机制与置物台相同。在其内部的传动杆只要转动，它就会转动，并带动内部的所有传送杆一起转动，如果这导致传动杆与传送带的转动方向相反，它就会断裂。"
+				""
+				"转动的传送带可以运输物品，运输方向根据转动方向决定。传送带末端的物品若没有方块接收，则会转化为掉落物飞出；若有传送带和置物台，就会转移到传送带和置物台上；若有实体方块阻挡则会停止运输；若传送带上方有接入了容器的漏斗，漏斗就会向传送带输入输出物品，从传送带侧面接入的漏斗会根据其本身配置输入输出，从传送带开端末端接入的漏斗则会根据传送带的转动方向决定输入输出。"
+				""
+				"传送带由干海带或橡胶制成，干海带由海带加热获得，而橡胶由辊压橡胶树原木获得。"
+				""
+				"隧道是一种能够遮住传送带使其不受掉落物影响的方块。隧道在物流上还能执行分流物品的工作，当放置在传送带上的隧道侧面出现了另一根传送带，它就会在一批物品经过传送带时向侧面的传送带分流一个物品。"
+			]
+			icon: "create:belt_connector"
+			id: "7195F732DEE35696"
+			rewards: [{
+				id: "6A8CA82F8CEE2C11"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "可能是机械动力最强的方块"
+			tasks: [
+				{
+					id: "23AA71910682D05B"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "63EB0C77FCEDD939"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			title: "传送带物流"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43ED67D161B4D11E"]
+			description: ["底盘是一种特殊的方块，根据种类分为两种型号的轴向底盘和径向底盘。同方向的同种机壳不需要强力胶粘在一起即可一起化作移动结构。这在强力胶改版之前十分方便，不过在强力胶改版后的现在只有作为装饰方块使用的功能了。"]
+			id: "2CF285001286EB5B"
+			rewards: [{
+				id: "47A1FAD4153BA31C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7A6AB24BAA0C73AD"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CF285001286EB5B"]
+			description: ["动力犁是一个只能用于移动结构上的机器，当犁被安装在移动结构上时，它将在经过不具有碰撞箱的方块，例如雪、铁轨时将其破坏。如果移动结构上有容器，掉落物就会被转移到容器里。动力犁还可以用于耕地，这个功能在群峦传说里没什么用。"]
+			id: "1A3E6BE202975FF2"
+			rewards: [{
+				id: "230CEDA5DC5E7375"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5111738062567E1E"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			title: "锄大地"
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43ED67D161B4D11E"]
+			description: [
+				"移动结构上如果存在容器，就会存储由移动结构上的机器工作产生的掉落物。物品保险库是一种能够在移动结构上使用的存储方块，其能存储20组物品。物品保险库本身不能打开，需要物流方块对其进行物品的输入输出。以特殊规则摆放的物品保险库会合并成一个整体，存储量根据保险库数量提升。"
+				""
+				"移动结构本不属于方块，正常情况下不能与方块交互，也就无法进行物流。然而通过使用一种名为移动式存储接口的方块，移动结构就可以输出其内部存储的物品。想要使用存储接口，你需要将一个存储接口安装在动态结构上并将其一并转化为动态结构，另一个接口正常放置。当两个接口在移动结构移动时对齐，他们就会使移动结构暂停移动并对接。此时从方块状态的接口即可对移动结构进行输出或输入。移动结构在内部的物品被抽取完毕或内部被装满前不会继续移动，除非接口一段时间内没有再输入输出物品，此时移动结构就会继续移动。"
+				""
+				"移动式接口还有一种叫移动式流体接口的方块，用于运送流体。"
+			]
+			icon: "create:portable_storage_interface"
+			id: "2B91688E20CE8A18"
+			rewards: [{
+				id: "204255FE9753D6BF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "743E3B48760F67EC"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "4C2556AB0C93A18B"
+					item: "create:item_vault"
+					type: "item"
+				}
+			]
+			title: "移动结构的物流"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43ED67D161B4D11E"]
+			description: ["绳索滑轮、动力活塞、起重机是用于移动方块的机器，适用于需要频繁将方块移动和方块化的场合。绳索滑轮和起重机只要动态结构不被方块阻挡就能能够一口气移动所有被强力胶粘在一起的方块，动力活塞甚至能推动阻挡的方块一起移动。三种机器分别最适合的场合各不相同。"]
+			icon: "create:mechanical_piston"
+			id: "47855701499FB613"
+			rewards: [{
+				id: "471D425C89E621D1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "1691D5A70CDE723B"
+					item: "create:rope_pulley"
+					type: "item"
+				}
+				{
+					id: "2BAA43F2CFD54FE2"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "3AC7422EEED32BE6"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "7C3700C7270438EA"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+				{
+					id: "480B9DD608AEB60E"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "1B64543BD9092773"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43ED67D161B4D11E"]
+			description: [
+				"动力轴承是一种接入动力后会使面前被强力胶粘在一起的方块转化为动态结构并使其开始旋转的机器，在停止旋转时会使动态结构方块化，方块化的动态结构会破坏掉原本存在的方块。使用动力轴承可以制造出自动农场，自动树场之类的机器。"
+				""
+				"发条轴承是一种接入动力后会使面前被强力胶粘在一起的方块转化为动态结构并使其开始按照时间旋转的机器，需要两个独立的被判定做分针秒针的结构才能开始工作。使用发条轴承可以制造出时钟，但由于群峦世界的时间独立于mc自身的时间而存在，这个钟会不准。"
+			]
+			icon: "create:mechanical_bearing"
+			id: "64B8D6F8F9F15732"
+			rewards: [{
+				id: "253526E7F5645E89"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "26AFB739A78051B5"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "51D1B1BDBC76F359"
+					item: "create:clockwork_bearing"
+					type: "item"
+				}
+			]
+			title: "它转起来了"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: [
+				"强力胶由铁粒、铁板、粘液球或胶水合成，用于建造动态结构。动态结构是机械动力特有的结构，由一定区域的方块受机械动力的机器影响而成，一些机械动力的机器只有在动态结构上才能发挥作用，一些储存方块即使移动结构也能够被打开。有了建造动态结构的能力，你就可以建造树场、盾构机之类的设施。"
+				""
+				"移动结构化的方块在变回方块时会破坏原本位置区域的方块，或许可以用这种机制来制造某种不得了的东西（？）。"
+			]
+			hide_dependency_lines: true
+			id: "43ED67D161B4D11E"
+			rewards: [{
+				id: "1AEFBEF23EDA333F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "多大的粘性能粘着方块在一起跑？"
+			tasks: [{
+				id: "656FC19549403A53"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "动态结构基础"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CF285001286EB5B"]
+			description: [
+				"动力锯是一个可以用于移动结构上的机器，当接入动力或被安装在移动结构上时，它将试图破坏它正面所对的木制方块，如果安装在移动结构上且移动结构上有容器，掉落物就会被转移到容器里。"
+				""
+				"动力锯还具有另一种功能：加工木制物品，例如将原木去皮，或将去皮原木转化为木板。加工物品始终会随着磨床转动向的反方向移动，这点需要注意。动力锯上有一个配方过滤槽，你可以放入目标产物以防止配方混淆。"
+			]
+			id: "36541C2252B8E3CF"
+			rewards: [{
+				id: "2C08FA845ACC9113"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "这玩意容易秒人"
+			tasks: [{
+				id: "74F96189E7142D66"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "伐木工"
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CF285001286EB5B"]
+			description: ["动力收割机是一个只能用于移动结构上的机器，当动力收割机被安装在移动结构上时，它将在经过成熟的作物时将其收割，重置其生长状态并掉落将其破坏时应掉落的掉落物。如果移动结构上有容器，掉落物就会被转移到容器里。合理运用动力收割机可以建造出自动农场。"]
+			id: "436CFC57235037BF"
+			rewards: [{
+				id: "0CCDA9736ED4E1C5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "38DF1E6BEF74ACA7"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "动力收割"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["545435214C14571C"]
+			description: ["链式传动箱是一种能够横向传输动力的方块，按同一方向摆放的链式传动箱能够以同一方向转动。横向摆放的链式传动箱和纵向摆放的也能连接，以此实现动力方向的纵向旋转。"]
+			id: "5784D52F2EECFFBF"
+			rewards: [{
+				id: "613A84C3224BA7ED"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "372596C1D3AC7B3D"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["545435214C14571C"]
+			description: ["离合器是一个可以通过红石控制是否接入动力的方块，在其处于红石激活状态下将会不接入动力。"]
+			id: "653422DB56395B12"
+			rewards: [{
+				id: "21F18D15FDF62D69"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6DF60444CB638C31"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["545435214C14571C"]
+			description: ["反转齿轮箱是一个可以通过红石控制旋转方向的方块，在其处于红石激活状态下将会反转输入的动力方向。"]
+			id: "0593955C5444B2DB"
+			rewards: [{
+				id: "6B4C357D32299571"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "603CAB5026C41236"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2BFB2821B55B2EDE"]
+			description: ["砂带磨床只具有一种功能：将玫瑰石英加工为磨制玫瑰石英。玫瑰石英始终会随着磨床转动向的反方向移动，这点需要注意。"]
+			id: "2A270EF5BCD7D798"
+			rewards: [{
+				id: "661083D1FE9EE5D2"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "盘它！"
+			tasks: [{
+				id: "5C7E2C20EAF27143"
+				item: "vintageimprovements:belt_grinder"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75ADB32D28D01951"]
+			description: [
+				"传动杆用于纵向传递应力，而齿轮、大齿轮和传送带用于横向传递应力。"
+				""
+				"齿轮能够在纵向和横向都传递应力，两个相邻的齿轮转动方向相反。大齿轮在单独使用时只能使应力传递的方向旋转90°，而在与齿轮配合使用时，它能够将原本转速两倍传递给齿轮或者从齿轮接收原本一半的转速，利用这个特性可以制作出加速减速器。大齿轮和小齿轮都可以使用安山机壳为其套上壳子，套上壳子的齿轮仍可以在齿轮之间传递应力，但未与传动杆连接的部分不会再与传动杆连接。"
+				""
+				"传送带能够横向竖向和斜向45°传送应力，且能带动内部的传动杆一起旋转。"
+			]
+			icon: "create:cogwheel"
+			id: "545435214C14571C"
+			rewards: [{
+				id: "674F0CEDFA2013EA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "327E0288025C897C"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7B38AEE5FE4F3E57"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "0975361D0457D931"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "横向传动"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C1BC469151DF73C"]
+			description: [
+				"机械动力中的动力——“应力”是有量的大小的，每个产能机器可以产生一些，其他机器则会用掉一些，这个量不是消耗制，而是占用制。举个例子：应力就像你电脑的运行内存，你每有一个机器在工作就会占用一部分，如果工作机器占用的应力超过了你能产生的应力，那么你的动力系统就会“内存溢出”——应力过载了，整个系统都会停止运行。每个机器都会根据当前转速占用不同量的应力，转速越高，机器效率越高，应力占用量就越高。"
+				""
+				"应力表可以告诉你目前系统中总共的应力与剩下的应力，这个值会显示在指针上，如果你戴着工程师护目镜，就会显示准确的数值。"
+			]
+			id: "4477187C54E7FC6A"
+			rewards: [{
+				id: "3B7F21A14D6FB530"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "04B4E76DE0C9D124"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			title: "应力"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75ADB32D28D01951"]
+			description: [
+				"机械动力作为一个工业mod，物流系统自然是不可缺少的。而机械动力提供的物流方案也多种多样。这个任务将详细讲述你目前能够使用的物流方块。"
+				""
+				"安山漏斗是一个能够将物品从容器中以掉落物形式输出，或者将掉落物输入容器的物流方块。其上面的箭头指示了它的输入输出模式，通过扳手能够更改其模式。安山漏斗一次最多输出一个物品。"
+				""
+				"溜槽是一种用于垂直运输物品的物流方块，它能够抽取上方容器的物品或接收来自正上方的掉落物，并运送到下方的容器中。如果下方是空气，物品会以掉落物的方式出现。如果下方不是容器，物品则会保留在溜槽中。溜槽可以以在侧面放置溜槽的方法进行并接，以达成物流整合的效果。溜槽的物流速度是一秒16个，存储量也是16个物品，如果你向其中一次丢入超过16个物品，它会全部接受，但在下降到16个以下之前不会再接受物品。与其他接收掉落物的物流方块不同，溜槽只会接受与其上表面接触的掉落物，而不是其正上方一格的掉落物。"
+				"{@pagebreak}"
+				"漏斗是一种用于在接收正上方物品并将物品输出到其他五个方向的物流方块。它拥有五个物品格，能够抽取上方容器的物品或接收正上方一格的掉落物并输出到漏斗底部朝向的物流方块，其物流速度为一秒一个。在TFCR中，漏斗有一个名叫快速漏斗的升级版，物流速度变为一秒16个。"
+				""
+				"篮子是一种专门用于接收掉落物的物流方块，拥有跟原版箱子一样大的存储空间。其能以多个方向放置，篮子开口正对的那一格的掉落物将被篮子接收。篮子本身并没有输出方式，需要配合其他方块。"
+				""
+				"弹射置物台是一种能够远距离移动物品的方式，在放置之前需要被设置弹射的目的地。在接入动力时，弹射置物台能够弹射其上方的实体、掉落物、物品。"
+			]
+			icon: "create:andesite_funnel"
+			id: "4DC9620F74CF73F0"
+			rewards: [{
+				id: "2700C5201C476C06"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "0E741946D91DD636"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					id: "2B8A0B94C2059E92"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "718845DCCB9C2C41"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					id: "5A9A0CBCFF31A015"
+					item: "create:weighted_ejector"
+					type: "item"
+				}
+				{
+					id: "0CA86D3A64CA856F"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "基础物流"
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A270EF5BCD7D798"]
+			description: ["磨制玫瑰石英是制作晶体管的原料，由玫瑰石英被砂纸或砂带加工后获得。"]
+			id: "53072FE9D8040846"
+			rewards: [{
+				id: "29351664CE8FBD47"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "晶莹剔透"
+			tasks: [{
+				id: "7464ACDAD0E598BA"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53072FE9D8040846"]
+			description: ["将玫瑰石英与铁板合成即可得到电子管，电子管是合成智能机器的材料之一，另一种材料是黄铜"]
+			icon: "create:electron_tube"
+			id: "01439887E8F1802C"
+			rewards: [{
+				id: "403D438A0559EDE5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "4F22E8166221A0B1"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "15D147486798D8CF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/brass"
+					}
+					type: "item"
+				}
+			]
+			title: "智能机械"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2CF285001286EB5B"
+				"76DC471C7BADA161"
+			]
+			description: ["动力压路机只能用于移动结构上的机器，用于在移动结构上挖掘大量方块，其能够挖掘自身所在高度与低一格的方块。动力压路机还具有多种模式，可用于替换地面的方块，还可以用于构建桥墩。"]
+			hide_dependency_lines: true
+			id: "24B6EF9798DD901F"
+			rewards: [{
+				id: "29B423E170D811DD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Road Roller哒！"
+			tasks: [{
+				id: "5D708B46730E3ABA"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			title: "压路机"
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["铜是制作机械动力流体传输系统的重要原材料，基本所有与流体有关的方块都要用到铜。"]
+			hide_dependency_lines: true
+			id: "0AA572EF2EA4F7BB"
+			rewards: [{
+				id: "33C1CF59F4182AC6"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "不易生锈"
+			tasks: [{
+				id: "20FB8B5E5E88FD85"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/copper"
+				}
+				type: "item"
+			}]
+			title: "流体基础"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01439887E8F1802C"]
+			description: [
+				"动力合成器是一种接入动力后能够进行自动有序合成的机器。要使动力合成器工作，需要搭建一面合成器墙。这面合成墙需要每个合成器的的箭头都指向另一个合成器，且不能互相指向，合成器箭头之间连成一个个合成通路，所有通路最后必须汇集到同一个动力合成器方块上，且这个方块的箭头必须指向外侧。"
+				""
+				"手持物品右键合成器以向其放置物品，当合成器被摆满，或被输入一个红石信号时就会开始尝试合成，当所有物品都汇聚到终点时，若各物品的位置都符合有序合成的位置，合成就会成功，产物会以掉落物的形式掉出或进入箭头指向的容器。如果不符合，合成就会失败，所有物品都会以掉落物的形式掉出。"
+				""
+				"有一些配方只有动力合成器才能完成，这种情况下通常需要比3X3更大的合成墙。"
+			]
+			id: "2828BD31C3610C8A"
+			rewards: [{
+				id: "00710D71E338B99D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "418010AE4F220FDB"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01439887E8F1802C"]
+			description: [
+				"黄铜漏斗，黄铜隧道和智能溜槽是安山漏斗、安山隧道和溜槽的升级版。黄铜漏斗和智能溜槽的一次输入输出量变成一组，且可自由调节输入输出量和进行物品过滤。黄铜隧道能够自由调节分流量和进行物品过滤，同一排上的黄铜隧道能够进行物品均分，还有三种不同的模式可供选择。"
+				""
+				"过滤器和列表过滤器是两种可用于拥有过滤槽机器的配置器，右键过滤器可以设置需要过滤的物品。过滤器可以通过选择特定物品来进行过滤，而列表过滤器可以通过选择物品属性来过滤一类物品，两种过滤器都可以通过堆叠的方式复制过滤配置。"
+				""
+				"注意：太多的过滤项会导致tps降低，使游戏卡顿提升！"
+			]
+			icon: "create:brass_funnel"
+			id: "75045CB20541CA03"
+			rewards: [{
+				id: "23AA8A93ABCD5EDC"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "常是tps骤降的罪魁祸首"
+			tasks: [
+				{
+					id: "5E7427B05F0B0C62"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "51949FB8C0F8C6FA"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "69E251C02E90B932"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "0FE228CFE8E7EF67"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					id: "6A11B3B7AEED08A5"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+			]
+			title: "智能物流"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AA572EF2EA4F7BB"]
+			description: ["铜管道是机械动力流体传输的介质，可以被铜机壳包裹，被铜机壳包裹的管道开口方向会被锁定，除了开口方向的管道不会再与其他管道相连。铜管道本身不能传输流体，需要泵的帮助。如果管道的尽头是空气方块，那么管道将会消耗1000mb流体生成流体源方块。群峦的流体也会形成流体源方块，但是不会形成无限流体。"]
+			id: "299DFB07D4651A55"
+			rewards: [{
+				id: "0340BAD67BAC2ED6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3D89A4FC2AF3516C"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0AA572EF2EA4F7BB"]
+			description: ["动力泵是用于搬运流体的机器，需要接入动力才能工作，其方块上的箭头指示了其搬运方向。一个动力泵最多带动流体前进16格，其传输速度受转动速度影响。"]
+			id: "73BBB17D0DB1E4FC"
+			rewards: [{
+				id: "4A0B9AD7AE03C482"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5521ACCF06F11FE9"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0AA572EF2EA4F7BB"]
+			description: ["流体储罐是一个能储存8000mb流体的方块，可以用流体管道或桶输入，用流体管道输出。以特殊规则摆放的流体储罐会合并成一个整体，其存储量根据流体储罐数量提升。"]
+			id: "3999809DAEBFCB2F"
+			rewards: [{
+				id: "5BF29BC026AA155C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "53EA64AF45BBBFE9"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1005BE3C28B3739A"]
+			description: ["注液器是一种能够将其中流体注入到物品中的机器，其本身不需要接入动力。它可以用于向桶中注入流体，或者向石英种子中注入水以使其变成石英。"]
+			id: "6ACB2CD1D0982CA2"
+			rewards: [{
+				id: "6F5787B435AB5779"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "狠狠灌注了"
+			tasks: [{
+				id: "11AAAFB9C33B2599"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1005BE3C28B3739A"]
+			description: [
+				"分液池是一种能够将物品中的流体分离出来的机器，不需要接入动力，一般用于将容器中的流体分离出来。"
+				""
+				"分液池有一种比较奇妙的用法，由于分液池的工作方式是让物品在分液池上移动一格，因此在某些场合可以用作物流方块。"
+			]
+			id: "5B08E6A714006B4D"
+			rewards: [{
+				id: "30A53B6142CF6BE1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "额外用法比主要用法更有用"
+			tasks: [{
+				id: "01D4EC8E7F9BF7E2"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1005BE3C28B3739A"]
+			description: [
+				"软管滑轮用于抽取和排放大面积流体，为其接入动力会根据转向升高或降低软管，软管末端的位置决定了抽取和排放流体位置。为软管滑轮输入流体会使其从软管下方排放流体，直到流体填充末端那一层；从软管滑轮输出流体会使其从软管上方抽取流体，直到末端那一层的流体被抽空。"
+				""
+				"如果软管末端所在的流体总体积超过了 10,000 格（配置可修改），那此时它将会将其视为是“巨大的流体”，譬如如海洋，河流或地狱的岩浆海等。此时准心指向软管滑轮时会显示“无限供应”字样。"
+				""
+				"注意：当人造水体总体积超过 9,900 格，有时也会显示为“无限供应”，但实际上抽取会消耗液体，因此实际使用时启动后应当观察一下液面是否有改变，确认无限后再加大力度。"
+				""
+				"排放状态的软管滑轮判断是否无限流体时只会计算软管末端下方的流体，而抽取状态则是判断上方。"
+			]
+			id: "1FD35953ED9DE026"
+			rewards: [{
+				id: "587CC3336FCCBD43"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "大批量转移"
+			tasks: [{
+				id: "3C081DC7EBA09F9F"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2643DF4CC466346D"]
+			description: [
+				"蒸汽引擎是构建锅炉的方块，将蒸汽引擎放置在任意大小流体储罐上以构建锅炉。锅炉是一个能够生产大量应力的产能机器，需要输入水并在其底部放置热源以将其驱动。"
+				""
+				"锅炉有三个属性：尺寸、水量和热量。每个属性有18个等级，锅炉的效率取决于这些属性的等级。装备工程师护目镜时观察锅炉可以查看属性详情。"
+				""
+				"锅炉的三种属性为尺寸、水量和热量，锅炉的等级取三者中的最低值。"
+				""
+				"尺寸取决于锅炉的体积，其计算公式为：尺寸等级 = 锅炉体积 / 4"
+				""
+				"水量取决于锅炉内的水量，你只需要最多三四个慢速动力泵就能把水量等级拉满。"
+				""
+				"热量是锅炉加热的程度，等于锅炉底部所有热源提供的热量总和。可以为锅炉加热的热源包括锅炉加热器和烈焰人燃烧室。锅炉加热器会根据输入的热能提供热量，而烈焰人燃烧室需要燃烧才能提供热量，普通燃烧的烈焰人燃烧室提供1级热量，而超级燃烧的烈焰人燃烧室提供2级热量。"
+				""
+				"锅炉会产出锅炉等级 * 16384su的应力，所产生的应力会平均分布在锅炉上每个蒸汽引擎上。每个蒸汽引擎最多能输出16384su应力，因此应力大于16384su时需要放置更多的蒸汽引擎来输出所有应力，否则剩余的应力会被浪费。安装与锅炉等级同等数量的蒸汽引擎即可完全输出锅炉的应力。"
+			]
+			id: "5AA66C0488CCD153"
+			rewards: [{
+				id: "0C00D7C9D9ABCFB1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "165A118A7747889D"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5AA66C0488CCD153"]
+			description: ["你已经成功掌握了建造锅炉的技术，从此你将应力自由。"]
+			id: "44B6DA3984A355EC"
+			rewards: [{
+				id: "1FBACA28C499A1EB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "create:steam_engine"
+				criterion: ""
+				id: "16D594359423B6A8"
+				type: "advancement"
+			}]
+			title: "蒸汽滚滚"
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2CF285001286EB5B"
+				"01439887E8F1802C"
+			]
+			description: [
+				"动态结构控制器是一种用于控制动态结构的装置，通过将其安装在动态结构上，对其右键即可控制动态结构上的机器是否运作。为其设置过滤可使其控制特定的机器。"
+				""
+				"接触式红石信号发生器是一种用于检测动态结构位置的装置，在安装在动态结构上后，方块化的发生器在动态结构的移动过程中与其上方的发生器对接即可发送红石信号。"
+				""
+				"升降机滑轮用于跟动态结构控制器和接触式红石信号发生器配合构建电梯，具体搭建方法详见思索。"
+			]
+			hide_dependency_lines: true
+			icon: "create:contraption_controls"
+			id: "055FFAB83C1BE571"
+			rewards: [{
+				id: "314A647CC70B4692"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "6E4C26F934CCA984"
+					item: "create:contraption_controls"
+					type: "item"
+				}
+				{
+					id: "34BC9F3DC355D762"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+				{
+					id: "14D6221BACC87544"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+			]
+			title: "进阶动态结构"
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A270EF5BCD7D798"]
+			description: [
+				"烈焰人燃烧室是一种工作辅助方块，刚制造出来的烈焰人燃烧室是空的，需要去地狱抓捕烈焰人。而群峦世界没有地狱，因此你需要将烈焰人燃烧室加热到炽白以将其转变为烈焰人燃烧室。"
+				""
+				"烈焰人燃烧室需要被喂养燃料以开始工作，燃烧的时间根据你喂养的物品决定。某些工作盆的配方需要下方有燃烧着的烈焰人才能开始工作。喂养的燃料可以是物品形式的，比如木炭，也可以流体形式的，比如用流体管道往内部输入岩浆。"
+				""
+				"&a不幸的是，烈焰人蛋糕的制作配方被残忍ban掉，能让烈焰人燃烧室变成超级加热状态的只有汽油与柴油，而采油井需要的汽油与柴油也是后期火箭燃料的重要材料&r"
+			]
+			icon: "create:blaze_burner"
+			id: "73B13479C0974BB1"
+			rewards: [{
+				id: "009B385921B96FB2"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "机械动力唯一指定黑奴"
+			tasks: [
+				{
+					id: "550DC08239078922"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "create:empty_blaze_burner"
+					}
+					type: "item"
+				}
+				{
+					id: "4FFBC0D199BF5B67"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "抓走烈焰人"
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1005BE3C28B3739A"]
+			description: ["管道的末尾若是空气，则会在搬运流体前喷出流体粒子，岩浆也是一样。岩浆粒子接触到流动水就会变成原版圆石，原版圆石粉碎后获得原版砂砾，原版砂砾吹洗获得铁矿。你懂我的意思了吧。"]
+			hide_dependency_lines: true
+			icon: "minecraft:cobblestone"
+			id: "7B0CE0C43D0C5FA7"
+			rewards: [{
+				id: "49DFE0A8F15ADB12"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "本质上是刷铁机"
+			tasks: [{
+				id: "4D84B4FACA74BD05"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "刷石机"
+			x: 23.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"545435214C14571C"
+				"3CE7C06DCC97A989"
+			]
+			description: ["转速控制器可以用于精准调整转速，需要配合一个大齿轮使用。"]
+			hide_dependency_lines: true
+			id: "5541E2C6DB0A43E7"
+			rewards: [{
+				id: "337CA72C4667E509"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "71B2C13724AEBD72"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["工程师护目镜（并非沉浸物品）和扳手是机械动力两个关键道具。戴着工程师护目镜能够告诉你机器的工作状态和应力网络的应力量。而扳手能够轻松地拆除机械动力的方块，改变方块的朝向，或修改机器的配置。"]
+			icon: "create:goggles"
+			id: "1E988359FD5A5E6A"
+			rewards: [{
+				id: "7A63CF6F246C5F76"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "1ECED72F5904A11B"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "223C5E86DC45EB14"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "工程师装备"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1450C76C168E8678"]
+			description: [
+				"序列组装类似于流水线加工，需要在置物台或传送带上进行，进行序列组装的机器大部分都是机械手、辊压机和动力锯，一个物品必须将所有工序都完成一遍才算完成序列组装。有时序列组装需要重复好几次，此时需要设计循环物流。"
+				""
+				"精密构件由金板通过序列组装制成，用于制造高级机器。"
+			]
+			id: "3CE7C06DCC97A989"
+			rewards: [{
+				id: "7022002FB5339646"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "流水线基础"
+			tasks: [{
+				id: "05F81EADF43CBEDB"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2828BD31C3610C8A"]
+			description: [
+				"粉碎轮由动力合成制成，用于高效率粉碎物品，其配方一部分继承自石磨，另一部分则是独有。要使用粉碎轮，你需要在间隔一格放置两个粉碎轮，并使其转速相反。两个旋转的粉碎轮中间会出现一个叫粉碎轮控制器的虚拟方块，是粉碎轮工作的核心。"
+				""
+				"物品可以以掉落物的形式沿着粉碎轮旋转方向输入，随后产物会以掉落物的形式沿着粉碎轮方向输出，你也可以通过向粉碎轮控制器输入物品来输入。"
+			]
+			id: "76DC471C7BADA161"
+			rewards: [{
+				id: "394FDA841A4A220E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7325E67BBB529861"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "一对大家伙"
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76DC471C7BADA161"]
+			description: ["让黑曜石通过粉碎轮即可获得黑曜石粉末，黑曜石粉末是制造坚固板的原料，而坚固板是建造列车系统的核心材料。"]
+			icon: "create:sturdy_sheet"
+			id: "79A04CC6D7668085"
+			rewards: [{
+				id: "0F4EE3186D7CA7F6"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "坚不可摧，但火车相撞还是会坏掉"
+			tasks: [
+				{
+					id: "5C8FE2510BB93673"
+					item: "create:powdered_obsidian"
+					type: "item"
+				}
+				{
+					id: "6CCF1EDE49C90650"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+			]
+			title: "列车基础"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79A04CC6D7668085"]
+			description: ["列车机壳有手持坚固板对黄铜机壳右键得到，这是非常重要的方块，构建列车底盘和列车控制方块都要用到它。"]
+			id: "01A897954EAC215B"
+			rewards: [{
+				id: "271684E6FEFA1526"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "20E143FA72B05177"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545435214C14571C"]
+			description: ["可编程齿轮箱可以通过编程控制其如何进行传动，用于精准地进行输入动力。编程后输入一次红石脉冲即可使其执行编程一次。"]
+			id: "3008DEA61A7B9C65"
+			rewards: [{
+				id: "2067918894D4E81D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "23890029322FD3EE"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			title: "编程传动"
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3008DEA61A7B9C65"
+				"75045CB20541CA03"
+			]
+			description: ["机械动力强化了原版红石的很多功能，如无线红石等，由于笔者不是很懂红石，这里略过，感兴趣的请查阅思索。"]
+			icon: "create:redstone_link"
+			id: "051EA6F7628BA048"
+			rewards: [{
+				id: "3944133AFD3D877C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "36A877847337ED45"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					id: "222C5BF42C19CCD2"
+					item: "create:linked_controller"
+					type: "item"
+				}
+				{
+					id: "01E15B3B3809A9FA"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					id: "74484C21B091C6E8"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "3CAD428CF820CEDF"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "299DFEF07901839A"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+				{
+					id: "11593C259918FC5E"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "0E288548783FE716"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+			]
+			title: "高阶红石控制"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01A897954EAC215B"]
+			description: [
+				"序列组装安山岩台阶就可以得到列车轨道，这是列车运行的载体。列车轨道的铺设遵循一定的规则，不正确放置则无法铺设轨道。"
+				""
+				"列车站是用于设定列车停靠点的装置，手持列车站右键铁轨上的某一区域以选定停车点。创建停车点后放置列车站以创建站点，在列车站上点击创建列车即可创建新列车，列车的构建方式与动态结构差不多，需要用到强力胶。手持列车机壳对轨道右键即可放置转向架，一节车厢最好有两个转向架，在你将列车建造的差不多后，安装一个列车驾驶台即可完成列车的构建。"
+				""
+				"列车与移动结构相同，可以装载一些机器，可以装载容器，可以用移动式接口进行物品与流体装卸。其速度比矿车快，运行比矿车准确，不需要消耗燃料，甚至其运行进程是独立于MC的!还能穿过地狱门（可惜群峦世界没有地狱）！你没有听错，列车即使在区块未加载的地区也能运行，且能够正确地进行物流传输。这些特性使得列车成为了美观性与功能性齐具的强大设施，推荐所有玩家都来尝试构建一套自己的火车系统。"
+			]
+			icon: "create:track_station"
+			id: "086DCB92F2D515AC"
+			rewards: [{
+				id: "7B86C83463BC24EA"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "做的不好看的列车，拐弯都是穿模的"
+			tasks: [
+				{
+					id: "72279F8567499592"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "68825AF61EE34AD4"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "154B5740DF6CB6D9"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			title: "列车建设"
+			x: 24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01A897954EAC215B"]
+			description: [
+				"列车可以脱离玩家的控制自动运行，这需要你为其准备一张列车时刻表，这个表能够设定列车该从哪站开向哪站，中间停留多少分钟之类的程序。列车会根据最短的线路完成时刻表，如果有些站点无法抵达，则列车不会运行。"
+				""
+				"时刻表设定完毕后，你需要把这个表给列车的驾驶员。这个驾驶员可以是被拴在列车驾驶台面前一格坐垫上的动物，或者燃烧室里的烈焰人。驾驶员收到时刻表之后就会自己开车了。"
+			]
+			icon: "create:schedule"
+			id: "2A840AC056888886"
+			rewards: [{
+				id: "10536CCD82621EB0"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "黑奴烈焰人还在被压榨"
+			tasks: [
+				{
+					id: "77F45210B5D7D0B2"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "5EA01C3913088725"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:seats"
+						}
+					}
+					title: "Any #create:seats"
+					type: "item"
+				}
+			]
+			title: "自动驾驶"
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CE7C06DCC97A989"]
+			description: [
+				"动力臂是自动化和物流的集大成者，可以从几乎任何机械动力的容器中拿取和放置物品，还能穿墙。"
+				""
+				"动力臂在放置前需要配置输入和输出的方块，接入动力后，动力臂会隔空从配置了输入物品的容器拿取物品，并将其放置到输入物品的容器中，这个过程不会浪费太长时间，动力臂还会根据容器的过滤自动选择其要拿取和放置的物品，动力臂有几种模式可供切换，切换了不同模式的动力臂会根据模式调整拿取和放置的规律。"
+				""
+				"由于动力臂的工作范围不算小，效率较快且足够智能，通常三四条动力臂就能完成一个复杂物流网络的物品分拣，不可谓不强大。"
+			]
+			id: "26D1B97DFE73847E"
+			rewards: [{
+				id: "6490890F957F86B1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "聪明臂"
+			tasks: [{
+				id: "33CBED81506707C3"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"299DFB07D4651A55"
+				"01439887E8F1802C"
+			]
+			description: ["智能流体管道是能够控制流入其中流体的管道，流体管道自身带有一个过滤槽，可以向其中放入装有流体的桶或过滤器以控制流体的流入。"]
+			hide_dependency_lines: true
+			id: "408992F05F89C9EC"
+			rewards: [{
+				id: "5F3E121ADF8C109F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5BFF30BF2B63BF19"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"086DCB92F2D515AC"
+				"2A840AC056888886"
+			]
+			description: ["这些方块是用于进阶控制列车的，因为过于复杂所以难以学会。不过如果你将其学会，你就能够建造巨大的列车集散中心和列车站，从而成立你的铁路帝国。"]
+			icon: "create:track_signal"
+			id: "796AEB66DF6C4865"
+			rewards: [{
+				id: "555D9F5DCDF4687A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "081AB22DE0D8B79D"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "34D688304741C1A0"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "0CB99B9908B2E5D0"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					id: "2FBEF8FD26AED7D6"
+					item: "create:display_board"
+					type: "item"
+				}
+			]
+			title: "高阶列车控制"
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44B6DA3984A355EC"]
+			description: [
+				"机械动力：矿物开采mod为整合包提供了无限矿物的方案。目前群峦世界中的每一个区块都被赋予了或有或无的不同矿脉，这些矿脉的储量是无限的！要挖掘这些矿脉，你需要矿物钻井。制造出矿物钻井后，将其摆放在有矿脉的区块中，接入动力和水，一段时间后矿物就会聚集在矿物钻井的输出口，用漏斗之类的东西将其输出就可以了。由于一个区块没有限制矿物钻井数量，你大可以建造多个钻井以提高挖矿效率。"
+				""
+				"矿物钻井将消耗大量应力，这很有可能使你好不容易得到的应力自由消失。如果你有足够的资源，就多造些锅炉吧。"
+			]
+			icon: "createoreexcavation:drilling_machine"
+			id: "2EFC30C54F4F811C"
+			rewards: [{
+				id: "0CBD2EE29AD755A8"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "&8&o由于mod硬编码，探矿稿信息无法翻译，烦请使用翻译软件。&r"
+			tasks: [
+				{
+					id: "3AFECCE3174B3515"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+				{
+					id: "2F3C581A6173C8A4"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+			]
+			title: "&6塌方是什么？"
+			x: 23.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1FD35953ED9DE026"]
+			description: ["无限岩浆相当于无限燃料。加油，你可以做到的。"]
+			id: "2643DF4CC466346D"
+			rewards: [{
+				id: "37B12C38C6A1435D"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "一个群峦地下岩浆湖即可解决"
+			tasks: [{
+				advancement: "create:hose_pulley_lava"
+				criterion: ""
+				id: "3E372A639F946F00"
+				type: "advancement"
+			}]
+			title: "无限岩浆"
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0AA572EF2EA4F7BB"]
+			description: ["流体阀门是一个能够控制流体是否通过的方块，通过输入方向不同的动力可以改变流体阀门的开关状态。"]
+			id: "3606AB504297B1DA"
+			rewards: [{
+				id: "5B4B3E7CB54263C6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4EE2F583D8D6C3F0"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["当你拥有红蓝黑钢后，就能做出冲压机了。冲压机只有一个用处：制作原版铁桶。听上去没有用，但实际上作用非常大，因为铁桶能够搬运所有流体源，这对搬运流体源需要钢管道的群峦传说来说无疑提升巨大。"]
+			icon: "vintageimprovements:curving_press"
+			id: "77F9D88A10EAF94F"
+			rewards: [{
+				id: "2CCD2F3D13C5E8BF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "价值连城一铁桶"
+			tasks: [
+				{
+					id: "155EA6D5D58003D3"
+					item: "vintageimprovements:curving_press"
+					type: "item"
+				}
+				{
+					id: "0930CF8B2A1C0FCF"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["振动台、离心机、卷簧机，这三种机器属于无用，且不推荐制作的机器。振动台用于解包铁块九合一的物品，或是处理树叶获得其掉落物；离心机用于将由两种物品混合成的物品还原为产物，例如将灰色燃料分离成黑色和白色染料；卷簧机负责制作振动台和离心机。"]
+			icon: "vintageimprovements:vibrating_table"
+			id: "5871AEA2EFAD588B"
+			rewards: [{
+				id: "19736E06404B6685"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5546C9CB828C800D"
+					item: "vintageimprovements:vibrating_table"
+					type: "item"
+				}
+				{
+					id: "5C3FE258FAEA9220"
+					item: "vintageimprovements:centrifuge"
+					type: "item"
+				}
+				{
+					id: "5A27C7F994219634"
+					item: "vintageimprovements:spring_coiling_machine"
+					type: "item"
+				}
+			]
+			title: "没啥屁用的机器"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7599D6B9F6827049"]
+			description: ["激发器是一种需要同时接入动力和电力的装置，正常工作的激发器会消耗电能为下方置物台上的物品充电。激发器有三种不同等级，等级越高的激发器效率越高。"]
+			id: "2E7A424D5E1B928C"
+			rewards: [{
+				id: "282F99466E28655D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0C40AF1FB91A9826"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			title: "充电"
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2BBF1B0D9F85274B"]
+			description: ["发电机线圈和碳刷是该附属发电机另外的组件，使用磁铁块、发电机和碳刷即可构建发电机，具体构建方法请按住w思索。发电机的电力需要从碳刷输出。"]
+			icon: "create_new_age:generator_coil"
+			id: "3AA2C334DFF0D286"
+			rewards: [{
+				id: "4EBA35E2AD166526"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "这里没有海虎爆破拳"
+			tasks: [
+				{
+					id: "543C712B3B5F77F7"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+				{
+					id: "13A1DEEDA6EDF41B"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+			]
+			title: "磁场转动"
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3AA2C334DFF0D286"]
+			description: ["电动机是一个可以将电能转化为应力的机器，电动机有五种不同等级，等级越高，转化的效率越高。"]
+			id: "2B99020327068865"
+			rewards: [{
+				id: "6CBE6911C3C48C1C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "20CD9797EE667AD2"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			title: "电动机"
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			description: ["对mc原版有一定了解的应该就知道，mc具有区块机制。而区块具有加载卸载状态，区块一旦卸载，其中的机器都会停止工作。区块加载器就是一种能让区块一直保持加载的方块。只要从底部输入动力，他就能保证一定范围内的区块一直加载。"]
+			icon: "create_power_loader:andesite_chunk_loader"
+			id: "0609198C0AABB5BB"
+			rewards: [{
+				id: "3779D154F9BCC671"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "聪明的人已经在用FTBC了"
+			tasks: [{
+				id: "7708780BB9F79115"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			title: "区块加载器"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["075AE6BBAE11F698"]
+			description: [
+				"&4&lTFCR在当前版本没有提供钍矿的获取方式，因此后面的任务无法进行。如果你执意想做，可以创哥理赔。&r"
+				"&r"
+				"金属钍拥有放射性，是制作反应堆的核心材料。目前金属钍没有获取方式，只能在你拥有一个钍的情况下进行复制。"
+			]
+			id: "55276EBECB3DDF2C"
+			rewards: [{
+				id: "3B4EBF4CA3006818"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "592DA882164FEA01"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3230AC3B6573BA4C"]
+			description: ["太阳能板是能够将太阳能转化为热能的机器，其拥有一种升级，升级后的太阳能板效率更高。"]
+			icon: "create_new_age:basic_solar_heating_plate"
+			id: "5957CE767362B18C"
+			rewards: [{
+				id: "52F4655FF8A13649"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "697E952CE1B8FD48"
+					item: "create_new_age:advanced_solar_heating_plate"
+					type: "item"
+				}
+				{
+					id: "5E75F9E31C3A0FB6"
+					item: "create_new_age:basic_solar_heating_plate"
+					type: "item"
+				}
+			]
+			title: "太阳能发热"
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["55276EBECB3DDF2C"]
+			description: ["将金属钍在粉碎轮中粉碎即可获得放射性钍，放射性钍是核反应燃料的原料。"]
+			id: "5C5895A352B215A4"
+			rewards: [{
+				id: "1073C2FA6E9C7DA3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "597C8916B5007A58"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5C5895A352B215A4"]
+			description: ["核反应堆多方块结构用于产生大量热能，搭建方式详见思索，使用核反应堆时必须令其产生的热量得到充分利用，否则反应堆就会熔毁。"]
+			icon: "create_new_age:reactor_casing"
+			id: "1C283E2DBE747FEF"
+			rewards: [{
+				id: "3E3928D03CB6E90A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "7365D14DAD5E6536"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+				{
+					id: "5FC27E9F22F8A3A9"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "249744917D0E508B"
+					item: "create_new_age:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "3B2BBB7A59DDA910"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+				{
+					id: "3F047CAF02CEBCFA"
+					item: "create_new_age:nuclear_fuel"
+					type: "item"
+				}
+			]
+			title: "核反应堆"
+			x: 17.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["55276EBECB3DDF2C"]
+			description: ["热能机器的工作会产生热能，热能由热能管道进行输送，该输送过程不需要泵，该模组中的热能泵用于定向传输热能，防止热能在一点堆积导致融毁。"]
+			icon: "create_new_age:heat_pipe"
+			id: "3230AC3B6573BA4C"
+			rewards: [{
+				id: "07CD13B4848FEC38"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "48367103947E5C0D"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+				{
+					id: "633084694FB1D0DA"
+					item: "create_new_age:heat_pump"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["075AE6BBAE11F698"]
+			description: [
+				"本附属mod用于连接导线的方块，只能使用本mod的导线进行连接。使用时将其放在机器的表面，将接线柱之间用导线连接起来。接线柱有被动、主动两种状态，默认为被动模式，需要使用扳手进行切换。被动模式下的接线柱在多数场景下可以正常工作，而主动模式一般用于需要从其他模组的方块中提取电能的情况。"
+				""
+				"注：本mod的导线极其掉帧，不要使用。"
+			]
+			id: "46490F448DA8294C"
+			rewards: [{
+				id: "726D4461D9391DE4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4CD873E98B700A7D"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46490F448DA8294C"]
+			description: [
+				"使用铜即可做出本附属的导线，后续可以升级成更高级的导线，传输速度更快。"
+				""
+				"重申一遍：本模组的导线极其掉帧，不推荐使用！！！"
+			]
+			id: "7599D6B9F6827049"
+			rewards: [{
+				id: "7C5C90223AD0BCF0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "038EFC6C93C5DEDA"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1C283E2DBE747FEF"
+				"5957CE767362B18C"
+			]
+			description: ["热气机和锅炉加热器可用于转化热能。热气机可以将热能转化为应力，而锅炉加热器可以用热能加热锅炉。"]
+			icon: "create_new_age:stirling_engine"
+			id: "180FCD6A6C8C61F4"
+			rewards: [{
+				id: "4ED20FBA5496F7C2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "06AA61303C25090F"
+					item: "create_new_age:heater"
+					type: "item"
+				}
+				{
+					id: "43EE26D30A1CEE93"
+					item: "create_new_age:stirling_engine"
+					type: "item"
+				}
+			]
+			title: "使用热能的机器"
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			id: "240204E0616A7DD2"
+			subtitle: "缩放！往左边看！"
+			tasks: [{
+				id: "16A563EC74590A39"
+				item: {
+					Count: 1b
+					id: "worldcomment:comment_tool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "找不到任务？"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B08E6A714006B4D"]
+			id: "051289641B5A86E2"
+			tasks: [{
+				id: "38180807151348AB"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"6ACB2CD1D0982CA2"
+				"051289641B5A86E2"
+			]
+			id: "05E1AB8F1F7697A9"
+			tasks: [{
+				id: "0B76B30D9D184499"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["051289641B5A86E2"]
+			id: "0E31F563259E9FA6"
+			tasks: [{
+				id: "25AFF772DDAF6EB2"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C3A546E239F8ED0"]
+			id: "311F080DBC2A84AA"
+			tasks: [{
+				id: "6968C2F90C413A5F"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C8CA898AC4C8DFE"]
+			hide_dependency_lines: true
+			id: "044CF45990C9FD8B"
+			tasks: [{
+				id: "7404BC7470D4BD86"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["182DA589CCCEBAB5"]
+			id: "4FEEA312B1E0389F"
+			tasks: [{
+				id: "7151C1CDE32CDDBE"
+				item: "createdieselgenerators:pumpjack_crank"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4FEEA312B1E0389F"]
+			id: "79FFC3E0D8A74ED6"
+			tasks: [{
+				id: "109C6A9F0070B697"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["79FFC3E0D8A74ED6"]
+			id: "494246B63E49EF09"
+			tasks: [{
+				id: "48769E5031225B89"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["044CF45990C9FD8B"]
+			id: "182DA589CCCEBAB5"
+			tasks: [{
+				id: "252A8C56659762AA"
+				item: "createdieselgenerators:pumpjack_hole"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["556D3E9BFFBD93FA"]
+			id: "294DF678A6E4CC6E"
+			tasks: [{
+				id: "7EC0D554279A9376"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["311F080DBC2A84AA"]
+			id: "556D3E9BFFBD93FA"
+			tasks: [{
+				id: "568AB4A18932BBAD"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["044CF45990C9FD8B"]
+			id: "3C3A546E239F8ED0"
+			tasks: [{
+				id: "1A4E90D1DF7BF738"
+				item: "createdieselgenerators:engine_piston"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"294DF678A6E4CC6E"
+				"494246B63E49EF09"
+			]
+			id: "339A256F5BB55663"
+			tasks: [{
+				id: "0190CDD2535DD4A5"
+				item: "createdieselgenerators:gasoline_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.0d
+		}
+	]
+	title: "机械动力：无中生有与解放双手"
+}

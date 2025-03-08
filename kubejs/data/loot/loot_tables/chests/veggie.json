@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/oat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/wheat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/barley"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/rye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/green_bean"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/green_bell_pepper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/tomato"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/maize"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/rice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/beet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/cabbage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/garlic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/onion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:food/potato"
+        }
+      ]
+    }
+  ]
+}

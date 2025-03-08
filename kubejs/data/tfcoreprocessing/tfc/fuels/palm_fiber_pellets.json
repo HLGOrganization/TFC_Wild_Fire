@@ -1,0 +1,9 @@
+{
+  "ingredient": [
+    {
+      "item": "tfcoreprocessing:kindle/palm_fiber_pellets"
+    }
+  ],
+  "duration": 3000,
+  "temperature": 600
+}

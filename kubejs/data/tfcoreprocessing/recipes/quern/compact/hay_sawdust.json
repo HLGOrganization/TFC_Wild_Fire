@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+    "item": "minecraft:hay_block"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 2,
+      "item": "tfcoreprocessing:kindle/sawdust"
+    },
+    {
+      "chance": 0.2,
+      "count": 2,
+      "item": "tfcoreprocessing:kindle/sawdust"
+    }
+  ]
+}

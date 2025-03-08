@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Q ",
+    "PBP",
+    "SFS"
+  ],
+  "key": {
+    "P": {
+      "item": "createdieselgenerators:engine_piston"
+    },
+    "Q": {
+      "item": "minecraft:flint"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/brass"
+    },
+    "S": {
+      "item": "minecraft:polished_blackstone_slab"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "item": "createdieselgenerators:diesel_engine"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "bakery:sweetberry_cake_slice"
+  },
+  "hunger": 2,
+  "saturation": 2.5,
+  "decay_modifier": 2.5,
+  "grain": 1.5,
+  "dairy": 1,
+  "fruit": 2
+}

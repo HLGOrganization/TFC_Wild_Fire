@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "createutilities:polished_amethyst"
+  },
+  "result": "createutilities:small_amethyst_tiles",
+  "count": 2
+}

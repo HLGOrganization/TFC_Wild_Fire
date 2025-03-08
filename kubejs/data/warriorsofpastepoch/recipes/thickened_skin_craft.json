@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aca",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "immersiveengineering:ingot_lead"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "tfc:metal/ingot/silver"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:thickened_skin",
+    "count": 3
+  }
+}

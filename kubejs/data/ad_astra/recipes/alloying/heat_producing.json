@@ -1,0 +1,17 @@
+{
+  "type": "ad_astra:alloying",
+  "cookingtime": 25600,
+  "energy": 20,
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:air"
+  }
+}

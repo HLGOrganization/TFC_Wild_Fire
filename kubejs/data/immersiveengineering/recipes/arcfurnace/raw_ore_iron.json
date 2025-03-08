@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[],"energy":25600,"input":{"tag":"forge:raw_materials/iron"},"results":[{"item":"tfc:metal/ingot/cast_iron"}],"secondaries":[{"chance":0.5,"output":{"item":"tfc:metal/ingot/cast_iron"}}],"time":100}

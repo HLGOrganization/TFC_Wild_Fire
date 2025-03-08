@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:compressed/limonite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:refined/limonite",
+      "count":4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "kubejs:instant_gel_love"
+  },
+  "hunger": 8.5,
+  "saturation": 0.2,
+  "decay_modifier": 0.5,
+  "grain":0.5,
+  "protein": 0.5
+}

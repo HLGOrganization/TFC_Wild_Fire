@@ -1,0 +1,14 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:leather",
+  "pattern": [
+    " XX X",
+    "XXXXX",
+    "XXXXX",
+    " XXXX",
+    "  XXX"
+  ],
+  "result": {
+    "item": "tfchotornot:mittens"
+  }
+}

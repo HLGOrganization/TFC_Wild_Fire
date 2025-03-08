@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "&": {
+      "item": "create_new_age:copper_circuit"
+    },
+    "#": {
+      "item": "create_new_age:basic_motor"
+    },
+    "^": {
+      "item": "create_new_age:overcharged_iron"
+    }
+  },
+  "pattern": [
+    "^^^",
+    "#&&",
+    "^^^"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_new_age:basic_motor_extension"
+  },
+  "show_notification": true
+}

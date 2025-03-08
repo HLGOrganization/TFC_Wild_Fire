@@ -1,0 +1,23 @@
+{
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "tfc:food/wintergreen_berry"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "firmalife:raw_honey"
+      }
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "drinkbeer:spice_glace_goji_berries"
+  }
+}

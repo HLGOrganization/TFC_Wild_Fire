@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+        "item": "ad_astra:etrium_ingot"
+	},
+	"result": {
+        "item": "ad_astra:etrium_rod",
+		"count": 2
+	}
+}

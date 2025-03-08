@@ -1,0 +1,116 @@
+[
+  {
+    "attribute": "max_health",
+    "attribute_text": "hp_max_health",
+    "show_value_type": "base"
+  },
+  {
+    "attribute": "healing",
+    "attribute_text": "hp_healing",
+    "show_value_type": "base_percentage"
+  },
+  {
+    "condition": "irons_spellbooks",
+    "attribute": "irons_spellbooks:max_mana",
+    "attribute_text": "focus_iron",
+    "show_value_type": "base"
+  },
+  {
+    "condition": "ars_nouveau",
+    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+    "attribute_text": "focus_ars_nouveau",
+    "show_value_type": "base"
+  },
+  {
+    "condition": "irons_spellbooks",
+    "attribute": "irons_spellbooks:mana_regen",
+    "attribute_text": "focus_iron_mana_regen",
+    "show_value_type": "base"
+  },
+  {
+    "condition": "ars_nouveau",
+    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+    "attribute_text": "focus_ars_nouveau_mana_regen",
+    "show_value_type": "base"
+  },
+  {
+    "attribute": "attack_damage",
+    "attribute_text": "power_attack_damage",
+    "show_value_type": "base"
+  },
+  {
+    "attribute": "ranged_damage",
+    "attribute_text": "power_ranged_damage",
+    "show_value_type": "base"
+  },
+  {
+    "attribute": "critical_hit_rate",
+    "attribute_text": "critical_hit_rate",
+    "show_value_type": "base_percentage"
+  },
+  {
+    "attribute": "hunger",
+    "attribute_text": "sturdy_hunger",
+    "show_value_type": "extra_percentage"
+  },
+  {
+    "condition": "epicfight",
+    "attribute": "epicfight:staminar",
+    "attribute_text": "sturdy_sturdy",
+    "show_value_type": "base"
+  },
+  {
+    "attribute": "armor",
+    "attribute_text": "endurance_armor",
+    "show_value_type": "base"
+  },
+  {
+    "attribute": "armor_toughness",
+    "attribute_text": "endurance_armor_resilience",
+    "show_value_type": "base"
+  },
+  {
+    "condition": "irons_spellbooks",
+    "attribute": "irons_spellbooks:spell_power",
+    "attribute_text": "brain_iron",
+    "show_value_type": "base_percentage"
+  },
+  {
+    "condition": "ars_nouveau",
+    "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+    "attribute_text": "brain_ars_nouveau",
+    "show_value_type": "extra_base"
+  },
+  {
+    "attribute": "attack_speed",
+    "attribute_text": "agile_attack_speed",
+    "show_value_type": "base"
+  },
+  {
+    "attribute": "movement_speed",
+    "attribute_text": "agile_movement_speed",
+    "show_value_type": "extra_percentage"
+  },
+  {
+    "attribute": "jump",
+    "attribute_text": "agile_jump",
+    "show_value_type": "extra_percentage"
+  },
+  {
+    "condition": "irons_spellbooks",
+    "attribute": "irons_spellbooks:cast_time_reduction",
+    "attribute_text": "trick_chanting_cd",
+    "show_value_type": "extra_percentage"
+  },
+  {
+    "condition": "irons_spellbooks",
+    "attribute": "irons_spellbooks:cooldown_reduction",
+    "attribute_text": "trick_cooling_cd",
+    "show_value_type": "extra_percentage"
+  },
+  {
+    "attribute": "luck",
+    "attribute_text": "luck",
+    "show_value_type": "base"
+  }
+]

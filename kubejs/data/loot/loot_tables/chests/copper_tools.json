@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/axe/copper",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/sword/copper",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/pickaxe/copper",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/axe/copper",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/mace/copper",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/saw/copper",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/spear/copper",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/knife/copper",
+          "weight": 7
+        }
+      ]
+    }
+  ]
+}

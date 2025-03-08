@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ab",
+    " c"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:forgotten_steel_nugget"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:forgotten_steel_ingot"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:surgical_saw",
+    "count": 1
+  }
+}

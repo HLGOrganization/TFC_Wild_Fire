@@ -1,0 +1,1 @@
+{"type":"mekanism:mek_data","key":{"A":{"tag":"mekanism:alloys/basic"},"C":{"tag":"forge:circuits/basic"},"I":{"item":"ad_astra:desh_plate"},"P":{"item":"mekanism:purification_chamber"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:basic_purifying_factory"}}

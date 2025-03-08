@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+     "item": "tfcoreprocessing:kindle/palm_fiber"
+    },
+    {
+      "item": "tfcoreprocessing:kindle/palm_fiber"
+    },
+    {
+      "item": "tfcoreprocessing:kindle/palm_fiber"
+    },
+    {
+      "item": "tfcoreprocessing:kindle/palm_fiber"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:kindle/palm_fiber_pellets"
+  }
+}

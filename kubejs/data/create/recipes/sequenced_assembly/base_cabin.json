@@ -1,0 +1,21 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "a":{"tag": "forge:glass_panes"},
+      "b":{"item": "kubejs:basic_plating"},
+      "c":{"item": "kubejs:basic_crystal_pannel"},
+      "d":{"tag": "create:seats"},
+      "e":{"item": "ad_astra:steel_engine"}
+    },
+    "pattern": [
+        " a ",
+        "bcb",
+        "bdb",
+        " e "
+    ],
+    "result": {
+      "item": "kubejs:basic_cabin"
+    }
+  }
+  

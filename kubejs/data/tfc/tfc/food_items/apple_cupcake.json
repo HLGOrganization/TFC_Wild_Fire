@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:apple_cupcake"
+  },
+  "hunger": 1.5,
+  "saturation": 2,
+  "decay_modifier": 1.5,
+  "grain": 1,
+  "fruit": 1
+}

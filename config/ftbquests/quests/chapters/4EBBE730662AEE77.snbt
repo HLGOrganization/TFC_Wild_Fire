@@ -1,0 +1,957 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4EBBE730662AEE77"
+	group: "2BD524ABD6AD1EEE"
+	icon: "immersiveengineering:manual"
+	id: "4EBBE730662AEE77"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01FFB92709ABF783"]
+			description: ["工程师手册包含了沉浸工程的所有信息，推荐多加阅读。"]
+			hide: true
+			id: "5C7222F9A6C49487"
+			rewards: [{
+				id: "1CB0C89F120AE133"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "07A449C9BA08EC70"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CEE61F6F19CA8F4"]
+			description: ["沉浸工程是一种注重于构建多方块机器的mod，该mod与群峦传说具有高度联动，通过沉浸工程的机器，你将完成一些原本群峦原版才能完成，连机械动力都做不到的自动化，最终使用最尖端的电弧炉完成金属的批量冶炼。"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01FFB92709ABF783"
+			rewards: [{
+				id: "48A1E9D678F3552E"
+				type: "xp"
+				xp: 250
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "429AD81707957D44"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "欢迎来到沉浸工程"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C7222F9A6C49487"]
+			description: ["群峦传说与沉浸科技联动的机器：脱粒机、浸灰间、谷物磨粉机、动力织布机具有严重bug，只要搭建就会导致坏档，因此在修复之前不要动它们。"]
+			id: "3EB42C5077DC51B3"
+			rewards: [{
+				id: "4B08AED454FCE565"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "11E0E052E06DF794"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "目前无法使用的机器"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C7222F9A6C49487"]
+			description: [
+				"工程师锤和工程师剪线钳是沉浸工程的基本用具之一，与原版有所不同的是在本包内，工程师锤头和剪线钳头必须要用锻铁进行锻造才能获得。"
+				""
+				"工程师锤可以用来将多方块结构连接为一个整体以及进行部分捶打工作。剪线钳的用途比较单纯，比如说制造金属板，金属线。但不可否认的是没有这两样东西，沉浸工程这个方面就无从进行。"
+			]
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B339888D26E793E"
+			rewards: [{
+				id: "238B4557D0D5E9FF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "0603DE4FF45EEF1C"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E5CC5C0E56D97A6"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B339888D26E793E"]
+			description: [
+				"焦炉砖的制作方法是4个粘土摆在3×3合成界面的4个角，4个红砖摆在4条边上，中心放置一个砂岩。砂岩一般需要在沙滩表层沙子的底下找到。可以使用平滑砂岩，也可以使用天然砂岩。此配方一次性可以获得三个焦炉砖。"
+				""
+				"焦炉的制作方法是27个焦炉砖摆成3×3×3的形状，用工程师锤右键焦炉多方块结构一个面的正中心，就成为一个完整的焦炉结构。焦炉可以将原木变成木炭，生成250mb的杂酚油。也可以将烟煤、褐煤变成焦煤，同时生成500mb杂酚油。"
+				""
+				"焦炉可以在任意一个点连接沉浸的管道和流体泵，从而连接到其他存储容器来输出杂酚油，也可以在UI界面内通过将大桶放进右侧输入槽的方式来输出杂酚油。"
+			]
+			id: "7E16777BC2F51A44"
+			rewards: [{
+				id: "25B5FE3C1EDA4987"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "2AD8072AE2C18A59"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "2367AA3B20DC65F6"
+					type: "advancement"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E16777BC2F51A44"]
+			description: ["防腐木板是用于制作沉浸工程各项木质结构以及工作方块的基础。首先需要将木材放进有杂酚油的大桶内浸泡8分钟变成防腐木材，4个防腐木材可以合成防腐木板。每一个普通木材变成防腐木材需要消耗50mb杂酚油。"]
+			id: "2D7441C2B65BA37F"
+			rewards: [{
+				id: "44A4C3EE69FD623C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2E2E6411B76242E9"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D7441C2B65BA37F"]
+			description: [
+				"工程师装配台的做法详见jei，需要防腐木台阶，防腐木棍，防腐木栅栏以及锻铁锭制作。"
+				""
+				"工程师装配台的作用是制造金属冲压机需要的各项模板，以及制作各种子弹还有电子元件。工程师装配台制作物品需要蓝图，蓝图需要自行合成，合成方法详见jei，有了蓝图之后就可以在工程师装配台中进行各项制作。"
+				""
+				"工程师装配台具有六格储存空间以及一格蓝图放置位点，放置位点内放入不同的蓝图，右侧就会出现不同的对应的合成表以进行对应的制作。"
+			]
+			icon: "immersiveengineering:workbench"
+			id: "2F2D53888136A19E"
+			rewards: [{
+				id: "1E7052499491A5B9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5E26E3543EBDE678"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+				{
+					id: "039CB078F6E5DB47"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3216401F1B6C669A"]
+			description: ["获得一块钢锭以完成此进度。"]
+			id: "277349DD2693B7CA"
+			rewards: [
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "4E05A2DBE6332F88"
+					type: "advancement"
+				}
+				{
+					id: "4A8AD8CA36F4EFA4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/multiblocks_root"
+				criterion: ""
+				id: "4F0E632131B906F4"
+				type: "advancement"
+			}]
+			title: "沉浸工程：多方块结构"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F2D53888136A19E"]
+			description: ["炼钢是沉浸工程多方块结构的材料基础，没有钢就无法搭建沉浸工程的多方块结构。"]
+			id: "3216401F1B6C669A"
+			rewards: [{
+				id: "58EA6CFAFBD1E9F1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "10697FAB7BAE8273"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/steel"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3216401F1B6C669A"]
+			description: [
+				"基础的发电机分为动能发电机和热传导发电机。其中动能发电机中的水车以及热传导发电机都需要钢。风车不需要钢，但是需要大量的纤维材料以制作风车叶片。"
+				""
+				"热传导发电机可以在其周围对侧放置温度相差比较大的方块来进行发电，铀块的温度最高，蓝冰的温度最低。具体的温度和算法请查阅沉浸工程的手册。满载的热传导发电机能提供60fe/t左右的电量。"
+				""
+				"动能发电机分为风车和水车。水车三个水车并联满速状况下能达到75fe/t，风车不稳定，放在越高越空旷的地方发电量越高。"
+			]
+			icon: "immersiveengineering:thermoelectric_generator"
+			id: "34C46B1F330D644B"
+			rewards: [{
+				id: "3FE9D99388305C98"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "218736EABA05537E"
+					item: "immersiveengineering:thermoelectric_generator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "012FC0DBF203468A"
+					item: "immersiveengineering:dynamo"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40B11464A983E5BA"
+					item: "immersiveengineering:watermill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "662BBF05070E63E2"
+					item: "immersiveengineering:windmill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "531F4EF3D78CA06E"
+					item: "immersiveengineering:windmill_sail"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "发电"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2D53888136A19E"]
+			description: [
+				"采矿机械钻是个人手持挖掘工具，效率比群峦的工具高许多。在本整合包中，钻头的合成变得更为复杂。具体方法是将对应金属的双层薄板在对应等级的砧中锻造成钻头。采矿机械钻的燃料为生物柴油。"
+				""
+				"钻头共分为三个等级。铁制钻头一次性可以挖掘2×2×1的区域，钢和黑钢钻头一次性可以挖掘3×3×1的区域，蓝钢和红钢钻头一次性可以挖掘5×5×1的区域。"
+				""
+				"采矿机械钻可以附加三个不同的升级模块。升级模块总共有4种，分别为压缩空气罐，高级润滑系统，附加螺旋钻，大型燃料缸。压缩空气罐的作用是使得机械转可以在水下工作，并且消除水下带来的挖掘减益。高级润滑系统可以将钻头的损耗降低至一半。附加螺旋转最多可以叠三个，每一个提高一点采矿螺旋钻的伤害（8→11）。大型燃料缸可以将钻头的燃料容量从2000提升至4000。"
+				""
+				"每挖掘掉一个方块，采矿机械钻会消耗1mb燃料，可以在炼油厂或者装有生物柴油的大桶添加燃料。需要注意的是炼油厂添加燃料时，无论剩余燃料是多少都可以进行添加。但是在大桶中添加燃料时，必须要燃料耗尽时才能添加。"
+			]
+			id: "2B949E68DF47E3C1"
+			rewards: [{
+				id: "610CE80699EE904E"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "オレを谁だとおもってやがる！！"
+			tasks: [{
+				id: "360F25C931959F9D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "immersiveengineering:drill"
+				}
+				type: "item"
+			}]
+			title: "天元突破"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F2D53888136A19E"]
+			description: [
+				"伐木机械锯是个人手持砍树工具，效率略高于群峦工具。在原版中伐木机械效率显著高的原因是其自带连锁采集。但在群峦中所有斧头都带有连锁砍树的情况下，伐木机械锯并不具有太多优势。伐木机械锯的燃料为生物柴油。"
+				""
+				"伐木机械锯必须要装配锯条才能工作，锯条是有耐久值的，故在损坏时必须进行更换。"
+				""
+				"伐木机械锯可以附加三个不同的升级模块。升级模块总共有五种。分别为高级润滑系统，大型燃料缸，凿岩机刀片，研磨盘和刀片盒子。高级润滑系统可以将锯条的磨损降低50%。大型燃料缸可以将燃料的容量从2000提高到4000。凿岩机刀片可以让伐木机械具有采集石头的能力，并且自带精准采集效果，只可惜精准采集对群峦的岩石不生效，而且会无法伐木。磨盘可以用来让伐木机械具有切割金属块的能力，也可以用来像斧头一样给木头去皮，但是用于其他用途则容易造成损坏。刀片盒子可以储存三个锯条，使得更换锯条更为容易。"
+				""
+				"每挖掘掉一个方块，伐木机械锯会消耗1mb燃料，可以在炼油厂或者装有生物柴油的大桶添加燃料。需要注意的是炼油厂添加燃料时，无论剩余燃料是多少都可以进行添加。但是在大桶中添加燃料时，必须要燃料耗尽时才能添加。"
+			]
+			id: "3BE6B2F8C725A33B"
+			rewards: [{
+				id: "1EFDB0FAE99F2B83"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "腥风血雨"
+			tasks: [{
+				id: "013F3CF99159CF62"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "immersiveengineering:buzzsaw"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F2D53888136A19E"]
+			description: [
+				"左轮手枪是一种远程攻击武器。可以装填多种不同的弹药进行远程攻击。但是在攻击时会发出巨大的声响，会吸引附近的敌对生物。"
+				""
+				"左轮手枪的弹药需要配合子弹蓝图，分为普通子弹和特种子弹两种。在工程师装配台中进行制造。子弹的种类有普通子弹，穿甲弹，鹿弹，龙息弹，高爆弹，银弹，药水弹，闪光弹，追踪弹和狼群弹。甲弹相比普通子弹伤害相同，但是可以无视一部分护甲效果。鹿弹是一种霰弹，近距离伤害拔群。高爆弹可以在命中时发生爆炸，对附近的生物和地形造成影响。药水弹可以为击中的目标附加药水效果。龙息弹的作用是打出一道短距离的火舌头，为命中的目标附加燃烧效果。闪光弹可以在一定距离发生爆炸并慢慢下沉到地面，在这个过程中有照明效果。追踪弹和狼群弹都具有跟踪效果，但不同的是狼群弹可以分裂出六枚带有跟踪效果的子弹头。"
+				""
+				"左轮手枪可以附加升级。升级模板总共有5种。分别为左轮快速装弹器，瞄准镜，刺刀，扩充弹夹和加强电子管。左轮快速装弹器可以在你打出后一枪之前快速的装弹。瞄准镜允许你使用瞄准操作并用鼠标滚轮调节放大倍率。刺刀允许左轮手枪进行近战攻击，且具有与铁剑相同的伤害（手枪上插一把特别大的刺刀，怎么想怎么怪）。扩充弹夹，允许左轮手枪多装填六发，这六发不会左轮快速装弹器装填。加强电子管可以在命中目标时为目标添加几分之一秒的晕眩，并且使他的所有随身装备都损耗一定的电量。"
+			]
+			id: "69F961197D5DCA72"
+			rewards: [{
+				id: "700C1FD294758378"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "午时已到……"
+			tasks: [{
+				id: "6864B8C5E5CC29CD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C7222F9A6C49487"]
+			description: ["沉浸新加的三种金属中，铅和铝是用于制造电池和电线的，铀则用作温差发电机的温度指示方块。"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "immersiveengineering:ingot_uranium"
+			}
+			id: "3F56FC7D615285CF"
+			rewards: [{
+				id: "017D9281C04BC259"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "18BBD24DF7F45C61"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "immersiveengineering:ingot_aluminum"
+					}
+					type: "item"
+				}
+				{
+					id: "43D47B84884EFFC4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "immersiveengineering:ingot_lead"
+					}
+					type: "item"
+				}
+				{
+					id: "5C0ED53F137AAF20"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "immersiveengineering:ingot_uranium"
+					}
+					type: "item"
+				}
+			]
+			title: "沉浸独占的金属"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C46B1F330D644B"]
+			description: [
+				"电力是沉浸工程中的能量来源。沉浸工程中的绝大部分机器和部分的工具都需要消耗电。沉浸工程的电力机构主要包括发电机，电线和蓄电池。电压越高每秒传输的能量越多，在传输过程中的损耗越小。高压输电线每传输16格会损失2.5%的电量。"
+				""
+				"电线分高中低压三种，每种电线都有自己的接线器和继电器，接线器用于向机器输送电力，只能接一条电线；继电器可以接多条电线。你可以用变压器来转换电压。"
+				""
+				"电线如果不做绝缘处理的话，会对经过电线的实体造成伤害，电压越高，伤害越高。在电路中电量充足的情况下，高压电线基本上是一击必死。低压和中压电线可以做绝缘处理，但高压电线不可以。所以请科学布线，否则会导致严重的伤害。"
+				""
+				"为了防止被电线击伤，可以使用铝板制作法拉第套装。制作方法与原版的盔甲大致等同，耐久，但是可以有效的防止电线带来的伤害。"
+			]
+			icon: "immersiveengineering:connector_mv_relay"
+			id: "5E48820D1D48EF38"
+			rewards: [{
+				id: "50F1BC441E6CC4B9"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "死亡率最高的内容"
+			tasks: [
+				{
+					id: "4CF8E7813DCED73E"
+					item: "immersiveengineering:wirecoil_copper"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35E3BC1F8962B23A"
+					item: "immersiveengineering:connector_lv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3FE2F5D60303E6B4"
+					item: "immersiveengineering:connector_lv_relay"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DA25F910135924B"
+					item: "immersiveengineering:wirecoil_electrum"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2087D2190771825D"
+					item: "immersiveengineering:connector_mv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DF5CFA0745DDF44"
+					item: "immersiveengineering:connector_mv_relay"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "663384A42242572B"
+					item: "immersiveengineering:wirecoil_steel"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05E316EB1F9654A1"
+					item: "immersiveengineering:connector_hv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65BCDAB60077C941"
+					item: "immersiveengineering:connector_hv_relay"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50E923A45B259801"
+					item: "immersiveengineering:transformer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5AF810A5009BDF13"
+					item: "immersiveengineering:transformer_hv"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "电力传输"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"277349DD2693B7CA"
+				"5E48820D1D48EF38"
+			]
+			description: ["金属冲压机是制造沉浸工程各项零件的机器，可以将材料变成不同的形状，例如板材，棒材，线材和金属块。可以配合沉浸工程的传送带使用，有16kfe电容量，能量输入端在上方，下方可以红石控制开关，使用工程师螺丝刀右键红石控制方块可以反转传送带方向。"]
+			id: "21F33563EF259066"
+			rewards: [{
+				id: "68E262107DF6BB3C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "57CD5C0B866BEC9C"
+				type: "advancement"
+			}]
+			title: "冲压金属"
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5E48820D1D48EF38"]
+			description: ["蓄电池是沉浸工程的储能方块，低压蓄电池储存的最少，高压的则最多。蓄电池可以通过用工程师锤改变电力的输入输出，其自身输出电力的速度跟同等级的电线是相等的。"]
+			id: "412838D43D7696DE"
+			rewards: [{
+				id: "0F3C1B5B6EA570AA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "3D829C6944068B94"
+					item: "immersiveengineering:capacitor_lv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D39D0D274C36D24"
+					item: "immersiveengineering:capacitor_mv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33C201918DD629BE"
+					item: "immersiveengineering:capacitor_hv"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "蓄电池"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F2D53888136A19E"]
+			description: [
+				"园艺玻璃罩是工业化生产作物的方法。上方和下方侧面可以连接电力下方也需要连接水管。可以同时生产产物以及种子（如果有种子的话）。具体的合成方法请查阅jei或者查阅沉浸工程的工程师手册。特别需要注意的是园艺玻璃罩需要的灯泡需要蓝图在工程师装配台内进行制作。可以加入骨粉作为肥料，以1.25倍的速度加快农业生产。"
+				""
+				"在本整合包内园艺玻璃罩的生产速度大幅下降，所以说通过堆叠园艺玻璃罩进行永不停歇的工业生产是相对不现实的，需要耗费极大量的精力，可以通过适当的开关机器和储蓄电力来达成一个平衡。"
+			]
+			id: "658F3DB91D05D43A"
+			rewards: [{
+				id: "3F8853835E11C1AA"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "电力种菜"
+			tasks: [{
+				id: "78C442D88E1BAB8F"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21F33563EF259066"]
+			description: [
+				"工业挤压机可以将植物的种子挤压为植物油。也可以将焦煤粉或石墨粉以8:1的比例转化为高定向热解石墨粉。"
+				""
+				"不同的种子可以榨出的油量也不同。例如西瓜种子只能生成20mb的植物油，而黄麻种子可以生成120mb。选择好需要的种子的种类。对于增加植物油的产量是至关重要的。"
+			]
+			id: "5A5CAC4313674D3D"
+			rewards: [{
+				id: "1EF6FD771FE0F7BC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_squeezer"
+				criterion: ""
+				id: "545C778FE89179F3"
+				type: "advancement"
+			}]
+			title: "无休止的压榨"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21F33563EF259066"]
+			description: [
+				"粉碎机的作用是粉碎各种矿物。可以作为矿物处理的一环来对矿物进行增产。粉碎机的搭建方法具体参考沉浸工程的工程师手册。"
+				""
+				"粉碎机正面有一个开关面板，可以用红石信号来控制机器的开关。玩家若是不慎掉入粉碎机中会造成大量伤害。同样的，无法被处理的物品丢进粉碎机中也会被销毁。"
+			]
+			id: "09CE4D4DF2AE6255"
+			rewards: [{
+				id: "43203678603E5B29"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "当你家里有一台粉碎机时，你家里就只剩一台粉碎机了。"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+				id: "7DBCE7A38D4206FC"
+				type: "advancement"
+			}]
+			title: "危险机械"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21F33563EF259066"]
+			description: [
+				"发酵机是制作乙醇的途径（不能喝），可以用谷物，水果和蔬菜来制作。腐烂的谷物，水果和蔬菜也可以用来制作乙醇。"
+				""
+				"发酵机的输入面可以与漏斗联动，输出可以连接管道以连接到其他机器。一般来说可以直接用输出面贴着炼油厂的输入面，这样就不用使用多余的管道或者流体泵来进行连接，从而节省材料以及空间。"
+			]
+			id: "633574148FBB5CBF"
+			rewards: [{
+				id: "0B4613D81E27BC97"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "7FF5023CCF8D4D71"
+				type: "advancement"
+			}]
+			title: "发酵作用"
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["633574148FBB5CBF"]
+			description: [
+				"炼油厂的主要作用是用于制造生物柴油（混合种子油和乙醇），但是也可以用于混合其他种类的液体来进行生产。炼油厂在生产时必须要催化剂，催化剂本身是不消耗的。但是没有催化剂反应就无法进行。"
+				""
+				"炼油厂两端输入两种不同的液体正中输出混合后的液体。可以使用管道输出混合后的液体，也可以在UI界面内使用容器将液体舀出。炼油厂有红石控制面板，可以使用红石信号控制机器的开关。"
+			]
+			id: "621EBB2650EAE6B1"
+			rewards: [{
+				id: "78AA26154B3FB6FF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+				id: "5B93262617410ABC"
+				type: "advancement"
+			}]
+			title: "化学加工"
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["621EBB2650EAE6B1"]
+			description: [
+				"柴油机是沉浸工程内发电量最高的机器。可以消耗生物柴油来进行发电，发电量为4096fe/t。"
+				""
+				"由于输出的能量太高，柴油机有三个输出位点，防止一条输电线路无法将电力全部输送出去的情况。输出的能量在三条输电线路上面会平均分配。"
+			]
+			id: "057BFABF2D5AED4C"
+			rewards: [{
+				id: "7C7A8C530ED7FDEC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不仅有废气污染，还有噪音污染"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+				id: "12FF82CC743265D1"
+				type: "advancement"
+			}]
+			title: "污染环境"
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A5CAC4313674D3D"]
+			description: ["高定向热解石墨粉可以在挤压机中由8个石墨粉或者焦煤粉合成一个。"]
+			id: "689E0B54747D7F59"
+			rewards: [{
+				id: "49C26019125A9504"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "615BBCCB9CB44633"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "immersiveengineering:dust_hop_graphite"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["689E0B54747D7F59"]
+			description: ["在坩埚中加热到炽白可以将高定向热解石墨粉变成高定向热解石墨锭（消耗时间较长，请耐心等待）。"]
+			id: "0458A743C19344B5"
+			rewards: [{
+				id: "038E258F840E3391"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5A1DA900112226E1"
+				item: "immersiveengineering:ingot_hop_graphite"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0458A743C19344B5"]
+			description: ["在工程师装配台中，如果有电弧炉电极蓝图就可以用4个高定向热解石墨锭来制作一根石墨电极（石墨电极可以附魔耐久）。"]
+			id: "697A86EBB3FDC50C"
+			rewards: [{
+				id: "3F1EFE603F2C2782"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1C2056CA3CC73C27"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"697A86EBB3FDC50C"
+				"057BFABF2D5AED4C"
+			]
+			description: [
+				"电弧炉是该整合包中金属冶炼的巅峰。通过消耗极大的电量可以进行金属铸锭，炼钢，以及冶炼合金。炼钢过程中还会生成副产物炉渣，可以用于制作炉渣玻璃，也可以用来作为肥料。耗电量4096fe/t，恰好与一台柴油机的发电量相等。与柴油机一样，也有三个输入电的位点。"
+				""
+				"电弧炉需要石墨电极才能正常工作，可以插入三根石墨电极。正面有输出位点和红石控制面板，可以控制开关。电弧炉在工作时会发出雷击的音效，请不要惊慌。"
+				""
+				"与常规沉浸工程不同的是本整合包中电弧炉需要的砖替换为了耐火砖块。27个耐火砖块的巨大需求，需要较多的高岭土储备支持。"
+			]
+			id: "7E668B651B6954CB"
+			rewards: [{
+				id: "684534805661420E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "记得时不时更换石墨电极！"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "52E4830B605E7F53"
+				type: "advancement"
+			}]
+			title: "最热话题"
+			x: 20.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["057BFABF2D5AED4C"]
+			description: [
+				"斗轮式挖掘机是沉浸工程的最高科技。是后期进行大规模矿物开采的方法之一。斗轮式挖掘机非常耗电，耗电量为4096fe/t。因为耗电量巨大，所以具有三个输入能量的位点，以及一个红石控制面板，还有一个输出口，可以直接在输出口放置存储方块来进行存储工作。"
+				""
+				"使用斗轮式挖掘机首先要使用矿物探测器来探测哪个地方有什么矿脉，在探测结束之后可以使用岩芯钻井通电对此矿脉进行钻探，以判定该矿脉的具体成分以及矿脉丰度。这一系列进程结束之后就可以建造一个斗轮式挖掘机多方块结构以挖掘矿物。"
+				""
+				"开采效率高的矿脉，比起开采效率低的矿脉矿物的含量更多，石头和泥土的含量更少。判断此矿脉是否有价值进行开采是需要开采者权衡的一个很重要的点。"
+			]
+			id: "5B02A779263E1245"
+			rewards: [{
+				id: "47ECC9AC18A71F8F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "好像有点被机械动力的钻井薄纱了"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "3F48A08C463DE18D"
+				type: "advancement"
+			}]
+			title: "挖穿地心"
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["621EBB2650EAE6B1"]
+			description: ["工程塑胶是炼油厂炼制的酚醛树脂在灌装机中灌装得到的，主要用作制作磁轨炮。"]
+			id: "4B76274FC4069E8D"
+			rewards: [{
+				id: "7376B7186122F686"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "04D37E26671E02E0"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4B76274FC4069E8D"]
+			description: [
+				"&m雌鬼&r磁轨炮是一种远程攻击武器。在使用时长按左键进行蓄力，当电量达到99的时候，松开左键可以发射。常规的磁轨炮弹药有铁棒，钢棒，铝棒和石墨电极。不同的弹药最终造成的伤害也不同。但是也有不同种类的弹药，比如可以击中末影人的末地烛，可以点燃敌人的烈焰棒，可以穿透敌人的锯条和三叉戟，也可以使用磁轨炮增加末影珍珠的射程。在磁轨炮巨大的伤害面前，再强大的怪物都会沦为杂鱼。"
+				""
+				"磁轨炮储存有8000能量，每一次发射消耗800能量，由于储能很小，建议配合蓄电池背包一起使用。"
+				""
+				"磁轨炮可以附加升级。升级有两种，一种是附加电容，一种是瞄准镜。附加电容可以加快充能的时间。瞄准镜可以在充能时进行缩放，并用鼠标滚轮调整缩放倍率。"
+			]
+			id: "190BB8C303D9BF0F"
+			rewards: [{
+				id: "2245F406E94E28A1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "杂鱼❤~杂鱼❤~"
+			tasks: [{
+				id: "3B76C4C84683166A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			title: "&m雌鬼&r磁轨炮"
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3216401F1B6C669A"]
+			description: [
+				"外置加热器是一种使用电力来进行加热的设备。在本整合包中主要与坩埚进行联动。可以在前后左右上5个面放置坩埚，以达到加热的作用。"
+				""
+				"外置加热器加热坩埚的最高温度可以达到炽白（事实上炽白也分温度，但外置加热器能达到最高一档）。推荐加热高定向热解石墨粉时使用外置加热器。"
+			]
+			id: "79A6AFA8ADE287D0"
+			rewards: [{
+				id: "30E2CD2A4173B466"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "木炭炉是什么?"
+			tasks: [{
+				id: "5F5B1D3CFA6FF850"
+				item: "immersiveengineering:furnace_heater"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+	]
+	title: "沉浸工程：多方块机器的浪漫"
+}

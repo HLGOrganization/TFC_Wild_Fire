@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "count": 1,
+      "base_ingredient": {
+        "item": "ae2:silicon"
+      }
+    }
+  ],
+  "additives": [
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "immersiveengineering:coal_coke"
+      }
+    }
+  ],
+  "input": {
+    "count": 8,
+    "base_ingredient": {
+      "tag": "tfc:glass_batches"
+    }
+  },
+  "time": 200,
+  "energy": 51200
+}

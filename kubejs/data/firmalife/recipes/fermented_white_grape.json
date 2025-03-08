@@ -1,0 +1,28 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients":  [
+    {
+    "type": "tfc:not_rotten",
+      "ingredient": {
+        "type": "tfc:lacks_trait",
+        "trait": "firmalife:fermented",
+        "ingredient": {
+          "item": "firmalife:food/smashed_white_grapes"
+        }
+      }
+    }
+  ],
+  "processingTime": 800,
+  "results": [
+    {
+    "type": "tfc:not_rotten",
+      "ingredient": {
+        "type": "tfc:has_trait",
+        "trait": "firmalife:fermented",
+        "ingredient": {
+          "item": "firmalife:food/smashed_white_grapes"
+      }
+    }
+  }
+    ]
+  }

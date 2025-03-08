@@ -1,0 +1,30 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+    {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "tfc:powder/ruby"
+    },
+    {
+      "item": "firmalife:raw_honey"
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "tfc:rum",
+        "amount": 100
+      }
+    }
+  ],
+  "cup": {
+    "item": "brewery:beer_mug",
+    "count": 4
+  },
+  "brewing_time": 144000,
+  "result": {
+    "item": "brewery:beer_haley",
+    "count": 4
+  }
+}

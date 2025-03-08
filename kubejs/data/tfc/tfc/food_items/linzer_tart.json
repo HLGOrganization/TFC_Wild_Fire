@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:linzer_tart"
+  },
+  "hunger": 4,
+  "saturation": 8,
+  "decay_modifier": 1.5,
+  "grain": 4,
+  "fruit": 6
+}

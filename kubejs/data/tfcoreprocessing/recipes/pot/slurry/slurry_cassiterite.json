@@ -1,0 +1,31 @@
+{
+  "type": "tfc:pot",
+"ingredients": [
+    {
+      "item": "tfc:pan/empty"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "tfcoreprocessing:slurry_cassiterite",
+    "amount": 1000
+  },
+  "duration": 1300,
+  "temperature": 300,
+  "item_output": [
+    {
+      "item":"tfcoreprocessing:refined/cassiterite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/cassiterite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/cassiterite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/cassiterite"
+    },
+    {
+          "item": "tfc:pan/empty"
+    }
+  ]
+}

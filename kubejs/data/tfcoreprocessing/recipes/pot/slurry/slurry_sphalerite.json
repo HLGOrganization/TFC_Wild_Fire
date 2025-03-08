@@ -1,0 +1,31 @@
+{
+  "type": "tfc:pot",
+"ingredients": [
+    {
+      "item": "tfc:pan/empty"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "tfcoreprocessing:slurry_sphalerite",
+    "amount": 1000
+  },
+  "duration": 1300,
+  "temperature": 300,
+  "item_output": [
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/sphalerite"
+    },
+    {
+          "item": "tfc:pan/empty"
+    }
+  ]
+}

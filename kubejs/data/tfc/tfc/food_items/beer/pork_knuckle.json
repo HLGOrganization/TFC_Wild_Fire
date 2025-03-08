@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "brewery:pork_knuckle"
+  },
+  "hunger": 3.5,
+  "saturation": 3,
+  "decay_modifier": 1.25,
+  "protein": 3.5
+}

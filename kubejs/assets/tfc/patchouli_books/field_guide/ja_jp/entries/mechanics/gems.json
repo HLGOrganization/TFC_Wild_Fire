@@ -1,0 +1,35 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "宝石",
+  "category": "tfc:mechanics",
+  "icon": "tfc:gem/opal",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Gems are a kind of mineral that spawns in a variety of different places, such as $(thing)under rivers$() and in $(l:the_world/geology)Volcanoes$(). For information on the precise conditions, see $(l:the_world/ores_and_minerals)the ores and minerals chapter$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:gem_powders",
+      "link_recipes": false,
+      "text": "Gems can be ground into powder using a $(l:mechanics/quern)Quern$(). Gem powders are particularly useful in $(l:mechanics/glassworking_applications#coloring)Coloring Glass$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:mechanics/sluices)堰$() と $(l:mechanics/panning)パンニング$() を通じて、$(thing)宝石$() を取得できます。 堰で入手できる宝石は、処理中の岩石の種類に関連付けられています。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "宝石は通常の鉱石よりも $(thing)硬度$() 値が高いため、宝石を壊すにはさまざまな強度のツールが必要です。 これは、宝石鉱石ブロックを壊すのに必要な $(thing)ツルハシ$() の最小ティアをまとめたものです:$(br)$(li)アメジスト: 鋼$(li)ダイヤモンド: 黒鋼$(li)エメラルド: 鋼$(li)ラピスラズリ: 錬鉄$(li)オパール: 錬鉄$(li)黄鉄鉱: 銅$(li)ルビー: 黒鋼$(li)サファイア: 黒鋼$(li)トパーズ: 鋼"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To cut a gem, you must craft $(thing)Sandpaper$(). Sandpaper is made from Black Sand, Flux, Glue, any Gem Powder, and Paper. Crafting an uncut gem with sandpaper cuts the gem."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/sandpaper"
+    }
+  ],
+  "read_by_default": true
+}

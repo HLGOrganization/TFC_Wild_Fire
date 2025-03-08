@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    },
+    {
+      "item": "tfc:glue"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/bamboo_pellets"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:kindle/bamboo_firelog",
+      "count": 2
+  }
+}

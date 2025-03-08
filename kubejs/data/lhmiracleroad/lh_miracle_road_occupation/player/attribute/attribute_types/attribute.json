@@ -1,0 +1,153 @@
+[
+  {
+    "id": "hp",
+    "describes": [
+      {
+        "attribute": "max_health",
+        "describe": "hp_max_health"
+      },
+      {
+        "attribute": "healing",
+        "describe": "hp_healing"
+      }
+    ]
+  },
+  {
+    "id": "focus",
+    "conditions": [
+      "irons_spellbooks",
+      "ars_nouveau"
+    ],
+    "describes": [
+      {
+        "attribute": "irons_spellbooks:max_mana",
+        "condition": "irons_spellbooks",
+        "describe": "focus_iron"
+      },
+      {
+        "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+        "condition": "ars_nouveau",
+        "describe": "focus_ars_nouveau"
+      },
+      {
+        "attribute": "irons_spellbooks:mana_regen",
+        "condition": "irons_spellbooks",
+        "describe": "focus_iron_mana_regen"
+      },
+      {
+        "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+        "condition": "ars_nouveau",
+        "describe": "focus_ars_nouveau_mana_regen"
+      }
+    ]
+  },
+  {
+    "id": "power",
+    "describes": [
+      {
+        "attribute": "attack_damage",
+        "describe": "power_attack_damage"
+      },
+      {
+        "attribute": "ranged_damage",
+        "describe": "power_ranged_damage"
+      }
+    ]
+  },
+  {
+    "id": "sturdy",
+    "describes": [
+      {
+        "attribute": "burden",
+        "describe": "sturdy_burden"
+      },
+      {
+        "attribute": "epicfight:staminar",
+        "condition": "epicfight",
+        "describe": "sturdy_sturdy"
+      },
+      {
+        "attribute": "hunger",
+        "describe": "sturdy_hunger"
+      }
+    ]
+  },
+  {
+    "id": "endurance",
+    "describes": [
+      {
+        "attribute": "armor",
+        "describe": "endurance_armor"
+      },
+      {
+        "attribute": "armor_toughness",
+        "describe": "endurance_armor_resilience"
+      }
+    ]
+  },
+  {
+    "id": "brain",
+    "conditions": [
+      "irons_spellbooks",
+      "ars_nouveau"
+    ],
+    "describes": [
+      {
+        "attribute": "irons_spellbooks:spell_power",
+        "condition": "irons_spellbooks",
+        "describe": "brain_iron"
+      },
+      {
+        "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+        "condition": "ars_nouveau",
+        "describe": "brain_ars_nouveau"
+      }
+    ]
+  },
+  {
+    "id": "agile",
+    "describes": [
+      {
+        "attribute": "attack_speed",
+        "describe": "agile_attack_speed"
+      },
+      {
+        "attribute": "movement_speed",
+        "describe": "agile_movement_speed"
+      },
+      {
+        "attribute": "jump",
+        "describe": "agile_jump"
+      }
+    ]
+  },
+  {
+    "id": "trick",
+    "conditions": [
+      "irons_spellbooks"
+    ],
+    "describes": [
+      {
+        "attribute": "irons_spellbooks:cast_time_reduction",
+        "describe": "trick_cooling_cd"
+      },
+      {
+        "attribute": "irons_spellbooks:cooldown_reduction",
+        "describe": "trick_chanting_cd"
+      }
+    ]
+  },
+  {
+    "id": "luck",
+    "describes": [
+      {
+        "attribute": "luck",
+        "describe": "luck"
+      },
+      {
+        "attribute": "critical_hit_rate",
+        "describe": "critical_hit_rate"
+      }
+    ]
+  }
+]

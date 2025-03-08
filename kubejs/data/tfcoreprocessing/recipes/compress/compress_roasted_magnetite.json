@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:roasted/magnetite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/magnetite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/magnetite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/magnetite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/magnetite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:roasted_brick/magnetite"
+  }
+}

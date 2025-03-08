@@ -1,0 +1,13 @@
+name = "Caelum"
+filename = "caelum-1.20.1-2.0.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b1980f2a91599aea95fecd646b8bc265df7786f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4674619
+project-id = 556708

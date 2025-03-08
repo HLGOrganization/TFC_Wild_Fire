@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","chemicalInput":{"amount":10,"tag":"mekanism:carbon"},"itemInput":{"ingredient":{"item": "tfc:metal/ingot/wrought_iron"}},"output":{"item":"mekanism:enriched_iron"}}

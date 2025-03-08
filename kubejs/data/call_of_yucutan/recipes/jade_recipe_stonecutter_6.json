@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "call_of_yucutan:jade_blocks"
+  },
+  "result": "call_of_yucutan:jade_tile_stairs"
+}

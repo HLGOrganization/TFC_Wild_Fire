@@ -1,0 +1,11 @@
+{
+  "type": "brewery:drying",
+  "ingredients": [
+    {
+      "item": "tfc:food/maize"
+    }
+  ],
+  "output": {
+    "item": "brewery:dried_corn"
+  }
+}

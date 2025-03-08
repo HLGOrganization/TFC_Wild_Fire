@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "bakery:bundt_cake_slice"
+  },
+  "hunger": 2,
+  "saturation": 1,
+  "decay_modifier": 1.55,
+  "grain": 1.5
+}

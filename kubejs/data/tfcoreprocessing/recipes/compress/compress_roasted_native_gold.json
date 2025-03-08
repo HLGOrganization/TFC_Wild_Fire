@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:roasted/native_gold"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/native_gold"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/native_gold"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/native_gold"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/native_gold"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:roasted_brick/native_gold"
+  }
+}

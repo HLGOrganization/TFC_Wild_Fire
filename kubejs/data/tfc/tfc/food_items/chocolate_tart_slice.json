@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:chocolate_tart_slice"
+  },
+  "hunger": 1.5,
+  "saturation": 1,
+  "decay_modifier": 1.5,
+  "grain": 1,
+  "dairy": 1
+}

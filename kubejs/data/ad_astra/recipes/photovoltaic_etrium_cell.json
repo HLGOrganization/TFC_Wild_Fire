@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ad_astra:desh_plates"
+    },
+    "D": {
+      "item": "ad_astra:etrionic_core"
+    },
+    "G": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "E": {
+      "item": "ad_astra:etrium_plate"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "#D#"
+  ],
+  "result": {
+    "item": "ad_astra:photovoltaic_etrium_cell"
+  },
+  "show_notification": true
+}

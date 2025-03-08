@@ -1,0 +1,132 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "堆肥器",
+  "category": "tfc:mechanics",
+  "icon": "tfc:textures/gui/book/icons/composter.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "堆肥器是制造肥料的重要工具. 他需要两种物品：$(2)绿色$() 与 $(4)棕色$() 物品以正常工作. 不同的物品也会对堆肥产量造成影响。想要在里面放入物品,按 $(item)$(k:key.use)$(). 可以被放入的物品将在后面的页面中阐述."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/composter",
+      "text": "堆肥器的合成只需要 $(thing)木材$()与$(thing)泥土$()!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "堆肥器在某些条件下运行效率会更高。在上面有一块雪的堆肥器，工作效率稍高。在降雨量小于150毫米或大于350毫米地区，堆肥器运行效率要低得多，在接近最大和最小降雨量时，这种影响会越来越强。此外，相邻其他堆肥机的堆肥机工作效率较低."
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "堆肥机处于空闲、工作中与完成的阶段.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:composter[stage=0,type=normal]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:composter[stage=8,type=normal]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:composter[stage=8,type=ready]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "堆肥机在一般情况下需要工作12天才能完成。当它完成工作时，材质将具有类似泥土的颜色，会有灰色粒子将从顶部发射。随后能空手按  $(item)$(k:key.use)$() 与  $(item)$(k:key.sneak)$() 将产物从堆肥器中取回。如在堆肥器中放入 $(c)肉类$()与$(c)骨头$()去堆肥会造成严重后果，这会让它变得发红，并散发出令人恶心的粒子效果。 腐烂的堆肥器可以像好的堆肥器一样被移除。当作用于作物时，将会立即杀死它."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:composter[stage=8,type=rotten]"
+        }
+      },
+      "name": "Rotten Compost",
+      "text": "A rotten composter.",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:compost_greens_low",
+      "link_recipes": false,
+      "text": "有些$(2)绿色$()物品对堆肥进度贡献较小，例如草和类似的植物。要满足堆肥桶对绿色物品的需求，你需要 16 个这类物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:compost_greens",
+      "link_recipes": false,
+      "text": "有些$(2)绿色$()物品对堆肥桶贡献中等，例如谷物。要满足堆肥桶对绿色物品的需求，你需要 8 个这类物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:compost_greens_high",
+      "link_recipes": false,
+      "text": "有些$(2)绿色$()物品对堆肥桶贡献很大，例如水果和蔬菜。要满足堆肥桶对绿色物品的需求，你需要 4 个这类物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:compost_browns_low",
+      "link_recipes": false,
+      "text": "有些$(4)棕色$()物品对堆肥桶贡献较小，例如干芦苇、蕨类、藤蔓、以及落叶。要满足堆肥桶对棕色物品的需求，你需要 16 个这类物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:compost_browns",
+      "link_recipes": false,
+      "text": "有些$(4)棕色$()物品对堆肥桶贡献中等，例如草木灰和黄麻。要满足堆肥桶对棕色物品的需求，你需要 8 个这类物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:compost_browns_high",
+      "link_recipes": false,
+      "text": "有些$(4)棕色$()物品对堆肥桶贡献很大，例如西瓜、南瓜、枯萎的灌木、松果、以及浮木。要满足堆肥桶对棕色物品的需求，你需要 4 个这类物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:compost_poisons",
+      "link_recipes": false,
+      "text": "有些物品会$(c)污染$()你的堆肥桶。比如$(c)肉$()和$(c)骨头$()。用腐烂的堆肥施肥会立刻使农作物死亡。"
+    }
+  ],
+  "read_by_default": true
+}

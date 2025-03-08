@@ -1,0 +1,20 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "item": "tfc:food/cherry"
+    },
+    {
+      "item": "tfc:food/snowberry"
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "bakery:sweet_dough"
+      }
+    }
+  ],
+  "item": "bakery:misslilitu_biscuit",
+  "count": 4,
+  "experience": 0.35
+}

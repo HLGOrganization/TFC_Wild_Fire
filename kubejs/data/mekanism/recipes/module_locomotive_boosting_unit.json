@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","key":{"#":{"item":"ad_astra:ostrum_tank"},"A":{"tag":"forge:alloys/elite"},"E":{"item":"mekanism:energy_tablet"},"H":{"item":"mekanism:pellet_polonium"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","EPE","HHH"],"result":{"item":"mekanism:module_locomotive_boosting_unit"}}

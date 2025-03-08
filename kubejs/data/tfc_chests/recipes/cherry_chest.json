@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BWB",
+    "W W",
+    "BWB"
+  ],
+  "key": {
+    "W": {
+      "item": "firmaciv:copper_bolt"
+    },
+    "B": {
+      "item": "afc:wood/chest/fig"
+    }
+  },
+  "result": {
+    "item": "quark:cherry_chest",
+    "count": 1
+  }
+}

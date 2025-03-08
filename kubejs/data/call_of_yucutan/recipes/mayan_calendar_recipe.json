@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:red_limestone"
+    },
+    "b": {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:mayan_calendar",
+    "count": 1
+  }
+}

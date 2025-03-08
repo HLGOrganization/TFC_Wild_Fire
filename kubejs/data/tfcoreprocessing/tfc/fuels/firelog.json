@@ -1,0 +1,9 @@
+{
+  "ingredient": [
+    {
+      "item": "tfcoreprocessing:kindle/firelog"
+    }
+  ],
+  "duration": 10000,
+  "temperature": 745
+}

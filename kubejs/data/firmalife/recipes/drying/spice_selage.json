@@ -1,0 +1,23 @@
+{
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "item": "afc:wood/leaves/cypress"
+    },
+    {
+      "item": "afc:wood/leaves/cypress"
+    },
+    {
+      "item": "afc:wood/leaves/cypress"
+    },
+    {
+      "item": "afc:wood/leaves/cypress"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "drinkbeer:spice_dried_selaginella"
+  }
+}

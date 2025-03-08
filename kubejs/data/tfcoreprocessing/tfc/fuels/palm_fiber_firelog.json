@@ -1,0 +1,9 @@
+{
+  "ingredient": [
+    {
+      "item": "tfcoreprocessing:kindle/palm_fiber_firelog"
+    }
+  ],
+  "duration": 15000,
+  "temperature": 600
+}

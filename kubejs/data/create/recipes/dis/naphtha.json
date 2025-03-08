@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluid": "kubejs:naphtha",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "superheated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "createdieselgenerators:gasoline",
+      "amount": 90
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 10
+    }
+  ]
+}

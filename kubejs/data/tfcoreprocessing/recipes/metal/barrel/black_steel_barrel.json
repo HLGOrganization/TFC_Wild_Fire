@@ -1,0 +1,16 @@
+{
+   "type": "minecraft:crafting_shaped",
+   "pattern": [
+     "X X",
+     "X X",
+     "XXX"
+   ],
+   "key": {
+     "X": {
+       "tag": "forge:sheets/black_steel"
+     }
+   },
+   "result": {
+     "item": "tfcoreprocessing:metal/barrel/black_steel"
+   }
+ }

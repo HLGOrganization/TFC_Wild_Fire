@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AFA",
+    "SES",
+    "PBP"
+  ],
+  "key": {
+    "E": {
+      "item": "create:steam_engine"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/brass"
+    },
+    "S": {
+      "tag": "forge:plates/brass"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    }
+  },
+  "result": {
+    "item": "createdieselgenerators:huge_diesel_engine"
+  }
+}

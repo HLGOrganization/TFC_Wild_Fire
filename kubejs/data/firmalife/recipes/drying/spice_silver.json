@@ -1,0 +1,17 @@
+{
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "item": "tfc:plant/labrador_tea"
+    },
+    {
+      "item": "tfc:plant/labrador_tea"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "drinkbeer:spice_silver_needle_white_tea"
+  }
+}

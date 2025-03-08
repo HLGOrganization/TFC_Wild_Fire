@@ -1,0 +1,13 @@
+name = "TFC Electrical Appliances"
+filename = "tfcea-0.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "13638888685ddf65e138bdeb6e4c684b0a956cbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5338560
+project-id = 1017637

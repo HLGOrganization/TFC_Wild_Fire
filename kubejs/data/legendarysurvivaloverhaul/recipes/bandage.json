@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:canvas"
+    },
+    {
+      "item": "farmersdelight:canvas"
+    },
+    {
+      "item": "legendarysurvivaloverhaul:healing_herbs"
+    }
+  ],
+  "result": {
+    "item": "kubejs:weak_bandage"
+  }
+}

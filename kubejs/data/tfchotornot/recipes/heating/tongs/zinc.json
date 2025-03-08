@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/zinc"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/zinc",
+    "amount": 200
+  },
+  "temperature": 420,
+  "use_durability": true
+}

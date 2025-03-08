@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "tag": "loot:herbal"
+    }
+  },
+  "result": {
+    "item": "legendarysurvivaloverhaul:healing_herbs",
+    "count": 2
+  }
+}

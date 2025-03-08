@@ -1,0 +1,1996 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "75C5ED1888D8F3B3"
+	group: "2BD524ABD6AD1EEE"
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "tfc:metal/hammer/bronze"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "75C5ED1888D8F3B3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DEA4BABDEA8ED79"]
+			description: ["你集齐了七个铜合金双锭，制作出了铜合金砧，是时候学习锻造的技巧了。"]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/anvil/bronze"
+			}
+			id: "4A4359CEAD6FB810"
+			rewards: [{
+				id: "76A9EFC45A06F568"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "别忘了把铜砧熔了"
+			tasks: [{
+				id: "4AD87A41B8CC487A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/anvil/bronze"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/anvil/black_bronze"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/anvil/bismuth_bronze"
+							}
+						]
+					}
+				}
+				title: "任意铜合金砧"
+				type: "item"
+			}]
+			title: "获得升级"
+			x: 87.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/double_ingot/bronze"
+			}
+			id: "0DEA4BABDEA8ED79"
+			rewards: [{
+				id: "041859932CF73376"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 7L
+				id: "1980A2994F82A215"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:double_ingots"
+					}
+				}
+				title: "Any #forge:double_ingots"
+				type: "item"
+			}]
+			title: "制造合金双锭以制造二级铜砧"
+			x: 84.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DE526D678470E0E"]
+			description: [
+				"终于，你学会了如何铸造铜合金，接下来就该享受铜合金带来的便捷了。你将学习锻造，进阶农牧业、进阶工业和食品加工的各类知识，享受高效率工具和自动化带来的便捷，使用更强大的设施提高种植作物和养殖动物的效率，学会加工各种各样的食品并有效地储存它们以丰富自己的食谱，使自己营养均衡。并在最后，锻造通向下一阶段的三级金属——锻铁！"
+				""
+				"点击确认以开启下一阶段的内容。"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/hammer/bronze"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CD4B3897381D686"
+			rewards: [{
+				id: "61A6171DB3195D67"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "接下来，让我们步入合金铜时代"
+			tasks: [{
+				id: "2C85EF8DEC27864C"
+				type: "checkmark"
+			}]
+			title: "第二章：合金与工艺"
+			x: 83.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: [
+				"随着大量使用坑窑、木炭炉、木炭坑，你家周围的树木可能已经被砍伐殆尽了，此时就需要种植树木了。破坏树木的树叶有概率获得树苗，这个概率在秋季和冬季较高，在春季和夏季较低。将树苗种在泥土上，之后等待一到两个月即可长成树木。树苗能够在任何环境下生长，因此不用担心它会冻死。当然，你先前已经取得了沃土，将树苗种植在沃土上即可使其生长时间缩短到几天。"
+				""
+				"果树是一种能生产水果的树木，其外观上比正常的树木小且枝干更细，其树苗的获取方式也跟一般树木不同。当你站在果树下向上看的时候，你会看到一条竖直向上生长的主枝，和生长在主枝附近的分枝，破坏分枝和主枝相连接的部分即可获得果树树苗。"
+			]
+			hide: true
+			icon: "tfc:wood/sapling/hickory"
+			id: "25CF5F9C5D4B934C"
+			rewards: [{
+				id: "18D2B27698942DCB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1F070B79662A844B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				title: "任意树苗"
+				type: "item"
+			}]
+			title: "种树"
+			x: 86.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: ["大麦、小麦、黑麦、燕麦、玉米、大米，这六种作物被称作谷物，它们共同的特点是作物本身不含有营养值，必须被加工成面食才具有营养值。这类作物具有两个共同的配方：与小刀合成获得谷物粒，以及谷物粒在手推磨中磨碎获得面粉。而面粉通过一系列处理后就可以得到能够补充谷物的面包与面条。"]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+				}
+				id: "tfc:food/barley_grain"
+			}
+			id: "20D072C6FCC3F36D"
+			rewards: [{
+				id: "04618619000ABDBB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "2C1B69CFECC3C1BE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:foods/flour"
+						}
+					}
+					title: "任意面粉"
+					type: "item"
+				}
+				{
+					id: "561A657EECD23562"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:foods/grains"
+						}
+					}
+					title: "任意麦粒"
+					type: "item"
+				}
+			]
+			title: "谷物加工"
+			x: 85.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: ["你可能在获得铁矿之后就将其熔化，试图将其铸造为铁锭，可最后你只得到一块黑色的铁锭——铸铁锭。这是因为单纯的铸造会使铁锭内的含碳量过高，硬度达不到合格铁的标准。合格的铁被称为锻铁，需要使用名为锻铁炉的特制炉子烧炼得到。跟随这条任务线，你将学会锻铁的锻造方法。"]
+			hide: true
+			id: "42FE5A114D45AF42"
+			rewards: [{
+				id: "4D988CD9886AC9E7"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "你这铁怎么不保熟啊"
+			tasks: [{
+				id: "1F1B667E83954EB8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/cast_iron"
+				}
+				type: "item"
+			}]
+			x: 82.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: [
+				"黄铜虽也是铜合金的一种，但它却不属于二级金属，而是专为制造装置而生的材料金属，一些自动化和进阶设施都离不开黄铜制成的黄铜机件。"
+				""
+				"黄铜是铜和锌的合金，将铜与锌按照正确的比例融化即可获得黄铜。"
+			]
+			hide: true
+			id: "713BC7953932032B"
+			rewards: [{
+				id: "144DB35847C618CE"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "并非二级金属"
+			tasks: [{
+				id: "53E83F8F9926CC47"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/brass"
+				}
+				type: "item"
+			}]
+			x: 82.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: [
+				"宝石粉由宝石在手推磨中研磨得来，是宝石锯的材料、玻璃工艺的原材料之一。大部分宝石都需要钢及以上等级的镐子才能挖掘，除了一种：黄铁矿，如果你有黄铁矿，就让它派上用场吧。"
+				""
+				"如果你没有黄铁矿又找不到怎么办？使用任务线先前送给你的切制宝石吧，这些宝石也是可以磨成粉的。"
+			]
+			hide: true
+			icon: "tfc:powder/ruby"
+			id: "1571B5B650ECB701"
+			rewards: [{
+				id: "62C6AD6BBEE3AB23"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "虽然但是，这些宝石磨成粉用途更多"
+			tasks: [{
+				id: "584715EF35B68291"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:gem_powders"
+					}
+				}
+				title: "任意宝石粉"
+				type: "item"
+			}]
+			title: "暴殄天物"
+			x: 85.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: ["梳洗站是一种畜牧业用方块，用于自动喂食动物。如果你哪天忘记了喂食动物，动物就会跑去范围内装有食物的梳洗站进食并自己提高好感度。梳洗站可由不同种类的金属制成，金属的等级越高，梳洗站影响的范围越大。"]
+			hide: true
+			id: "0EF5D7352D4D611D"
+			rewards: [{
+				id: "6F7F17278D95F241"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "不用亲手喂还能涨好感度这种事怎么想都很奇怪"
+			tasks: [{
+				id: "1685F15CC992E94E"
+				item: "tfcgroomer:copper_grooming_station"
+				type: "item"
+			}]
+			title: "解放双手"
+			x: 82.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["713BC7953932032B"]
+			description: [
+				"黄铜机件、胶水、红石并称为铜合金时代的工业三原料。这个阶段的任何一个工业装置都离不开这三样原料。黄铜机件由黄铜锻造而成；胶水由骨粉在石灰水中密封而成；而红石由朱砂和冰晶石进行与金属矿物同样的加工步骤后得到。"
+				""
+				"此外，有了红石，红石大佬终于可以开始他的表演了。"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:brass_mechanisms"
+			}
+			id: "0366F1D539BD472C"
+			rewards: [{
+				id: "4E8F3C4432693006"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "三 幻 神"
+			tasks: [
+				{
+					id: "53E37D29B01C7633"
+					item: "tfc:brass_mechanisms"
+					type: "item"
+				}
+				{
+					id: "4B371B279B5A6D28"
+					item: "tfc:glue"
+					type: "item"
+				}
+				{
+					id: "195576CDB238A93A"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "工业三剑客"
+			x: 83.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["713BC7953932032B"]
+			description: [
+				"新版本的群峦传说更新了机械动力系统，目前该系统只有两个动力发生装置，能连接的机器也相当少，不过比起纯手动来说已经是相当的大提升了。"
+				""
+				"传动杆由木材和胶水合成，是动力传输的介质，你需要使用它来将动力装置和机器连接在一起。"
+				""
+				"然而，传动杆无法连接太长，此时就需要齿轮箱的帮助了。齿轮箱能够延长传动杆的连接距离，还能将动力传递到额外三个方向。手持锤子右击齿轮箱的任意一面来使该面能够与传动杆相连接。"
+			]
+			hide: true
+			icon: "tfc:wood/axle/hickory"
+			id: "1F86D03AE292EF57"
+			rewards: [{
+				id: "55372A0FEEFC12D9"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "原始动力"
+			tasks: [
+				{
+					id: "5D65856289F9A75F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:axles"
+						}
+					}
+					title: "任意群峦传动杆"
+					type: "item"
+				}
+				{
+					id: "4354E28818026721"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:gear_boxes"
+						}
+					}
+					title: "任意齿轮箱"
+					type: "item"
+				}
+			]
+			x: 81.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F86D03AE292EF57"]
+			description: ["群峦动力的动力发生装置十分简易：水车和风车。水车在其下半一或两格浸在河中的时候才会转动，而且不能是流动水必须是河流；风车则需要12x1x12的巨大空间，当空间足够时对手持风车叶片对传动杆右键即可安装最多五个叶片。一般来说，一个五叶片风车或两个水车即可带动目前的所有机器，所以不必要在这上面大费周章。"]
+			icon: "tfc:wood/water_wheel/hickory"
+			id: "73DED4748C886E4D"
+			rewards: [{
+				id: "11E42FA40C62A7CF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "自然产能领域的两座大山"
+			tasks: [
+				{
+					id: "0BECA0CCF5A7FBF3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:water_wheels"
+						}
+					}
+					title: "任意水车"
+					type: "item"
+				}
+				{
+					id: "50508A7EF8658D4C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:windmill_blades"
+						}
+					}
+					title: "任意风车叶片"
+					type: "item"
+				}
+			]
+			x: 80.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73DED4748C886E4D"]
+			description: ["将竖直传动杆与手推磨顶端链接即可使其自动磨碎物品，你只需要把物品放进去就可以了。"]
+			icon: "tfc:quern"
+			id: "6B214C0CE8BB5300"
+			rewards: [{
+				id: "0D04C8B7152C8CCC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "自动化初见端倪"
+			tasks: [{
+				id: "38F72139A411F980"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "鬼推磨"
+			x: 78.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25CF5F9C5D4B934C"]
+			description: [
+				"果树的种植比普通树木要困难许多，大部分果树都需求较为温暖湿润的气候，如果你的家太过靠近北方，那么果树有可能无法在你的基地生长。"
+				""
+				"果树具有自己的生命周期，分别为生长、开花、结果、休眠。果树会在生长期开始生长，并在开花期停止生长，准备结果，在结果期结出尽可能多的果实，并在结果期结束后休眠。树苗与果树同样会在休眠期停止生长，但在生长为一棵树之前会在生长期、开花期、结果期一直生长。新生长出来的树会连续几年在来年的生长期生长，出现更多的树叶以结出更多的果实。生长了一定年份之后，果树就会因衰老而死亡，因此你需要时不时补充新的树苗。"
+				"{@pagebreak}"
+				"手持树苗右键以将其种植在地面上，如果你有多余的树苗，可以通过副手持有小刀的方式将最多四棵树苗种植在同一格内。同一格内的树苗越多，最终长成的果树就越大。如果当地的气候不适宜树苗生长，屏幕上方的指示器就会显示某个指标过低，如果你不及时将其回收，树苗就会因为气候不适宜枯死。每种树苗所需要的气候可以在书中得知。"
+				""
+				"除果树木以外，另一种名为灌木的植物也能生长水果，只需要破坏野外的野生灌木，并将灌木种植在适宜的气候中、平整的地面上，灌木即可开始生长。不过由于灌木的产量并不高，这里不做详细介绍，有需求请查阅书籍。"
+			]
+			hide: true
+			icon: "tfc:plant/red_apple_sapling"
+			id: "4E94E1BF45EA5096"
+			rewards: [{
+				id: "555919ACA8A688C2"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "你获得水果的唯二手段之一"
+			tasks: [{
+				id: "0CAEE7C733BCF105"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "种果树"
+			x: 87.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E94E1BF45EA5096"]
+			description: ["果树叶被破坏时有概率掉落树叶，树叶可用于制作干燥垫。"]
+			id: "17F0AAB82BB1DE98"
+			rewards: [{
+				id: "2655DAF13046B552"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "054C7F46DD984E2B"
+				item: "firmalife:fruit_leaf"
+				type: "item"
+			}]
+			x: 89.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: ["气象站是两个设施：温室和地窖的核心方块，其由红石、黄铜机件、木板和蓝色玻璃制成。蓝色玻璃由二氧化硅玻璃吹管与铜粉合成再进行台盆浇筑得到。气象站用于指示温室与地窖是否有效，一旦结构无效，气象站四周玻璃中的材质就会转变成冰。相反，如果有效，就会变成水。右键一次气象站则可使其立刻开始检测一遍多方块结构。"]
+			hide: true
+			id: "0D888CA32C333F40"
+			rewards: [{
+				id: "6B2446B918DF62A0"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "空，空调？"
+			tasks: [{
+				id: "61CCFAC4B893ED36"
+				item: "firmalife:climate_station"
+				type: "item"
+			}]
+			x: 83.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D888CA32C333F40"]
+			description: [
+				"温室是一种使用种植盆作为载体，让作物能够无视环境与季节较快生长的设施。你目前能够使用防腐木和铜构建温室，防腐木需要蜂蜡才能制作。"
+				""
+				"一个成功构建的温室由温室墙和温室屋顶围成的一个房间，几扇温室门和一个气象站构成。如果你正确地构建了多方块结构，通过观察气象站即可得知。"
+				""
+				"不同的温室可以种植的类型略有不同。防腐木温室结构简单价格便宜，但是只能种植基本的蔬菜；铜以上的温室即可种植谷物；果树则需要铁以上温室才能种植（西瓜也需要铁以上温室）。"
+				""
+				"不锈钢等级以下的温室都会随着时间流逝而老化。不必在意，这不会对温室造成任何影响。"
+			]
+			hide: true
+			icon: "firmalife:treated_wood_greenhouse_wall"
+			id: "400313764B17022E"
+			rewards: [{
+				id: "71BB0B5D0FF9B9A0"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "四季如春"
+			tasks: [
+				{
+					id: "175A2C14E22C3E57"
+					item: "firmalife:treated_wood_greenhouse_wall"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "289BBEACDEEDAA54"
+					item: "firmalife:treated_wood_greenhouse_roof_top"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A272174211EA544"
+					item: "firmalife:treated_wood_greenhouse_door"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "322B1E32A7BD31D5"
+					optional_task: true
+					title: "直接完成"
+					type: "checkmark"
+				}
+			]
+			title: "温室"
+			x: 85.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["400313764B17022E"]
+			description: ["种植盆是温室中用于栽培作物的载体，每个种植盆能够种植的作物种类各不相同，种子自己会告诉你它们能够种在哪个种植盆里。种植盆和耕地一样可以施肥，但与耕地不一样需要每隔一段时间浇水。如果不及时浇水，种植盆中的作物便不会生长。你可以搭建自动浇水的灌溉系统，或者用喷壶手动浇水。"]
+			icon: "firmalife:large_planter"
+			id: "275A0704EB4EFA8C"
+			rewards: [{
+				id: "50A0F1C584B081F6"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "现在你要天天浇水了"
+			tasks: [
+				{
+					id: "2BEDDF7D7BF9E904"
+					item: "firmalife:large_planter"
+					type: "item"
+				}
+				{
+					id: "7C9C863F0C8621FC"
+					item: "firmalife:quad_planter"
+					type: "item"
+				}
+				{
+					id: "3C2051C1FCF27F41"
+					item: "firmalife:bonsai_planter"
+					type: "item"
+				}
+				{
+					id: "77A494EFB0C62C97"
+					item: "firmalife:hanging_planter"
+					type: "item"
+				}
+				{
+					id: "02B8166AE25D30C3"
+					item: "firmalife:trellis_planter"
+					type: "item"
+				}
+				{
+					id: "41AE87DF648FB5DB"
+					item: {
+						Count: 1b
+						id: "firmalife:watering_can"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "种植盆"
+			x: 86.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["275A0704EB4EFA8C"]
+			description: [
+				"温室是可以进行自动灌溉的，所需的材料仅为一些铜和铜合金。想要进行自动灌溉，你需要一处离温室足够近的水源。将水泵操作站放置到水源方块的正上方并连接动力，这之后可以在上面放最多三个灌溉水箱以加高运输高度。用铜制管道运输最多32格水流到温室内，记得将一个温室墙方块改成温室接口以允许水流通过，最后在任意一条管道的上方或下方放置洒水器即完成了灌溉系统的安装。如果你成功安装了灌溉系统，洒水器的状态会告诉你。"
+				""
+				"洒水器的工作范围是以其下方一格方块为中心的5x5x6的区域。"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmalife:copper_pipe"
+			}
+			id: "5E3BE1BCF4F5095E"
+			rewards: [{
+				id: "7EDFF373D25E7D3E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "现在又不用天天浇水了"
+			tasks: [
+				{
+					id: "6296D22D65A32E7E"
+					item: "firmalife:copper_pipe"
+					type: "item"
+				}
+				{
+					id: "122EA497955703C3"
+					item: "firmalife:pumping_station"
+					type: "item"
+				}
+				{
+					id: "3780BE8C590D34F3"
+					item: "firmalife:sprinkler"
+					type: "item"
+				}
+				{
+					id: "657B42EA4BF02388"
+					item: "firmalife:irrigation_tank"
+					type: "item"
+				}
+			]
+			title: "自动灌溉"
+			x: 88.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1571B5B650ECB701"]
+			description: ["将宝石粉与黄铜棒合成就能得到宝石锯了，这种锯子对玻璃具有精准采集效果，在获得精准采集附魔之前只有它能破坏玻璃并留下掉落物。"]
+			hide: true
+			id: "740B133DCD9B52AE"
+			rewards: [{
+				id: "14B96145C0891DDA"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "精准采集I"
+			tasks: [{
+				id: "35ACE5BDEC48136C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:gem_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 87.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["740B133DCD9B52AE"]
+			description: [
+				"在群峦世界，你不能用烧炼沙子的方式获得玻璃，要想获得玻璃，就要用吹制玻璃的工艺。"
+				""
+				"首先，你需要准备一个吹管，这个吹管可以是陶瓷的或者是黄铜的，看你喜好。"
+				""
+				"其次，你需要将四块同种沙子，与硝石粉（磨碎硝石）或苏打灰（加热干海带）以及石灰（加热助焊剂）混合在一起，以制作玻璃配料。"
+				""
+				"将玻璃配料与吹管合成会得到含有玻璃的吹管，将吹管加热直到变成淡红色即可开始吹制玻璃，注意不要加热到炽白，否则内含的玻璃会消失。"
+			]
+			hide: true
+			icon: "tfc:blowpipe"
+			id: "345D69AFA3121901"
+			rewards: [{
+				id: "085AA4C71CA75B9D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "肺活量大考验"
+			tasks: [
+				{
+					id: "0B3E277DA3BCBD79"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:blowpipes"
+						}
+					}
+					title: "任意吹管"
+					type: "item"
+				}
+				{
+					id: "01AE5BB37C00E81C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:glass_batches"
+						}
+					}
+					title: "任意玻璃配料"
+					type: "item"
+				}
+			]
+			title: "吹制玻璃"
+			x: 89.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["345D69AFA3121901"]
+			description: ["吹制玻璃需要用到黄铜电镀方块，将五块电镀方块围绕一格空气方块（除了顶面）放置即可构建浇筑盆；将九格电镀方块搭建成3x3的平台即可构建浇筑桌。浇筑盆用于浇筑玻璃块，而浇筑桌用于浇筑玻璃板。"]
+			id: "570B10ABF6F54ED0"
+			rewards: [{
+				id: "775777751CD24559"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "别做成黄铜块了"
+			tasks: [{
+				count: 5L
+				id: "21C6CDE128D43A31"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/block/brass"
+				}
+				type: "item"
+			}]
+			x: 90.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["570B10ABF6F54ED0"]
+			description: [
+				"加热含有玻璃的吹管到至少淡红，在冷却下来前对着黄铜浇筑盆底面按住右键。如果你成功地进行了操作，浇筑盆会从底部慢慢出现烧红了的玻璃。等待其填充了整个浇筑盆并冷却完毕后，就可以用宝石锯将其采集下来了。有色玻璃块的浇筑方法与普通玻璃块没有什么区别，除了加一点金属粉末的额外工序以外。玻璃板则需要在浇筑台的中心进行浇筑。"
+				""
+				"吹制玻璃物品的工序比吹制玻璃块玻璃板更加复杂，由于种类过多这里不做赘述，若有需求请自行查阅书和JEI。"
+			]
+			id: "6FF228D0CFA724F1"
+			rewards: [{
+				id: "652AECD9419981FE"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "晶莹剔透"
+			tasks: [{
+				id: "6A2A639D603B0A75"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 92.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20D072C6FCC3F36D"]
+			description: ["将面粉与装有水的容器合成即可制作粗饼面团，任何一种面粉都可以制作出粗饼面团，且一份面粉可以制作出两份粗饼面团。粗饼面团在篝火中即可烤熟为粗饼，烤熟的粗饼会比粗饼面团多出两倍的保质期，且能够补充谷物营养值。"]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+				}
+				id: "firmalife:food/barley_flatbread"
+			}
+			id: "0C8B3BCFC6EC225A"
+			rewards: [{
+				id: "670585A9EF61C730"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "看起来没那么精致"
+			tasks: [
+				{
+					id: "72886715F47C3A80"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "firmalife:foods/flatbreads"
+						}
+					}
+					title: "任意粗饼"
+					type: "item"
+				}
+				{
+					id: "47A2DAFC1D9A7796"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"tfc:food": {
+											creationDate: 1662000L
+											traits: [ ]
+										}
+										"tfc:item_heat": {
+											heat: 0.0f
+											ticks: 0L
+										}
+									}
+									id: "tfc:food/wheat_dough"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"tfc:food": {
+											creationDate: 1662000L
+											traits: [ ]
+										}
+										"tfc:item_heat": {
+											heat: 0.0f
+											ticks: 0L
+										}
+									}
+									id: "tfc:food/rice_dough"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"tfc:food": {
+											creationDate: 1662000L
+											traits: [ ]
+										}
+										"tfc:item_heat": {
+											heat: 0.0f
+											ticks: 0L
+										}
+									}
+									id: "tfc:food/rye_dough"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"tfc:food": {
+											creationDate: 1662000L
+											traits: [ ]
+										}
+										"tfc:item_heat": {
+											heat: 0.0f
+											ticks: 0L
+										}
+									}
+									id: "tfc:food/oat_dough"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"tfc:food": {
+											creationDate: 1662000L
+											traits: [ ]
+										}
+										"tfc:item_heat": {
+											heat: 0.0f
+											ticks: 0L
+										}
+									}
+									id: "tfc:food/maize_dough"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"tfc:food": {
+											creationDate: 1662000L
+											traits: [ ]
+										}
+										"tfc:item_heat": {
+											heat: 0.0f
+											ticks: 0L
+										}
+									}
+									id: "tfc:food/barley_dough"
+								}
+							]
+						}
+					}
+					title: "任意粗饼面团"
+					type: "item"
+				}
+			]
+			x: 87.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C8B3BCFC6EC225A"]
+			description: [
+				"烤炉是一个可靠且万能的烹饪用多方块结构，可用于烤制面包，也可用于构建一个集成厨房。烤炉的热量流失相较篝火较慢，这代表就算火焰熄灭，你也可以继续烹饪一段时间。"
+				""
+				"搭建一个烤炉需要使用黏土塑形出烤炉顶、烤炉底和烤炉烟囱三种方块，将烤炉底放置在任意一个你喜欢的位置，并在烤炉底上放置烤炉顶，在烤炉后面放置几格烤炉烟囱。并在烤炉底和烤炉顶除了顶面底面和正面以外的其他三面放置红砖或砖块之类的包裹方块使其被完全包裹（烤炉烟囱也算），烤炉包裹层也可以用来包裹烤炉，但那需要你拥有锻铁。"
+			]
+			hide: true
+			icon: "firmalife:oven_bottom"
+			id: "56CDC910560BCE74"
+			rewards: [{
+				id: "4D27096E95F58BEF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "集成式厨房的优秀解决方案"
+			tasks: [
+				{
+					id: "523A582E38E704D7"
+					item: "firmalife:oven_bottom"
+					type: "item"
+				}
+				{
+					id: "69D2A9BD8BD76F3A"
+					item: "firmalife:oven_top"
+					type: "item"
+				}
+				{
+					id: "145ADC7594C55C41"
+					item: "firmalife:oven_chimney"
+					type: "item"
+				}
+			]
+			title: "烤炉"
+			x: 89.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56CDC910560BCE74"]
+			description: [
+				"由黏土捏出来的烤炉肯定不能正常工作，你需要将其加热以使其硬化。在烤炉底下面放置几根原木并点燃烤炉底，热量会随着烤炉底传递给烤炉顶和烟囱，在维持一定热量一段时间后，烤炉方块就会硬化，表面的材质从黏土砖变成红砖。成功硬化的烤炉能够执行一些烤制步骤，但保质期的增加不如使用烤架的快。烤炉也可以执行一些特殊的配方，例如将面团烤成面包。烤炉内的物品需要使用烤炉铲才能取出。"
+				""
+				"大锅和烤架可以被放置在烤炉底上，这样它们就能享受烤炉更久的保温能力了。"
+			]
+			icon: "firmalife:cured_oven_top"
+			id: "5FF7FFB0F4F5ABBE"
+			rewards: [{
+				id: "26888F8C78ECD0CF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "制陶术是一直在c的"
+			tasks: [{
+				id: "6417B821A7715F6F"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "变硬"
+			x: 90.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FF7FFB0F4F5ABBE"]
+			description: ["想要制作正经的面包需要酵种使其进行发酵，酵种的从无到有比较麻烦，需要将用干燥垫烘干的水果密封在大桶的清水里，每一个水果能生成100mb酵种。在有了酵种之后，后续再生产就比较简单了，将腐烂或者未腐烂的面粉密封在酵种内就可使其成倍增殖。"]
+			hide: true
+			id: "47559D982B64A34E"
+			rewards: [{
+				id: "5141FDBD90C2F21E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "发酵"
+			tasks: [{
+				id: "581210F7E3FF80F7"
+				item: {
+					Count: 1b
+					id: "tfc:wooden_bucket"
+					tag: {
+						fluid: {
+							Amount: 1000
+							FluidName: "firmalife:yeast_starter"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "酵种"
+			x: 92.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47559D982B64A34E"]
+			description: ["将面粉与装有酵种的桶与糖（或蜂蜜）合成即可获得面团，这种面团只能在烤炉中烤制。烤制出来的面包拥有比粗饼更多的营养值，且能够制作三明治。三明治由上下两片面包，中间的三样夹心和一把刀合成而成，其会保留面包50%的营养值，夹心80%的营养值，且拥有独立的保质期。"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/barley_bread"
+			}
+			id: "212780ACC7F7C673"
+			rewards: [{
+				id: "4CBA37AD267178AD"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "谁会不爱吃面包呢？"
+			tasks: [
+				{
+					id: "0E68C54D4F42CCA3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "firmalife:foods/extra_dough"
+						}
+					}
+					title: "任意面包面团"
+					type: "item"
+				}
+				{
+					id: "4902176E840A8CC2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:foods/breads"
+						}
+					}
+					title: "任意面包"
+					type: "item"
+				}
+			]
+			x: 93.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["212780ACC7F7C673"]
+			description: ["披萨是一种十分复杂的料理，同时能提供较多的营养值。我个人不推荐制作披萨，但是如果你做出来了，我会给你奖励。"]
+			hide: true
+			id: "17A8B4197F2ED71A"
+			rewards: [{
+				id: "0B6C3058C379B8B3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			subtitle: "这个问题永远不会带来和平"
+			tasks: [{
+				id: "5DD4E5DDA20E6EE7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: -2L
+							foodData: {
+								dairy: 0.0f
+								decay: 0.0f
+								food: 0
+								fruit: 0.0f
+								grain: 0.0f
+								meat: 0.0f
+								sat: 0.0f
+								veg: 0.0f
+								water: 0.0f
+							}
+							ingredients: [ ]
+							traits: [ ]
+						}
+					}
+					id: "firmalife:food/cooked_pizza"
+				}
+				type: "item"
+			}]
+			title: "&e挑战：披萨上应该加菠萝吗？"
+			x: 95.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42FE5A114D45AF42"]
+			description: ["当然，铸铁也不是完全没用。你可以将一张铸铁双层薄板（由两张铸铁薄板焊接而成），锻造成铸铁烤架，该烤架需要放置在篝火上以工作，它能够执行一切篝火能够执行的烤制配方、同时加热两个物品，并且为熟肉赋予“原木烤制”的buff，使其保质期相较于生肉提升了66%！"]
+			hide: true
+			id: "664F921396331D35"
+			rewards: [{
+				id: "3E8998A6FA9597AB"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "百有一用"
+			tasks: [{
+				id: "2992EB377565DB54"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "castirongrill:cast_iron_grill"
+				}
+				type: "item"
+			}]
+			x: 80.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E94E1BF45EA5096"]
+			description: [
+				"果酱是一种能够长时间储存水果的方法，你需要将一份糖和任意份的同种水果丢进装满水的大锅，就像煮汤那样将其煮沸，烹饪完成后锅内会留有与你加入水果份数相同的果酱，你需要手持有盖子的空罐子右键来将其装罐。装罐的果酱有两年多的保质期，但一旦你开启盖子，它的保质期就只会剩下几天，且盖子会消失。果酱的营养值比水果要少，打造盖子所需要的锡也不算十分富裕的资源，因此不推荐玩家大量制作果酱。"
+				""
+				"如果你不想制作果酱，点击另一边的“直接完成”按钮将使你跳过本任务。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+				}
+				id: "tfc:jar/red_apple"
+			}
+			id: "1B7FF0A15603E9C3"
+			rewards: [{
+				id: "6E375D0916AC786A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "最没用的一集"
+			tasks: [
+				{
+					id: "06C78F3DA80FFAEC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:foods/sealed_preserves"
+						}
+					}
+					optional_task: true
+					title: "任意果酱"
+					type: "item"
+				}
+				{
+					id: "38DBF92D213D1222"
+					optional_task: true
+					title: "直接完成"
+					type: "checkmark"
+				}
+			]
+			title: "果酱"
+			x: 91.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17F0AAB82BB1DE98"]
+			description: ["将三个果树叶子排成一排合成即可获得干燥垫，它是一个通过阳光晾晒晒干物品水分的方块。右键物品以将物品放置在上面。它可以晾晒水果以使其保质期延长两倍、将干草块晾晒为能够堆肥的枯萎的草，或者用来制作豆腐。干燥垫需要阳光才能工作，在下雨或下雪的情况下无法工作，且晾晒进度会重置。"]
+			id: "06F939458D851BBB"
+			rewards: [{
+				id: "02AA30E1ABC380C3"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "人类最早利用太阳能的范例"
+			tasks: [{
+				id: "40B260526A2D0774"
+				item: "firmalife:drying_mat"
+				type: "item"
+			}]
+			x: 91.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D888CA32C333F40"]
+			description: [
+				"地窖是一种能够延长食物保质期的多方块结构，配合特定的保存方块可以使食物的保质期增加最多两倍多。构成地窖的密封方块和密封门需要蜂蜡才能制作。"
+				""
+				"一个成功构建的地窖由密封方块围成的一个房间，几扇密封门和一个气象站构成。如果你正确地构建了多方块结构，通过观察气象站即可得知。"
+			]
+			hide: true
+			icon: "firmalife:sealed_bricks"
+			id: "7736AC779D1DA025"
+			rewards: [{
+				id: "4D67F41004B8F218"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "主观缓时"
+			tasks: [
+				{
+					id: "0B1EA86E392817CA"
+					item: "firmalife:sealed_bricks"
+					type: "item"
+				}
+				{
+					id: "6BDC5301C9BE077D"
+					item: "firmalife:sealed_door"
+					type: "item"
+				}
+			]
+			title: "地窖"
+			x: 85.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7736AC779D1DA025"]
+			description: ["食物架和悬挂架是与地窖配套的专用食物储存方块，食物架用于储存肉和鱼以外的食物，而悬挂架用于储存肉和鱼。一个食物架和悬挂架能够储存一组同种的食物，且环境温度越低，保质期延长效率越高。"]
+			icon: "firmalife:wood/food_shelf/hickory"
+			id: "1E91D720F8A2C6EE"
+			rewards: [{
+				id: "352FED53F261D7AC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "地窖专用"
+			tasks: [
+				{
+					id: "2495511BBB93AB75"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "firmalife:food_shelves"
+						}
+					}
+					title: "任意食物架"
+					type: "item"
+				}
+				{
+					id: "4DB6FCFE93F249F6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "firmalife:hangers"
+						}
+					}
+					title: "任意悬挂架"
+					type: "item"
+				}
+			]
+			x: 86.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E91D720F8A2C6EE"]
+			description: [
+				"原版的食物保鲜工序是最复杂的，但却意外的有效。"
+				""
+				"为了实现这些保存工序，你需要准备足够多的醋。醋是由酒与水果在大桶内密封得到的，而酒是面粉与清水在大桶内密封得到的，生成酒的比例为1：500mb，生成醋的比例则为1:250mb。推荐每次以16个面粉制酒，32个水果制醋。"
+				""
+				"盐渍是一种前置工序，食物的后续加工都需要用到盐渍。盐渍需要将食物与卤水密封在一起，卤水是将咸水与醋混合得到的，混合比例为9:1。咸水由盐与水混合，或者在海边装水得到。每盐渍一个物品消耗250mb卤水。"
+				""
+				"腌制是食物盐渍后可以进行的工序，将食物与醋密封在一起即可进行腌制，每腌制一个物品消耗125mb的醋。食物在腌制后保质期会提升一倍，如果这时醋的量还足够，可以让食物在醋中密封，这种情况下食物的保质期会直接提升至十倍，不会消耗醋但是会牺牲一个大桶，推荐家里富裕的时候再普及。"
+				""
+				""
+				"{@pagebreak}"
+				"肉和鱼在腌制之前还可以进行一次名为烟熏的加工，具体方法为在篝火（不能放锅或烤架）上放置最多四格高的羊毛纱，点燃篝火并将盐渍过的肉挂在羊毛纱上，八个小时之后就可以将肉取下来了，通过烟熏也可以将肉类的保质期延长一倍。"
+				""
+				"谷物最有效的保存方法是谷物粒，这些谷物粒的保存时间最长，在地窖中最多保存两年多。"
+				""
+				"蔬菜中土豆和大蒜的保存时间最长，就算不经过加工也能保存一年左右，腌制后甚至能在地窖中保存两三年。"
+				""
+				"水果需要晾晒干以后进行盐浸-腌制，如果你缺水果，可以再醋封，醋封的水果有一至两年的保质期；如果你不缺，也可以在地窖中保存，地窖中的水果可以保存半年多。"
+				""
+				"肉类在盐渍之前可以先抹盐，抹盐的肉保质期还会提升一倍，抹盐后进行盐渍-熏制-腌制，并在烤架上烤制。最终烤出来的肉保质期长达九个月，在地窖中能够保存一至两年。"
+			]
+			icon: "tfc:powder/salt"
+			id: "3ACBDD26F3E31964"
+			rewards: [{
+				id: "08A9E74232D82C39"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "麻烦，但有效"
+			tasks: [
+				{
+					id: "1FEDAFF550E38D29"
+					item: "tfc:powder/salt"
+					type: "item"
+				}
+				{
+					id: "402F9B4C67A9497A"
+					item: {
+						Count: 1b
+						id: "tfc:wooden_bucket"
+						tag: {
+							fluid: {
+								Amount: 1000
+								FluidName: "tfc:vinegar"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31048840C15D858B"
+					item: {
+						Count: 1b
+						id: "tfc:wooden_bucket"
+						tag: {
+							fluid: {
+								Amount: 1000
+								FluidName: "tfc:brine"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "群峦原版的食物保存方案"
+			x: 88.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0EF5D7352D4D611D"]
+			description: [
+				"马车是由黄铜机件与木材制作成的交通工具，拥有一个原版大箱子的物品储量，还可以乘坐一人，你可以在站立或骑马的时候按下默认r键以操纵马车。潜行右键马车即可打开其储存栏，有可能将马车抱起，请多试几次。"
+				""
+				"除马车以外，该mod还提供了犁与牲畜运载马车，具体内容请自行研究。"
+			]
+			hide: true
+			icon: "tfcastikorcarts:supply_cart/hickory"
+			id: "20DB734007DC2637"
+			rewards: [{
+				id: "0491DDA21B1DB5DC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "骆驼史子"
+			tasks: [{
+				id: "255ACFCB49143BB6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfcastikorcarts:supply_cart"
+					}
+				}
+				title: "任意马车"
+				type: "item"
+			}]
+			title: "拉马车"
+			x: 80.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20DB734007DC2637"]
+			description: ["你的牧场也差不多该建成了，是时候收集产物了，先用金属锻造出一把剪刀来获得一些羊毛吧。"]
+			hide: true
+			id: "075CB10EB554B599"
+			rewards: [{
+				id: "19C357D489D4E8C8"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "羊没说它有意见"
+			tasks: [{
+				id: "21D3865693D439BF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/shears/copper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "薅羊毛"
+			x: 79.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["075CB10EB554B599"]
+			description: ["当产奶动物的好感度足够时即可挤奶，你可以用陶罐或水罐饮用奶，饮用奶可以增加乳制品营养值。"]
+			icon: "firmalife:bucket/yak_milk"
+			id: "0F8DF269DEAF3917"
+			rewards: [{
+				id: "66422923D808280E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "牛也没说它有意见"
+			tasks: [{
+				id: "439A318845623A01"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tfc:wooden_bucket"
+								tag: {
+									fluid: {
+										Amount: 1000
+										FluidName: "minecraft:milk"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tfc:wooden_bucket"
+								tag: {
+									fluid: {
+										Amount: 1000
+										FluidName: "firmalife:goat_milk"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "tfc:wooden_bucket"
+								tag: {
+									fluid: {
+										Amount: 1000
+										FluidName: "firmalife:yak_milk"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "任意奶桶"
+				type: "item"
+			}]
+			title: "牛口夺奶"
+			x: 77.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7736AC779D1DA025"
+				"0F8DF269DEAF3917"
+			]
+			description: [
+				"奶酪是一种能够补充大量乳制品营养值的食物，其配方经过Firmalife模组的修改，变得与原版不再一样。首先，你需要宰杀牦牛、奶牛、山羊、绵羊和麝牛并从它们身上获取凝乳酶，将凝乳酶与奶密封即可使其凝固，每份凝乳酶可以凝固2000mb的奶。这之后，使用羊毛布或丝绸制作奶酪布，将奶酪布与凝乳密封即可使其转化为物品状态的凝乳，每个奶酪布转化1000mb。将凝乳与盐合成或者与咸水密封就能够制作出奶酪轮，有三种不同的奶和两种不同的工艺，因此你一共能做出六种奶酪轮。"
+				""
+				"将奶酪轮放置在地上，手持小刀对其右键即可切下一片奶酪，奶酪可以直接用来吃，或者夹在三明治里。放在地窖中的奶酪轮会随着时间慢慢老化，老化程度越高奶酪的营养越丰富，只不过不是完整的奶酪轮无法进行老化。"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "firmalife:gouda_wheel"
+			id: "69AA5A517FBED61A"
+			rewards: [{
+				id: "025C99C62ECDD39D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "某种真正意义上不会腐烂的食物"
+			tasks: [{
+				id: "26C7C350D5F89F1F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "firmalife:cheese_wheels"
+					}
+				}
+				title: "任意奶酪轮"
+				type: "item"
+			}]
+			title: "奶酪"
+			x: 76.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A4359CEAD6FB810"]
+			description: ["锻造锻铁需要大量的木炭作为支持，如果你的木炭太少，我建议你先去多准备一些。"]
+			icon: "minecraft:charcoal"
+			id: "7D591DFB9CF4D847"
+			rewards: [{
+				id: "6FADCF34BE2126D2"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "未雨绸缪"
+			tasks: [{
+				count: 64L
+				id: "45CA70F7EEEA1B03"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			title: "大烧木炭"
+			x: 89.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D591DFB9CF4D847"]
+			description: [
+				"锻铁炉方块是搭建锻铁炉多方块结构的核心，其本质是一块活板门，需要八张铜合金双层薄板，也就是32个铜合金锭合成。双层薄板由两张薄板焊接而成，而薄板由一个双锭锻造而成。"
+				""
+				"要搭建锻铁炉多方块结构，你需要用石砖、天然石或平滑石构建一条最高五格高，最矮三格高的3x3烟囱，烟囱中心除了底面的一格都需要留空，四个角也可以去掉。在烟囱的第二格任意一面开一个口，并将口的左右两面也放上石方块，并将锻铁炉方块放在口中，锻铁炉就搭建完成了。具体的形状可以通过查阅书得知。"
+			]
+			id: "15E9260AECAE335B"
+			rewards: [{
+				id: "35A9C6494D7C2726"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "265BEAB3CDA219F3"
+				item: "tfc:bloomery"
+				type: "item"
+			}]
+			x: 91.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15E9260AECAE335B"]
+			description: [
+				"要使锻铁炉开始工作需要向其中投入原料。最高级的锻铁炉能够容纳最多48个物品，投入物品的规则为：每投入含铁量100mb的含铁物品会最终生成一块锻铁锭，且需要对应投入两个木炭。以最产率较高的两个方案为例，使用含100mb铁的铸铁锭作为原料需要投入16块铸铁锭和32个木炭，最终产出16块锻铁锭；使用含80mb铁的铁团矿和含20mb铁的铁矿块作为原料则需要投入铁团矿和铁矿块各12个以及24个木头，最后产出12块锻铁锭。"
+				""
+				"当你的原料填充完毕后，关闭锻铁炉方块，用起火器将其点燃即可使其开始烧炼。锻铁炉烧炼一次铁需要游戏中15小时。"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/hammer/wrought_iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E3F22CD2A68DE94"
+			rewards: [{
+				id: "0D861E986E0E189F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "Fe2O3+3CO==2Fe+3CO2(高温)"
+			tasks: [{
+				id: "09E827F8DF1B2299"
+				title: "请在阅读以下内容后点击确认"
+				type: "checkmark"
+			}]
+			title: "锻铁指南"
+			x: 93.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E3F22CD2A68DE94"]
+			description: ["当锻铁炉烧炼完毕后，内部的熔融物将会被转变为生铁方坯，投入的原材料每含100mb铁就会生成一个，不足的部分会被舍去。使用镐子将其挖掉之后，你需要到你的铜合金砧里再去锻打两遍，第一遍锻打成精铁方坯，第二遍锻打成锻铁锭。"]
+			hide: true
+			id: "58377F9BA65DF0F2"
+			rewards: [{
+				id: "340B30486544B399"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "锻打出其中的碳"
+			tasks: [{
+				id: "13947029EEB2F5CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:raw_iron_bloom"
+				}
+				type: "item"
+			}]
+			x: 91.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["58377F9BA65DF0F2"]
+			description: ["你成功锻打了生铁方坯，接下来还需要最后一遍锻打就能得到生铁了。"]
+			id: "530975738347D212"
+			rewards: [{
+				id: "056003CEBABA523E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "全力挥锤！"
+			tasks: [{
+				id: "0F36C2090FE28078"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:refined_iron_bloom"
+				}
+				type: "item"
+			}]
+			x: 89.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["530975738347D212"]
+			description: ["终于，在完成对精铁方坯的最后一次锻打后，你获得了锻铁锭。这就是正版铁锭了，与原版铁锭的用途没有差别。只不过在开始运用它之前，还是先做一个铁砧出来比较好。"]
+			hide: true
+			id: "252AB0346BFE9A57"
+			rewards: [{
+				id: "151F66A9A938A962"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "万物都有极限——铁矿石不可能被打造成黄金。——马克·吐温"
+			tasks: [{
+				id: "0614E86731E138F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/wrought_iron"
+				}
+				type: "item"
+			}]
+			x: 87.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F8DF269DEAF3917"]
+			dependency_requirement: "one_completed"
+			description: ["你可以把奶装到陶锅里面煮沸，做成奶皮，将奶皮研磨成粉，就可以变成奶粉！奶粉可以存储起来，想喝也只需加水"]
+			hide_dependency_lines: true
+			icon: "artisanal:powdered_milk"
+			id: "3DCF94DBD6241A3B"
+			rewards: [{
+				id: "753BDA801C44C6FC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "只需加水"
+			tasks: [{
+				advancement: "artisanal:story/powdered_milk"
+				criterion: ""
+				id: "201CE2D8E3314E0F"
+				type: "advancement"
+			}]
+			title: "宝宝辅食"
+			x: 78.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6FF228D0CFA724F1"]
+			description: ["现在你可以制作放大镜的透镜了！"]
+			id: "75849ECACEE6E0B4"
+			subtitle: "现代利润最高的工作"
+			tasks: [{
+				id: "1C4578DDFCBB2CDF"
+				item: "tfc:lens"
+				type: "item"
+			}]
+			x: 93.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75849ECACEE6E0B4"]
+			description: [
+				"放大镜是前期可以快速点燃物品的小道具，而且制造他的材料多数都是不怎么需要的金属，在没有打火石的时期有了它就相当与有了快速点火的方式"
+				""
+				"&6&l但是请注意，只有在白天晴朗的时候放大镜才有用！！&r&r"
+			]
+			id: "2AA7981EB7FAB5DC"
+			subtitle: "太阳的力量"
+			tasks: [{
+				id: "1F26180C4598E819"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "artisanal:magnifying_glasses"
+					}
+				}
+				title: "Any #artisanal:magnifying_glasses"
+				type: "item"
+			}]
+			title: "放大镜"
+			x: 95.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E94E1BF45EA5096"]
+			description: [
+				"在手推磨下面放置任意大桶，再在手推磨上研磨水果，即可研磨出水果果汁！"
+				"有些果汁甚至可以酿酒"
+			]
+			icon: "tfc:quern"
+			id: "0ECF37921F02C393"
+			rewards: [{
+				id: "572D1FE40F5AE489"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "果汁！"
+			tasks: [{
+				id: "72841F83FCEB9075"
+				type: "checkmark"
+			}]
+			title: "好渴，有什么能喝的吗"
+			x: 89.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CD4B3897381D686"]
+			description: [
+				"这个时期你会发现，找不到什么保存食物的方式！除了装进小缸里面还有什么更好的保存方式呢，那就是小罐!"
+				""
+				"烧制小罐，然后让小罐用装上蜡油/猪油/鸡油的木桶[或者黄油]以及你想要的小型食物最后封装，你就可以获得一个可以保存很久的食物小陶罐了!"
+			]
+			hide: true
+			id: "3C419F98EA5F89AF"
+			rewards: [{
+				id: "6D987578CD8CBE40"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "是时候保存食物了"
+			tasks: [
+				{
+					id: "025DF0B13D572D5A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "artisanal:ceramic/unfired_small_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "622CFD8AAF4CAA85"
+					item: "artisanal:ceramic/small_pot"
+					type: "item"
+				}
+			]
+			title: "关于保存食物与食品卫生"
+			x: 84.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C419F98EA5F89AF"]
+			dependency_requirement: "one_completed"
+			description: [
+				"使用小罐子后，你会发现小罐子脏了，却又不知道怎么处理"
+				"这个时候，你以前打猎获得的动物脂肪将会派上用场！"
+				""
+				"把油脂炼成蜡脂，用草木灰和水混合获得碱水。然后把蜡脂与碱水混合，你就会获得脂肪酸盐，然后密封大桶八分钟，脂肪酸盐就会变成肥皂！肥皂丢进水里可以变成肥皂水，肥皂水可以轻松洗净小罐子以重复使用！"
+			]
+			hide: true
+			icon: "butcher:animalfat"
+			id: "3072431A0B7D21A5"
+			rewards: [{
+				id: "3F054649352619E0"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "是时候制作能够带走污垢的东西了"
+			tasks: [
+				{
+					id: "4FB1107C5AFEED0A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "artisanal:fats"
+						}
+					}
+					title: "Any #artisanal:fats"
+					type: "item"
+				}
+				{
+					id: "257E6B33AB645D8A"
+					item: "butcher:animalfat"
+					type: "item"
+				}
+				{
+					id: "09649031FA0FDEBA"
+					item: "tfc:powder/wood_ash"
+					type: "item"
+				}
+			]
+			title: "油脂与碱水"
+			x: 85.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3072431A0B7D21A5"]
+			description: [
+				"此外，腐烂在碗里，陶罐里的食物，也需要清洗之后才能继续重复使用容器！"
+				"大家肯定不不会喜欢脏脏油油的餐具的"
+			]
+			id: "6DD42AF94B9009F9"
+			rewards: [{
+				id: "294892D20747280D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "食品卫生很重要"
+			tasks: [{
+				id: "0AA1D6CAD34F8B19"
+				item: "artisanal:soap"
+				type: "item"
+			}]
+			x: 87.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0DEA4BABDEA8ED79"]
+			description: [
+				"终于有可以扩充的携带空间了！"
+				""
+				"背包是一个能够给你提供多余空间的一个装备，可以装在饰品栏的背部，按“B”快捷打开"
+				"虽然他的储量没有特别的多，但是苍蝇再小也是肉、"
+			]
+			id: "5D9EF714343B776B"
+			subtitle: "终于有更多的空间了"
+			tasks: [{
+				advancement: "backpacked_tfc:backpack_task"
+				criterion: ""
+				id: "3B0F71F5696452D1"
+				type: "advancement"
+			}]
+			title: "背包"
+			x: 84.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["20D072C6FCC3F36D"]
+			description: [
+				"你可以在大桶里面装入水和小麦面粉发酵成啤酒"
+				""
+				"同样的，酿久一点也可以变成陈年啤酒！"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -2L
+						traits: [ ]
+					}
+				}
+				id: "brewery:beer_wheat"
+			}
+			id: "2B995E82D9168DB4"
+			subtitle: "畅饮"
+			tasks: [{
+				id: "7762D54017E57B9C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: 54000L
+							traits: [ ]
+						}
+					}
+					id: "tfc:food/wheat_flour"
+				}
+				type: "item"
+			}]
+			title: "啤酒就是生命"
+			x: 86.5d
+			y: 2.0d
+		}
+	]
+	title: "第二章：合金与工艺"
+}

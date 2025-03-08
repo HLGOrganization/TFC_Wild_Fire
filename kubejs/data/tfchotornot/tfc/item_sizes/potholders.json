@@ -1,0 +1,15 @@
+{
+  "ingredient": [
+    {
+      "item": "tfchotornot:burlap_potholder"
+    },
+    {
+      "item": "tfchotornot:silk_potholder"
+    },
+    {
+      "item": "tfchotornot:wool_potholder"
+    }
+  ],
+  "size": "normal",
+  "weight": "light"
+}

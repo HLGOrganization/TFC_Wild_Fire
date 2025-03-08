@@ -1,0 +1,26 @@
+{
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "tfc:rock/loose/andesite"
+      },
+      {
+        "tag": "forge:nuggets/iron"
+      },
+      {
+        "item": "tfc:rock/loose/andesite"
+      },
+      {
+        "tag": "forge:nuggets/iron"
+      },
+      {
+        "tag": "tfc:hammers"
+      }
+    ],
+    "result": {
+      "item": "create:andesite_alloy"
+    }
+  }
+}

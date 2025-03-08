@@ -1,0 +1,15 @@
+{
+  "type": "call_of_yucutan:divinity_sacrifice",
+  "ingredients": [
+    {
+      "tag": "call_of_yucutan:kukulkan_ressources"
+    },
+    {
+      "item": "call_of_yucutan:jei_full_moon"
+    }
+  ],
+  "output": {
+    "item": "call_of_yucutan:kukulkan_idol",
+    "count": 1
+  }
+}

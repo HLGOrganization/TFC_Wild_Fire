@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:sweetberry_glazed_cookie"
+  },
+  "hunger": 1.5,
+  "saturation": 2.25,
+  "decay_modifier": 2.1,
+  "grain": 1,
+  "fruit": 2.25
+}

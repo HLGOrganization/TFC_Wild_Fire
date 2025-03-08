@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:sterile_tissue"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:plague_doctor_armor_boots",
+    "count": 1
+  }
+}

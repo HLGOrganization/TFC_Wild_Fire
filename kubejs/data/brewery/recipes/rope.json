@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "htm:rope"
+    },
+    "#": {
+      "item": "htm:plant_string"
+    }
+  },
+  "pattern": [
+    "#B#"
+  ],
+  "result": {
+    "count": 2,
+    "item": "brewery:rope"
+  }
+}

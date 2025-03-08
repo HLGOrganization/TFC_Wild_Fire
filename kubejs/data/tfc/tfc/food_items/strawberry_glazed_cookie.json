@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:strawberry_glazed_cookie"
+  },
+  "hunger": 1.5,
+  "saturation": 2,
+  "decay_modifier": 2,
+  "grain": 1.5,
+  "fruit": 2
+}

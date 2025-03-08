@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/poor_uraninite",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/normal_uraninite",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/rich_uraninite",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/rose_gold"
+  },
+  "result": {
+    "item": "tfchotornot:tong_part/rose_gold"
+  },
+  "tier": 1,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "apply_forging_bonus": true
+}

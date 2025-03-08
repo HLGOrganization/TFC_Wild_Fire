@@ -1,0 +1,19 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "tfc:powder/sulfur"
+    },
+    {
+      "fluid": "afc:latex",
+      "amount": 1000
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "afc:rubber_bar"
+    }
+  ]
+}

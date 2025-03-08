@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "bakery:misslilitu_biscuit"
+  },
+  "hunger": 2,
+  "saturation": 2,
+  "decay_modifier": 3,
+  "grain": 2,
+  "fruit": 0.25,
+  "dairy": 0.25
+}

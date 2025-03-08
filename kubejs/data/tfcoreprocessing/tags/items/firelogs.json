@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tfcoreprocessing:kindle/firelog",
+    "tfcoreprocessing:kindle/palm_fiber_firelog",
+    "tfcoreprocessing:kindle/bamboo_firelog"
+  ]
+}

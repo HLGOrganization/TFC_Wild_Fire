@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "bakery:chocolate_truffle"
+  },
+  "hunger": 2,
+  "saturation": 2,
+  "decay_modifier": 1.65,
+  "dairy": 1.5
+}

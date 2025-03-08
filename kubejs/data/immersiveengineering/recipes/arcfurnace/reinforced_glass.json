@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "count": 6,
+      "base_ingredient": {
+      "item": "firmalife:reinforced_glass"
+      }
+    }
+  ],
+  "additives": [
+    {
+      "item": "tfc:powder/soda_ash"
+    }
+  ],
+  "input": {
+    "tag": "forge:glass/silica"
+  },
+  "time": 50,
+  "energy": 10240
+}
