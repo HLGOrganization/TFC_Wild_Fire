@@ -1,0 +1,14 @@
+{
+  "block.tfc_metal_items.steel_tilt_hammer_head": "钢制杵锤头",
+  "item.tfc_metal_items.unknown_double_ingot": "未知双板",
+  "item.tfc_hammering.unknown_double_ingot": "未知双板",
+  "item.tfc_hammering.unforget_bloom": "取消Bloom目标",
+  "item.tfc_hammering.unknown_double_sheet": "未知双锭",
+  "block.tfc_hammering.steel_pressing_head": "钢压头",
+  "block.tfc_metal_items.steel_pressing_head": "钢压头",
+  "item.tfc_metal_items.unforget_bloom": "取消Bloom目标",
+  "item.tfc_metal_items.unknown_double_sheet": "未知双锭",
+  "item.tfc_hammering.unknown_sheet": "未知板",
+  "block.tfc_hammering.steel_tilt_hammer_head": "钢制杵锤头",
+  "item.tfc_metal_items.unknown_sheet": "未知板"
+}

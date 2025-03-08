@@ -1,0 +1,8 @@
+{
+  "item.castirongrill.cast_iron_grill": "铸铁烤架",
+  "block.castirongrill.cast_iron_grill_firepit": "铸铁烤架",
+  "block.castirongrill.stovetop_cast_iron_grill": "炉顶铸铁烤架",
+  "castirongrill.block_entity.cast_iron_grill": "铸铁烤架",
+  "castirongrill.block_entity.stovetop_cast_iron_grill": "炉顶铸铁烤架",
+  "castirongrill.creative_tab.main": "群峦铸铁烤架"
+}

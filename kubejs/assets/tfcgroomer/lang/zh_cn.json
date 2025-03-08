@@ -1,0 +1,12 @@
+{
+  "block.tfcgroomer.bismuth_bronze_grooming_station": "铋青铜梳洗站",
+  "block.tfcgroomer.black_bronze_grooming_station": "黑古铜梳洗站",
+  "block.tfcgroomer.black_steel_grooming_station": "黑钢梳洗站",
+  "block.tfcgroomer.blue_steel_grooming_station": "蓝钢梳洗站",
+  "block.tfcgroomer.bronze_grooming_station": "黄铜梳洗站",
+  "block.tfcgroomer.copper_grooming_station": "铜制梳洗站",
+  "block.tfcgroomer.red_steel_grooming_station": "红钢梳洗站",
+  "block.tfcgroomer.steel_grooming_station": "钢制梳洗站",
+  "block.tfcgroomer.wrought_iron_grooming_station": "铸铁梳洗站",
+  "tfcgroomer.grooming_station.range": "范围: %s"
+}
