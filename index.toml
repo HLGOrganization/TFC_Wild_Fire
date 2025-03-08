@@ -1,0 +1,394 @@
+hash-format = "sha256"
+
+[[files]]
+file = ".clientonlymodlist"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = ".github/workflows/release-client.yaml"
+hash = "b0f5538f2123a73a789b140d5cf681ebd10f9a1344a78833f8a5c96ed8eb6061"
+
+[[files]]
+file = ".github/workflows/release-server.yaml"
+hash = "0b0de7582d933586a16a48d7243105437e1235bccc378c76afd731b9dd8607c3"
+
+[[files]]
+file = "config/astralsorcery.cfg"
+hash = "427eda5d862cdf2dbb8f0c2bd5c4fec92345f0cee747e365308ab242fc6d120d"
+
+[[files]]
+file = "config/bettertitlescreen.cfg"
+hash = "adec5788aac152d4215b111038fbb4bbe317926b5372e5661907f06532a6174e"
+
+[[files]]
+file = "config/botania.cfg"
+hash = "e636d44d37b7af0b36c271e62c6fae3ea1da79d70c6ecadd9644ec7fbd5070df"
+
+[[files]]
+file = "config/durabilityviewer.cfg"
+hash = "30f0c51f9d274dfb47c6629b6e28ec4e30dd6fd615603df4ead41b76b0aee843"
+
+[[files]]
+file = "config/thaumcraft_graphics.cfg"
+hash = "678d5a3dda9320735667f593c4beb63a13ae8eaf46dd4bddcb83ee607128feee"
+
+[[files]]
+file = "config/titlechanger.cfg"
+hash = "3302308bc1e73941db681811d3900eb3971e8d0b114a1bc659bb4b2f86073bab"
+
+[[files]]
+file = "mods/!mixinbooter-10.5.jar"
+hash = "ba309343c021db547badef0cd60d3d51c34f01632bca2f904614478a88067987"
+
+[[files]]
+file = "mods/AIImprovements-1.12-0.0.1b3.jar"
+hash = "787fdcd860c226e7017a806fb9a48ee10ed9bbffb275e91207635d421d7e26da"
+
+[[files]]
+file = "mods/AIReducer-1.12.2-0.3.0.jar"
+hash = "9e06e63ef116c8c621166e182e52d27f8d4b390683b9c0ab1b097fc800006d5b"
+
+[[files]]
+file = "mods/AmbientSounds_v3.1.7_mc1.12.2.jar"
+hash = "8f9ea1605d2a141b269bbfd5e9c98ae06c7f47d13283454c75258e68e381d9ed"
+
+[[files]]
+file = "mods/AppleSkin-mc1.12-1.0.14.jar"
+hash = "4bbd37edecff0b420ab0eea166b5d7b4b41a9870bfb8647bf243140dc57f101e"
+
+[[files]]
+file = "mods/Aquaculture-1.12.2-1.6.8.jar"
+hash = "b9bdf522c6b2891e0d34dde10e40ac71a8df9169990e54fd6b9ccfe9868e1c9a"
+
+[[files]]
+file = "mods/BattleTowers-1.12.2.jar"
+hash = "21a402410869dad8d023e05f3a5488e7b34680ca11e8226560c572f6d06e53f1"
+
+[[files]]
+file = "mods/Baubles-1.12-1.5.2.jar"
+hash = "b32010b2f2778aa1188585e7ead91ad46d4cb2c715f9c778a61848ba7fe51f8d"
+
+[[files]]
+file = "mods/BetterFps-1.4.8.jar"
+hash = "93f2496bded8f622d31d7b4b634766166c8d52dfca6e21cd9f46c445a468a381"
+
+[[files]]
+file = "mods/BetterTitleScreen-1.12.2-1.4b.jar"
+hash = "a859ac3321dd4c5dc6438b3fc6dde2b46c2a62a199ea861fd44f4d9d07d97e67"
+
+[[files]]
+file = "mods/BiblioCraft[v2.4.6][MC1.12.2].jar"
+hash = "43f0fe963867bd74a18ac3f04caaf65c75d197abaf703f96b8282af6b843f2f8"
+
+[[files]]
+file = "mods/Botania r1.10-364.4.jar"
+hash = "8962beb2c583720a83858f58bd6afc891185b50d868c712549a96b191339b52a"
+
+[[files]]
+file = "mods/CTM-MC1.12.2-1.0.2.31.jar"
+hash = "433f441dc9c0aa75a4168df832900720ddadac1f22cc3bba4e4f25ca789b268b"
+
+[[files]]
+file = "mods/Chameleon-1.12-4.1.3.jar"
+hash = "238416f801acda67b90fba9e0e572dbd6e7631b7e64c3eb3d6226f45ae536c87"
+
+[[files]]
+file = "mods/ChunkAnimator-1.12.2-1.2.1.jar"
+hash = "a41da9077db8709be752f02e429b5af572fb7662b5713fad4e672f0c29981855"
+
+[[files]]
+file = "mods/CookingForBlockheads_1.12.2-6.5.0.jar"
+hash = "3a8ed073a9d84213d6a1f2947bf9e8a4e70730fa123e3ca53769fdc99ef4db9b"
+
+[[files]]
+file = "mods/CreativeCore_v1.10.71_mc1.12.2.jar"
+hash = "b0ef34ec816fa91451f8d4b62c016c159ab3559d6f75870790d1215943f009d5"
+
+[[files]]
+file = "mods/CustomSkinLoader_ForgeV1-14.22.jar"
+hash = "d35dc0932170c3944db37a67aa553bb3b2999b34309ae5313422f208f83c6ec7"
+
+[[files]]
+file = "mods/DoggyTalents-1.12.2-1.15.1.6.jar"
+hash = "98aacc7ce049466bda570e34be2865317262fc7e8773c4c30cd9ec5d890937eb"
+
+[[files]]
+file = "mods/DurabilityViewer-1.12-forge14.21.1.2387-1.6.jar"
+hash = "41f1e7cf12f3e333f6638b699f424cbab440bef17d76412afdc6dd30c07683e9"
+
+[[files]]
+file = "mods/DynamicLights-1.12.2.jar"
+hash = "6c116783121112f699947368b5cce742277f7c0c69b4fac92b60165d293c4c27"
+
+[[files]]
+file = "mods/DynamicSurroundings-1.12.2-3.6.3.jar"
+hash = "e5c9fbc101dae923a49800761c901831c1f085685c20a229d7dcf98f37d70b85"
+
+[[files]]
+file = "mods/EntityCulling-1.12.2-6.4.3.jar"
+hash = "fbd44e17ebf868fdfe727db5bda86aae5f9f96680b57b445cc8e99fc871e2647"
+
+[[files]]
+file = "mods/EuphoriaPatcher-1.5.2-r5.4-forgeLegacy.jar"
+hash = "30d10479f56f85072cdc221693744a89ded37849934e9715184c0e5f4075eed7"
+
+[[files]]
+file = "mods/FastLeafDecay-v14.jar"
+hash = "6da4ff366330253e2fb4f6849ae0c81e4ddc9f6bd5814460ad9ecb63e9f65119"
+
+[[files]]
+file = "mods/FpsReducer-mc1.12.2-1.20.jar"
+hash = "4c04d17010c77196226bb5f2a64c4c8dc348c144ce6183906d6ff301227780d5"
+
+[[files]]
+file = "mods/Galacticraft-1.12.2-4.0.6.jar"
+hash = "41770969798016c7e64a4d4f5a5673d3a3bbfa3a337cb8444ce9b1e080cc21eb"
+
+[[files]]
+file = "mods/Highlighter-1.12.2-forge-1.1.7.jar"
+hash = "fce8b4f9217d4a2f041dd376dc94488cd4f69212f6f1527560a7e0b029afcd0b"
+
+[[files]]
+file = "mods/Hwyla-1.8.26-B41_1.12.2.jar"
+hash = "e9ddecd4920ee9a57e11e4b43fb1dd395bbf37e276be726a99a2590272304124"
+
+[[files]]
+file = "mods/InventoryTweaks-1.64+dev.151.jar"
+hash = "8b3d8f2392e3e455de6c99fac30740f558908c6896adc7dd7948be009b418f52"
+
+[[files]]
+file = "mods/ItemPhysic_Full_1.4.37_mc1.12.2.jar"
+hash = "a0042bf4c1ad5eb4143f00927ad4b3d5383e7a603a6b17361b5644f617b54210"
+
+[[files]]
+file = "mods/Jade-0.1.0.jar"
+hash = "53076b9523f5fd450b8bbadde776546c00565880e3e4ac01f3d01a6471b00b0c"
+
+[[files]]
+file = "mods/LLOverlayReloaded-1.1.6-mc1.12.2.jar"
+hash = "43dd4bfb5db342805ca26dc1afa2966ac7af5e6f9c663156a50b880e33313106"
+
+[[files]]
+file = "mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar"
+hash = "67c5e8d8e975172d838f765040130ea0f73ec7a590b4470217a2f5516fdc652b"
+
+[[files]]
+file = "mods/MMLib-2.3.0.jar"
+hash = "18d43b6ed8a0b15fef6e6233cb1c6ef5ca24b8ec323ea2e4dab25c0d78595daf"
+
+[[files]]
+file = "mods/Mantle-1.12-1.3.3.55.jar"
+hash = "0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65"
+
+[[files]]
+file = "mods/MoBends_1.12.2-1.2.1-19.12.21.jar"
+hash = "c29f1971acbf1603f5f733bc50e5f155287d0954f75c3794a26f386949f3e8cd"
+
+[[files]]
+file = "mods/MouseTweaks-2.10.1-mc1.12.2.jar"
+hash = "5e13315f4e0d0c96b1f9b800a42fecb89f519aca81d556c91df617c8751aa575"
+
+[[files]]
+file = "mods/Neat+1.4-17.jar"
+hash = "2062c99a371921fb2eb7cf6833d682c05244ca5a527db8f0c36e7f12c8ca1379"
+
+[[files]]
+file = "mods/OreLib-1.12.2-3.6.0.1.jar"
+hash = "4483d8cc2b0334b82b7d0f5bb6354a2020a0e00ce63a48379e8ba5eb7d79eef9"
+
+[[files]]
+file = "mods/Pam's+HarvestCraft+1.12.2zg.jar"
+hash = "9542e0863473b2cf61eff3fa7bdb9f096aaf7fc446c54750cbaa9db47a58f2fa"
+
+[[files]]
+file = "mods/Paraglider-1.12.2-1.0.1.5.jar"
+hash = "9170d3d05e7c4c5196c2e7d7455a6d0088858f76bdc17d34f656fabc4b2ee383"
+
+[[files]]
+file = "mods/Patchouli-1.0-23.6.jar"
+hash = "8fcceac75c71e0d041db734111200205d03431b7e8646f8209cf2c4de9afef7b"
+
+[[files]]
+file = "mods/RadixCore-1.12.x-2.2.1-universal.jar"
+hash = "05574f8c6be89ef625e04192c737aa7950da712eff5a7ae601b87f9d84982282"
+
+[[files]]
+file = "mods/RenderLib-1.12.2-1.3.5.jar"
+hash = "d314149e6e4c62fa14155ce44f940257a9289945ca785be17a77ed93300eb4ed"
+
+[[files]]
+file = "mods/Resourcify (1.12.2-forge)-1.6.1.jar"
+hash = "9a3244c9c083b6993f0d52dafc962991cf720204e9b363eb48a422a08eb4124b"
+
+[[files]]
+file = "mods/Sakura-1.0.7-1.12.2.jar"
+hash = "a835465380151583100a6530d9c5ed35c1d421eee1bfdb9c9bc4f1b83f270f73"
+
+[[files]]
+file = "mods/Schematica-1.12.2-1.8.0.169-universal.jar"
+hash = "7f2642cdc85c32ec754914e77f5bad11976c7c9c51d296e0ae4a8428d01153e8"
+
+[[files]]
+file = "mods/ShulkerTooltip-1.9.2.2.jar"
+hash = "f524c962d4cac7654fc58c774045ac95c26a5d574795db85f4af74369e1d8993"
+
+[[files]]
+file = "mods/SlashBlade-mc1.12-r33.jar"
+hash = "bc13f464998de7bd033e0b586e5732d122be137870ddb10337ad11e8a5b8a11f"
+
+[[files]]
+file = "mods/StorageDrawers-1.12.2-5.5.3.jar"
+hash = "26337559bad06539175f0a5fe886db816f0f6045d96be4737493a0e669117e2f"
+
+[[files]]
+file = "mods/TConstruct-1.12.2-2.13.0.183.jar"
+hash = "707107f746ffc9d2bf35912953ae1ce780f7b7c4b7cf86b4821a1a151bcf9f6f"
+
+[[files]]
+file = "mods/TeaStory-3.3.3-B33.418-1.12.2.jar"
+hash = "25dfe1f36a9ed23a34da43f9d49482c1d933c7bebeaf81de2dc64533856eb654"
+
+[[files]]
+file = "mods/Thaumcraft-1.12.2-6.1.BETA26.jar"
+hash = "9425f8643581b27ff8845b087c8bc6fc10425a32942f1a3f0e265ce6b38f7b5f"
+
+[[files]]
+file = "mods/TofuCraftReload-0.1.0.9.jar"
+hash = "05ba81d44a74227be9464c742129620b838fd028c8428bf0e12790ab650c285a"
+
+[[files]]
+file = "mods/TravelersBackpack-1.12.2-1.0.35.jar"
+hash = "39a7914b5a55b7d5ad5d1192c38a66b926895317e0426a359a529de2f8028581"
+
+[[files]]
+file = "mods/WailaHarvestability-mc1.12-1.1.12.jar"
+hash = "f445cdccfe824a895ace7cb83d29cfb17d5b3c3383949298e44c2da8697237f0"
+
+[[files]]
+file = "mods/Wawla-1.12.2-2.6.275.jar"
+hash = "272a3229f669bfe1bc1af748bf8f5fe312c2efa11f6798584f1029b899d95453"
+
+[[files]]
+file = "mods/Waystones_1.12.2-4.1.0.jar"
+hash = "5e79f329154d9a6225130f2b29dbcb0f603e2e622637e39ca566f8179b02ca15"
+
+[[files]]
+file = "mods/XaerosWorldMap_1.39.2_Forge_1.12.jar"
+hash = "b7c3cdb2cfe707197749174dcf30621aa8412040dedbdec43d10c8920338d1f8"
+
+[[files]]
+file = "mods/Xaeros_Minimap_25.0.0_Forge_1.12.jar"
+hash = "4b101b232e21bc2c4cddcba09116e5e633e2c0ea98eb1ab58f697d09d19d9242"
+
+[[files]]
+file = "mods/aether-1.12.2-v1.5.4.0.jar"
+hash = "5d8dfcc442794fe0058828174326eec0bbf7197e6c719c0c4959f3815bbd106c"
+
+[[files]]
+file = "mods/astralsorcery-1.12.2-1.10.27.jar"
+hash = "771107764cad17a30b37f683fd6889384a916981b1c8ed63826ec0a335efae86"
+
+[[files]]
+file = "mods/camera-1.0.11.jar"
+hash = "01f871f02c8508684bc8a67229cc1dfb4098e577dec3216ecc1625e601c74f3d"
+
+[[files]]
+file = "mods/candyworld-1.1.5.jar"
+hash = "8f84989cc8d824b13fd6cb82e0d03bc6b49d3af18369552125a3c418049ae66f"
+
+[[files]]
+file = "mods/carryon-1.12.2-1.12.7.23.jar"
+hash = "02fb9cee20990687149d19f668cd6383164a2b275c3dce0e43ca2b6f6a03f070"
+
+[[files]]
+file = "mods/censoredasm5.23.jar"
+hash = "67e09997e6c0244a3fe3a708b786df47a6e0e5d31b5856cee9f2b67815178473"
+
+[[files]]
+file = "mods/chunkgenlimiter-1.1-core.jar"
+hash = "0b2d1ad7e83bd302f760d99579fdfd915a56e804dc3497e03fedbc5c4cff19f2"
+
+[[files]]
+file = "mods/chunkgenlimiter-1.1.jar"
+hash = "b9136aa6ac8e325208f3cda2186d872a77de65701e4f0128d6fdb29c05f498b7"
+
+[[files]]
+file = "mods/codecjlayermp3-1.0.0-SNAPSHOT.jar"
+hash = "e3d0723dbe20290856d80a487a9bbfd5e988f23db17b234fcfe47db17fe6f3fd"
+
+[[files]]
+file = "mods/foamfix-0.10.15-1.12.2.jar"
+hash = "e6752973cf884f96fcd3835fe6c184b3b4180a27fd955ca07c561cf77e837dda"
+
+[[files]]
+file = "mods/forgeautofish-1.0.4-1.12.2.jar"
+hash = "39d7bc8355d9f853158b1b0c8d2297d7f8f624d810d2c3feb657586ea49f517a"
+
+[[files]]
+file = "mods/ftb-ultimine-1202.3.5.jar"
+hash = "97642be69016944afab202f3a3edbce422af3d6485b60fdc81025bf7e29b99de"
+
+[[files]]
+file = "mods/furniture-6.3.2-1.12.2.jar"
+hash = "f412373512e14b431736ec54f465bf196b81c07939fa484202f457e1c0fbf144"
+
+[[files]]
+file = "mods/jei_1.12.2-4.16.1.1013.jar"
+hash = "52d0782ad805c20b1061711faa64a5fdc4640639738f7cedb1e5b0be46fc8685"
+
+[[files]]
+file = "mods/jeiintegration_1.12.2-1.6.0.jar"
+hash = "b072944ed22907db480bea91b0660924d3dcef266e6501de236d08c45d07dc19"
+
+[[files]]
+file = "mods/jlayer-1.0.1.jar"
+hash = "850508c837454a1b06017c32a36876fae516de1e89a829f725fee1e6dcc52000"
+
+[[files]]
+file = "mods/mcw-furniture-1.0.1-mc1.12.2beta.jar"
+hash = "5efa339045e3dc89a288f38b4f3a0906616f68903c77a4f8d95358caddd767c8"
+
+[[files]]
+file = "mods/nashorn.jar"
+hash = "984ab65c7c96483caa9e3722d932ee8ad6f4f017364538ed2d169c596ec4fe56"
+
+[[files]]
+file = "mods/replaymod-1.12.2-2.6.20.jar"
+hash = "0e0cf96f6d70e37ef592ae66cd2922c02473bdf0efcf248da3872902b8bb8945"
+
+[[files]]
+file = "mods/sampler-1.84.jar"
+hash = "1963d15663b035f4f132f5c509a8fe23ea13ae95e7b28de883a3dac5d8b1416d"
+
+[[files]]
+file = "mods/sit-1.12.2-v1.3.jar"
+hash = "3d4bb6569a06191fd2d8759c0995ae9a48e318a4b24323ecabdac148ab57ffc3"
+
+[[files]]
+file = "mods/titlechanger-1.1.4.jar"
+hash = "333947258e59a701c691f38f0bb06432e462a45bc0827cc3cef5578687485b96"
+
+[[files]]
+file = "mods/touhoulittlemaid-1.12.2-1.2.5-release.jar"
+hash = "198b0e3420d61b4502fb28f826dce6d3e1db44f85e5e4ab91a46498d36dce811"
+
+[[files]]
+file = "mods/twilightforest-1.12.2-3.11.1021-universal.jar"
+hash = "e1cee0a1e8f4aaedbd4381308fe6f32a6f69935e7bfb0df0748c2b292fb821ce"
+
+[[files]]
+file = "mods/worldedit-forge-mc1.12.2-6.1.10-dist.jar"
+hash = "cd4768ded9e2b527e3fc093fdf4ce07f058187de7961bdc0d7fa821c1b756f75"
+
+[[files]]
+file = "options.txt"
+hash = "92dc48375a5767c112c7d80620c2b9934eed86954a2ecb088579fff58d12603b"
+
+[[files]]
+file = "optionsof.txt"
+hash = "69d77f63573a66106a65d5f8f87596b663db44ce0c0bff0f98350a1ba22913df"
+
+[[files]]
+file = "resourcepacks/soartex-fanver-modded.pw.toml"
+hash = "0662b76f11ba3286c2527a54a43bc2b66d30992ea88af55519221ec0dd9623ab"
+metafile = true
