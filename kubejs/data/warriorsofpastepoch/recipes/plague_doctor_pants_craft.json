@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:sterile_tissue"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:plague_doctor_armor_leggings",
+    "count": 1
+  }
+}

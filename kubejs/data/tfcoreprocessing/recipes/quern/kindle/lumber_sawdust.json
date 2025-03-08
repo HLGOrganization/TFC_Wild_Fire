@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "tfc:lumber"
+  },
+  "result": {
+    "item": "tfcoreprocessing:kindle/sawdust",
+    "count": 1
+  }
+}

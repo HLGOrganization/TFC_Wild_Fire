@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:compressed/native_silver"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:refined/native_silver",
+      "count":4
+  }
+}

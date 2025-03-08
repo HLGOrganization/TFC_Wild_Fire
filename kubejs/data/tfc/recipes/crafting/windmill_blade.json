@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " CC"
+  ],
+  "key": {
+    "S": {
+      "item": "tfc_ie_addon:treated_wood_lumber"
+    },
+    "C": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "tfc:windmill_blade",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:vegetable_sandwich"
+  },
+  "hunger": 2.5,
+  "saturation": 2,
+  "decay_modifier": 1.6,
+  "grain": 1.5,
+  "vegetables": 1.5
+}

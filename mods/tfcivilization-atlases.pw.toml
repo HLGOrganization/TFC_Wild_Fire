@@ -1,0 +1,13 @@
+name = "TFCivilization Atlases"
+filename = "tfcivilization_atlases-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6b5002d3aa1b1e2df36405b1b67a75da894e3b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5571252
+project-id = 1072300

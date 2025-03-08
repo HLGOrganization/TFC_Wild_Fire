@@ -1,0 +1,17 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+        "item": "tfc:powder/native_silver"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 250
+  },
+  "output_fluid": {
+    "fluid": "tfcoreprocessing:slurry_native_silver",
+    "amount": 250
+  },
+  "duration": 6000
+}

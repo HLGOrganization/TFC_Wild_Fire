@@ -1,0 +1,30 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+    {
+      "tag": "loot:breads"
+    },
+    {
+      "tag": "loot:breads"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "minecraft:water",
+        "amount": 100
+      }
+    }
+  ],
+  "cup": {
+    "item": "drinkbeer:empty_beer_mug",
+    "count": 4
+  },
+  "brewing_time": 48000,
+  "result": {
+    "item": "drinkbeer:beer_mug_night_howl_kvass",
+    "count": 4
+  }
+}

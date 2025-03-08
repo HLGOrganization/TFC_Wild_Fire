@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    "b": {
+      "item": "call_of_yucutan:fragment_of_rebirth"
+    },
+    "c": {
+      "item": "call_of_yucutan:red_limestone"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:solar_projector",
+    "count": 1
+  }
+}

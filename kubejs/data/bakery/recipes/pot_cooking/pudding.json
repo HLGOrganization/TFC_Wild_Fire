@@ -1,0 +1,33 @@
+{
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:eggs"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:foods/preserves"
+      }
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": {
+          "tag": "tfc:milks"
+        },
+        "amount": 100
+      }
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "bakery:pudding",
+    "count": 1
+  }
+}

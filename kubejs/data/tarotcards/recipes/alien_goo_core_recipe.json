@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    },
+    {
+      "item": "tarotcards:alien_goo"
+    }
+  ],
+  "result": {
+    "item": "tarotcards:alien_goo_core",
+    "count": 1
+  }
+}

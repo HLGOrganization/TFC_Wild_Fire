@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcoreprocessing:roasted/native_silver"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/silver",
+    "amount": 10
+  },
+  "temperature": 961
+}

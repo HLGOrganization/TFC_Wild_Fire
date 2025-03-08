@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "brewery:half_chicken"
+  },
+  "hunger": 3,
+  "saturation": 3.5,
+  "decay_modifier": 1.5,
+  "protein": 3
+}

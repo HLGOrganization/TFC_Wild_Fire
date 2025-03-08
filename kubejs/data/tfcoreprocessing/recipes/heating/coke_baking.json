@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "tfcoreprocessing:kindle/coal_dust"
+    },
+    "result_item": {
+      "item": "tfcoreprocessing:kindle/coke_dust"
+    },
+    "temperature": 500,
+    "chance": 0.8
+  }

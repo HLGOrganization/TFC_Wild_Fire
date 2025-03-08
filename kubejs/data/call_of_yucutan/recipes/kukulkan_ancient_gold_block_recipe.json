@@ -1,0 +1,18 @@
+{
+  "type": "call_of_yucutan:ritual_transmutation",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "call_of_yucutan:kukulkan_idol"
+    },
+    {
+      "item": "call_of_yucutan:jei_kukulkan"
+    }
+  ],
+  "output": {
+    "item": "call_of_yucutan:ancient_gold",
+    "count": 1
+  }
+}

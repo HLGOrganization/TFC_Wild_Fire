@@ -1,0 +1,52 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "缝纫台",
+  "category": "tfc:mechanics",
+  "icon": "tfc:wood/sewing_table/oak",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)缝纫台$()是用作制作旗帜样式与锻造模板的。它需要$(l:mechanics/weaving#wool_cloth)羊毛布料$()、$(l:mechanics/weaving#burlap_cloth)粗麻布$()、线或纱，与针来制作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/bone_needle",
+      "text": "一根用来缝纫的针可以通过骨头制作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wood/sewing_table/oak",
+      "text": "缝纫台可以由木头、皮革和一把剪刀制成。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "缝纫台的界面与工作台的界面相似。如果你失误了，你可以简单地退出界面，而你的物品会被返还。GUI中提供了一本配方书。点击书籍会打开一个菜单，您可以在其中选择配方，在选择了配方后在GUI中就会出现一些要执行哪些步骤的指示器。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/gui/sewing_table.png"
+      ],
+      "text": "缝纫界面。",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "左边的槽位是放针与线的。两个底下的槽位可以放入任何组合的粗麻布和羊毛布料。右边的槽位将展示成品。直接在右边的槽位中取出成品，你的针线活就算完成了！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每件布料可以在缝纫的UI上放置8个正方形的布料。相似的，每根纱能缝16针。在你选择完配方后，点击屏幕右上方的按钮，按照指示放置正方形布料与缝针。不小心缝错了？按红色的X可以去除正方形布料。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/vanilla/loom",
+      "text": "可以制作旗帜织机用来制作旗帜样式。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "锻造模板使用的教程请见$(l:mechanics/armor_trims)盔甲装饰$()篇章。"
+    }
+  ],
+  "read_by_default": true
+}

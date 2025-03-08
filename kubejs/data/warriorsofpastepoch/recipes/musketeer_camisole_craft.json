@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bab",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:azure_fabric"
+    },
+    "c": {
+      "item": "tfc:metal/ingot/silver"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:muketers_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    },
+    "b": {
+      "item": "immersiveengineering:plate_lead"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:ammo_bag",
+    "count": 1
+  }
+}

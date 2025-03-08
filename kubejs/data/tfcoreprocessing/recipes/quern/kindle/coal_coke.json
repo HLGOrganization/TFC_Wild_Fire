@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+      "item": "immersiveengineering:coal_coke"
+    },
+    "result": {
+      "item": "tfcoreprocessing:kindle/coke_dust",
+      "count": 6
+    }
+  }

@@ -1,0 +1,18 @@
+{
+  "type": "call_of_yucutan:ritual_transmutation",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "call_of_yucutan:ah_puch_idol"
+    },
+    {
+      "item": "call_of_yucutan:jei_ah_puch"
+    }
+  ],
+  "output": {
+    "item": "call_of_yucutan:fragment_of_death",
+    "count": 1
+  }
+}

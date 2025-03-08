@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "bakery:jam_roll"
+  },
+  "hunger": 0.5,
+  "saturation": 1,
+  "decay_modifier": 2,
+  "grain": 1,
+  "fruit": 0.5,
+  "dairy": 0.5
+}

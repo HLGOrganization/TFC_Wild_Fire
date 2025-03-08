@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:powder/bismuthinite"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/bismuth",
+    "amount": 6
+  },
+  "temperature": 270
+}

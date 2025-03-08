@@ -1,0 +1,43 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+          "item": "tfcoreprocessing:compressed/native_silver"
+    }
+,
+    {
+          "item": "tfcoreprocessing:compressed/native_silver"
+    }
+,
+    {
+          "item": "tfcoreprocessing:compressed/native_silver"
+    }
+,
+    {
+          "item": "tfcoreprocessing:compressed/native_silver"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "minecraft:water",
+    "amount": 100
+  },
+  "duration": 2000,
+  "temperature": 300,
+  "item_output": [
+    {
+      "item":"tfcoreprocessing:roasted_brick/native_silver"
+    }
+,
+    {
+      "item":"tfcoreprocessing:roasted_brick/native_silver"
+    }
+,
+    {
+      "item":"tfcoreprocessing:roasted_brick/native_silver"
+    }
+,
+    {
+      "item":"tfcoreprocessing:roasted_brick/native_silver"
+    }
+  ]
+}

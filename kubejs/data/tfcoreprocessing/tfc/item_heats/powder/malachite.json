@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc:powder/malachite"
+  },
+  "heat_capacity": 1.143,
+ "forging_temperature": 648,
+  "welding_temperature": 864 
+}

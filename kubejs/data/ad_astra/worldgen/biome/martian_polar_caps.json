@@ -1,0 +1,117 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 1.0,
+  "effects": {
+    "fog_color": 15117444,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.014
+    },
+    "sky_color": 15117444,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ice_spike",
+      "minecraft:ice_patch"
+    ],
+    [],
+    [
+      "ad_astra:mars_diamond_ore",
+      "ad_astra:mars_ice_shard_ore",
+      "ad_astra:mars_iron_ore",
+      "ad_astra:mars_netherite",
+      "ad_astra:mars_ostrum_ore"
+    ],
+    [
+      "ad_astra:mars_chert",
+      "ad_astra:mars_cobble",
+      "ad_astra:mars_magma",
+      "ad_astra:mars_kaolin",
+      "ad_astra:mars_conglomerate"
+    ],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {
+    "ad_astra:martian_raptor": {
+      "charge": 0.2,
+      "energy_budget": 0.015
+    },
+    "call_of_yucutan:undead_warrior": {
+      "charge": 0.4,
+      "energy_budget": 0.015
+    },
+    "call_of_yucutan:mitnal_monkey": {
+      "charge": 0.3,
+      "energy_budget": 0.015
+    },
+    "mobs_of_mythology:kobold_warrior": {
+      "charge": 0.2,
+      "energy_budget": 0.015
+    },
+    "mobs_of_mythology:kobold": {
+      "charge": 0.2,
+      "energy_budget": 0.015
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "mobs_of_mythology:kobold_warrior",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "call_of_yucutan:undead_warrior",
+        "maxCount": 6,
+        "minCount": 1,
+        "weight": 35
+      },
+      {
+        "type": "call_of_yucutan:mitnal_monkey",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 40
+      },
+      {
+        "type": "ad_astra:martian_raptor",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 15
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.0
+}

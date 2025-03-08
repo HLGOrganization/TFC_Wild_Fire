@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfchotornot:tong_part/silver"
+  },
+  "heat_capacity": 2.083,
+  "forging_temperature": 577,
+  "welding_temperature": 769
+}

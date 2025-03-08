@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "aab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gray_wool"
+    },
+    "b": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:sterile_tissue",
+    "count": 4
+  }
+}

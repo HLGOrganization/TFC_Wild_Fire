@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "#minecraft:flowers",
+    "#minecraft:small_flowers",
+    "tfc:plant/athyrium_fern",
+    "tfc:plant/perovskia",
+    "tfc:plant/heliconia",
+    "tfc:plant/heather",
+    "tfc:plant/houstonia",
+    "tfc:plant/maiden_pink",
+    "tfc:plant/meads_milkweed",
+    "tfc:plant/pickerelweed",
+    "tfc:plant/sea_lavender",
+    "tfc:plant/water_canna",
+    "kubejs:trillium",
+    "kubejs:marigold",
+    "kubejs:horsetail"
+  ]
+}

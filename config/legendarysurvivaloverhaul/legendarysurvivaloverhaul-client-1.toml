@@ -1,0 +1,97 @@
+
+# 与抬头显示（HUD）相关的选项。
+# 这些选项在保存时将自动更新。
+[hud]
+
+    [hud.general]
+        # 如果启用，当玩家受到寒冷饥饿效果（二级温度效果）时，食物饱和度将显示在食物栏上。
+        "Show Food Saturation Bar" = false
+        # 是否渲染食物栏和水分栏的原版动画。它们越低，栏的晃动就越剧烈。
+        # 此模组会渲染一个新的食物栏作为低温的二级效果。
+        # 如果启用了温度二级效果，请禁用此动画，以便与其他渲染食物栏的模组（例如Appleskin）兼容。
+        "Show Vanilla Bar Animation Overlay" = false
+
+    [hud.temperature]
+        # 温度的显示方式。可接受的值如下：
+        #    SYMBOL - 在快捷栏上方以符号形式显示玩家当前温度。
+        #    NONE - 禁用温度指示器。
+        # 允许的值: SYMBOL, NONE
+        "Temperature Display Mode" = "NONE"
+        # 温度指示器的X和Y偏移量。都设为0则无偏移。
+        # 范围: -10000 ~ 10000
+        "Temperature Display X Offset" = 0
+        # 范围: -10000 ~ 10000
+        "Temperature Display Y Offset" = 0
+        # 当温度计作为饰品（需要Curios模组）装备时显示的体温的X和Y偏移量。
+        # 都设为0则无偏移。
+        # 范围: -10000 ~ 10000
+        "Body Temperature Display X Offset" = 0
+        # 范围: -10000 ~ 10000
+        "Body Temperature Display Y Offset" = 0
+        # 如果启用，当温度较高时玩家将看到雾状效果。
+        "Heat Temperature Overlay" = true
+        # 如果启用，当温度较低时玩家将看到霜冻效果。
+        "Cold Temperature Overlay" = true
+        # 如果启用，玩家在面对极端温度时可以听到呼吸声。
+        "Breathing Sound Enabled" = true
+        # 低于此温度阈值时，玩家将渲染出呼气有白雾的效果。-1000 禁用此功能。
+        # 范围: -1000.0 ~ 1000.0
+        "Cold Breath Temperature Threshold" = 10.0
+        # 如果启用，以华氏度显示温度值。
+        "Temperature In Fahrenheit" = false
+
+        [hud.temperature.wetness]
+            # 湿度指示器的X和Y偏移量。都设为0则无偏移。
+            # 范围: -10000 ~ 10000
+            "Wetness Indicator X Offset" = 0
+            # 范围: -10000 ~ 10000
+            "Wetness Indicator Y Offset" = 0
+
+[body - damage]
+    # 身体伤害指示器的X和Y偏移量。都设为0则无偏移。
+    # 默认情况下，显示在物品栏旁边。
+    # 范围: -10000 ~ 10000
+    "Body Damage Indicator X Offset" = 0
+    # 范围: -10000 ~ 10000
+    "Body Damage Indicator Y Offset" = 0
+    # 如果为true，身体伤害指示器将始终显示
+    # 默认情况下，当没有受伤的身体部位时，身体伤害指示器会消失。
+    "Body Damage indicator Always Rendered" = false
+
+[season - cards]
+    # 季节卡片的X和Y偏移量。都设为0则无偏移。
+    # 默认情况下，垂直方向上先显示在顶部四分之一处，水平方向居中。
+    # 范围: -10000 ~ 10000
+    "Season Cards Display X Offset" = 0
+    # 范围: -10000 ~ 10000
+    "Season Cards Display Y Offset" = 0
+    # 玩家首次生成或维度变化后渲染季节卡片的延迟时间。
+    # 范围: > 0
+    "Season Cards Delay In Ticks" = 80
+    # 季节卡片完全显示的持续时间（以游戏刻为单位）。
+    # 范围: > 0
+    "Season Cards Display Time In Ticks" = 40
+    # 季节卡片淡入的时间（以游戏刻为单位）。
+    # 范围: > 0
+    "Season Cards Fade in In Ticks" = 20
+    # 季节卡片淡出的时间（以游戏刻为单位）。
+    # 范围: > 0
+    "Season Cards Fade Out In Ticks" = 20
+
+[thirst]
+    # 如果启用，在物品tooltip中显示水分值。
+    "Show Hydration Tooltip" = true
+    # 如果启用，在tooltip中同一行显示水分值和饱和度值。
+    "Merge Hydration And Saturation Tooltip" = true
+    # 是否显示口渴饱和度。
+    "Render the thirst saturation" = true
+    # 如果启用，当玩家水分不足时，其视野将变得模糊。
+    "Low Thirst Effect" = true
+
+[tabs - menu]
+    # 标签菜单的X和Y偏移量。都设为0则无偏移。
+    # 默认情况下，将显示在我的世界菜单上方。设为10000则完全禁用。
+    # 范围: -10000 ~ 10000
+    "Season Cards Display X Offset" = 2
+    # 范围: -10000 ~ 10000
+    "Season Cards Display Y Offset" = 0

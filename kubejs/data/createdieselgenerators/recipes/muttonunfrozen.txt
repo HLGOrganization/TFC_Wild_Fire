@@ -1,0 +1,13 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "kubejs:iceland_mutton"
+    }
+  },
+  "result_item": {
+    "item": "tfc:food/mutton"
+  },
+  "temperature": 150
+}

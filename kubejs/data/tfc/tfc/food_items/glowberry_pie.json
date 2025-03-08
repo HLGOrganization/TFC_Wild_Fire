@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:glowberry_pie"
+  },
+  "hunger": 6,
+  "saturation": 8,
+  "decay_modifier": 1.5,
+  "grain": 4,
+  "fruit": 8
+}

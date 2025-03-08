@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:compressed/garnierite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:refined/garnierite",
+      "count":4
+  }
+}

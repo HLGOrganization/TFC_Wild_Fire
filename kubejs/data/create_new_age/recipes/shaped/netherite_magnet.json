@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "create_new_age:overcharged_diamond"
+    },
+    ".": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    ".#.",
+    "###",
+    ".#."
+  ],
+  "result": {
+    "count": 2,
+    "item": "create_new_age:netherite_magnet"
+  },
+  "show_notification": true
+}

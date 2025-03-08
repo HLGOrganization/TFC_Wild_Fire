@@ -1,0 +1,13 @@
+name = "Samples TFC"
+filename = "hardrock-tfc-samples-forge-1.20.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e8faa72cbff7384377a054eafe7a912ba86a0b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4907115
+project-id = 943693

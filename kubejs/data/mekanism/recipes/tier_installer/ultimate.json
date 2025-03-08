@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","key":{"A":{"tag":"mekanism:alloys/atomic"},"C":{"tag":"forge:circuits/ultimate"},"I":{"item":"minecraft:netherite_scrap"},"P":{"tag":"minecraft:planks"}},"pattern":["ACA","IPI","ACA"],"result":{"item":"mekanism:ultimate_tier_installer"}}

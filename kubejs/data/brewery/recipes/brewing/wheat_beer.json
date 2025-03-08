@@ -1,0 +1,30 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+    {
+      "item": "brewery:dried_wheat"
+    },
+    {
+      "item": "brewery:dried_wheat"
+    },
+    {
+      "item": "brewery:dried_wheat"
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "minecraft:water",
+        "amount": 100
+      }
+    }
+  ],
+  "cup": {
+    "item": "brewery:beer_mug",
+    "count": 4
+  },
+  "brewing_time": 72000,
+  "result": {
+    "item": "brewery:beer_wheat",
+    "count": 4
+  }
+}

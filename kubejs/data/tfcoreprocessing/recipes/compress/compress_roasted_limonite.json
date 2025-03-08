@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:roasted/limonite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/limonite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/limonite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/limonite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/limonite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:roasted_brick/limonite"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    "b": {
+      "item": "call_of_yucutan:fragment_of_rebirth"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:kukulkan_idol",
+    "count": 1
+  }
+}

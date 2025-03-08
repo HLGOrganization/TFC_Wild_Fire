@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/emerald",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/amethyst",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/diamond",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/lapis_lazuli",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/opal",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/pyrite",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/ruby",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/sapphire",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:gem/topaz",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

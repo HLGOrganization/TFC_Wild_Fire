@@ -1,0 +1,13 @@
+{
+  "materials": [
+    {"item": {"item": "immersiveengineering:empty_casing" },"count": 5},
+    {"item": {"item": "create:copper_nugget" },"count": 5},
+    {"item": {"item": "minecraft:gunpowder" },"count": 3}
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:762x25",
+    "count": 5
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

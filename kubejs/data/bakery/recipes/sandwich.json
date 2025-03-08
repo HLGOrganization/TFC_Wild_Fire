@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:bread"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "forge:vegetables"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:foods/cooked_meats"
+      }
+    }
+  ],
+  "result": {
+    "item": "bakery:sandwich",
+    "count": 2
+  }
+}u

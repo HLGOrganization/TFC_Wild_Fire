@@ -1,0 +1,17 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "769774305BAF1657"
+	group: "2BD524ABD6AD1EEE"
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "769774305BAF1657"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "终章：何以为家"
+}

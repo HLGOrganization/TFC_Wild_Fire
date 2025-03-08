@@ -1,0 +1,22 @@
+{
+  "type": "vinery:wine_fermentation",
+  "juice": {
+    "type": "red_general",
+    "amount": 12
+  },
+  "ingredients": [
+    {
+      "tag": "tfc:foods/fruits"
+    },
+    {
+      "tag": "tfc:foods/fruits"
+    }
+  ],
+  "wine_bottle": {
+    "required": true
+  },
+  "result": {
+    "item": "vinery:noir_wine",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:sandwich"
+  },
+  "hunger": 2.5,
+  "saturation": 2,
+  "decay_modifier": 1.75,
+  "grain": 1.5,
+  "protein": 1.0
+}

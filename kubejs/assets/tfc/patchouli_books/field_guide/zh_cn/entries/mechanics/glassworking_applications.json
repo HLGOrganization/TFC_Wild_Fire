@@ -1,0 +1,411 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "玻璃制品",
+  "category": "tfc:mechanics",
+  "icon": "minecraft:glass",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "最简单的玻璃制品是$(thing)玻璃板$()与$(thing)玻璃方块$(). 要合成它们, 你需要一个 $(l:mechanics/glassworking#blowpipe)吹风管$() 上面有一个$(thing)玻璃配料$(), 随后执行一次$(thing)浇注$().$(br)$(li)$(bold)桌上浇注$() 用来制作 $(thing)玻璃板$()$(li)$(bold)盆中浇注$() 用来制作 $(thing)玻璃方块$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "玻璃在被浇注前能够被$(thing)染色$()以制成染色玻璃。颜色取决于玻璃配料的种类与加入的粉末种类。$(br2)每一种$(thing)玻璃配料$()都有不同的自然颜色，它们制造出来的玻璃的自然颜色也互不相同。$(thing)二氧化硅$() 玻璃配料能被制造成许多种颜色, $(thing)橄榄石$(), 与$(thing)火山岩$()玻璃能被制造成相对种类较少的颜色。 "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)玻璃板$() 是由 $(thing)桌上浇注$()而成。 浇注桌是通过在一个连续的区域放置最多16个$(thing)黄铜电镀方块$()。$(br2) 1. 添加一个 $(l:mechanics/glassworking)玻璃配料$() 到 $(thing)吹风管$()中.$(br) 2. 加热吹风管直到变成$(4)$(bold)淡红色$().$(br) 3. $()$(item)$(k:key.use)$() $(thing)吹风管$() 在浇注桌的上面。$(br) 4. 最后 $(item)$(k:key.use)$() 用一个 $(l:mechanics/glassworking#paddle)桨$() 以使玻璃扁平化。",
+      "title": "Table Pour"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/glass_panes_1.png",
+        "tfc:textures/gui/book/tutorial/glass_panes_2.png",
+        "tfc:textures/gui/book/tutorial/glass_panes_3.png"
+      ],
+      "text": "玻璃一旦上色过后，它就能被使用$(l:mechanics/glassworking#saw)宝石锯$()采集。",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)玻璃方块$()是通过 $(thing)台盆浇注$()制成的. 台盆是通过用$(thing)黄铜电镀块$()围绕着一个空气方块的所有侧面（除了顶部）放一圈制成的。$(br2) 1. 添加一个 $(l:mechanics/glassworking)玻璃配件$()向$(thing)吹风管$().$(br) 2. 加热吹风管直到变成$(4)$(bold)淡红色$().$(br) 3. $(item)$(k:key.use)$()  $(thing)吹风管$() 在浇注桌的上面.",
+      "title": "台盆浇注"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/glass_block_1.png",
+        "tfc:textures/gui/book/tutorial/glass_block_2.png",
+        "tfc:textures/gui/book/tutorial/glass_block_3.png"
+      ],
+      "text": "玻璃一旦上色过后，它就能被使用$(l:mechanics/glassworking#saw)宝石锯$()采集。",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "coloring",
+      "text": "玻璃拥有自然的颜色，这是由$(l:mechanics/glassworking)玻璃配料的的种类$() 你使用的所决定的. 其他颜色能通过使用 $(l:mechanics/bowls)碗$()来制造.$(br2)要使用它，在地面上放置一个$(l:mechanics/bowls)碗$()，随后 $(item)$(k:key.use)$() 所需要的 $(thing)粉末$(). 在进行$(thing)浇注$()之前, 在碗上使用$(thing)吹风管$() 以像配料里加入粉末。",
+      "title": "玻璃上色"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)下一页展示了玻璃种类与粉末材料的不同组合，以制造每种颜色。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)$(7)White$(): 二氧化硅或赤铁矿玻璃 + $(thing)苏打灰烬$()$(li)$(bold)$(0)黑色$(): 任何玻璃 + $(thing)石墨铅$()$(li)$(bold)$(8)灰色$(): 任意 + $(thing)石墨铅$() + $(thing)苏打灰烬$()$(li)$(bold)$(7)淡灰色$(): 任意 + $(thing)石墨铅$() + 2x $(thing)苏打灰烬$()$(li)$(bold)$(5)紫色$(): 任意 + $(thing)铁$() + $(thing)铜$()$(li)$(bold)$(#964b00)棕色$(): 任意 + $(thing)镍$()$(li)$(bold)$(3)青色$(): 非火山岩玻璃 + $(thing)铜$() + $(thing)蓝宝石$()$(li)$(bold)$(2)绿色$(): 二氧化硅或赤铁矿玻璃 + $(thing)铁$()",
+      "title": "染色"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)$(a)绿黄色$(): 二氧化硅或赤铁矿玻璃 + $(thing)铁$() + $(thing)苏打灰烬$()$(li)$(bold)$(b)淡蓝色$(): 二氧化硅玻璃 + $(thing)青金石$()$(li)$(bold)$(1)蓝色$(): 二氧化硅玻璃 + $(thing)铜$()$(li)$(bold)$(4)红色$(): 二氧化硅或赤铁矿玻璃 + $(thing)锡$()$(li)$(bold)$(6)黄色$(): 二氧化硅或赤铁矿玻璃 + $(thing)银$()$(li)$(bold)$(#ef8e38)橙色$(): 二氧化硅玻璃 + $(thing)黄铁矿$()$(li)$(bold)$(5)品红色$(): 二氧化硅或赤铁矿玻璃 + $(thing)红宝石$()$(li)$(bold)$(d)粉色$(): 二氧化硅玻璃 + $(thing)金$()$(li)$(bold)$(0)有色玻璃$(): 非二氧化硅玻璃 + $(thing)紫水晶$()"
+    },
+    {
+      "type": "tfc:table_small",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "C"
+        },
+        {
+          "text": "T"
+        },
+        {
+          "fill": "0xff42f2"
+        },
+        {
+          "fill": "0x8af3ff"
+        },
+        {
+          "fill": "0x526cff"
+        },
+        {
+          "fill": "0xe3e3e3"
+        },
+        {
+          "fill": "0xe69407"
+        },
+        {
+          "fill": "0xc738c9"
+        },
+        {
+          "fill": "0xffe81c"
+        },
+        {
+          "fill": "0x48ff1f"
+        },
+        {
+          "fill": "0xe01414"
+        },
+        {
+          "fill": "0x0c9400"
+        },
+        {
+          "fill": "0x188a9e"
+        },
+        {
+          "fill": "0x7d4f00"
+        },
+        {
+          "fill": "0x6e059c"
+        },
+        {
+          "fill": "0x7d7d7d"
+        },
+        {
+          "fill": "0xbdbdbd"
+        },
+        {
+          "fill": "0x000000"
+        },
+        {
+          "text": "Silica"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "text": "Hematitic"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "text": "Olivine"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "text": "Volcanic"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        }
+      ],
+      "text": "玻璃颜色的清晰度. 'C' 代表清晰, 'T' 代表稍逊清晰。颜色只能用特定的玻璃配料合成。",
+      "title": "玻璃颜色的清晰度",
+      "legend": [
+        {
+          "text": "可以被合成制作",
+          "color": "0x3eb340"
+        },
+        {
+          "text": "不能被合成制作",
+          "color": "0xb33e3e"
+        },
+        {
+          "text": "默认颜色",
+          "color": "0x3d42a8"
+        }
+      ],
+      "columns": 18,
+      "first_column_width": 35,
+      "column_width": 10,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 15,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "anchor": "lamp_glass",
+      "recipe": "tfc:glassworking/lamp_glass",
+      "text": "$(thing)灯罩$() 是制造 $(l:mechanics/lamps)灯$()的重要组件."
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "anchor": "jar",
+      "recipe": "tfc:glassworking/jar",
+      "text": "$(l:mechanics/jarring)罐子$()也是由棕色玻璃制成的，但是仅包括二氧化硅或赤铁矿玻璃。"
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "anchor": "glass_bottle",
+      "recipe": "tfc:glassworking/silica_bottle",
+      "text": "$(thing)玻璃瓶$() 也能够被制作. 玻璃瓶的品质取决于制造时使用的玻璃的种类。"
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "recipe": "tfc:glassworking/lens",
+      "text": "$(thing)透镜$()用于制作望远镜、指南针和日光传感器。"
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tag:tfc:glass_batches": 1,
+    "tag:forge:glass_panes": 2,
+    "tag:forge:glass": 4
+  }
+}

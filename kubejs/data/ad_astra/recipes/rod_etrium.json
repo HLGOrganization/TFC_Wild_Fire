@@ -1,0 +1,13 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_rod",
+  "input": {
+    "item": "ad_astra:etrium_ingot"
+  },
+  "result": {
+    "item": "ad_astra:etrium_rod",
+    "count": 2
+  },
+  "energy": 2400
+}

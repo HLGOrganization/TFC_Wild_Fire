@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:powder/cassiterite"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/tin",
+    "amount": 6
+  },
+  "temperature": 230
+}

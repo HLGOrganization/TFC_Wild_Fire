@@ -1,0 +1,14 @@
+{
+  "type": "create_new_age:energising",
+  "energy_needed": 1000,
+  "ingredients": [
+    {
+      "tag": "forge:plates/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:overcharged_iron_sheet"
+    }
+  ]
+}

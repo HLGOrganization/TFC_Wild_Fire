@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_boots"
+    },
+    {
+      "item": "minecraft:blue_wool"
+    }
+  ],
+  "result": {
+    "item": "convenientdecor:blue_rain_boots",
+    "count": 1
+  }
+}

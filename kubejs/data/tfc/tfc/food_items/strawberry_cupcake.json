@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:strawberry_cupcake"
+  },
+  "hunger": 1.25,
+  "saturation": 2.25,
+  "decay_modifier": 1.7,
+  "grain": 0.75,
+  "fruit": 1.5
+}

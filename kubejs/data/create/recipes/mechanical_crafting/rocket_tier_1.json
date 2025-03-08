@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "ad_astra:rocket_nose_cone"
+    },
+    "C": {
+      "item": "ad_astra:steel_tank"
+    },
+    "E": {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    "G": {
+      "item": "kubejs:basic_plating"
+    },
+    "O": {
+      "item": "kubejs:basic_propeller"
+    },
+    "P": {
+      "item": "kubejs:basic_cabin"
+    },
+    "D": {
+      "item": "ad_astra:rocket_fin"
+    }
+  },
+  "pattern": [
+    "  A  ",
+    " GEG ",
+    " CPC ",
+    "DDODD"
+  ],
+  "result": {
+    "item": "ad_astra:tier_1_rocket"
+  }
+}

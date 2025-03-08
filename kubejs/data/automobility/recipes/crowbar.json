@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:sheets/cast_iron"
+  },
+  "result": {
+    "item": "automobility:crowbar"
+  },
+  "tier": 1,
+  "rules": [
+    "draw_last",
+    "punch_any",
+    "punch_anyt"
+  ],
+  "apply_forging_bonus": true
+}

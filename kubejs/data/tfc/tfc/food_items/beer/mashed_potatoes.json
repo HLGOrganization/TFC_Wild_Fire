@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "brewery:mashed_potatoes"
+  },
+  "hunger": 3,
+  "saturation": 4,
+  "decay_modifier": 2,
+  "vegetables": 3
+}

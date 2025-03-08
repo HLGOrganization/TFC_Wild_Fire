@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "minecraft:bamboo"
+  },
+  "result": {
+    "item": "tfcoreprocessing:kindle/bamboo_fiber",
+    "count": 1
+  }
+}

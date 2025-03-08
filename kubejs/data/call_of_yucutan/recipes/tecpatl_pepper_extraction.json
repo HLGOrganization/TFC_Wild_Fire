@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "call_of_yucutan:tecpatl"
+    },
+    {
+      "item": "call_of_yucutan:chili_pepper"
+    }
+  ],
+  "result": {
+    "item": "call_of_yucutan:chili_pepper_seeds",
+    "count": 1
+  }
+}

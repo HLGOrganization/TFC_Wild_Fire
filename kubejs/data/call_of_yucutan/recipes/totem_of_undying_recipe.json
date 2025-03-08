@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:fragment_of_death"
+    },
+    "b": {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:hematite"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:hematite_block",
+    "count": 1
+  }
+}

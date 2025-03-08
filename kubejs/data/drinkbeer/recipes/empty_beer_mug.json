@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "XXX",
+    "XX "
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "drinkbeer:empty_beer_mug",
+    "count":8
+  }
+}

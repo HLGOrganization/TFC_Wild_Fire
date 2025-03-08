@@ -1,0 +1,35 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+   "item": "immersiveengineering:coal_coke"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 6,
+      "item": "tfcoreprocessing:kindle/coke_dust"
+    },
+    {
+      "chance": 0.2,
+      "count": 1,
+      "item": "tfcoreprocessing:kindle/coke_dust"
+    },
+    {
+      "chance": 0.2,
+      "count": 1,
+      "item": "tfcoreprocessing:kindle/coke_dust"
+    },
+    {
+      "chance": 0.2,
+      "count": 1,
+      "item": "tfcoreprocessing:kindle/coke_dust"
+    },
+    {
+      "chance": 0.2,
+      "count": 1,
+      "item": "tfcoreprocessing:kindle/coke_dust"
+    }
+  ]
+}

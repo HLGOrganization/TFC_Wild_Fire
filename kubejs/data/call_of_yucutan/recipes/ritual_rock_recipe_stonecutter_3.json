@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "call_of_yucutan:ritual_rocks"
+  },
+  "result": "call_of_yucutan:ritual_rock_tiles"
+}

@@ -1,0 +1,29 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "曲轴",
+  "category": "tfc:mechanics",
+  "icon": "tfc:crankshaft",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "使用$(thing)曲轴$()是一种将$(l:mechanics/mechanical_power)旋转力$()转化为$(thing)前后运动的作用力$()的一种方式. 这对于在向诸如 $(l:mechanics/bellows)风箱$(),  $(l:mechanics/pumps)水泵$()等机器提供动力时是非常实用的。$(br2)$(thing)曲轴$()包含了两个部件：底座与轴。底座必须与$(l:mechanics/mechanical_power#axle)轮轴$()相连接, 设备可以在轴的末端被连接。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "tfc:crankshaft",
+      "name": "",
+      "text": "$(thing)曲轴$()是由一个 $(l:mechanics/mechanical_power#axle)轮轴$()驱动的。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/crankshaft",
+      "text": "底座能通过 $(l:getting_started/primitive_alloys#brass)黄铜$()制作。当底座被放置后，可以用一个$(thing)钢棍$()在底座上安装轴。如果曲轴侧面有空闲的空间，则将连杆将会被放置。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "曲轴能通过在底座相邻处放置一个$(l:mechanics/bellows)风箱$()使其被链接到。随后，每当轴做伸缩运动时时，这将自动驱动它。 当连接到曲轴时，无法手动操作。$(br2)曲轴同时可以被连接到一个$(l:mechanics/pumps)水泵上$(), 这将可以被用来运输流体。"
+    }
+  ],
+  "read_by_default": true
+}

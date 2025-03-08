@@ -1,0 +1,29 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluidTag": "forge:crude_oil",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "kubejs:heavy_oil",
+      "amount": 60
+    },
+    {
+      "fluid": "kubejs:light_oil",
+      "amount": 40
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 40
+    },
+    {
+      "fluid": "tfcoreprocessing:slurry_malachite",
+      "amount": 20
+    }
+  ]
+}

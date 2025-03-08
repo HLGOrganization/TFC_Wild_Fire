@@ -1,0 +1,16 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "tfcoreprocessing:slurry_native_copper"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "tfcoreprocessing:refined/native_copper"
+    }
+  ]
+}

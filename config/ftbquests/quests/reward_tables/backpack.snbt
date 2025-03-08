@@ -1,0 +1,22 @@
+{
+	id: "4E6B79F519E6F96B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "sophisticatedbackpacks:advanced_refill_upgrade", weight: 0.2f }
+		{ item: "sophisticatedbackpacks:refill_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_void_upgrade", weight: 0.2f }
+		{ item: "sophisticatedbackpacks:void_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade", weight: 0.2f }
+		{ item: "sophisticatedbackpacks:magnet_upgrade" }
+		{ item: "sophisticatedbackpacks:filter_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_pickup_upgrade", weight: 0.2f }
+		{ item: "sophisticatedbackpacks:pickup_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade", weight: 0.2f }
+		{ item: "sophisticatedbackpacks:tool_swapper_upgrade" }
+		{ item: "sophisticatedbackpacks:jukebox_upgrade" }
+		{ item: "sophisticatedbackpacks:stonecutter_upgrade" }
+		{ item: "sophisticatedbackpacks:everlasting_upgrade" }
+	]
+	title: "backpack"
+}

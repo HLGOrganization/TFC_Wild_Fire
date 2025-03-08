@@ -1,0 +1,26 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "firmalife:feeds_yeast"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:hardened_dough"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "firmalife:feeds_yeast"
+      }
+    }
+  ],
+  "item": "brewery:gingerbread",
+  "count": 6,
+  "experience": 0.15
+}

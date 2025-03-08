@@ -1,0 +1,19 @@
+{
+  "materials": [
+    {"item": {"item": "kubejs:standard_type_muzzle_brake_parts_copper" },"count": 1},
+    {"item": {"item": "kubejs:standard_type_grip_parts_copper" },"count": 1},  
+    {"item": {"item": "kubejs:standard_type_gun_body_parts_copper" },"count": 1},
+    {"item": {"item": "kubejs:standard_type_magazine_parts_copper" },"count": 1},
+    {"item": {"item": "kubejs:standard_type_handguard_parts_copper" },"count": 1},
+    {"item": {"item": "kubejs:standard_type_gunstock_parts_copper" },"count": 1},
+    {"item": {"item": "tfc:metal/ingot/brass" },"count": 4},  
+    {"item": {"item": "tfc:metal/ingot/wrought_iron" },"count": 2},  
+    {"item": {"item": "tfc:metal/sheet/wrought_iron" },"count": 2},  
+    {"item": {"item": "create:gantry_carriage" },"count": 1}
+  ],
+  "result": {
+    "type": "gun",
+    "id": "create_armorer:rifle_assult_crane"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

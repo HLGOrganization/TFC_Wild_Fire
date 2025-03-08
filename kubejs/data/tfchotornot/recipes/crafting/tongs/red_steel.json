@@ -1,0 +1,28 @@
+{
+  "type": "tfchotornot:advanced_damage_inputs_shaped_crafting",
+  "pattern": [
+    "XX",
+    "YZ"
+  ],
+  "key": {
+    "X": {
+      "item": "tfchotornot:tong_part/red_steel"
+    },
+    "Y": {
+      "tag": "forge:rods"
+    },
+    "Z": {
+      "tag": "tfc:hammers"
+    }
+  },
+  "result": {
+    "stack": {
+      "item": "tfchotornot:tongs/red_steel"
+    },
+    "modifiers": [
+      "tfc:copy_forging_bonus"
+    ]
+  },
+  "input_row": 0,
+  "input_column": 0
+}

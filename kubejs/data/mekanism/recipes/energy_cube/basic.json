@@ -1,0 +1,1 @@
+{"type":"mekanism:mek_data","key":{"A":{"tag":"mekanism:alloys/basic"},"E":{"item":"mekanism:energy_tablet"},"I":{"item":"ad_astra:desh_plate"},"P":{"item":"mekanism:steel_casing"}},"pattern":["AEA","IPI","AEA"],"result":{"item":"mekanism:basic_energy_cube"}}

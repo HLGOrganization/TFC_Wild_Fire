@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:jade_slab"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:chiseled_jade",
+    "count": 1
+  }
+}

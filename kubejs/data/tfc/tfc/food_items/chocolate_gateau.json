@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:chocolate_gateau"
+  },
+  "hunger": 8,
+  "saturation": 8,
+  "decay_modifier": 1.5,
+  "grain": 6,
+  "dairy": 8
+}

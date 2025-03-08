@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:compressed/native_copper"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:refined/native_copper",
+      "count":4
+  }
+}

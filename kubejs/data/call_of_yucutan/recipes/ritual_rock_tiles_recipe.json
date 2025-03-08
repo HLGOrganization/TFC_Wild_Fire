@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:polished_ritual_rock"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:ritual_rock_tiles",
+    "count": 4
+  }
+}

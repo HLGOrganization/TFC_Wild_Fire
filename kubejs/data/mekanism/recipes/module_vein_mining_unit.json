@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","key":{"#":{"item":"immersiveengineering:drillhead_steel"},"A":{"tag":"forge:alloys/elite"},"B":{"item":"ae2:speed_card"},"H":{"tag":"forge:pellets/polonium"},"P":{"item":"mekanism:module_base"}},"pattern":["ABA","#P#","HHH"],"result":{"item":"mekanism:module_vein_mining_unit"}}

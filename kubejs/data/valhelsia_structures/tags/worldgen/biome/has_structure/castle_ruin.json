@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#forge:is_plains",
+    "#minecraft:is_forest",
+    "tfc:badlands",
+    "tfc:highlands",
+    "tfc:plains",
+    "tfc:plateau"
+  ]
+}

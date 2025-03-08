@@ -1,0 +1,1979 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "58555110404529FA"
+	group: "2BD524ABD6AD1EEE"
+	hide_quest_details_until_startable: true
+	icon: "minecraft:cobblestone"
+	id: "58555110404529FA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "tfc:textures/gui/book/icons/thermometer.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:liquid/steam"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "tfc:textures/painting/hot_spring.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.5d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"您好玩家！，无论你是群峦星的原住民还是天空中的难民，欢迎来到无边的群峦世界，如果你不懂如何生存，请查看该任务赠与的《群峦传说》此书包含了群峦传说大部分玩法，而任务线只是给那些不擅长玩中硬核整合包的玩家的一些小指引!"
+				""
+				"&n本整合包由浙水院的《群峦：重生》魔改而来！增添了不少新内容和超过1000张精美的重绘贴图和自定义系统，祝玩得愉快!!&r"
+			]
+			hide: false
+			id: "6DC1C6F2B8122DF1"
+			rewards: [{
+				id: "79AD6B3ADFF895D5"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "tfc:field_guide"
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "这是哪？我该怎么继续"
+			tasks: [{
+				id: "76432A505BA2A498"
+				title: "初到群峦星"
+				type: "checkmark"
+			}]
+			x: 3.499999999999993d
+			y: 3.535714285714292d
+		}
+		{
+			dependencies: ["6D32F8E63FE2280C"]
+			description: ["你需要获得2个以上的石头然后对着空气右键进入敲击界面，来敲击获得石器头部"]
+			disable_toast: true
+			hide: true
+			id: "0C96D15A0FCAC50B"
+			rewards: [{
+				id: "7AE4C613C33D1B67"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			subtitle: "石器时代"
+			tasks: [{
+				id: "04DD21B9BE69A7C3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:rock_knapping"
+					}
+				}
+				title: "Any #tfc:rock_knapping"
+				type: "item"
+			}]
+			title: "石纪元：一切都从石头开始"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"在这个世界你不是力大无穷的&l史蒂夫&r，你的物品堆叠数量物品&o大小&r有关，不能随意的挖掘&o泥土&r，&o木头&r等木材，大多数方块你都无法破坏,就连正常的工作台你也无法制作【暂时"
+				""
+				"任何一个从未接触过任何群峦传说内容的人都会产生这种问题。幸好，为了让萌新更好地体验群峦传说的内容，大佬们制作了许多教程，其中就包括本整合包内的这条任务线，感到疑惑或迷茫时回来看看任务线，你的大部分问题将得到解决。"
+				""
+				"当然，你也可以不看攻略，而完全按照自己的步调进行游戏，这反而是我们欢迎的。对于能够独立自主进行游戏的玩家来说，这些任务线只是白送他们经验的经验宝宝。"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfchotornot:mittens"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D32F8E63FE2280C"
+			rewards: [{
+				id: "10CB7F7CCB4B3341"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			subtitle: "一切源于双手"
+			tasks: [{
+				id: "19654C3EDA82A5B3"
+				title: "一切源于双手"
+				type: "checkmark"
+			}]
+			title: "我怎么残废了[并不是]"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C96D15A0FCAC50B"]
+			description: [
+				"一把石斧，虽不如原版石斧砍得那么快，但也够用了。"
+				""
+				"群峦的树存在连锁破坏，只要你破坏树的最底端，上面的原木也会一并破坏，包括树叶，而耐久度也会根据一棵树的方块数量而损耗。"
+				""
+				"石斧刃的形状可以通过查阅书或JEI得知"
+			]
+			id: "3A3D66DC97C3786B"
+			rewards: [{
+				id: "1B3CD8A51228B52C"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "砍树！"
+			tasks: [{
+				id: "5782D7AE368311C7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:inefficient_logging_axes"
+					}
+				}
+				title: "Any #tfc:inefficient_logging_axes"
+				type: "item"
+			}]
+			title: "木材就应该躺着"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C96D15A0FCAC50B"]
+			description: [
+				"一把石铲，挖泥土的速度比你手挖要快。"
+				""
+				"不要想着挖三填一，别忘了群峦世界的方块受重力影响。"
+				""
+				"石铲头的形状可以通过查阅书或JEI得知"
+			]
+			icon: {
+				Count: 1b
+				id: "tfc:stone/shovel/igneous_extrusive"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52D2C9CA7D0CD5D2"
+			rewards: [{
+				id: "375C98CC43BAD687"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10CBA100C656B3FB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:shovels"
+					}
+				}
+				title: "Any #tfc:shovels"
+				type: "item"
+			}]
+			title: "铲子虽小力无穷"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C96D15A0FCAC50B"]
+			description: [
+				"这是一把石刀，因为太短了所以称不上剑。"
+				""
+				"造成不了什么有效的伤害，但是用处很多。收割干草、肢解动物，一些简单的杂活都离不开它。"
+				""
+				"石刀刃的形状可以通过查阅书或JEI得知"
+			]
+			icon: {
+				Count: 1b
+				id: "tfc:stone/knife/igneous_extrusive"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7AA6C02081E74CB7"
+			rewards: [{
+				id: "283FCCB5991F1A77"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "不是剑"
+			tasks: [{
+				id: "39F60E78B657719C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:knives"
+					}
+				}
+				title: "Any #tfc:knives"
+				type: "item"
+			}]
+			title: "短兵"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AA6C02081E74CB7"]
+			description: [
+				"干草是群峦传说所新增加的独特资源，由小刀采集地面上随处可见的草获得。"
+				""
+				"干草是一种用途极其广泛的资源，从制作工具到各种进阶材料的原材料都有其身影，因此建议多多收集。"
+			]
+			hide: true
+			id: "12AE52C0DF1B7C7F"
+			rewards: [{
+				id: "6858838EC169571B"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "你可以给我草吗"
+			tasks: [{
+				id: "4CC31BF9FCE73D87"
+				item: "tfc:straw"
+				type: "item"
+			}]
+			title: "割干草"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52D2C9CA7D0CD5D2"]
+			description: [
+				"黏土会在大部分地区的地表生成，除非该地区的表面不是泥土。使用铲子挖掘黏土方块即可获取。黏土草方块平常跟普通草方块没有任何区别，因此很难辨别，不过当你的准星对准黏土草方块时，屏幕上方的指示器会显示其名为黏土草方块。"
+				""
+				"有一种方法可以很好地发现附近的黏土：寻找黏土指示植物。这些植物分别为蹄盖蕨、美人蕉、一枝黄花、蒲苇、分药花和水生美人蕉。一些水源附近也会生成黏土，如果你找不到指示植物，可以去水边碰碰运气。"
+			]
+			hide: true
+			id: "0B3BF0ADDBD382FE"
+			rewards: [{
+				id: "34796434F13C1E9E"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			subtitle: "是的，下一步是陶器"
+			tasks: [{
+				id: "31892FF8520E8A8B"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "挖黏土"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"营养值是群峦重生最基础的设定之一，其中详细的设定可以查看《群峦传说》了解"
+				"营养值不足会导致血量上限变低，死亡也会扣除部分营养值，"
+				""
+				"如果不好好吃饭营养值会导致身体欠佳，导致肢体健康很容易受到重大打击"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:golden_apple"
+			id: "04BF6738ECA2AA89"
+			rewards: [{
+				id: "5944143A80EAF509"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "最基础的营养学"
+			tasks: [{
+				id: "02F1575313058FED"
+				type: "checkmark"
+			}]
+			title: "营养值"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EEF44C1694292B8"]
+			description: [
+				"当你收集了足够的资源之后，就可以开始考虑寻找安家地点了。"
+				""
+				"一个好的安家地点包括多个要素，靠近淡水源、地势平坦、附近树木够多、平均温度在15℃左右、表层岩层是某种沉积岩，以及地面最好有黝铜矿、孔雀石或者原生铜的矿粒。最后一点不做强求，但前面五点请务必做到，只有选好开局点，后面的流程进行才不会过于困难。"
+			]
+			icon: "minecraft:oak_door"
+			id: "59963D1C5AC5008C"
+			rewards: [{
+				id: "056EB06324B20E87"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74F8C2DF0D06A797"
+				type: "checkmark"
+			}]
+			title: "遮风挡雨的庇护所"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12AE52C0DF1B7C7F"]
+			description: ["现在你可以用干草制作纤维绳来加固你的石制工具，让他获得100%的耐久度"]
+			id: "31D93CED4BE73256"
+			rewards: [{
+				id: "64C2D7275DE165A7"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "绑好！"
+			tasks: [{
+				id: "1EA96A218D4FE2B8"
+				item: "htm:plant_string"
+				type: "item"
+			}]
+			title: "加固你的工具"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"群峦星是一个充满着自然生态的地方，拥有南北极，地震，火山，热带温带，就像真实的地球，而不同的自然群系自然拥有不同的威胁与资源"
+				""
+				"在群峦星上，除“&l&e亮度为0&r&r”的地区才会刷新&2原版怪物&r。而原版怪物在群峦世界已经十分致命、但比怪物更加危险的东西是自然出现的&l&4野兽&r&r，有的地方的野兽对你来说不是什么问题，有些地区&l非常危险&r&4"
+				""
+				"不过要注意的是，群峦的野生动物是会&c杀绝&r的，所以要注意不要屠光附近所有的&a野生动物&r以保护自然平衡"
+			]
+			hide: true
+			icon: "minecraft:coarse_dirt"
+			id: "5BF73D6E33829591"
+			rewards: [{
+				id: "0D7F4DDC7C2E0FC9"
+				type: "xp"
+				xp: 18
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "651F3251201D0160"
+				type: "checkmark"
+			}]
+			title: "未知的大自然"
+			x: 9.17857142857143d
+			y: -0.1964285714285694d
+		}
+		{
+			dependencies: ["5BF73D6E33829591"]
+			description: [
+				"非常寒冷，除非你喜欢雪的景色我是不会推荐你住这里的"
+				""
+				"而且这里还会有剑齿虎，恐狼，驼鹿，北极熊等凶恶的野生动物，如果你开局出生在这里，还是趁早坐船远离吧"
+			]
+			icon: "tfc:wood/sapling/white_cedar"
+			id: "506CDD17D5DA6BA5"
+			rewards: [{
+				id: "316708DC8DBAF9EF"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "226A5D7F7C4FCF64"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "副极地地区"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BF73D6E33829591"]
+			description: [
+				"鸟语花香，树木繁多，而且一般降雨量不低，很适合居住"
+				"但是宜居也会有很多野生动物，比如熊与老虎和狼，这是必须要注意的"
+				"建议不要在森林中心扎营"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "7469B8B7A9508778"
+			rewards: [{
+				id: "18A10AB5A0B4B3A4"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "最宜居的一集"
+			tasks: [{
+				id: "1F243B3168C39C14"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "温带"
+			x: 8.32142857142857d
+			y: -1.9464285714285765d
+		}
+		{
+			dependencies: ["5BF73D6E33829591"]
+			description: [
+				"相对而言亚热带其实也挺宜居，只不过夏天会比较热，做一些避暑措施就好了"
+				"亚热带有狮子，鬣狗，野猪，兔子，羚羊等野生动物，动物不少"
+				"而且亚热带会有很多果树，喜欢果树的可以住这里"
+			]
+			icon: "minecraft:acacia_sapling"
+			id: "255CF73CCEECADCA"
+			rewards: [{
+				id: "4FA8D2E7BB649553"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "2A0AC93EF1A88A06"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "亚热带"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BF73D6E33829591"]
+			description: ["海里没什么好说的，只有很多海鱼和逆戟鲸，以及大量的海带，是后续做传送带的材料，建议多收集点"]
+			icon: "minecraft:seagrass"
+			id: "506B6CAC894AB5B9"
+			rewards: [{
+				id: "56208C9D7AB6D0F2"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "大海啊，全是水"
+			tasks: [{
+				id: "2EC088411588C41C"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "临海"
+			x: 7.321428571428569d
+			y: -0.9821428571428683d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"&b冷汗&r是一个温度模组，温度变化由高度，群系，时间变化，所以要时刻小心过冷与过热的环境"
+				"同时，该模组可高度配置，如果觉得预设难度过难，可以自行调整难度"
+				""
+				"&6过热&r状态下："
+				"该状态会让玩家迷失方向,玩家热温度超过50时，视距缩小。温度越高视距越小"
+				"热温度超过50时，开始出现视力模糊"
+				"热温度超过50度时，视野随机漂移"
+				""
+				"&b寒冷&r状态下:"
+				"该状态会使玩家扣血;"
+				"使挖掘与移动的速度降低，伴随着颤抖的视觉抖动。温度越低速度越慢"
+				"玩家的攻击击退减少。温度越低的降低，击退越少"
+				"玩家最多有 50% 的血量被冻结。冻结时血量不能回复"
+				""
+				"&o&7还有更多设定，可以查询mc百科以了解，不过多赘述&r&r"
+				""
+				"本整合包虽然有《传说生存》该模组，可目前为止模组温度系统与冷汗并不互通，整合包仅仅使用了他的肢体血量设定，所以传说生存与保暖有关的物品是完全没用的，请游玩的时候好好查看"
+				""
+				"&m虽然我也很想把冷汗给踢掉换成传说生存的温度系统毕竟他做的其实真的挺好的【】&r"
+			]
+			hide_dependency_lines: true
+			icon: "cold_sweat:thermometer"
+			id: "5EC4CF6D032822A7"
+			rewards: [{
+				id: "73E246538B6F1AE3"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "我中间的那个头代表着什么？"
+			tasks: [{
+				id: "0E8B6D24E3A6F9ED"
+				type: "checkmark"
+			}]
+			title: "冷汗：真实的气温"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"在群峦星里，&7掠夺者&r获得了胜利，他们把村民赶尽杀绝，彻底地占领了这个世界"
+				"以你现在的实力，遇上他们几乎就是被剁成肉馅喂猪的份"
+				"安安稳稳的发育吧，远离他们，别想着去偷家……"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"lhmiracleroad:punishment_cap": {
+						attribute: {
+							heavy: {
+								Amount: 0.0d
+								Name: ""
+								Operation: 0
+								UUID: [I;
+									-1052166781
+									-94551186
+									-2146769211
+									1495958241
+								]
+							}
+						}
+						heavy: 0.0d
+						recordPunishmentAttributeModifier: { }
+					}
+				}
+				id: "butcher:pillagerdisguise_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "63851EEE0FADD656"
+			rewards: [{
+				id: "1CCF54706A925CC9"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "远离他们…除非你想死无葬身之地"
+			tasks: [{
+				id: "2417095E7D4F9C57"
+				type: "checkmark"
+			}]
+			title: "原住民？"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A3D66DC97C3786B"]
+			description: [
+				"砍伐树木后就可以获得原木，但是木板需要后续的工具才能获得，所以现在原木只能用来建筑、做燃料和搭建篝火。"
+				""
+				"由于原木属于非常大物品，所以其无法被任何群峦原版的储存方块收纳。正确收纳原木的方法是手持原木对地面潜行右键以构建一个叫做原木堆的特殊收纳方块，该方块能收纳16个原木，在其储存满之前你可以手持原木潜行右键以放入尽可能多的原木。"
+			]
+			hide: true
+			id: "5EEF44C1694292B8"
+			rewards: [{
+				id: "3FCEF076FF045EAA"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			subtitle: "可惜，还不是做木板的时候"
+			tasks: [{
+				advancement: "tfc:story/logging"
+				criterion: ""
+				id: "3B1CBEC1F75B9F49"
+				type: "advancement"
+			}]
+			title: "砍原木"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EEF44C1694292B8"]
+			description: [
+				"将两根木棍斜着合成就能得到起火器，这是你在群峦能够获得的最基础的点火道具，它将陪伴你从蛮荒时代直到你获得钢锭。"
+				""
+				"起火器的使用非常简单，只需要对着某个方块按住右键，然后你会看到准星所指的地方慢慢冒烟、冒出火星，最后你就获得了一团火。群峦传说的很多配方都需要点火才能完成，所以你可以在背包里备两个起火器以便不时之需。"
+				""
+				"注：群峦世界中没有地狱，所以不要想着做地狱门"
+			]
+			id: "1EE9DFA8577711BC"
+			rewards: [{
+				id: "41C1C8D6F8CEEB17"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "只需要两根木棍"
+			tasks: [{
+				id: "761E7DA1D9A6980A"
+				item: {
+					Count: 1b
+					id: "tfc:firestarter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "钻木取火"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["59963D1C5AC5008C"]
+			description: [
+				"篝火是前期极其重要的方块，可被用于提供照明，温暖身体，加热食物，以及制作火把。"
+				""
+				"想要搭建篝火，你需要在一格方块中丢出三根木棍和一根原木，之后使用起火器对准这四个物品及其所在格按住右键。如果你成功搭建了篝火，掉落物所在的位置会生成一个篝火方块。"
+				""
+				"篝火的搭建是有概率失败的，如果你失败太多次，试着在丢出的物品中加入几根干草，能够提高搭建的成功率。"
+				""
+				"右键篝火以打开其GUI，左边的四格可放置燃料，你可以加入干草和原木以延长其燃烧时间。这四格右侧的长条代表温度条，指针指在越高的位置代表篝火的温度越高。右侧的格子是加热所用的，可以用于烤熟生肉或点燃火把，将需要加热的物品放在上面，加热完成的物品则会出现在下面。"
+				""
+				"篝火在燃料耗尽，温度达到最低之后则会熄灭，此时打开GUI放入燃料，再手持起火器潜行对其按住右键即可再次点燃。"
+				""
+				"注意：不要把篝火放置在于干草或木质方块相近的地方，篝火的温度可能会将其直接点燃！"
+			]
+			hide: true
+			icon: "tfc:firepit"
+			id: "0F7E78C69375D41D"
+			rewards: [{
+				id: "0FC0C1B2F00B2622"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "火……温暖的火"
+			tasks: [
+				{
+					advancement: "tfc:story/firepit"
+					criterion: ""
+					id: "3A62565333716674"
+					type: "advancement"
+				}
+				{
+					id: "4F07D59F693EAFEA"
+					item: {
+						Count: 1b
+						id: "tfc:firestarter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e普罗米修斯"
+			x: 2.0d
+			y: -6.107142857142861d
+		}
+		{
+			dependencies: ["06C5823235392829"]
+			description: [
+				"&l坑窑烧炼&r是前期用来加热物品或者烤制陶器的一种制造方式"
+				""
+				"&l坑窑&r是你前期烧炼物品的唯一方式，要想搭建坑窑，你需要在平地上挖一个&l&n一格深&r&r的坑，在坑中手持物品按下默认v键以放入最多4个物品，在坑中右键填入8个&l干草&r，再右键放入8根&l原木&r，最后使用起火器将其点燃。"
+				""
+				"坑窑直至燃烧完成会消耗游戏中的8小时"
+				""
+				"&n[&o八分钟啦~建议期间多烤几个坑或者干点其他事&r]&r"
+				""
+				"之后火焰会消失，露出其中烧炼完成的物品。使用右键即可将放置在地上的物品拾起。"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/vessel"
+				tag: { }
+			}
+			id: "3EFD37B6CDC910EF"
+			rewards: [{
+				id: "2D7C7455C10DC21A"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "毕竟没人愿意等"
+			tasks: [
+				{
+					id: "5061A4B8879574A6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_vessel"
+					}
+					type: "item"
+				}
+				{
+					id: "5F28CB9A31BE89C8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:fired_vessels"
+						}
+					}
+					title: "Any #tfc:fired_vessels"
+					type: "item"
+				}
+			]
+			title: "&e只想看到你焚烧殆尽的样子……"
+			x: 4.964285714285708d
+			y: -8.214285714285715d
+		}
+		{
+			dependencies: ["31D93CED4BE73256"]
+			description: [
+				"群峦传说修改了床的配方，这使得你无法在前期成功做出床。这使你只能使用不能度过夜晚，但是可以储存重生点的干草床代替。"
+				""
+				"要搭建干草床，你需要在地面上水平放置两个干草块，随后手持一张大兽皮对其按下右键。然而由于产出大兽皮的动物要么难以寻得，要么具有攻击性，大兽皮在前期极难获得。所以本任务并没有强制搭建干草床，你可以等有条件获取大兽皮后再进行搭建。"
+			]
+			hide: true
+			icon: "tfc:thatch"
+			id: "29938C10347228F9"
+			rewards: [{
+				id: "32EA0F075470912F"
+				type: "xp"
+				xp: 18
+			}]
+			size: 1.5d
+			subtitle: "先不做也可以"
+			tasks: [
+				{
+					id: "284349E1E54A4CBB"
+					title: "请在阅读以下内容后点击确认"
+					type: "checkmark"
+				}
+				{
+					id: "0C03EEED0B1A3E02"
+					item: "tfc:thatch"
+					type: "item"
+				}
+			]
+			title: "&e并不柔软的床"
+			x: 3.4642857142857153d
+			y: -9.214285714285715d
+		}
+		{
+			dependencies: ["0B3BF0ADDBD382FE"]
+			description: [
+				"当你收集足够多的黏土之后，手持至少五个黏土右键即可打开黏土塑形的界面。黏土塑形的原理跟石子塑形大差不差，具体物品的配方可以通过查询书与JEI得知。"
+				""
+				"本任务中你需要制作三种陶器：大缸、小缸和陶罐。"
+				""
+				"大缸是一种有九个储存格的储存方块，能够容纳正常及以下大小的物品。大缸能够被密封，密封大缸中的食物会获得“储存”的buff，保质期延长一倍。未放置在大缸中或者放在大缸中却未密封的食物会引来老鼠，导致食物无法食用。"
+				""
+				"小缸是一种拥有四个储存格的储存道具，能够容纳小及以下大小的物品。小缸是前期熔炼金属的重要道具，矿物只有被容纳在小缸中才能在坑窑中加热。被储存在小缸中的食物会获得“储存”buff，保质期延长一倍，该buff与大缸所给予的不叠加。"
+				""
+				"陶罐是一种能容纳100mb液体的储存道具，能够容纳大部分的液体。装有液体的陶罐可以参与前期某些需要液体的合成配方中，装有水的陶罐也可以支持玩家喝一次水。"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/unfired_large_vessel"
+			}
+			id: "06C5823235392829"
+			rewards: [{
+				id: "43455C850DF9792B"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "hexagon"
+			subtitle: "没有人把泥土弄湿了之后置之不管，好像砖就能神奇地自己造出来一样。——普鲁塔克"
+			tasks: [
+				{
+					id: "13AF6123F619D899"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_vessel"
+					}
+					type: "item"
+				}
+				{
+					id: "0DEFDEA0F60112C1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_jug"
+					}
+					type: "item"
+				}
+			]
+			title: "制陶术"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:caribou_fur"
+			id: "7ABD9945162BAC78"
+			rewards: [{
+				id: "6FA938EBADDE2DDF"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "温驯而并不弱小"
+			tasks: [
+				{
+					id: "79F24E01A40D9DFD"
+					item: "tfc_textile_coldsweat:caribou_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:moose"
+					id: "5CB0FEA5B95B173C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "驼鹿"
+			x: 7.749999999999993d
+			y: 3.7678571428571317d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:polar_bear_fur"
+			id: "750D372F096053B2"
+			rewards: [{
+				id: "5D797F1C22415F58"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "身处极地，危险至极"
+			tasks: [
+				{
+					entity: "tfc:polar_bear"
+					id: "3FD62DE7A00DE528"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "521B89E8F12DB072"
+					item: "tfc_textile_coldsweat:polar_bear_fur"
+					type: "item"
+				}
+			]
+			title: "北极熊"
+			x: 8.749999999999993d
+			y: 3.7678571428571317d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:black_bear_fur"
+			id: "75C5E3B1FDB49795"
+			rewards: [{
+				id: "271E3BD1FF8DB20D"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "常见又危险"
+			tasks: [
+				{
+					id: "0CA5B2FEF0E5489A"
+					item: "tfc_textile_coldsweat:black_bear_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:black_bear"
+					id: "79736819B39BC66E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "黑熊"
+			x: 9.749999999999993d
+			y: 3.7678571428571317d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:grizzly_bear_fur"
+			id: "3DD3F659068A9D50"
+			rewards: [{
+				id: "6696BEDF2A41297A"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "常见又危险"
+			tasks: [
+				{
+					id: "478C05CCECA3784E"
+					item: "tfc_textile_coldsweat:grizzly_bear_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:grizzly_bear"
+					id: "199E16EAC44A994B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "棕熊"
+			x: 10.749999999999993d
+			y: 3.7678571428571317d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:panther_fur"
+			id: "5F206A576D6CC145"
+			rewards: [{
+				id: "3178F8BC4E4E9003"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "毒妇"
+			tasks: [
+				{
+					id: "416B7B6F4F14F0AB"
+					item: "tfc_textile_coldsweat:panther_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:panther"
+					id: "123A7BE4B5D6CA7C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "黑豹"
+			x: 6.714285714285715d
+			y: 4.732142857142854d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:sabertooth_fur"
+			id: "59DFAD92DC9F3355"
+			rewards: [{
+				id: "72BD12DEA937F7AD"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "爪牙之利筋骨之强"
+			tasks: [
+				{
+					id: "1CFA6738B87991CB"
+					item: "tfc_textile_coldsweat:sabertooth_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:sabertooth"
+					id: "4A3FA7DEE7B50F5D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "剑齿虎"
+			x: 10.714285714285715d
+			y: 4.732142857142854d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:tiger_fur"
+			id: "2E6A7EC89BC11A74"
+			rewards: [{
+				id: "6F3903709AB2A04F"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "比武松那只弱"
+			tasks: [
+				{
+					id: "1D3E23FE125BF041"
+					item: "tfc_textile_coldsweat:tiger_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:tiger"
+					id: "17183D26B16A849E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "老虎"
+			x: 9.714285714285715d
+			y: 4.732142857142854d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:direwolf_fur"
+			id: "31D2628F34AE3DAF"
+			rewards: [{
+				id: "6A30C523B56752E6"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "狼？不，是更冷些的东西"
+			tasks: [
+				{
+					id: "19878F9A3637B8BC"
+					item: "tfc_textile_coldsweat:direwolf_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:direwolf"
+					id: "429C57F4A1EF7DBF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "恐狼"
+			x: 11.714285714285715d
+			y: 4.732142857142854d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:lion_fur"
+			id: "725DE0D02A25063C"
+			rewards: [{
+				id: "0AA4159EF299D134"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "身上挂个狮皮定然威风"
+			tasks: [
+				{
+					id: "7479B25901F4A236"
+					item: "tfc_textile_coldsweat:lion_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:lion"
+					id: "091C9DFD509B29B5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "狮子"
+			x: 8.714285714285715d
+			y: 4.732142857142854d
+		}
+		{
+			dependencies: ["5BF73D6E33829591"]
+			description: [
+				"自然界的危险野兽非常多，有些中立野兽也不是弱小生物，如果他们和你&4敌对&r将会很容易杀死你。"
+				""
+				"前期建议不要动这些野生动物的主意，但是如果你成功地杀死了以下动物并获得了战利品，可以来这里获得奖励"
+				""
+				"&e如果想要详细得知群峦自然生物的生成环境，请翻阅“&b群峦传说&r&e-这个世界-自然动物”&r&e章来详细了解所有动物的生成地区&r&r"
+			]
+			hide: true
+			icon: "minecraft:coarse_dirt"
+			id: "784D9D49B7638D76"
+			rewards: [{
+				id: "38DF04945F121978"
+				type: "xp"
+				xp: 18
+			}]
+			size: 1.5d
+			subtitle: "狂野的大自然"
+			tasks: [{
+				id: "25B8D179D5B1400D"
+				type: "checkmark"
+			}]
+			title: "可怖的野兽们"
+			x: 9.17857142857143d
+			y: 2.4464285714285623d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: "tfc_textile_coldsweat:cougar_fur"
+			id: "18361B913DC9A415"
+			rewards: [{
+				id: "547EC214A6C21F7B"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "鬃毛代表不了他的地位"
+			tasks: [
+				{
+					id: "07667B2F1886BB91"
+					item: "tfc_textile_coldsweat:cougar_fur"
+					type: "item"
+				}
+				{
+					entity: "tfc:cougar"
+					id: "773E966A1A173D72"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "美洲狮"
+			x: 7.714285714285715d
+			y: 4.732142857142854d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/wolf"
+			}
+			id: "040705D1EFEFE7D0"
+			rewards: [{
+				id: "654EF85C5FC4B2F1"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [
+				{
+					entity: "tfc:wolf"
+					id: "79D524917049D6FC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "308DE7000D0DA38B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 2238000L
+								traits: [ ]
+							}
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:food/wolf"
+					}
+					type: "item"
+				}
+			]
+			title: "狼"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["784D9D49B7638D76"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/hyena"
+			}
+			id: "2A56FD19CEF9A7BE"
+			rewards: [{
+				id: "77CBB660692BFFAC"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [
+				{
+					entity: "tfc:hyena"
+					id: "6CE5545F55605182"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "774795B880F28274"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 2238000L
+								traits: [ ]
+							}
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:food/hyena"
+					}
+					type: "item"
+				}
+			]
+			title: "鬣狗"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BF73D6E33829591"]
+			description: [
+				"在群峦传说中，气候和时间都是影响生存的非常重要的要素。首先，我们先来谈谈日历。"
+				"在任何时候，只要打开物品栏并点击日历选项卡就能查看日历。这里会显示当前的季节、星期和日期。"
+				""
+				"群峦传说的世界是有四季的气象和气候也会随之变化。每个季节根据月份分为初期、仲期和暮期。以下是四季所对应的月份:"
+				""
+				"春季：三到五月"
+				"夏季：六到九月"
+				"秋季：九到十一月"
+				"冬季：十二月到次年二月"
+				""
+				"当前季节会影响地区的温度和降水(如果可以下雨或下雪)等。所以一定要经常查看日历，它对你的生存会有很大的帮助!"
+				"接下来，我们来谈谈气候。"
+				""
+				"气候"
+				"物品栏界面中的另一个选项卡是气候界面。这个页面会显示有关当前地理位置的信息。第一行会显示该地区的气候分类。"
+				"第二行会显示地质结构。"
+				"第三行则会显示年平均温度。"
+				""
+				"降雨量"
+				"降雨量是一个会根据地理位置而变化的数值。年降雨量以毫米(mm)为单位，可以在0mm-500mm之间取值。"
+				"降雨量的多少是影响士地湿润度的一个重要因素，而湿润度则决定了农作物、果树、和灌木丛是否可以生长。"
+			]
+			id: "4E2DDCA39115334F"
+			rewards: [{
+				id: "7FF9EFDD02F29658"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "四季"
+			tasks: [{
+				id: "06992BCA35AEBD5A"
+				type: "checkmark"
+			}]
+			title: "历法与气候"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0F7E78C69375D41D"
+				"3EFD37B6CDC910EF"
+			]
+			description: ["可以说，一切的一切都建立在安居乐业上，有一个安全的家，比什么真金白银都要好"]
+			hide: true
+			icon: "minecraft:oak_planks"
+			id: "6FE1589968B29E24"
+			rewards: [{
+				id: "4BD8181FB03BDE31"
+				type: "xp"
+				xp: 18
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "前往下一章"
+			tasks: [{
+				id: "23E36F46F1E4FBE7"
+				type: "checkmark"
+			}]
+			title: "何以为家"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0C96D15A0FCAC50B"]
+			description: [
+				"石标枪是前期为数不多的杀伤性武器，可以左键攻击，也可以按住右键蓄力掷出。有了标枪，你就可以进行捕猎，以补充前期稀缺的食物。"
+				""
+				""
+				"注意，除食肉动物之外，有一些食草动物也具有攻击性，还有一部分食草动物在受到攻击后会进行反击。因此在打猎的时候，请做好防护，以防被动物反杀。"
+				""
+				""
+				"不过，本整合包中的一个附属mod提供了一个除了打猎之外的选项：动物陷阱。由于该模组文本文件硬编码，无法汉化，现将教程写在任务书中"
+				""
+				""
+				"第一步：获取一根木棍，右击陷阱以将它撑起来"
+				"第二步：手里拿一根麻绳，右击它"
+				"第三步：制作一个小型动物诱饵，右击陷阱以把诱饵系在麻绳上"
+				"陷阱就完成了。你需要耐心的等待，这也许需要好几天。"
+				""
+				"你所杀死的小型食草动物都会以尸体的形式掉落，将其与刀放在一起合成即可将其解体。"
+			]
+			hide: true
+			id: "2E54481F9BAE42BE"
+			rewards: [{
+				id: "562F7256DBCF0C2A"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "前期食物获取"
+			tasks: [
+				{
+					advancement: "tfc:world/hunter"
+					criterion: ""
+					id: "4346766487FA8AFF"
+					type: "advancement"
+				}
+				{
+					id: "1F8BC4716C75ADA4"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tfc:stone/javelin/igneous_extrusive"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "tfc:stone/javelin/igneous_intrusive"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "tfc:stone/javelin/metamorphic"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "tfc:stone/javelin/sedimentary"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "石标枪"
+					type: "item"
+				}
+			]
+			title: "猎杀时刻"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F7E78C69375D41D"]
+			description: ["生肉总是要放进火里烤熟了再吃的。营火烤出来的熟肉营养值会比生肉高，同时保质期也延长了33%。"]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/cooked_pork"
+			}
+			id: "7A138A18025195B9"
+			rewards: [{
+				id: "18AEAE454F21D96A"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "你需要吃熟肉，对吧？没有人类是不吃烤熟的肉的。"
+			tasks: [{
+				id: "340B95F5993CED51"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:foods/cooked_meats"
+					}
+				}
+				title: "任意熟肉"
+				type: "item"
+			}]
+			title: "烤熟了再吃"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0F7E78C69375D41D"]
+			description: [
+				"陶锅可以通过右键放置在篝火上来建造烹饪锅。变成烹饪锅的篝火将失去烤制物品的功能，所以你需要再造一个篝火。"
+				""
+				"陶锅可以把最多五个食物煮成一锅汤，煮出来的汤拥有独立的保质期，且营养值只比原材料的所有营养值加起来略微少一点；大锅还可以用来加工液体，例如四个草木灰加水煮沸就可以变成碱液。要想让大锅开始工作，你需要向大锅中加入水，之后加入原材料，当锅中的水开始沸腾，就代表大锅开始工作了。一段时间后大锅会停止沸腾，这就代表配方已经完成了，你需要一个陶碗来把锅中的汤捞出来。"
+				""
+				"碗也可以被用来制作一种最简单的菜品：沙拉。只需要右键打开碗，把最多五个蔬菜、水果或者肉类放进去就可以了。成品的营养值会比所有原材料的营养值加起来少了25%，但更加方便。"
+			]
+			hide: true
+			icon: "tfc:ceramic/pot"
+			id: "73EA65983AD20A47"
+			rewards: [{
+				id: "2A0EAF0F7E2941EA"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "一些比较基础的烹饪"
+			tasks: [
+				{
+					id: "204777DCF2D94A73"
+					item: "tfc:ceramic/pot"
+					type: "item"
+				}
+				{
+					id: "2E15AA44C4868BD8"
+					item: "tfc:ceramic/bowl"
+					type: "item"
+				}
+			]
+			title: "锅碗瓢盆"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"23E995BA8B646210"
+				"0F7E78C69375D41D"
+			]
+			description: [
+				"现在你可以制作烤架了！可以把放了血的猪和剥皮了的牛放在烤架上制作烤全猪/牛，和大家一起共享"
+				""
+				"&c&l注意！：因为mod代码问题，烤猪的时候需要先架起猪，再在下面点燃营火才可以进行烧烤，先放置了营火不会烤熟！&r&r"
+			]
+			hide: true
+			id: "10F3EC6D18A52ED4"
+			rewards: [{
+				id: "653B4A343520ACA0"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "与族群共享…或一人独占也好"
+			tasks: [{
+				id: "0995C28F4BBBFBA7"
+				item: "butcher:spitroast"
+				type: "item"
+			}]
+			title: "&e独属于野人的烤肉派对"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E54481F9BAE42BE"]
+			description: [
+				"当你成功击杀猎物之后你就可以开始考虑制作屠刀了"
+				"用骨头制作成骨制屠夫刀，用它来击杀[部分]野生动物可以获得他们的尸体"
+				""
+				"相关配方可以在JEI查询"
+			]
+			hide: true
+			id: "6D55166B65FA72CD"
+			rewards: [{
+				id: "5EEF5F56C6A37BBF"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "残忍又血腥"
+			tasks: [
+				{
+					id: "132A8E6AE902B5EC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 6.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1895586052
+											-696235390
+											-1249835495
+											-153325220
+										]
+									}
+								}
+								attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":7}]"
+								heavy: 6.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "butcher:bonebutchersknife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "138B88ABA861DF9C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 6.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-599378411
+											824133439
+											-1797452312
+											-1862024640
+										]
+									}
+								}
+								attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":7}]"
+								heavy: 6.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "butcher:boneskinningknife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: " 原始屠夫"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D55166B65FA72CD"]
+			description: ["成功获得一个完整的猎物！！就应该趁早把他带回家处理了"]
+			id: "607A04C35930E43E"
+			rewards: [{
+				id: "34708FC078B8A092"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "拖回家……"
+			tasks: [{
+				id: "21C38CD8C2F032AB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:corpseitem"
+					}
+				}
+				title: "Any #forge:corpseitem"
+				type: "item"
+			}]
+			title: "完整的猎物！"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["607A04C35930E43E"]
+			description: [
+				"&a&n获得整个尸体之后，就可以开始着手准备处理尸体了"
+				"&r&r"
+				"首先要制作悬挂绳来将动物尸体挂上去,然再动物下方挖个坑洞，以免&c血污&r流的到处都是,"
+				""
+				"挂上去之后先用屠刀右键动物尸体进行&c放血&r，等待一段时间之后，尸体的血将会放干，这个时候就可以继续用屠刀处理尸体了，部分生物需要先用剥皮刀去除外在部分，才可以进行肢解"
+				""
+				"一只动物肢解之后出来的肉量相当之大，可以吃很久很久"
+				"&4&n更多说明请查询《屠宰手册》&r&r"
+			]
+			id: "23E995BA8B646210"
+			rewards: [{
+				id: "2D3B7AA1DC2B4E86"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "处理尸体"
+			tasks: [{
+				id: "087035A4EFB159B6"
+				item: "butcher:rope"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"死亡后，玩家会获得一层225级的饥饿buff持续五秒，清空你的饥饿指，所以复活之后需要尽快寻找食物，否则会饿死，也是需要你们一开始就攒粮食"
+				""
+				"&m不可以靠自杀来刷饥饿值了呜呜&r"
+			]
+			hide_dependency_lines: true
+			icon: "lhmiracleroad:death_soul"
+			id: "65EB18A68F06996C"
+			rewards: [{
+				id: "3D98A8BDF4C43187"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "再也不能靠自杀来刷饥饿值了"
+			tasks: [{
+				id: "3B5097ABA2AD2526"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "死亡惩罚！"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"本整合包安装了《&6传说生存&r》mod"
+				"该mod有大量的&6硬核&r内容，不过不少功能都是冲突&c禁用&r了"
+				"唯一有效的内容是&c肢体伤势&r和&a医药&r"
+				"现在你的&c肢体血量&r都会因为受伤部位而扣除&a健康值&r，比如高处摔下伤害脚部，被弓箭击中头部"
+				""
+				"&2&n以下是该mod肢体受伤会获得的独特debuff:&r&r"
+				""
+				"&n&c头疼&r&r:发生在头部严重受伤时，"
+				"偶尔会造成失明效果。"
+				""
+				"&n&c骨折&r&r：1级效果增加20%的"
+				"坠落伤害"
+				""
+				"&n&c内伤&r&r:除坠落外的所有伤害"
+				"每级效果增加20%"
+				""
+				"&2&n每种肢体损伤相关的影响列表&r&r"
+				"1.头部 =头痛(周期性失明)"
+				"2.身体 =内伤(每级所有伤害都增强 20%):"
+				"3.胳膊 =虚弱(一只胳膊)和挖掘疲劳(两只胳膊)"
+				"4.腿 = 骨折 (一只或者两只腿)"
+				"5.脚 = 缓慢(一只或者两只脚)"
+				""
+				"如果你的肢体完全&c坏死&r！会导致扣除&c生命上限&r，虽然死亡后肢体会恢复如初，但是&c死亡惩罚&r也非常严峻,建议受伤了及时治疗&r"
+				""
+				"&n另外，肢体扣血是通过百分比扣血的，如果你的&a营养&r&n不足，就会出现一摔摔断腿的情况&r【&m骨质疏松&r】&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tfccanes:walking_cane"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4DA7C19CD18742C8"
+			rewards: [{
+				id: "77EC68BB81FFF2D9"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "怕疼就好好走路"
+			tasks: [{
+				id: "4DDCD511F3906946"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "肢体血量"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D32F8E63FE2280C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"如果你不幸受伤了，你可以去路边随便采一些花，然后揉在一起搓成一个药草球来治疗你的肢体，虽然他单次恢复量很少，好在廉价"
+				""
+				"&a&n在治疗一个肢体部位的时候不能再治疗一次同一部位，需要等肢体恢复效果结束才能再次治疗&r&r"
+			]
+			hide: true
+			id: "7673CDE6A0712F6D"
+			rewards: [{
+				id: "3634E169CCE9447A"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "嚼碎了抹在伤口上"
+			tasks: [{
+				id: "2C46761EE2E4AEA0"
+				item: "legendarysurvivaloverhaul:healing_herbs"
+				type: "item"
+			}]
+			title: "疼！但是得治"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7673CDE6A0712F6D"]
+			id: "71E7C8AAF975610D"
+			rewards: [{
+				id: "1F42E38C3A3D1224"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "带了药的绷带不能止血，没带药的绷带不能治伤"
+			tasks: [
+				{
+					id: "2FEE27072434E849"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					id: "37E78D6DF5CC7EE4"
+					item: "legendarysurvivaloverhaul:bandage"
+					type: "item"
+				}
+			]
+			title: "止血包扎和敷药包扎的区别"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"本整合包加入了国创mod《&e奇迹之路&r》"
+				"该mod可以让玩家获得职业与加点，按H打开点数书"
+				"加点系统类似于&e艾尔登法环&r【&m虽然不知道你有没有玩过&r】"
+				"击杀怪物获得&3灵魂碎片&r，灵魂碎片使用掉可以获得&3灵魂&r，而升级需要灵魂"
+				""
+				"每次升级都会使下一级需要的灵魂量提升，以至于每次升级都会更难，需要合理加点"
+				"目前我们点数客制化没有做的太过详细，不过该模组自带的&6力量&r系统让一些武器拥有了力量限制，只有点数足够才可以使用该道具！"
+				""
+				"以及负重系统，护甲越高的装甲所带来的重量会更高！没有足够的负重会让你寸步难行"
+				"还有更多详细请打开H查看详细数据"
+				""
+				"&n&b而且如此精美的ui职业可全都是我们整合包自制的喲！！&r&r"
+			]
+			hide_dependency_lines: true
+			icon: "lhmiracleroad:large_block_soul"
+			id: "16546798CAF3EDBE"
+			rewards: [{
+				id: "2675D73B930D0B73"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "落叶捎来讯息，那是一个……"
+			tasks: [{
+				id: "1F5BCAC24F23D01C"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "灵魂与加点"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6DC1C6F2B8122DF1"]
+			description: [
+				"在地表几乎无法生成敌对怪物，是因为敌对怪物在设置下只能在&l&e亮度为0&r&r的地方才会生成，也就是说只能在地下或着树木非常大的丛林才会生成"
+				"可是有一个例外，那就是“&c血月&r”"
+				"血月情况下敌对怪物会大肆在地表生成"
+				""
+				"而击杀了100只亡灵生物会触发“&3亡灵入侵&r”【每个人单独计算，也就是个人击杀100只】"
+				"亡灵入侵状态下会有类似袭击一般的多次进攻，而且还会有不会停止的雷暴雨，只有击溃入侵的情况下才会恢复,并且所有亡灵都会附带冰霜行者，所以在水上溜怪变得不可取,击败亡灵军团后他们的盔甲可以制作成破布然后做成宣战旗来主动宣战【虽然很作死】"
+				""
+				"所以在前期尽量不要招惹太多亡灵生物以免家被偷了"
+			]
+			hide_dependency_lines: true
+			icon: "majruszsdifficulty:advancement_expert"
+			id: "4DFF6964EBB42271"
+			rewards: [{
+				id: "7DC705FC13F62CF2"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "什么，这也是泰拉"
+			tasks: [{
+				id: "3BD5CBE6B394900F"
+				title: "了解了"
+				type: "checkmark"
+			}]
+			title: "血月与死灵入侵"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3EFD37B6CDC910EF"]
+			description: [
+				"当你从坑窑里拿起小罐的时候，你会被烫的撒手，毕竟刚烧好的陶器是很热的，如果想要拿起炙热的物品，你就需要用隔热道具装备在副手才能握持，"
+				""
+				"当你拿着滚烫物品的时候，会一直损耗隔热道具的耐久"
+				""
+				"如果你想快速降温，可以试图把物品丢入水中"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfchotornot:burlap_potholder"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51A61D33E074D58F"
+			rewards: [{
+				id: "1BDA69CFCE3AE139"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "没人敢拿刚烧好的东西"
+			tasks: [
+				{
+					id: "1FD1C3254126520F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfchotornot:burlap_potholder"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F72AAE4935175CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfchotornot:tongs/wood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "好烫！！！"
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0C96D15A0FCAC50B"]
+			description: ["你可以在河边找到燧石，做成燧石长矛，燧石长矛虽然不能投掷但有十分可观的攻击距离，很适合前期使用"]
+			hide: true
+			id: "7D7EE81B85865237"
+			rewards: [{
+				id: "306EBDB4DB7A645D"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "像野人一样…就差唱山歌了"
+			tasks: [{
+				id: "3F7334A84D004706"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 8.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1371619800
+										554061821
+										-1571082248
+										-1377986643
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":10}]"
+							heavy: 8.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "call_of_yucutan:flint_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "保护自己"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D7EE81B85865237"]
+			description: ["如果你有幸击杀了几只蜘蛛并获得了蜘蛛眼，你就可以制作吹筒和毒镖，作为前期很有用的远程武器，比弓箭更加便携方便，最重要的是，没有力量需求"]
+			hide: true
+			id: "193204240E1BF793"
+			rewards: [{
+				id: "4B550EE652885FD6"
+				type: "xp"
+				xp: 18
+			}]
+			subtitle: "丛林猎手"
+			tasks: [
+				{
+					id: "4A2951ED2F57FB80"
+					item: {
+						Count: 1b
+						id: "call_of_yucutan:blow_gun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514D6937AFADBA7D"
+					item: "call_of_yucutan:poisonous_dart"
+					type: "item"
+				}
+			]
+			title: "飞箭"
+			x: -0.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["要怎么活下去"]
+	title: "序章：山川与岩石"
+}

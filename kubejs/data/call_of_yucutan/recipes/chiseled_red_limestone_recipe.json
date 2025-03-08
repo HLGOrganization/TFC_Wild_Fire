@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:polished_red_limestone_slab"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:chiseled_red_limestone",
+    "count": 1
+  }
+}

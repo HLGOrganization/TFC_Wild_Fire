@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_new_age:overcharged_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:overcharged_iron_sheet"
+    }
+  ]
+}

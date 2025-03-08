@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+    "item": "ad_astra:etrium_ingot"
+    }
+  ],
+  "results": [
+    {
+    "item": "ad_astra:etrium_plate",
+    }
+  ]
+}

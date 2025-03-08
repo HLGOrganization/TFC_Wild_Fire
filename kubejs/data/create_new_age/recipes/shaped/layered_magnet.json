@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "create_new_age:overcharged_iron"
+    },
+    "G": {
+      "item": "create_new_age:overcharged_gold"
+    }
+  },
+  "pattern": [
+    "III",
+    "GGG",
+    "III"
+  ],
+  "result": {
+    "count": 4,
+    "item": "create_new_age:layered_magnet"
+  },
+  "show_notification": true
+}

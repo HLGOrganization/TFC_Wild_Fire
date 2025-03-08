@@ -1,0 +1,27 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "firmalife:cream",
+        "amount": 100
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "forge:fruits/berries"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "bakery:cake_dough"
+      }
+    }
+  ],
+  "item": "minecraft:cake",
+  "count": 1,
+  "experience": 0.15
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/wrought_iron"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/cast_iron",
+    "amount": 200
+  },
+  "temperature": 1535,
+  "use_durability": true
+}

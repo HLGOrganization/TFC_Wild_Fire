@@ -1,0 +1,33 @@
+{
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:sweetener"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "firmalife:foods/chocolate"
+      }
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": {
+          "tag": "tfc:milks"
+        },
+        "amount": 100
+      }
+    }
+  ],
+  "container": {
+    "item": "minecraft:paper"
+  },
+  "result": {
+    "item": "bakery:chocolate_truffle",
+    "count": 4
+  }
+}

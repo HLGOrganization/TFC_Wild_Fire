@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/cast_iron"
+  },
+  "result": {
+    "item": "tfchotornot:tong_part/cast_iron"
+  },
+  "tier": 1,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "apply_forging_bonus": true
+}

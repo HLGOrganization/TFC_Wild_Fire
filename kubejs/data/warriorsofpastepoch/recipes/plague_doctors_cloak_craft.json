@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:sterile_tissue"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    },
+    "c": {
+      "item": "tfc:metal/ingot/silver"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:plague_doctor_armor_chestplate",
+    "count": 1
+  }
+}

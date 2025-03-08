@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "bakery:pudding"
+  },
+  "hunger": 6,
+  "saturation": 8,
+  "decay_modifier": 2,
+  "dairy": 8,
+  "fruit": 6
+}

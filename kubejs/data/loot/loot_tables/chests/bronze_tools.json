@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/axe/bronze",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/sword/bronze",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/pickaxe/bronze",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/axe/bronze",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/mace/bronze",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/saw/bronze",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/spear/bronze",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:metal/knife/bronze",
+          "weight": 7
+        }
+      ]
+    }
+  ]
+}

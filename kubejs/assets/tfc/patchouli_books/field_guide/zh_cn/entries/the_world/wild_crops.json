@@ -1,0 +1,604 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "野生作物",
+  "category": "tfc:the_world",
+  "icon": "tfc:textures/gui/book/icons/wild_crops.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "世界各地都能找到小团的$(thing)野生作物$()。$(br2)用手就可以收获野生作物，当然$(thing)刀$()或其他锋利的工具也行。它们会掉落$(thing)种子$()和一些$(thing)农产品$()。再次种植这些种子就可以种出人工栽培版本的作物。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:wild_crop/wheat[mature=true]"
+        }
+      },
+      "name": "野生小麦",
+      "text": "作为示例，这是$(l:mechanics/crops#wheat)小麦$()的野生版本。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每一个能够被栽培的$(l:mechanics/crops)种子$()都能在野外被找到。野生作物看起来与栽培的作物相似，但会更多地隐藏在草丛中。野生作物从六月到十月才成熟。否则，它们在第二个夏天之前都会死去。"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "所有野生作物的变种",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/barley"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/oat"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/rye"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "Y"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/maize[part=top]",
+            "Y": "tfc:wild_crop/maize[part=bottom]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/barley"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/rice[fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/beet"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/cabbage"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/carrot"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/garlic"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "Y"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/green_bean[part=top]",
+            "Y": "tfc:wild_crop/green_bean[part=bottom]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/potato"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/onion"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/soybean"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/squash"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "Y"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/sugarcane[part=top]",
+            "Y": "tfc:wild_crop/sugarcane[part=bottom]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "Y"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/tomato[part=top]",
+            "Y": "tfc:wild_crop/tomato[part=bottom]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "Y"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/jute[part=top]",
+            "Y": "tfc:wild_crop/jute[part=bottom]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/pumpkin"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:wild_crop/melon"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "野生作物会在作物本身可以被种植的气候中生成，因此，如果要寻找特定的作物，请查看作物可以被种植的气候。可是，不像玩家种植的$(l:mechanics/crops)作物$()一样，野生作物缺乏水分。所以，能否找到它们更多取决于当地的平均$()气温$()与平均$()降水量$()。",
+      "title": "寻找野生作物"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "下一页将展示野生作物能被找到的环境表。"
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": "作物",
+          "bold": true
+        },
+        {
+          "text": "气温 (°C)",
+          "bold": true
+        },
+        {
+          "text": "降水量 (mm)",
+          "bold": true
+        },
+        {
+          "text": "大麦"
+        },
+        {
+          "text": " -8 - 26"
+        },
+        {
+          "text": " 70 - 310"
+        },
+        {
+          "text": "燕麦"
+        },
+        {
+          "text": "  3 - 40"
+        },
+        {
+          "text": "140 - 400"
+        },
+        {
+          "text": "黑麦"
+        },
+        {
+          "text": "-11 - 30"
+        },
+        {
+          "text": "100 - 350"
+        },
+        {
+          "text": "玉米"
+        },
+        {
+          "text": " 13 - 40"
+        },
+        {
+          "text": "300 - 500"
+        },
+        {
+          "text": "小麦"
+        },
+        {
+          "text": " -4 - 35"
+        },
+        {
+          "text": "100 - 400"
+        },
+        {
+          "text": "稻米"
+        },
+        {
+          "text": " 15 - 30"
+        },
+        {
+          "text": "100 - 500"
+        },
+        {
+          "text": "甜菜"
+        },
+        {
+          "text": " -5 - 20"
+        },
+        {
+          "text": " 70 - 300"
+        },
+        {
+          "text": "卷心菜"
+        },
+        {
+          "text": "-10 - 27"
+        },
+        {
+          "text": " 60 - 280"
+        },
+        {
+          "text": "胡萝卜"
+        },
+        {
+          "text": "  3 - 30"
+        },
+        {
+          "text": "100 - 400"
+        },
+        {
+          "text": "大蒜"
+        },
+        {
+          "text": "-20 - 18"
+        },
+        {
+          "text": " 60 - 310"
+        },
+        {
+          "text": "绿豆"
+        },
+        {
+          "text": "  2 - 35"
+        },
+        {
+          "text": "150 - 410"
+        },
+        {
+          "text": "甜瓜"
+        },
+        {
+          "text": "  5 - 37"
+        },
+        {
+          "text": "200 - 500"
+        }
+      ],
+      "text": "",
+      "title": "野外作物的需求",
+      "legend": [],
+      "columns": 2,
+      "first_column_width": 80,
+      "column_width": 70,
+      "row_height": 10,
+      "left_buffer": 2,
+      "top_buffer": 12,
+      "draw_background": false
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": "作物",
+          "bold": true
+        },
+        {
+          "text": "气温 (°C)",
+          "bold": true
+        },
+        {
+          "text": "降水量 (mm)",
+          "bold": true
+        },
+        {
+          "text": "土豆"
+        },
+        {
+          "text": " -1 - 37"
+        },
+        {
+          "text": "200 - 410"
+        },
+        {
+          "text": "南瓜"
+        },
+        {
+          "text": "  0 - 30"
+        },
+        {
+          "text": "120 - 390"
+        },
+        {
+          "text": "洋葱"
+        },
+        {
+          "text": "  0 - 30"
+        },
+        {
+          "text": "100 - 390"
+        },
+        {
+          "text": "大豆"
+        },
+        {
+          "text": "  8 - 30"
+        },
+        {
+          "text": "160 - 410"
+        },
+        {
+          "text": "南瓜小果"
+        },
+        {
+          "text": "  5 - 33"
+        },
+        {
+          "text": " 90 - 390"
+        },
+        {
+          "text": "甘蔗"
+        },
+        {
+          "text": " 12 - 38"
+        },
+        {
+          "text": "160 - 500"
+        },
+        {
+          "text": "西红柿"
+        },
+        {
+          "text": "  0 - 36"
+        },
+        {
+          "text": "120 - 390"
+        },
+        {
+          "text": "黄麻"
+        },
+        {
+          "text": "  5 - 37"
+        },
+        {
+          "text": "100 - 410"
+        },
+        {
+          "text": "纸莎草"
+        },
+        {
+          "text": " 19 - 37"
+        },
+        {
+          "text": "310 - 500"
+        },
+        {
+          "text": "红椒"
+        },
+        {
+          "text": " 16 - 30"
+        },
+        {
+          "text": "190 - 400"
+        },
+        {
+          "text": "黄柿子椒"
+        },
+        {
+          "text": " 16 - 30"
+        },
+        {
+          "text": "190 - 400"
+        }
+      ],
+      "text": "",
+      "title": "野外作物的需求",
+      "legend": [],
+      "columns": 2,
+      "first_column_width": 80,
+      "column_width": 70,
+      "row_height": 10,
+      "left_buffer": 2,
+      "top_buffer": 12,
+      "draw_background": false
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4,
+  "extra_recipe_mappings": {
+    "tag:tfc:wild_crops": 0
+  }
+}

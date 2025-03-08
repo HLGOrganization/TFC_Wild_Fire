@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "bakery:chocolate_jam"
+  },
+  "hunger": 1,
+  "saturation": 0.5,
+  "decay_modifier": 0.1,
+  "dairy": 1.5
+}

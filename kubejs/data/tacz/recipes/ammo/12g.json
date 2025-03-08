@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {"item": {"item": "immersiveengineering:empty_shell" },"count": 5},
+    {"item": {"item": "minecraft:gunpowder" },"count": 5},
+    {"item": {"item": "minecraft:iron_nugget" },"count": 10}
+
+
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:12g",
+    "count": 5
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

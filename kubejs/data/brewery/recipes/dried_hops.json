@@ -1,0 +1,11 @@
+{
+  "type": "brewery:drying",
+  "ingredients": [
+    {
+      "item": "kubejs:hops"
+    }
+  ],
+  "output": {
+    "item": "brewery:hops"
+  }
+}

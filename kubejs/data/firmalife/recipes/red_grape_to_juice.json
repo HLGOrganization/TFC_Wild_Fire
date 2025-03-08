@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "type": "tfc:has_trait",
+      "trait": "firmalife:fermented",
+      "ingredient": {
+        "item": "firmalife:food/smashed_red_grapes"
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "firmalife:red_wine"
+    }
+  ]
+}

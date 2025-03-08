@@ -1,0 +1,599 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mek"
+	group: "2BD524ABD6AD1EEE"
+	icon: "mekanism:upgrade_speed"
+	id: "3E6A62B959D7B49D"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["274B850B54AF12A9"]
+			id: "67C28DE1DD0F1111"
+			size: 1.0d
+			subtitle: "一切机械之基础"
+			tasks: [{
+				id: "38FE69CFDA59E1A4"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			title: "锇"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C89C330BD2D7DFE"]
+			icon: "mekanism:upgrade_energy"
+			id: "274B850B54AF12A9"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "3F64C9F792A99141"
+				type: "checkmark"
+			}]
+			title: "欢迎来到通用机械"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67C28DE1DD0F1111"]
+			id: "70CC558923DC1DF7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1119C3193AE580A7"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67C28DE1DD0F1111"]
+			description: ["如果没有其他能量来源，这将会是你的第一台产电设备 "]
+			id: "67DC25897C578163"
+			subtitle: "MEK中的第一台发电机"
+			tasks: [{
+				id: "286D9116A7855173"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["70CC558923DC1DF7"]
+			id: "74FEBF6C7A72925A"
+			tasks: [{
+				id: "6A91536680308F1D"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70CC558923DC1DF7"]
+			id: "1D917AB9DA931E23"
+			size: 1.5d
+			tasks: [{
+				id: "328893D73A1D8268"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1D917AB9DA931E23"
+				"74FEBF6C7A72925A"
+			]
+			id: "3E350B036E797FAE"
+			tasks: [{
+				id: "246DFB1B446C57F8"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"70CC558923DC1DF7"
+				"74405149F4F31E8D"
+			]
+			id: "4F7E4683FD0C7207"
+			size: 1.5d
+			tasks: [{
+				id: "2032A694663AD22A"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F7E4683FD0C7207"]
+			id: "7B90FE68C55D6459"
+			subtitle: "八倍的灌注机利用率"
+			tasks: [{
+				id: "3A559144ACAFA584"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"富集材料\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:enriched_carbon"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_redstone"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_diamond"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_refined_obsidian"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_tin"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_gold"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70CC558923DC1DF7"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "mekanism:ingot_steel"
+			}
+			id: "74405149F4F31E8D"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4913DA6785C88296"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "mekanism:ingot_steel"
+				}
+				tags: ["forge"]
+				type: "item"
+			}]
+			title: "钢锭"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74405149F4F31E8D"]
+			hide_dependency_lines: true
+			id: "275464E4F866F790"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "28D3131E82AD222D"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "45FFF09B4E5326F8"
+			tasks: [{
+				id: "36F629053286AA7B"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "0F0DE1C9DBDB9874"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "472381DC02696A42"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "79B3B61BCB3A1BBE"
+			tasks: [{
+				id: "171149BE86E2250D"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "12CB2E5F50AFADA1"
+			tasks: [{
+				id: "0E18E38F05EBF58B"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74FEBF6C7A72925A"]
+			id: "60339311362C7A40"
+			tasks: [{
+				id: "35093ACC68EDE44A"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60339311362C7A40"]
+			id: "1305DD730D5995A4"
+			tasks: [{
+				id: "682F2A813D4E4558"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3E350B036E797FAE"
+				"60339311362C7A40"
+			]
+			id: "58582CC5F8A4A182"
+			tasks: [{
+				id: "493B85582040C670"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1305DD730D5995A4"]
+			id: "7ED969ED0A44568B"
+			tasks: [{
+				id: "328D3AF686B74DFF"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "7A563E9CECBE19D9"
+			tasks: [{
+				id: "5A76CAE7EDE2E6E6"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["275464E4F866F790"]
+			id: "10016440758DE6DE"
+			shape: "diamond"
+			tasks: [{
+				id: "745B1F58E0B237D9"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10016440758DE6DE"]
+			id: "473C8BB54067CECC"
+			shape: "diamond"
+			tasks: [{
+				id: "1E509A3602E95338"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["473C8BB54067CECC"]
+			id: "6E8180B0DEC2607A"
+			shape: "diamond"
+			tasks: [{
+				id: "28A3AB13EB83206A"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4F7E4683FD0C7207"]
+			id: "78E1964DF4753E6F"
+			size: 1.5d
+			tasks: [{
+				id: "2B114EA0A922C265"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "1E02E152DEA6BECC"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "6B6A7307CC3F25B8"
+				item: "mekanism:advanced_logistical_transporter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "58CF41CE31B7B5B4"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "65C5DC347822D5C7"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "57AADCDFB856C083"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "2F45F3B3E32F685E"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D917AB9DA931E23"]
+			id: "1A69127622153ABD"
+			size: 1.5d
+			tasks: [{
+				id: "1BD75D3483439507"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E350B036E797FAE"]
+			id: "722FB21D2496967C"
+			tasks: [{
+				id: "45516225B846F4D6"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58582CC5F8A4A182"]
+			id: "3B4EF4939CC978D4"
+			tasks: [{
+				id: "43A96CDE0A5A79A7"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7ED969ED0A44568B"]
+			id: "4A0D7125D0789220"
+			tasks: [{
+				id: "3CF5E49E0982FC4E"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B529D3D155FF79C"]
+			id: "66DDD3FCB646FC6C"
+			tasks: [{
+				id: "0666CBC058F29386"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F7CE84A14701E3E"]
+			id: "42BE918F4E29F6ED"
+			tasks: [{
+				id: "1C54E76A98367277"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17EA872E2E8E39BF"]
+			id: "50EE2FC5B67BB391"
+			tasks: [{
+				id: "7B55057A1137E8DA"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78E1964DF4753E6F"]
+			id: "2B529D3D155FF79C"
+			tasks: [{
+				id: "1C403D28E36B6D6F"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78E1964DF4753E6F"]
+			id: "2F7CE84A14701E3E"
+			tasks: [{
+				id: "09F4B99A5F54CE51"
+				item: "immersiveengineering:dust_gold"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78E1964DF4753E6F"]
+			id: "17EA872E2E8E39BF"
+			tasks: [{
+				id: "4ECA40AA9EA10F0A"
+				item: "immersiveengineering:dust_steel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "6A87197A92DB980B"
+			tasks: [{
+				id: "462E3E87DF1A31A1"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			id: "746C729B7E7A24BA"
+			subtitle: "瓜聚变，启动！"
+			tasks: [{
+				id: "2120FA87F974C9F1"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			id: "0C9A770CA282BD32"
+			tasks: [{
+				id: "0E3145F71BF61A15"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			id: "109CE394E28354C5"
+			tasks: [{
+				id: "5985798696856172"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			id: "47805084171FEDE9"
+			tasks: [{
+				id: "08DFA506BEDB409D"
+				item: "mekanismgenerators:fusion_reactor_frame"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			id: "7AE4EAD2DAE9E6A3"
+			tasks: [{
+				id: "3E8B0B509A15472A"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			id: "5E398D7748BB394C"
+			tasks: [{
+				id: "13C58722580056C0"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			id: "1D67B3304715FC78"
+			tasks: [{
+				id: "034502B4DAF5112B"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			id: "291C18C6D1884A3F"
+			tasks: [{
+				id: "1925F030602B867F"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+	]
+	title: "通用机械:合金铸造世界！"
+}

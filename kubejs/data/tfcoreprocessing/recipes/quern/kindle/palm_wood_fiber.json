@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+   "tag": "tfc:palm_logs"
+  },
+  "result": {
+    "item": "tfcoreprocessing:kindle/palm_fiber",
+    "count": 8
+  }
+}

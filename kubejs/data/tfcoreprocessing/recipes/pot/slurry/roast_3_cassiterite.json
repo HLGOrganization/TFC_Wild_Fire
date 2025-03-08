@@ -1,0 +1,35 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+          "item": "tfcoreprocessing:compressed/cassiterite"
+    }
+,
+    {
+          "item": "tfcoreprocessing:compressed/cassiterite"
+    }
+,
+    {
+          "item": "tfcoreprocessing:compressed/cassiterite"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "minecraft:water",
+    "amount": 100
+  },
+  "duration": 2000,
+  "temperature": 300,
+  "item_output": [
+    {
+      "item":"tfcoreprocessing:roasted_brick/cassiterite"
+    }
+,
+    {
+      "item":"tfcoreprocessing:roasted_brick/cassiterite"
+    }
+,
+    {
+      "item":"tfcoreprocessing:roasted_brick/cassiterite"
+    }
+  ]
+}

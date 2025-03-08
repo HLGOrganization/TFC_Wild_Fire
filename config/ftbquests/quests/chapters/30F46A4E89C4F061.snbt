@@ -1,0 +1,814 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "30F46A4E89C4F061"
+	group: "2BD524ABD6AD1EEE"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "ad_astra:earth_globe"
+	id: "30F46A4E89C4F061"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["583ECBD21EE506B5"]
+			description: [
+				"从现在开始，就为群峦的拓展内容了，如果你不想继续下去，想继续在群峦星养老，其实现在就可以结束了"
+				""
+				"但是，如果你的探索欲望仍不停止，那你可以重新开始新的征程"
+				"接下来，就是对你所有工业化产线的最大考验，制作飞船需要大量的钢铁，石油和其他精密元件"
+				""
+				"准备好了吗？"
+			]
+			hide: false
+			hide_dependent_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "55A7A71E11F88C31"
+			size: 3.0d
+			subtitle: "并不是拥有翅膀才能飞翔"
+			tasks: [{
+				id: "4C262C87AD783506"
+				title: "准备好了"
+				type: "checkmark"
+			}]
+			title: "第五章：再见群峦星"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "7AB58E87CFDADBB6"
+			tasks: [{
+				id: "001271FF09E2DFE0"
+				type: "custom"
+			}]
+			title: "船舱板材"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "72FCF7BDEAF4FDE5"
+			tasks: [{
+				id: "093889AAAC948207"
+				type: "custom"
+			}]
+			title: "船舱推进器"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "2F9BA9331A4507DA"
+			tasks: [{
+				id: "23B39C84CF09B170"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "33C46EC413094CBB"
+			tasks: [{
+				id: "4A328CED857DE6EE"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "421831E172A19BC5"
+			tasks: [{
+				id: "02087BA95579707A"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["669205800834EF52"]
+			description: [
+				"接下来，我们使用压缩机，将汽油压缩成&c火箭燃料&r即可"
+				"虽然简单，但是汽油和&c燃油&r的压缩比例是100：5，也就是100mb的汽油只能压缩出5mb的&c燃油&r，来回一趟火箭的燃料至少需要12000mb的汽油才可以足够！"
+			]
+			hide_dependent_lines: true
+			id: "47DB3C957606EEFB"
+			subtitle: "这个劲啊，柴油机喝了都顶不住"
+			tasks: [{
+				id: "5CBE01E924A07956"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"55A7A71E11F88C31"
+				"044CF45990C9FD8B"
+			]
+			description: [
+				"&c&l详情请查看机械动力章节！！！！！！&r&r"
+				"只有找到了石油，火箭燃料才有着落，分炼原油的过程非常复杂!"
+			]
+			hide: false
+			icon: "artisanal:bucket/petroleum"
+			id: "507A81C4A836ED05"
+			subtitle: "在老鹰看不见的地方"
+			tasks: [{
+				id: "0373699190E62234"
+				type: "checkmark"
+			}]
+			title: "石油"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "16E00CF99140A8E4"
+			tasks: [
+				{
+					id: "66D132D0D0D367FE"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69F9549EA4A9806E"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "20ADAF95320BEB6B"
+			tasks: [{
+				id: "2AAC70AF75793084"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "6CD157B12B1B4EAD"
+			tasks: [{
+				id: "6AED3C9EF817BAD7"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "6BDCADA456D21403"
+			tasks: [{
+				id: "50A2B676B210B8F4"
+				item: {
+					Count: 1b
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7AB58E87CFDADBB6"]
+			id: "6079DA481486CC22"
+			tasks: [{
+				id: "7C85DAEB3B5754B4"
+				type: "custom"
+			}]
+			title: "船舱"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			id: "2A098B45CE50C921"
+			tasks: [{
+				id: "1A7A6F1BAAD6A314"
+				type: "custom"
+			}]
+			title: "初级控制终端"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"72FCF7BDEAF4FDE5"
+				"33C46EC413094CBB"
+				"6079DA481486CC22"
+				"6CD157B12B1B4EAD"
+				"2F9BA9331A4507DA"
+				"20ADAF95320BEB6B"
+				"6BDCADA456D21403"
+				"421831E172A19BC5"
+				"16E00CF99140A8E4"
+				"2A098B45CE50C921"
+				"7AB58E87CFDADBB6"
+				"47DB3C957606EEFB"
+			]
+			id: "6221C1869FAF9383"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "308F1D67C94F865D"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6221C1869FAF9383"]
+			id: "07CAE5A7D37874B7"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "人类的一小步"
+			tasks: [{
+				advancement: "ad_astra:moon"
+				criterion: ""
+				id: "27FE6C8771FF953C"
+				type: "advancement"
+			}]
+			title: "登录月球"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["07CAE5A7D37874B7"]
+			id: "119AE35E9BA24F04"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				icon: "ad_astra:steel_sliding_door"
+				id: "5B7BDDED13873FEB"
+				title: "进入地球空间站"
+				type: "dimension"
+			}]
+			title: "空间站"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["07CAE5A7D37874B7"]
+			id: "62AF798B3EC657B7"
+			tasks: [{
+				id: "52399A4A51582966"
+				item: "ad_astra:lunarian_spawn_egg"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["07CAE5A7D37874B7"]
+			icon: "mekanism:raw_osmium"
+			id: "0CC44CE55937C0EF"
+			tasks: [{
+				id: "6A86BA4576A16F50"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0CC44CE55937C0EF"]
+			icon: "mekanism:upgrade_speed"
+			id: "5C89C330BD2D7DFE"
+			subtitle: "Mek改变世界！"
+			tasks: [{
+				id: "74458B0F7E63EBB4"
+				type: "checkmark"
+			}]
+			title: "&eMek：通用机械"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62AF798B3EC657B7"]
+			id: "5A74707B6A23686E"
+			invisible: true
+			shape: "gear"
+			tasks: [{
+				id: "5D476FC021FC1D4A"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&e传说中的经验修补"
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["07CAE5A7D37874B7"]
+			id: "7BCC2021B52711F1"
+			tasks: [{
+				id: "0D1A0805BB1BDD65"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7BCC2021B52711F1"]
+			icon: "ae2:mysterious_cube"
+			id: "18A299DF88ABE835"
+			tasks: [{
+				id: "33338AB899377164"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			title: "应用能源"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07CAE5A7D37874B7"]
+			description: ["这个时候，常规的熔炼方式已经无法熔炼外星金属了！所以这个时候我们需要电弧炉对粗戴斯矿物进行一个加工！"]
+			id: "3A590DC66B0BD664"
+			subtitle: "外星金属"
+			tasks: [{
+				id: "54DB951C7A1068E3"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			title: "戴斯金属"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3A590DC66B0BD664"]
+			description: ["戴斯管道可以无动力抽取容器里面的液体，只需要使用ad星际自带的扳手即可确定管道的流向"]
+			id: "302C78DC5D750475"
+			subtitle: "太好了是无动力管道我们压缩产线有救了"
+			tasks: [
+				{
+					id: "44FBAC5F7C7749A8"
+					item: "ad_astra:desh_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "586D4203F4F15619"
+					item: "ad_astra:wrench"
+					type: "item"
+				}
+			]
+			title: "无动力抽取管道"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"05B65935B813718B"
+				"4A4417169A78116A"
+				"190F7C437722D241"
+				"5D65C2526363C750"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "17A1BC8ECD139173"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "ad_astra:tier_2_rocket"
+					criterion: ""
+					id: "1FF2585682B96E25"
+					type: "advancement"
+				}
+				{
+					id: "51AFD664A96EB719"
+					type: "checkmark"
+				}
+			]
+			title: "以自己的能力制造火箭！"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3A590DC66B0BD664"]
+			id: "05B65935B813718B"
+			tasks: [
+				{
+					id: "4FDFD499D58EDAF6"
+					title: "是否拥有自动产钢产线"
+					type: "checkmark"
+				}
+				{
+					id: "06216D1A68603FE2"
+					title: "是否拥有电弧炉"
+					type: "checkmark"
+				}
+			]
+			title: "阶段性的发展"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			description: ["这本书是Ad！astra！的帕秋莉手册，记录着基础知识，不过我们魔改内容比较多，一些书的内容并不一样，所以这本书你其实做完领个奖励就行了，"]
+			id: "7CD24CFA5E003D9D"
+			subtitle: "每个星际公民必备的一本书"
+			tasks: [{
+				id: "24CAF83614B7C2B7"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0CD6401580E28CCF"]
+			description: [
+				"&7&o你成功的保护了一次你那作为“诱饵”的村民&r&r"
+				""
+				"不过没关系，无论你是以什么难度通过袭击，你都值得这个奖励"
+			]
+			icon: "majruszsdifficulty:advancement_expert"
+			id: "4669E8604CE0841E"
+			invisible: true
+			subtitle: "你成功了"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "121DDDC50B7B331F"
+				type: "advancement"
+			}]
+			title: "终极报复"
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3A590DC66B0BD664"]
+			id: "4A4417169A78116A"
+			tasks: [{
+				id: "1D439C0B537BC720"
+				type: "custom"
+			}]
+			title: "二阶火箭推进器"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3A590DC66B0BD664"]
+			id: "190F7C437722D241"
+			tasks: [{
+				id: "6B7CD9C56F96C818"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3A590DC66B0BD664"]
+			id: "5D65C2526363C750"
+			tasks: [{
+				id: "1B8D9D114287EA7E"
+				type: "custom"
+			}]
+			title: "二阶船舱板材"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			description: ["你对挖矿的执着已经超越了矮人，你才是真正的矿业大亨。"]
+			icon: "tfc:gem/diamond"
+			id: "668ECBCC3C1866F4"
+			rewards: [
+				{
+					id: "7DD5D50F163A0CED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "71F3E95FD8B71532"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "42E4C7488C274B35"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "tfc:world/gemologist"
+					criterion: ""
+					id: "58FB25B9A121ABF6"
+					type: "advancement"
+				}
+				{
+					advancement: "tfc:world/metallurgist"
+					criterion: ""
+					id: "108E4943822C7759"
+					type: "advancement"
+				}
+				{
+					advancement: "tfc:world/minerologist"
+					criterion: ""
+					id: "7F094B3B3B757548"
+					type: "advancement"
+				}
+			]
+			title: "&e挑战：矿业大亨"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			description: ["一个好农夫必定是一个好厨子，一个好厨子也必定是一个好农夫。"]
+			id: "53EDAB616FD9C044"
+			rewards: [{
+				id: "379FA1450C2D7B60"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "tfc:world/all_crops"
+				criterion: ""
+				id: "5C39494E02D59A76"
+				type: "advancement"
+			}]
+			title: "&e挑战：神农氏"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			description: ["我的天，你竟然已经全都走过了一遍，看起来你是真的很喜欢群峦的地形。"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+					"lhmiracleroad:punishment_cap": {
+						attribute: {
+							heavy: {
+								Amount: 2.5d
+								Name: ""
+								Operation: 0
+								UUID: [I;
+									-491318017
+									789594683
+									-1256239646
+									1076525865
+								]
+							}
+						}
+						heavy: 2.5d
+						recordPunishmentAttributeModifier: { }
+					}
+				}
+				id: "tfc_textile_coldsweat:crocodile_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48B3CD1F9AB2055D"
+			rewards: [
+				{
+					id: "347807B65AA13B30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3AC533A96C437238"
+					item: {
+						Count: 1b
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "旅行的意义"
+			tasks: [{
+				advancement: "tfc:world/adventuring_time"
+				criterion: ""
+				id: "6D33D869F5DD47AB"
+				type: "advancement"
+			}]
+			title: "&e挑战：探索的时光"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			description: ["当营养值拉满时，你的血量上限大约会是2500左右，相当于原版的两管半血量。"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+				}
+				id: "bakery:vegetable_sandwich"
+			}
+			id: "26F27FD932580E54"
+			rewards: [
+				{
+					id: "3895532B9381EAE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "30670EE47474BF48"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 407976000L
+								traits: [ ]
+							}
+						}
+						id: "farmersdelight:honey_glazed_ham_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "吃得好，吃得饱"
+			tasks: [{
+				advancement: "tfc:world/full_nutrition"
+				criterion: ""
+				id: "0611324C4A89E736"
+				type: "advancement"
+			}]
+			title: "&e挑战：史蒂夫屹立于大地之上"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			description: ["你就是群峦世界的麦哲伦"]
+			id: "3051A5BE7ACEB506"
+			rewards: [{
+				id: "7CCC90896112EAE1"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "tfc:world/globe_trotter"
+				criterion: ""
+				id: "6561A6501CDFEDD2"
+				type: "advancement"
+			}]
+			title: "&e挑战：环游世界"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55A7A71E11F88C31"]
+			description: ["你对彩色玻璃的掌握让你能够造出教堂彩绘玻璃一样的杰作"]
+			id: "2B7CFB21CD34A4D2"
+			rewards: [{
+				id: "3EC4F64D102FBDBB"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "tfc:story/glass_colors"
+				criterion: ""
+				id: "16805ACEA71589EF"
+				type: "advancement"
+			}]
+			title: "&e挑战：流光溢彩"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["507A81C4A836ED05"]
+			description: [
+				"&n&o提炼汽油的过程非常复杂!&r&r"
+				""
+				"首先"
+				"需要在石油点泵出石油，然后经过分馏塔加热分溜成&4重油&r和&7轻油&r，重油被锟压机挤压可以变成柴油和沥青，这两个是副产物"
+				"然后轻油再次进入下个分馏塔，分馏出&a硫气&r和&e汽油&r，硫气可以制作成为硫磺，是重要的火药来源,这样&e汽油&r就提炼完成了！"
+				""
+				"&e汽油&r是蒸汽引擎最主要的燃料，也是&e烈焰人燃烧室&r可以变成&b超级加热&r的物品，可是一个地方的石油终归是有限的，汽油最好先制作&c火箭燃料&r再去考虑其他方面的用途！"
+			]
+			id: "669205800834EF52"
+			subtitle: "95号的，得劲"
+			tasks: [{
+				id: "57382027019658F9"
+				item: "createdieselgenerators:gasoline_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62AF798B3EC657B7"]
+			description: [
+				"&o你可能在某处掠夺者营地意外找到了这杯酒，或者你在jei里面随便翻找找到了这杯酒，虽然他没有什么特殊功效，只是让你获取&c不祥征兆&rbuff的一个道具&r"
+				""
+				"在&5[果园葡香]&r的设定里，酒的状态会因为尘封年份时间而提升buff的&6品质等级&r"
+				"而不同等级的&c“不祥之兆”&r会让你带来不同难度的&c恐怖报复！&r"
+				""
+				"&o不同等级的袭击都对你的基地有不同的毁灭性，当然，袭击并不是必选项，此设定只是给那些想要战斗的玩家来一些挑战性的战斗&r"
+				"&l&e当然，不同袭击等级带来的奖励也是丰盛的，藏宝箱会生成在村民中心区域，并且会有超越等级的附魔！&r&r"
+				""
+				"{@pagebreak}"
+				"关于等级的描述"
+				""
+				"不祥之兆I--原版难度"
+				"不祥之兆II--Hero难度"
+				"不祥之兆III一Legend难度"
+				"不祥之兆IV--Master难度"
+				"不祥之兆V-Grandmaster难度"
+				""
+				"·&eHero&r难度:"
+				""
+				"&n你想要稍微增加一点袭击难度，但不想太难，而且你不想与太多新的灾厄村民种类战斗&r"
+				""
+				"·&6Legend&r难度:"
+				""
+				"&n袭击的标准难度，结合了更强大的原版灾厄村民和新种类的高难度灾厄村民的袭击。&r"
+				""
+				"·&dMaste&r难度:"
+				""
+				"&n最困难的挑战，灾厄村民们更加强大&r"
+				""
+				"·&cGrandmaster&r难度:"
+				""
+				"&n极端的难度。灾厄村民们将发挥极端水平。&r"
+			]
+			id: "0CD6401580E28CCF"
+			subtitle: "掠夺者最喜欢的酒，因为充盈着“侵略性”的味道"
+			tasks: [{
+				id: "19F571CA6AD9777B"
+				item: {
+					Count: 1b
+					id: "vinery:villagers_fright"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+	]
+	title: "第五章：再见群峦星"
+}

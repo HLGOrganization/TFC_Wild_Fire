@@ -1,0 +1,16 @@
+{
+   "type": "minecraft:crafting_shaped",
+   "pattern": [
+     "X X",
+     "X X",
+     "XXX"
+   ],
+   "key": {
+     "X": {
+       "tag": "forge:sheets/cast_iron"
+     }
+   },
+   "result": {
+     "item": "tfcoreprocessing:metal/barrel/cast_iron"
+   }
+ }

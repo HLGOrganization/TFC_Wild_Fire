@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "loot:andesite"
+    },
+    {
+      "amount": 10,
+      "fluid": "tfc:metal/cast_iron",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create:andesite_alloy"
+    }
+  ]
+}

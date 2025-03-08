@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "c": {
+      "tag": "forge:plates/copper"
+    },
+    "z": {
+      "tag": "forge:nuggets/zinc"
+    },
+    "t": {
+      "tag": "minecraft:terracotta"
+    }
+  },
+  "pattern": [
+    "tct",
+    "ztz"
+  ],
+  "result": {
+    "count": 4,
+    "item": "create_new_age:heat_pipe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/tin"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/tin",
+    "amount": 200
+  },
+  "temperature": 230,
+  "use_durability": true
+}

@@ -1,0 +1,26 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:sweetened_dough"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "bakery:sweet_dough"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:sweetener"
+      }
+    }
+  ],
+  "item": "bakery:braided_bread",
+  "count": 4,
+  "experience": 0.15
+}

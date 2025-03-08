@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bbb",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:feather"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:azure_fabric"
+    },
+    "c": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:muketers_armor_helmet",
+    "count": 1
+  }
+}

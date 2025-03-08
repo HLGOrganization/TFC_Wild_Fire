@@ -1,0 +1,14 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "brewery:brewfest_hat_red",
+    "brewery:brewfest_hat",
+    "brewery:brewfest_dress",
+    "brewery:brewfest_regalia",
+    "brewery:brewfest_blouse",
+    "brewery:brewfest_trousers",
+    "brewery:brewfest_shoes",
+    "brewery:brewfest_boots"
+  ]
+}

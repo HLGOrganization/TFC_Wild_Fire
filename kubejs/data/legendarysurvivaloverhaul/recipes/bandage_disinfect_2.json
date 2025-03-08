@@ -1,0 +1,19 @@
+{
+  "group": "create_confectionery",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "kubejs:weak_bandage"
+    },
+    {
+      "fluid": "createdieselgenerators:ethanol",
+      "nbt": {},
+      "amount": 10
+    }
+  ],
+  "results": [
+    {
+      "item": "legendarysurvivaloverhaul:bandage"
+    }
+  ]
+}

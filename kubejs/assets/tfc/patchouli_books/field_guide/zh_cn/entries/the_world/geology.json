@@ -1,0 +1,88 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "地质学",
+  "category": "tfc:the_world",
+  "icon": "tfc:rock/raw/shale",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "群峦传说的世界被分成了大型的陆地——陆地可能被几公里宽的海洋分隔开。在这些大陆中，你能找到山脉、河流以及其他地形。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/biomes/regions.png"
+      ],
+      "text": "上帝视角下的一个典型的群峦世界。",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "rocks",
+      "text": "这个世界也是由不同类型的$(thing)岩石$()构成的。一块同质的岩石区域有时会广达一公里，且根据深度的不同，会有其他两到三种不同的岩石构成分明的岩石层。不同的岩石类型中包含了不同的$(l:the_world/ores_and_minerals)矿石$()，且大部分矿石只会出现在特定的岩石类型中。若想找到它们，就必须先找到正确的岩石类型。",
+      "title": "岩层"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/biomes/rock_layers.png"
+      ],
+      "text": "整个群峦世界的横截面",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "海底的组成部分有$(l:the_world/geology#igneous_extrusive)火成喷出岩$()——这是一种由快速冷却的岩浆形成的岩石。在火成喷出岩的下方为$(l:the_world/geology)火成侵入岩$()，它是与上文的岩石同$(item)等级$()的。$(br2)举个例子，在$(thing)玄武岩$()(一种镁铁质火成喷出岩)底部，大概率会是$(thing)辉长岩$()(一种镁铁质火成侵入岩)。",
+      "title": "海底"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:https://en.wikipedia.org/wiki/Felsic)长英质$()岩分别为$(thing)花岗岩$()与$(thing)流纹岩$()。$(li)$(l:https://en.wikipedia.org/wiki/Intermediate_composition)中性$()岩则分别为$(thing)安山岩$(), $(thing)英安岩$(), 与$(thing)闪长岩$()。$(li)$(l:https://en.wikipedia.org/wiki/Mafic)镁铁质$()岩石分别是$(thing)玄武岩$()与$(thing)辉长岩$().",
+      "title": "火成岩等级"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "大陆中的顶层岩要么是火成喷出岩，要么是$(l:the_world/geology#sedimentary)沉积岩$()。在沉积岩下方的岩层为上方岩层的$(l:the_world/geology#metamorphic)变质$()形态。$(br2)举个例子, $(thing)大理岩$() （一种变质岩）很有可能在$(thing)石灰岩$()或是$(thing)白垩岩$()下方找到。高等级变质岩位于其他变质岩或火成岩下方的深处。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)板岩$()在$(thing)页岩$()，$(thing)粘土岩$()，与$(thing)砾岩$()下方形成。$(li)$(thing)大理岩()在$(thing)石灰岩$(), $(thing)白云岩$(), 与$(thing)白垩岩$()下方形成。$(li)$(thing)石英岩$() 在$(thing)硅质岩$()下方形成。$(li)$(thing)千枚岩$()在$(thing)板岩$()$(li)$(thing)片岩$()下方形成，$(thing)片麻岩$()在$(thing)千枚岩$()或其他火成侵入岩下方形成。",
+      "title": "变质岩"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "最后，在山区你还可能会看到$(thing)隆起区域$()，其表面可以发现变质岩或火成侵入岩。隆起区域的岩石也可以在其他大陆沉积岩或高级变质岩之上找到。$(br2)此外，$(l:https://en.wikipedia.org/wiki/Dike_%28geology%29)岩脉$()——以小型片状形式存在的火成侵入岩——会在世界的各个角落出现，",
+      "title": "隆起区域"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "形成突起穿过上层岩石。$(br2)记住所有这些之后，接下来的几页会列出所有的四类岩石：$(thing)沉积岩$()，$(thing)变质岩$()，$(thing)火车喷出岩$()，和 $(thing)火成侵入岩$()。这些岩石对应的类别决定了他们可以在哪里生成（见前几页），以及什么样的矿石可以在此岩石中生成。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sedimentary",
+      "text": "$(l:https://en.wikipedia.org/wiki/Sedimentary_rock)沉积岩$()是由矿物或有机颗粒的堆积或沉积形成的，它们通常会出现在大陆地区的岩石顶层。它们是：$(br)$(li)页岩$(li)黏土岩$(li)石灰岩$(li)砾岩$(li)白云岩$(li)燧石岩$(li)白垩岩。",
+      "title": "沉积岩"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "metamorphic",
+      "text": "$(l:https://en.wikipedia.org/wiki/Metamorphic_rock)变质岩$()是由一种被称作变质作用的过程形成的，它们可以在相应的沉积岩或火成岩下方或隆起区域发现。它们是：$(br)$(li)石英岩$(li)板岩$(li)千枚岩$(li)片岩$(li)片麻岩$(li)大理岩。",
+      "title": "变质岩"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "igneous_extrusive",
+      "text": "$(l:https://en.wikipedia.org/wiki/Igneous_rock#Extrusive)火成喷出岩$()是由地球表面的熔岩冷却形成的，它们可以在大陆地区的岩石顶层和海底发现。它们是：$(br)$(li)流纹岩$(li)玄武岩$(li)安山岩$(li)英安岩。",
+      "title": "火成喷出岩"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "igneous_intrusive",
+      "text": "$(l:https://en.wikipedia.org/wiki/Igneous_rock#Intrusive)火成侵入岩$()是由地壳下熔岩冷却形成的，它们可以在地下深处，或者以很小的几率在岩脉或隆起区发现。它们是：$(br)$(li)花岗岩$(li)闪长岩$(li)辉长岩。",
+      "title": "火成侵入岩"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 0
+}

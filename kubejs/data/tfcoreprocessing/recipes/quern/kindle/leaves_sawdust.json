@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "tag": "minecraft:leaves"
+  },
+  "result": {
+    "item": "tfcoreprocessing:kindle/sawdust",
+    "count": 2
+  }
+}

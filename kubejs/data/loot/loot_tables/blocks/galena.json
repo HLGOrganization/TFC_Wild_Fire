@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/poor_galena",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/normal_galena",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/rich_galena",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

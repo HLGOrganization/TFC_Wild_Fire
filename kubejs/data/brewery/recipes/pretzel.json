@@ -1,0 +1,26 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:hardened_dough"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:sweetener"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:hardened_dough"
+      }
+    }
+  ],
+  "item": "brewery:pretzel",
+  "count": 4,
+  "experience": 0.15
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "tfc:stick_bunch"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "tfcoreprocessing:kindle/sawdust"
+    },
+    {
+      "chance": 0.1,
+      "count": 1,
+      "item": "tfcoreprocessing:kindle/sawdust"
+    }
+  ]
+}

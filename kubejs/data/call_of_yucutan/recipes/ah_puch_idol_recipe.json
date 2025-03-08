@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:jade"
+    },
+    "b": {
+      "item": "call_of_yucutan:fragment_of_death"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:ah_puch_idol",
+    "count": 1
+  }
+}

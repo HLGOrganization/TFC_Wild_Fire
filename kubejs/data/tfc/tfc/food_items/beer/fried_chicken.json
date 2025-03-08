@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "brewery:fried_chicken"
+  },
+  "hunger": 3.5,
+  "saturation": 3,
+  "decay_modifier": 1.5,
+  "protein": 3.5
+}

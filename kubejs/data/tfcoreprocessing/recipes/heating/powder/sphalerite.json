@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:powder/sphalerite"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/zinc",
+    "amount": 6
+  },
+  "temperature": 420
+}

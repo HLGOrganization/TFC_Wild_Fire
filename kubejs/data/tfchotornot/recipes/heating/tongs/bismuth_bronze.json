@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/bismuth_bronze"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/bismuth_bronze",
+    "amount": 200
+  },
+  "temperature": 985,
+  "use_durability": true
+}

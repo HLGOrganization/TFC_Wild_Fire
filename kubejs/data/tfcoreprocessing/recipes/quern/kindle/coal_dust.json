@@ -1,0 +1,10 @@
+{
+    "type": "tfc:quern",
+    "ingredient": {
+      "item": "minecraft:coal"
+    },
+    "result": {
+      "item": "tfcoreprocessing:kindle/coal_dust",
+      "count": 4
+    }
+  }

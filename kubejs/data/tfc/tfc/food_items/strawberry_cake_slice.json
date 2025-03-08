@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "bakery:strawberry_cake_slice"
+  },
+  "hunger": 2,
+  "saturation": 2,
+  "decay_modifier": 2.25,
+  "grain": 1.5,
+  "dairy": 1,
+  "fruit": 2
+}

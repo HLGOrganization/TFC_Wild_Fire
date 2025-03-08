@@ -1,0 +1,96 @@
+
+[base]
+	#init burden
+	#Range: 10 ~ 1000
+	init_burden = 60
+	#level base
+	#Range: 1 ~ 100
+	level_base = 10
+	#is open offhand heavy
+	is_offhand_calculate_heavy = true
+	#light
+	#Range: -0.99 ~ 1.0
+	punishment_light = 0.1
+	#normal
+	#Range: -0.99 ~ 1.0
+	punishment_normal = 0.0
+	#biased weight
+	#Range: -0.99 ~ 1.0
+	punishment_biased_weight = -0.3
+	#overweight
+	#Range: -0.99 ~ 1.0
+	punishment_overweight = -0.6
+	#empirical calculation formula
+	empirical_calculation_formula = "min(pow(3.02 * lv,2) + 98.4 * lv, 19999999)"
+	#empirical base multiplier
+	#Range: 1.0 ~ 100.0
+	empirical_base_multiplier = 8.0
+	#The percentage amount of soul loss: 1 means no loss, 0 means loss is cleared, and 0.5 means half of the loss.
+	#Range: 0.0 ~ 1.0
+	soul_loss_count = 0.5
+	#Enable skill points restrict or not
+	is_skill_points_restrict = true
+	#Enable skill points restrict or not
+	#Range: > 0
+	attribute_max_level = 0
+	#player max level
+	#Range: > 0
+	max_level = 2147483647
+
+["items loot probability"]
+	#The probability of Forget Water appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	forget_water_probability = 0.05
+	#The probability of Death Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	death_soul_probability = 0.06
+	#The probability of King Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	king_soul_probability = 0.06
+	#The probability of Large Block Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	large_block_soul = 0.35
+	#The probability of Stray Large Block Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	stray_large_block_soul = 0.3
+	#The probability of Adventurer Large Block Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	adventurer_large_block_soul = 0.25
+	#The probability of Unknown Soldier Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	unknown_soldier_soul = 0.2
+	#The probability of Unknown Soldier Large Block Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	unknown_soldier_large_block_soul = 0.15
+	#The probability of Exhausted Knight Soul appearing in a treasure chest
+	#Range: 0.0 ~ 1.0
+	exhausted_knight_soul = 0.1
+
+["mob loot"]
+	#ordinary mob
+	ordinary_mob = ["zombie", "zombie_villager", "zombified_piglin", "skeleton", "wither_skeleton", "stray", "drowned", "witch", "husk", "guardian", "spider", "cave_spider", "creeper", "pillager", "enderman", "blaze", "necromancer"]
+	#The drop rate of the 'Soon Elapse Soul' from Ordinary Mobs
+	#Range: 0.0 ~ 1.0
+	ordinary_loot_soon_elapse_soul_odds = 0.06
+	#The drop rate of 'Incomplete Soul' from Ordinary Mobs
+	#Range: 0.0 ~ 1.0
+	ordinary_loot_incomplete_soul_odds = 0.03
+	#elite mob
+	elite_mob = ["piglin_brute", "evoker", "elder_guardian", "ravager", "cryomancer", "pyromancer", "priest", "archevoker", "apothecarist", "keeper"]
+	#The drop rate of 'Large Block Soul' from Elite Mobs
+	#Range: 0.0 ~ 1.0
+	elite_loot_soul_odds = 0.5
+	#special elite mob
+	special_elite_mob = ["warden"]
+	#The drop rate of 'Exhausted General Soul' from Special Elite Mobs
+	#Range: 0.0 ~ 1.0
+	special_elite_loot_soul_odds = 0.5
+	#liege level mob
+	liege_mob = ["wither", "ender_dragon", "dead_king"]
+	#The drop rate of 'Liege Soul' from Liege Level Mob
+	#Range: 0.0 ~ 1.0
+	liege_loot_soul_odds = 1.0
+	#The drop rate of 'Forget Water' from Ender Dragon
+	#Range: 0.0 ~ 1.0
+	ender_dragon_forget_water_odds = 0.5
+

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:silk_potholder"
+  },
+  "result_item": {
+    "item": "tfc:powder/wood_ash",
+    "count": 2
+  },
+  "temperature": 650,
+  "use_durability": true
+}

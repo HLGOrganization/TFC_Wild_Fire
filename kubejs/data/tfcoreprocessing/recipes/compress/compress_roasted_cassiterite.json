@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:roasted/cassiterite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/cassiterite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/cassiterite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/cassiterite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/cassiterite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:roasted_brick/cassiterite"
+  }
+}

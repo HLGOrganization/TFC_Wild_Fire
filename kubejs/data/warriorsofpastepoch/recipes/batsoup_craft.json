@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:carrot"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:batwing"
+    },
+    "c": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "d": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:bat_soup",
+    "count": 1
+  }
+}

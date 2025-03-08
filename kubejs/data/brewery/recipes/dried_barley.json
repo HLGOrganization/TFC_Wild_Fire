@@ -1,0 +1,11 @@
+{
+  "type": "brewery:drying",
+  "ingredients": [
+    {
+      "item": "tfc:food/barley"
+    }
+  ],
+  "output": {
+    "item": "brewery:dried_barley"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "create_new_age:energiser_t2"
+    },
+    "D": {
+      "item": "create_new_age:overcharged_diamond"
+    },
+    ".":{
+      "item": "minecraft:diamond"
+    },
+    "c":{
+      "item": "minecraft:copper_ingot"
+    },
+    "b":{
+      "item": "minecraft:copper_block"
+    }
+  },
+  "pattern": [
+    "D#D",
+    ".c.",
+    " b "
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_new_age:energiser_t3"
+  },
+  "show_notification": true
+}

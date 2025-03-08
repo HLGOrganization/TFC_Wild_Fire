@@ -1,0 +1,15 @@
+{
+    "type": "tfc:damage_inputs_shapeless_crafting",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [{
+     	 "item":"tfcoreprocessing:roasted_brick/garnierite"
+        }, {
+            "tag": "tfc:hammers"
+        }],
+        "result": {
+           "item":"tfcoreprocessing:roasted/garnierite",
+           "count": 5 
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "firmalife:food/red_grapes"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "firmalife:food/smashed_red_grapes"
+    }
+  ]
+}

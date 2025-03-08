@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfc:stone/shovel/igneous_extrusive",
+    "tfc:stone/shovel/igneous_intrusive",
+    "tfc:stone/shovel/metamorphic",
+    "tfc:stone/shovel/sedimentary"
+  ]
+}

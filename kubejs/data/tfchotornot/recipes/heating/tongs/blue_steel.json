@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/blue_steel"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/blue_steel",
+    "amount": 200
+  },
+  "temperature": 1540,
+  "use_durability": true
+}

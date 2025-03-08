@@ -1,0 +1,12 @@
+{
+  "materials": [
+    {"item": {"item": "minecraft:gunpowder" },"count": 25},
+    {"item": {"item": "tfc:metal/sheet/wrought_iron" },"count": 2}
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:40mm",
+    "count": 5
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,111 @@
+{
+	"fluid.kubejs.heavy_oil": "重油",
+	"fluid.kubejs.light_oil": "轻油",
+	"item.kubejs.heavy_oil_bucket": "重油桶",
+	"item.kubejs.light_oil_bucket": "轻油桶",
+	"item.kubejs.advanced_cabin": "进阶个人舱体",
+	"item.kubejs.advanced_plating": "进阶船体板",
+	"item.kubejs.basic_cabin": "紧凑型舱体",
+	"item.kubejs.basic_crystal_pannel": "基础晶体面板",
+	"item.kubejs.basic_plating": "基础船体板",
+	"item.kubejs.basic_propeller": "基础推进器",
+	"item.kubejs.columbus_propeller": "哥伦布型推进器",
+	"item.kubejs.explorer_cabin": "探索者紫金舱体",
+	"item.kubejs.flare_plating": "耀斑型船体板",
+	"item.kubejs.hologram_frontpanel": "六方位全息面板",
+	"item.kubejs.moon_crystal_panel": "月球晶体面板",
+	"item.kubejs.moon_propeller": "月球推进器",
+	"item.kubejs.venus_plating": "金星船体护板",
+	"item.kubejs.iceland_mutton": "鲜冻羊肉",
+	"item.kubejs.healing_paste": "治疗药膏",
+	"item.kubejs.instant_gel_classic": "饱腹感凝胶",
+	"item.kubejs.instant_gel_sky": "饱腹感凝胶",
+	"item.kubejs.instant_gel_love": "饱腹感凝胶",
+	"item.kubejs.instant_gel_nature": "饱腹感凝胶",
+	"item.kubejs.brass_cartridge_nest": "黄铜弹巢",
+    "item.kubejs.cast_iron_firing_hammer": "铸铁击锤",
+    "item.kubejs.cast_iron_gun_barrel": "铸铁枪管",
+    "item.kubejs.standard_type_muzzle_brake_parts_steel": "制式制退器配件（钢）",
+    "item.kubejs.standard_type_muzzle_brake_parts_copper": "制式制退器配件（铜）",
+    "item.kubejs.standard_type_handguard_parts_steel": "制式护手配件（钢）",
+    "item.kubejs.standard_type_handguard_parts_copper": "制式护手配件（铜）",
+    "item.kubejs.standard_type_gun_body_parts_steel": "制式枪身配件（钢）",
+    "item.kubejs.standard_type_gun_body_parts_copper": "制式枪身配件（铜）",
+    "item.kubejs.standard_type_pistol_slide_parts_steel": "制式手枪滑套配件（钢）",
+    "item.kubejs.standard_type_pistol_slide_parts_copper": "制式手枪滑套配件（铜）",
+    "item.kubejs.standard_type_magazine_parts_steel": "制式弹匣配件（钢）",
+    "item.kubejs.standard_type_magazine_parts_copper": "制式弹匣配件（铜）",
+    "item.kubejs.standard_type_grip_parts_steel": "制式握把配件（钢）",
+    "item.kubejs.standard_type_grip_parts_copper": "制式握把配件（铜）",
+    "item.kubejs.standard_type_gunstock_parts_steel": "制式枪托配件（钢）",
+    "item.kubejs.standard_type_gunstock_parts_copper": "制式枪托配件（铜）",
+	"fluid.kubejs.uncommon_ink": "非凡墨水",
+	"fluid.kubejs.rare_ink": "稀有墨水",
+	"fluid.kubejs.epic_ink": "史诗墨水",
+	"fluid.kubejs.legendary_ink": "传奇墨水",
+	"item.kubejs.uncommon_ink_bucket": "非凡墨水桶",
+	"item.kubejs.rare_ink_bucket": "稀有墨水桶",
+	"item.kubejs.epic_ink_bucket": "史诗墨水桶",
+	"item.kubejs.legendary_ink_bucket": "传奇墨水桶",
+
+	"item.kubejs.diamond_javelin_head": "钻石标枪头",
+    "item.kubejs.diamond_hammer_head": "钻石锤头",
+    "item.kubejs.diamond_hoe_head": "钻石锄头",
+    "item.kubejs.diamond_axe_head": "钻石斧头",
+    "item.kubejs.diamond_shovel_head": "钻石铲头",
+    "item.kubejs.diamond_knife_blade": "钻石刀刃",
+    "item.kubejs.obsidian_javelin_head": "黑曜石标枪头",
+    "item.kubejs.obsidian_hammer_head": "黑曜石锤头",
+    "item.kubejs.obsidian_hoe_head": "黑曜石锄头",
+    "item.kubejs.obsidian_axe_head": "黑曜石斧头",
+    "item.kubejs.obsidian_shovel_head": "黑曜石铲头",
+    "item.kubejs.obsidian_knife_blade": "黑曜石刀刃",
+
+    "item.kubejs.diamond_axe": "钻石斧",
+    "item.kubejs.diamond_hoe": "钻石锄",
+    "item.kubejs.diamond_shovel": "钻石铲",
+    "item.kubejs.diamond_tool": "钻石小刀",
+
+    "item.kubejs.obsidian_axe": "黑曜石斧",
+    "item.kubejs.obsidian_hoe": "黑曜石锄",
+    "item.kubejs.obsidian_shovel": "黑曜石铲",
+    "item.kubejs.obsidian_tool": "黑曜石小刀",
+
+    "item.kubejs.diamond_hammer": "钻石锤",
+    "item.kubejs.obsidian_hammer": "黑曜石锤",
+    "item.kubejs.diamond_javelin": "钻石标枪",
+    "item.kubejs.obsidian_javelin": "黑曜石标枪",
+
+    "item.kubejs.obsidian_shards": "黑曜石碎片",
+
+   
+    "item.kubejs.mold_mechanical": "零件模具",
+    "item.kubejs.unfired_mold_mechanical": "未烧制的零件模具",
+    "item.kubejs.burned_bow_arm": "弓臂",
+    "item.kubejs.unprocessed_bow_arm": "未加工的弓臂",
+    "item.kubejs.soaked_bow_arm": "泡过水的弓臂",
+    "item.kubejs.burning_bow_arm": "正在烧制的弓臂",
+    "item.kubejs.perfectly_burned_bow_arm": "烧制正好的弓臂",
+    "item.kubejs.overburned_bow_arm": "烧过了头的弓臂",
+    "item.kubejs.charred_bow_arm": "烧糊了的弓臂",
+    "item.kubejs.oiled_bow_arm": "浸过油的弓臂",
+  
+    "kubejs.climate.name.orbit_climate":"卫星轨道",
+    "kubejs.climate.name.moon_climate":"月球大气",
+    "kubejs.climate.name.mars_climate":"火星大气",
+    "kubejs.climate.name.venus_climate":"金星大气",
+    "kubejs.climate.name.mercury_climate":"水星大气"
+    
+
+
+    
+    
+    
+    
+
+
+	
+
+
+
+}

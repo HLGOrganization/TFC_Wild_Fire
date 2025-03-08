@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BWB",
+    "W W",
+    "BWB"
+  ],
+  "key": {
+    "W": {
+      "item": "firmaciv:copper_bolt"
+    },
+    "B": {
+      "item": "tfc:wood/chest/hickory"
+    }
+  },
+  "result": {
+    "item": "quark:dark_oak_chest",
+    "count": 1
+  }
+}

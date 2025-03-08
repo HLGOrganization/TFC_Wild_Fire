@@ -1,0 +1,657 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36A3BF356D26BFC5"
+	group: "2BD524ABD6AD1EEE"
+	icon: "immersive_paintings:glow_painting"
+	id: "36A3BF356D26BFC5"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"作为内容完备的科技向模组，机械动力同样配备了经典的蓝图建造系统，相比于其他模组，机械动力的蓝图系统操作更为直观方便，动画更加丝滑。"
+				""
+				"要想使用蓝图系统，你首先需要使用蓝图与笔创建蓝图。手持蓝图与笔右键两个方块，即可创建一个正方体选区。在初步创建选区后，面对选区的任意一个面按住ctrl滚动滚轮即可调整选区范围。在决定好选区范围后，按下右键并为蓝图取名会在你电脑的“版本文件夹/schematics”文件夹中创建一个名为“你取的名字.nbt”的文件。如果你想把蓝图分享给他人，将蓝图文件发送给别人即可。"
+				""
+				""
+				"{@pagebreak}"
+				"成功创建蓝图后，你需要使用蓝图桌读取并部署蓝图。打开蓝图桌后，选择你需要部署的蓝图，将蓝图放入蓝图桌点击读取后就能成功读取蓝图，如果你使用的蓝图不是空白蓝图，则蓝图的配置会被覆盖。手持配置后的蓝图会显示预览方框，选择合适的位置部署蓝图后会以全息投影的形式显示蓝图的内容。蓝图在被部署后会提供一些选项供你调整蓝图的位置、朝向之类。在决定好蓝图的位置之后，你需要将蓝图放进蓝图加农炮以开始打印。如果你是创造模式，则可以直接放置。"
+				""
+				"将将部署好的蓝图放进蓝图加农炮后，蓝图加农炮会指向蓝图的方向。使用蓝图加农炮打印蓝图会消耗方块，消耗的量相当于你当初创建蓝图区域内的所有方块。你可以将书或者机械动力的剪贴板放入加农炮以打印材料清单以得知所需的具体材料，加农炮会自动读取周围四格的容器并使用其中的物品作为材料。在材料集齐后，你还需要火药来驱动加农炮，一个火药可以使蓝图加农炮打印399个方块，所以这个过程其实不会消耗太多火药。一切准备就绪后点击开始，加农炮就会开始打印方块，打印的速度约为每秒一到两个方块，这个速度可以通过配置文件修改。"
+				""
+				"加农炮有多种设置可供使用，通过合理使用加农炮的选项和蓝图创建的自由性，你甚至可以做到打印大型的空置域。机械动力的蓝图系统，恐怖如斯。"
+			]
+			icon: "create:schematic_table"
+			id: "5A304CBBF873084F"
+			subtitle: "建筑爱好者的福音"
+			tasks: [
+				{
+					id: "772B785289C95BFF"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					id: "55832BFD16072C52"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "3F20C81A6FD95E18"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			title: "蓝图系统"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&8Shift＋手持相机右键: &f打开相机内部GUI，用以安装相机所需的组件;"
+				""
+				"&8手持右键: &f打开相机取景器，按下右键即可拍照(需安装胶片)，按下Shift可打开拍摄设置(焦距、快门速度、开/关闪光灯、显示不同的构图参考线)，按下Esc可关闭取景器"
+			]
+			icon: "exposure:camera"
+			id: "23D5A173A33A516B"
+			rewards: [{
+				id: "1F929894FE1CF862"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "什么？拍不了？笨蛋，没胶片怎么拍？"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "5A8E321B7AADC4DD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/pig_iron"
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "439D95E3DB35A0F6"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "群峦牌相机——随时随地，记录你的美。"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"用以打印(加工)胶片，你可以在其中预览底片，并放入纸与相应的染料（详见下文)，将其打印成照片."
+				""
+				"&8&l&o打印黑白胶片:黑色染料"
+				""
+				"&c&l&o打印彩色胶片:青色染料、品红色染料、黄色染料、黑色染料"
+			]
+			icon: "exposure:lightroom"
+			id: "0154FC5609817FB4"
+			rewards: [{
+				id: "0380AB1D7EB7AC09"
+				item: "exposure:lightroom"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "不是你想的那种暗房啦！洗照片用的！"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "501B8658981B23A2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "木板"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0AD08915205E838A"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "37CCD5E9ABEC4BCF"
+					item: {
+						Count: 1b
+						id: "tfc:firestarter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "搞一个暗房！"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0154FC5609817FB4"]
+			description: ["&o&8别问为啥无中生水...咱自个儿吐的口水！（确信）"]
+			icon: "exposure:developed_color_film"
+			id: "4A77A73FF641CCAC"
+			rewards: [{
+				count: 3
+				exclude_from_claim_all: true
+				id: "0F4FB7BD8755C0C8"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				title: "只能用来洗胶片的水，无法饮用"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "将胶片与水瓶（黑白相片）或与平凡的药水、粗制的药水、浓稠的药水合成（彩色胶片）合成，即可得到可放入暗室中打印成照片的加工胶片(反之则不能放入其中)"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0080889307970138"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "用完的胶片怎么处理？当然是洗洗啦！"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3525B081F6E7A116"
+				"4A77A73FF641CCAC"
+			]
+			description: [
+				"&8恭喜你完成了&6支线任务：摄影&8！那么，群峦星的美就由你来记录吧！冒险者！"
+				""
+				"&o&f摄影机还可增加配件：闪光灯（红石灯）、调整焦距（望远镜）、滤镜（各种颜色玻璃板）"
+				""
+				"&a&n来次紧张刺激的抽奖吧!嘿嘿"
+			]
+			id: "2954AEE692EACF51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6561ACFDB6189CCB"
+					table_id: 6765243544146952299L
+					type: "random"
+				}
+				{
+					id: "2904A42F20ADEF24"
+					item: "tfc:gem/ruby"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "你可以将打印的照片拿在手中(类似地图)，也可以直接放置在方块侧面进行展示。在放置后，你还可以用剪刀修剪掉边框！"
+			tasks: [{
+				consume_items: false
+				id: "173C820460E0A2F3"
+				item: "exposure:photograph"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "洗出来了！洗出来了！！！"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["23D5A173A33A516B"]
+			icon: "exposure:black_and_white_film"
+			id: "3525B081F6E7A116"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41B06E04E7AB4F9E"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66B95886958511A9"
+					item: "exposure:color_film"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "草木灰是干啥用的？"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "355721B61F615A0A"
+					item: "tfc:powder/wood_ash"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6034D0A8FC0EBB44"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "60694087AC82C655"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dyes"
+						}
+					}
+					title: "任意染料"
+					type: "item"
+				}
+			]
+			title: "胶片！没胶片怎么成像捏！"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&l&4船舶——拖船与驳船"
+				"&r"
+				"&o&f船舶是这个模组的核心内容。有两种类型的船只: 驳船&8(实现各种功能)&f和拖船&8(拖动驳船)&f. 如果船只被卡住，可以使用钓鱼竿小幅拖动&8(和拖动其他实体一样)&f。拖船也可以被拴绳拖动，右击船尾的钩子来进行连接。"
+				""
+				"船舶能够在天然或人造水道进行物品和流体的运输。"
+				""
+				""
+				"&l&4火车——机车和车厢"
+				"&r"
+				"&f可以连接在一起的小型列车，能够运输物品和流体。配备寻路和防撞AI。只需选择您的目的地，分岔轨道就会自动切换!"
+				""
+				"&l&e更详细的教程视频！&o&n详见指南书！！"
+			]
+			icon: "littlelogistics:tug"
+			id: "77488B3112125233"
+			rewards: [
+				{
+					id: "7BA49BC7F9CCFC51"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "littlelogistics:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "34E5D76C73BA15FF"
+					item: "tfc:gem/ruby"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "请注意，自动捕鱼驳船无法获取哟！你问为什么？群峦星的鱼可没那么傻！"
+			tasks: [
+				{
+					consume_items: false
+					id: "3308A7DB6A3E426A"
+					item: "littlelogistics:tug"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6254A7CAD19342DF"
+					item: "littlelogistics:tug_route"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: false
+					id: "4AEFCDEFB6008C70"
+					item: "littlelogistics:tug_dock"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B53662F60091618"
+					item: "littlelogistics:conductors_wrench"
+					type: "item"
+				}
+			]
+			title: "自动化的脚步是无法阻挡的！！"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77488B3112125233"]
+			description: [
+				"&l该模组添加了可以自定义功能的平台。你可以用它来制作甲板、桥梁、矿井, 甚至是木制过山车支架。"
+				"&r"
+				"&e站台合成器: &o&8该方块用于制作所有平台。平台的外观会随着材料的变化而变化。"
+				"&r"
+				"&e活动扳手:"
+				"&o&f右键&8单击可旋转平台;"
+				"&o&fShift+右键&8单击可更改平台的样式;"
+				"&o&fShift+左键&8单击可移除平台的扶手;"
+				"&o&8当扳手在&f副手&8时，将显示放置预览。"
+			]
+			icon: "platforms:platformer"
+			id: "4474ACA13EDB9886"
+			shape: "hexagon"
+			subtitle: "完美适配Little Logistics的装饰模组：Platforms"
+			tasks: [
+				{
+					consume_items: false
+					id: "17A6DA270F6A1137"
+					item: "platforms:platformer"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2FD644D1EB3DE405"
+					item: {
+						Count: 1b
+						id: "platforms:wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "我想装饰运输线路！"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77488B3112125233"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "littlelogistics:guide"
+				}
+			}
+			id: "0B526F214CD09418"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EE224D9A1857762"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A5D8581C80866E0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:rock_knapping"
+					}
+				}
+				title: "Any #tfc:rock_knapping"
+				type: "item"
+			}]
+			title: "假如你的这本书丢了..."
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependency_requirement: "all_started"
+			description: [
+				"&8&4右击&8&f热气球&8站入其中，手持&f打火石&4右击&8即可让其升空。若要下降，使用&f沙子&4右击&8&f热气球&8，便会在吊篮侧边增添一个沙袋。若不慎增添过多沙袋，可用&f剪刀&4右击&8将沙袋剪掉。"
+				"&8&o需要注意的是，玩家不能控制热气球的行进方向, 必须通过&f风向罗盘&8来观测风向的变化。"
+				"&8关于风向，每一天的风都会吹往不同的方向，并且每升高&o&n&432&r&8格方块高度，风向也会随之改变一次，意味着你需要通过不断的增减沙袋才能保持在一个方向上持续的飞行。"
+			]
+			hide_details_until_startable: true
+			icon: "breezy:hot_air_balloon"
+			id: "4453ED2BC2DD9053"
+			optional: true
+			rewards: [{
+				id: "5D6DD3061A172170"
+				item: "tfc:gem/ruby"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "What can I say？"
+			tasks: [
+				{
+					consume_items: false
+					id: "71F8620AEEB4FDD8"
+					item: "breezy:gust_gauge"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6BBEE4EF73CB4271"
+					item: "breezy:hot_air_balloon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CE26AFF4BAA2A34"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "迎风启航！"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"非常非常好用的唱片模组，可以放网易云的曲子哦！不会的话请看mcmod百科！"
+				"&8链接https://www.mcmod.cn/class/4935.html"
+			]
+			id: "5183DC5FDFB63D9C"
+			rewards: [
+				{
+					id: "5F8F38C834068A58"
+					item: "netmusic:cd_burner"
+					type: "item"
+				}
+				{
+					id: "003E69AF55E88A6C"
+					item: "netmusic:music_cd"
+					type: "item"
+				}
+				{
+					id: "569A692A8363D7E4"
+					item: "netmusic:computer"
+					type: "item"
+				}
+			]
+			subtitle: "Never gonna let you down~"
+			tasks: [{
+				id: "29E1B329A6B6A051"
+				item: "netmusic:music_player"
+				type: "item"
+			}]
+			title: "给基友整点儿小曲儿！"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"该模组支持玩家上传自己的图片并挂在游戏中的墙上或者地上，并且支持联机！"
+				"&m&8禁止瑟瑟"
+			]
+			id: "3AA260E8070CC6B1"
+			rewards: [{
+				id: "70650BFE2F8FC3BB"
+				item: "immersive_paintings:graffiti"
+				type: "item"
+			}]
+			subtitle: "你知道我在说什么（"
+			tasks: [{
+				id: "2C19253D30F3A3D6"
+				item: "immersive_paintings:glow_painting"
+				type: "item"
+			}]
+			title: "孤独的艺术家"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"合成蓝图是一种用于快捷合成的工具，可以放在方块的任意一面上，放置规律与原版的画相同，一张合成蓝图可以一次性提供1，4或9个配方的合成。"
+				""
+				"右键蓝图空白的格子以进入GUI，进入后将对应的合成配方放入对应的九宫格后退出即可生效。"
+				""
+				"配方可以手动放入，也可以通过jei添加。在蓝图配置界面可以拖动右侧jei的物品到合成九宫格上，这样可以设置未获得的物品。想要通过jei +号添加需要在右侧对需要添加的物品按下配方查询键(默认R)打开合成配方后方能添加。"
+				""
+				"jei +号添加的配方自带标签匹配，如果需要手动标记配方中可替换的物品，需要使用一个过滤器（高级和普通应该都可），并在其中设置所有可用的物品种类。在设置配方时使用过滤器代替物品即可。"
+				""
+				"对准蓝图有配方的格子将会显示合成此物品所需的材料，直接右键会直接合成一个成品放入背包。"
+				""
+				"潜行右键时会一次合成一组物品，如果身上材料不足以合成一组则合成出当前最大数量的物品。"
+			]
+			id: "5A60D485AF132B1A"
+			tasks: [{
+				id: "5A378742EAE10C0A"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"群峦传说：航海文明是一个着重于营造更真实的航海的附属模组。这个模组ban掉了原版的船，你需要用更加写实的造船方式来制造出船，你任务主线中的皮划艇就是来自于本模组。模组中提供了独木舟、皮划艇、划艇、单桅帆船可供制作，这些船的性能大都比原版的船要强大，单桅帆船甚至能乘坐在7个人的同时摆放六门大炮！"
+				""
+				"本附属模组还还原了真实的航海生活，你可以通过制造六分仪、气压计和时计等工具来获取当前的位置和时间，在ban掉小地图和F3坐标的情况下显得十分真实。当然，你也可以不这么做，因为真实的同时真的很折磨。"
+				""
+				"有关本模组的教程都已经集成在了群峦的书中，可以随时进行查阅。"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmaciv:sextant"
+			}
+			id: "350C1E94C845B226"
+			tasks: [
+				{
+					id: "11C614A98BC0856E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:sextant"
+					}
+					type: "item"
+				}
+				{
+					id: "0E9F297BD51B9581"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "firmaciv:nav_clock"
+					}
+					type: "item"
+				}
+			]
+			title: "航海文明"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"在群峦世界中，树木的成长是要经年累月的，即使是使用沃土进行种植也需要几天，而且树苗也不再吃骨粉了，这使得你在急需用木头的时后可能会有一点难受。"
+				""
+				"还好，机械动力加入了一个名叫树木肥料的物品来让你的树快速长大。它的造价非常便宜，只需要珊瑚、骨粉和花。只需要一份树木肥料，就由100%的概率能让你的树苗瞬间长大。"
+			]
+			id: "0ABF6F581A681D48"
+			tasks: [{
+				id: "3C332018BBF8C3A6"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["往来（Contact）是一种服务器专用模组，此模组提供了一套全服邮政系统，用于给你远在天边的朋友传递一些物品，或者为你离线的朋友传递一些信息。寄出邮件需要用邮筒，而接收邮件需要用到邮箱。邮件支持两种投递形式，一种是包裹，用于寄送最大四组物品；另一种是明信片，用于传递信息且明信片图案支持自定义，具体方法请查阅mcmod百科。明信片和包裹有两种型号，一种是普通版，另一种是末影版。普通版的在寄出之后需要经过一定时间才能送达，而末影版的寄出之后会立刻送达。"]
+			icon: "contact:white_mailbox"
+			id: "71DE0C4DC2E26005"
+			subtitle: "使命必达"
+			tasks: [
+				{
+					id: "5E1DDC9131736B67"
+					item: "contact:white_mailbox"
+					type: "item"
+				}
+				{
+					id: "0A78D06C05E3555B"
+					item: "contact:red_postbox"
+					type: "item"
+				}
+			]
+			title: "顺丰速递"
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "一些实用的小东西"
+}

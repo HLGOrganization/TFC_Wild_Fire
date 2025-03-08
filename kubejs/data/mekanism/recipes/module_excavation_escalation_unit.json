@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","key":{"#":{"item":"ad_astra:steel_engine"},"A":{"tag":"forge:alloys/advanced"},"H":{"item":"mekanism:hdpe_sheet"},"P":{"item":"mekanism:module_base"}},"pattern":["A#A","APA","HHH"],"result":{"item":"mekanism:module_excavation_escalation_unit"}}

@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_native_copper",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_native_copper",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_native_copper",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_native_gold",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_native_gold",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_native_gold",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_native_silver",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_native_silver",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_native_silver",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_bismuthinite",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_bismuthinite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_bismuthinite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_sphalerite",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_sphalerite",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_sphalerite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_cassiterite",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_cassiterite",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_cassiterite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/poor_hematite",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/normal_hematite",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:ore/rich_hematite",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/poor_galena",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/normal_galena",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc_ie_addon:ore/rich_galena",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+  "tfcoreprocessing:refined/bismuthinite",
+"tfcoreprocessing:refined/cassiterite",
+"tfcoreprocessing:refined/garnierite",
+"tfcoreprocessing:refined/hematite",
+"tfcoreprocessing:refined/limonite",
+"tfcoreprocessing:refined/magnetite",
+"tfcoreprocessing:refined/malachite",
+"tfcoreprocessing:refined/native_copper",
+"tfcoreprocessing:refined/native_gold",
+"tfcoreprocessing:refined/native_silver",
+"tfcoreprocessing:refined/sphalerite",
+"tfcoreprocessing:refined/tetrahedrite" 
+  ]
+}

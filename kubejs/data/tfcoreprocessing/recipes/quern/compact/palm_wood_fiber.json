@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+   "tag": "tfc:palm_logs"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 8,
+      "item": "tfcoreprocessing:kindle/palm_fiber"
+    },
+    {
+      "chance": 0.15,
+      "count": 2,
+      "item": "tfcoreprocessing:kindle/palm_fiber"
+    }
+  ]
+}

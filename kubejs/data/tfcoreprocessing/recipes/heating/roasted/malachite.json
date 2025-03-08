@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcoreprocessing:roasted/malachite"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/copper",
+    "amount": 10
+  },
+  "temperature": 1080
+}

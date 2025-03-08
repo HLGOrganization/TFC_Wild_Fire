@@ -1,13 +1,13 @@
 name = "TFC_Arduous_Trek"
 author = "HLGOrganization"
-version = "0.0.1"
+version = "v1.0.16"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c93bc42d50c3c5c279c4fdc794b15e78e850e11ed8136ce535079116e67b2fba"
+hash = "9ba2d7828134c569a9375f325b117b6f333876f31084e3113f35e54d7452a731"
 
 [versions]
-forge = "47.3.29"
+forge = "47.3.10"
 minecraft = "1.20.1"

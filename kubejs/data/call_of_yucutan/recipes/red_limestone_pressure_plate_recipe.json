@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:red_limestone_tiles"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:red_limestone_pressure_plate",
+    "count": 1
+  }
+}

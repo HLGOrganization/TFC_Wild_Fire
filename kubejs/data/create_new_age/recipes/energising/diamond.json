@@ -1,0 +1,14 @@
+{
+  "type": "create_new_age:energising",
+  "energy_needed": 10000,
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:overcharged_diamond"
+    }
+  ]
+}

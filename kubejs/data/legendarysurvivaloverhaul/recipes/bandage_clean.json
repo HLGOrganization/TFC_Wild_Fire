@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "loot:clean_cloth"
+    },
+    {
+      "tag": "loot:clean_cloth"
+    },
+    {
+      "item": "legendarysurvivaloverhaul:healing_herbs"
+    }
+  ],
+  "result": {
+    "item": "legendarysurvivaloverhaul:bandage"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "D": {
+      "item": "create_new_age:overcharged_diamond"
+    },
+    "#": {
+      "item": "create_new_age:reinforced_motor"
+    },
+    ".": {
+      "item": "create_new_age:copper_circuit"
+    },
+    "I": {
+      "item": "create_new_age:overcharged_iron_sheet"
+    }
+  },
+  "pattern": [
+    "IIIII",
+    "D.#.D",
+    "IIIII"
+  ],
+  "result": {
+    "count": 2,
+    "item": "create_new_age:advanced_motor_extension"
+  }
+}

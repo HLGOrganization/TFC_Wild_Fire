@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:compressed/native_gold"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:refined/native_gold",
+      "count":4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "planter": "quad",
+  "ingredient": {
+    "item": "tfc:crop/horsetail_seeds"
+  },
+  "seed": {
+    "item": "tfc:crop/horsetail_seeds"
+  },
+  "crop": {
+    "item": "kubejs:horsetail"
+  },
+  "nutrient": "nitrogen",
+  "stages": 5,
+  "texture": [
+    "tfc:block/crop/horsetail_0",
+    "tfc:block/crop/horsetail_1",
+    "tfc:block/crop/horsetail_2",
+    "tfc:block/crop/horsetail_3",
+    "tfc:block/crop/horsetail_4",
+    "tfc:block/crop/horsetail_5"
+  ],
+  "specials": [],
+  "extra_seed_chance": 0.5
+}

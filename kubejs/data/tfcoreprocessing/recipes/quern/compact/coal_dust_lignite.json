@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "tfc:ore/lignite"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 4,
+      "item": "tfcoreprocessing:kindle/coal_dust"
+    },
+    {
+      "chance": 0.1,
+      "count": 1,
+      "item": "tfcoreprocessing:kindle/coal_dust"
+    }
+  ]
+}

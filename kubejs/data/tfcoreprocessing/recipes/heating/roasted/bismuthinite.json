@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcoreprocessing:roasted/bismuthinite"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/bismuth",
+    "amount": 10
+  },
+  "temperature": 270
+}

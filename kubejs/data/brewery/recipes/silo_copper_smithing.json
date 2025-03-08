@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "brewery:silo_wood"
+  },
+  "result": {
+    "item": "brewery:silo_copper",
+    "count": 1
+  },
+  "template": {
+    "item": "minecraft:sentry_armor_trim_smithing_template"
+  }
+}

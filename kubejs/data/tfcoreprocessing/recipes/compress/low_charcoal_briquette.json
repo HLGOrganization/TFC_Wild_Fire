@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+       "item":"tfcoreprocessing:kindle/charcoal_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/charcoal_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/wood_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/wood_pellets"
+    },
+    {
+      "item": "tfc:glue"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/wood_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/wood_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/wood_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/wood_pellets"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:kindle/low_charcoal_briquette",
+      "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ingredient": [
+    {
+      "item": "tfcoreprocessing:kindle/wood_pellets"
+    }
+  ],
+  "duration": 2000,
+  "temperature": 745
+}

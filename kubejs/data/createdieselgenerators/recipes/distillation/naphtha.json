@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluid": "kubejs:light_oil",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "superheated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "createdieselgenerators:gasoline",
+      "amount": 90
+    },
+    {
+      "fluid": "vintageimprovements:sulfur_dioxide",
+      "amount": 10
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+    {
+      "item": "tfc:food/cherry"
+    },
+    {
+      "item": "brewery:dried_wheat"
+    },
+    {
+      "item": "brewery:dried_corn"
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "firmalife:yeast_starter",
+        "amount": 100
+      }
+    }
+  ],
+  "cup": {
+    "item": "brewery:beer_mug",
+    "count": 4
+  },
+  "brewing_time": 192000,
+  "result": {
+    "item": "brewery:whiskey_carrasconlabel",
+    "count": 4
+  }
+}

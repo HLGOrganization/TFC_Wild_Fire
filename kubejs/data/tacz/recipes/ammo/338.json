@@ -1,0 +1,14 @@
+{
+  "materials": [
+    {"item": {"item": "immersiveengineering:empty_casing" },"count": 5},
+    {"item": {"item": "create:brass_nugget" },"count": 5},
+    {"item": {"item": "minecraft:gunpowder" },"count": 10}
+    
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:338",
+    "count": 5
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

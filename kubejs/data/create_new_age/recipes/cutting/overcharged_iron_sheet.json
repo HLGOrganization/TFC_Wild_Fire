@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create_new_age:overcharged_iron_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:overcharged_iron_wire",
+      "count": 4
+    }
+  ],
+  "processingTime": 100
+}

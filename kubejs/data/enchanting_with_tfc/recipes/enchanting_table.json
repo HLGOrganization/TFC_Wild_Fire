@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "minecraft:enchanted_book"
+    },
+    "D": {
+      "tag": "forge:gems"
+    },
+	"W": {
+	  "item": "minecraft:red_wool"
+	}
+  },
+  "pattern": [
+    " B ",
+    "DWD",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:enchanting_table"
+  },
+  "show_notification": false
+}

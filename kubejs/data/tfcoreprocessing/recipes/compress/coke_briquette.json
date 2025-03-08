@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    },
+    {
+      "item": "tfc:glue"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    },
+     {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    },
+    {
+       "item":"tfcoreprocessing:kindle/coke_pellets"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:kindle/coke_briquette",
+      "count": 2
+  }
+}

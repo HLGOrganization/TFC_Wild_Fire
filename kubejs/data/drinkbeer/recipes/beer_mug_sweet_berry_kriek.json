@@ -1,0 +1,30 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+      {
+      "item": "brewery:hops"
+    },
+    {
+      "item": "brewery:dried_wheat"
+    },
+    {
+      "tag": "loot:berries"
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "minecraft:water",
+        "amount": 100
+      }
+    }
+  ],
+  "cup": {
+    "item": "drinkbeer:empty_beer_mug",
+    "count": 4
+  },
+  "brewing_time": 64000,
+  "result": {
+    "item": "drinkbeer:beer_mug_sweet_berry_kriek",
+    "count": 4
+  }
+}

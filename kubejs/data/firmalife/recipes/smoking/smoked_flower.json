@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "firmalife:smoking",
+  "ingredient": {
+    "tag": "minecraft:flowers"
+  },
+  "result_item": {
+    "item": "drinkbeer:spice_smoked_egila_bug"
+  }
+}

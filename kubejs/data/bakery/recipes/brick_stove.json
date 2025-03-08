@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wood_fired_oven",
+  "pattern": [
+    "BCB",
+    "B B",
+    "BLB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "C": {
+      "item": "castirongrill:cast_iron_grill"
+    },
+    "L": {
+      "item": "vinery:stackable_log"
+    }
+  },
+  "result": {
+    "item": "bakery:brick_stove"
+  }
+}

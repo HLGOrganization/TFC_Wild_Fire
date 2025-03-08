@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "convenientdecor:leaf_pile"
+    },
+    {
+      "tag": "tfc:plants"
+    }
+  ],
+  "result": {
+    "item": "convenientdecor:azalea_leaf_pile",
+    "count": 2
+  }
+}

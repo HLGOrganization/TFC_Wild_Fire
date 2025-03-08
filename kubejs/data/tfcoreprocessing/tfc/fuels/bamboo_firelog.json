@@ -1,0 +1,9 @@
+{
+  "ingredient": [
+    {
+      "item": "tfcoreprocessing:kindle/bamboo_firelog"
+    }
+  ],
+  "duration": 5000,
+  "temperature": 745
+}

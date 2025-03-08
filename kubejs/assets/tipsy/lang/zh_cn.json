@@ -1,0 +1,17 @@
+{"tipsmod.title.default":"Tip",
+
+"tipsmod.tip.no_tips":"No tips have been loaded. Please review the configurations.",
+"tipsmod.tip.tips_1":"欸欸欸，你过来给我打个远古巨魔",
+"tipsmod.tip.tips_2":"紫色鸡屎，启动.",
+"tipsmod.tip.tips_3":"这里没有什么人形生物了，至少一开始还有.",
+
+"gui.tips.list.title":"Tips List",
+"gui.tips.list.search":"Search",
+"gui.tips.list.show_disabled":"Show Disabled",
+"gui.tips.list.entry.tip_id":"Tip ID: %s",
+"gui.tips.list.entry.added_by":"Added by: %s",
+"gui.tips.list.entry.cycle_time":"Cycle Time: %s",
+"gui.tips.list.entry.copied":"Copied!",
+"gui.tips.list.entry.click_to_copy":"Click to copy ID",
+"gui.tips.list.entry.disabled":"Disabled by config!",
+"gui.tips.list.config":"Config"}

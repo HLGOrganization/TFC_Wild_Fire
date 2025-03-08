@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_chestplate"
+    },
+    {
+      "item": "minecraft:magenta_wool"
+    }
+  ],
+  "result": {
+    "item": "convenientdecor:magenta_raincoat",
+    "count": 1
+  }
+}

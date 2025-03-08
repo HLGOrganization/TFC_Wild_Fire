@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "call_of_yucutan:deepslate_jade_ore"
+  },
+  "result": "call_of_yucutan:jade"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "call_of_yucutan:overgrown_temple",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "call_of_yucutan:overgrown_temple_top",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:structure_void"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    " cd"
+  ],
+  "key": {
+    "a": {
+      "item": "kubejs:cast_iron_gun_barrel"
+    },
+    "b": {
+      "item": "kubejs:cast_iron_firing_hammer"
+    },
+    "c": {
+      "tag": "minecraft:logs"
+    },
+    "d": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:musket",
+    "count": 1
+  }
+}

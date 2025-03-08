@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluidTag": "tfc:alcohols",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 80
+    },
+    {
+      "fluid": "createdieselgenerators:ethanol",
+      "amount": 20
+    }
+  ]
+}

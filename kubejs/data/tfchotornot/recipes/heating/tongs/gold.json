@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/gold"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/gold",
+    "amount": 200
+  },
+  "temperature": 1060,
+  "use_durability": true
+}

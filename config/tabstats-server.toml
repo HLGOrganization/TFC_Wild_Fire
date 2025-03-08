@@ -1,0 +1,8 @@
+
+#General settings
+[general]
+	#How often should the server send updates to clients
+	#Default is 100 ticks
+	#Range: 1 ~ 6000
+	refreshTicks = 100
+

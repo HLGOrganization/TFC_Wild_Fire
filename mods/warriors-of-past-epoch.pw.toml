@@ -1,0 +1,13 @@
+name = "Warriors of Past Epoch"
+filename = "warriors_of_past_epoch_[Forge]_1.20.1_1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e055b65d4d4cb5e1f4001fea1f9b2b9a6353af89"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5588012
+project-id = 1027354

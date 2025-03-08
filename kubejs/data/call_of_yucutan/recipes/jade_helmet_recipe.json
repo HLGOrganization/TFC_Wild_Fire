@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:jade"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:jades_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+name = "TFC Better Stone Age"
+filename = "bsa-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3bbb9555870d5901521bccfe896a4554154bdda6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5989649
+project-id = 1026165

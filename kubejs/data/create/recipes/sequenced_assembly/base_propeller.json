@@ -1,0 +1,18 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "a":{"item": "ad_astra:engine_frame"},
+      "b":{"item": "tfc:metal/sheet/steel"},
+      "c":{"item": "tfc:steel_pipe"}
+    },
+    "pattern": [
+        " a ",
+        "bcb",
+        "c c"
+    ],
+    "result": {
+      "item": "kubejs:basic_propeller"
+    }
+  }
+  

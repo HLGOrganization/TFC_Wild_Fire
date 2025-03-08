@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:hemp_fiber"
+    },
+    {
+      "item": "immersiveengineering:hemp_fiber"
+    },
+    {
+      "item": "immersiveengineering:hemp_fiber"
+    }
+  ],
+  "result": {
+    "item": "minecraft:string"
+  }
+}

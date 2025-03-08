@@ -1,0 +1,19 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "a":{"item": "ad_astra:ostrum_plate"},
+      "b":{"item": "tfc:metal/double_sheet/black_steel"},
+      "c":{"item": "kubejs:basic_propeller"},
+      "d":{"item": "ad_astra:ostrum_fluid_pipe"}
+    },
+    "pattern": [
+        " a ",
+        "bcb",
+        "ddd"
+    ],
+    "result": {
+      "item": "kubejs:columbus_propeller"
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/cast_iron"
+  },
+  "result": {
+    "item": "bakery:crafting_bowl"
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "punch_third_last"
+  ],
+  "apply_forging_bonus": true
+}

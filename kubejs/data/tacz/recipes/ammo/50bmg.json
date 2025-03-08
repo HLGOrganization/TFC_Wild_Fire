@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {"item": {"item": "tfc:metal/ingot/steel" },"count": 1},
+    {"item": {"item": "minecraft:gunpowder" },"count": 30},
+    {"item": {"item": "create:copper_nugget" },"count": 15}
+
+
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:50bmg",
+    "count": 15
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

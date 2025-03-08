@@ -1,0 +1,36 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "罐头",
+  "category": "tfc:mechanics",
+  "icon": "tfc:jar/plum",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)罐头$() 是用来储存水果以让他更慢变质的容器。一开始的罐头是$(thing)空罐头$(), 通过$(l:mechanics/glassworking_applications#jar)玻璃加工$()来制造。接着，$(thing)罐头盖$()必须由 $(thing)锡$()锻造而成。将上述物品合成在一起将得到一个$(thing)有盖的空罐头$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "在一口锅中，煮沸$(thing)糖$() 用2-4片 $(thing)水果$()。当完成这个配方后，使用有盖的空罐头$(item)$(k:key.use)$() 它以变成一个 $(thing)封口的果酱罐头$()。封口的罐头靠自己就能保质非常长的一段时间。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/unseal_plum_jar",
+      "text": "通过合成的方式来开封一个罐头。罐头盖无法被利用。一个未封口的罐头存不住几天！"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/barley_sandwich_with_jam",
+      "text": "果酱可以用来制作三明治。果酱三明治可以包含乳制品、熟肉和果酱。用完后，将剩下一个(thing)空罐头$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用 $(item)$(k:key.use)$()能将罐头放在一个固体方块上。一个方块地面上能放四个罐头。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wood/oak_shelf",
+      "text": "$(thing)罐头橱柜$()能被安装在固体墙上。它们可以被直接放置，也可以点击现有的被放置在方块上的罐头。罐头架子的顶部被视为固体平面，可以在上面放置更多的罐头或是其他方块。"
+    }
+  ],
+  "read_by_default": true
+}

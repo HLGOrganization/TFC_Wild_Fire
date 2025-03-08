@@ -1,0 +1,23 @@
+{
+  "type": "bakery:pot_cooking",
+  "ingredients": [
+    {
+      "item": "tfc:wood/leaves/white_cedar"
+    },
+    {
+      "item": "tfc:wood/leaves/white_cedar"
+    },
+    {
+      "item": "tfc:wood/leaves/white_cedar"
+    },
+    {
+      "item": "tfc:wood/leaves/white_cedar"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "drinkbeer:spice_roasted_red_pine_nuts"
+  }
+}

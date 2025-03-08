@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/bismuth"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/bismuth",
+    "amount": 200
+  },
+  "temperature": 270,
+  "use_durability": true
+}

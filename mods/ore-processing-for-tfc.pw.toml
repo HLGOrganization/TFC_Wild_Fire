@@ -1,0 +1,13 @@
+name = "Ore Processing for TFC"
+filename = "tfcoreprocessing-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "195150df02ddfdaa2ce89054774812fa68c97ccb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5933458
+project-id = 956597

@@ -1,0 +1,26 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "item": "bakery:sweet_dough"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "tfc:sweetener"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:eggs"
+      }
+    }
+  ],
+  "item": "bakery:waffle",
+  "count": 6,
+  "experience": 0.3
+}

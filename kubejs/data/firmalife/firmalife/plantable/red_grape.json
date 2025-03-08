@@ -1,0 +1,24 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "planter": "large",
+  "ingredient": {
+    "item": "vinery:white_grape_seeds"
+  },
+  "seed": {
+    "item": "vinery:white_grape_seeds"
+  },
+  "crop": {
+    "item": "vinery:white_grape",
+    "count": 12
+  },
+  "nutrient": "nitrogen",
+  "stages": 3,
+  "texture": [
+    "vinery:block/plains_grape_bush_stage0",
+    "vinery:block/plains_grape_bush_stage1",
+    "vinery:block/plains_grape_bush_stage2",
+    "vinery:block/plains_grape_bush_stage3_white"
+  ],
+  "specials": [],
+  "extra_seed_chance": 0
+}

@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:barrel_instant",
+  "input_item": {
+    "ingredient": {
+      "item": "vinery:wine_bottle"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "firmalife:white_wine",
+    "amount": 2000
+  },
+  "output_item": {
+    "item": "vinery:white_grapejuice"
+  }
+}

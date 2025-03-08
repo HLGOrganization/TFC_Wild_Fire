@@ -1,0 +1,28 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "tfcoreprocessing:refined/native_copper"
+    },
+    {
+      "item": "tfcoreprocessing:refined/native_copper"
+    },
+    {
+      "item": "tfcoreprocessing:refined/native_copper"
+    },
+    {
+      "item": "tfcoreprocessing:refined/native_copper"
+    },
+    {
+      "amount": 25,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "tfcoreprocessing:roasted_brick/native_copper"
+    }
+  ],
+  "heatRequirement": "heated"
+}

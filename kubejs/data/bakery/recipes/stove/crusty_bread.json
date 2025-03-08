@@ -1,0 +1,29 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:sweetened_dough"
+      }
+    },
+    {
+      "type": "tfc:not_rotten",
+      "ingredient": {
+      "tag": "bakery:sweetened_dough"
+      }
+    },
+    {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": {
+          "tag": "tfc:milks"
+        },
+        "amount": 100
+      }
+    }
+  ],
+  "item": "bakery:crusty_bread",
+  "count": 4,
+  "experience": 0.35
+}

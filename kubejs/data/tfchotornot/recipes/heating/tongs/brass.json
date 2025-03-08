@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfchotornot:tongs/brass"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/brass",
+    "amount": 200
+  },
+  "temperature": 930,
+  "use_durability": true
+}

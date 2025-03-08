@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:refined/hematite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/hematite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/hematite"
+    },
+    {
+      "item":"tfcoreprocessing:refined/hematite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:compressed/hematite"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "SDS",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "createdieselgenerators:diesel_engine"
+    },
+    "B": {
+      "item": "minecraft:polished_blackstone_slab"
+    },
+    "S": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "result": {
+    "item": "createdieselgenerators:large_diesel_engine"
+  }
+}

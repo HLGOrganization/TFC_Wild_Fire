@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "call_of_yucutan:jade"
+    },
+    "b": {
+      "item": "call_of_yucutan:polished_ritual_rock"
+    }
+  },
+  "result": {
+    "item": "call_of_yucutan:polished_jade_block",
+    "count": 4
+  }
+}

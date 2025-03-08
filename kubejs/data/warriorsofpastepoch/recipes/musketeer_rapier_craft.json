@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    " b",
+    "dc"
+  ],
+  "key": {
+    "a": {
+      "item": "tfc:metal/knife_blade/wrought_iron"
+    },
+    "b": {
+      "item": "tfc:metal/ingot/silver"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:musketeer_rapier",
+    "count": 1
+  }
+}

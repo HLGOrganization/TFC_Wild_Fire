@@ -1,0 +1,15 @@
+{
+	"type":"vintageimprovements:turning",
+	"ingredients": [
+		{
+			"item": "minecraft:glass"
+		}
+	],
+	"results": [
+		{
+			"item": "tfc:empty_jar",
+			"count": 4
+		}
+	],
+	"processingTime": 100
+}

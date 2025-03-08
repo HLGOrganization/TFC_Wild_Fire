@@ -1,0 +1,91 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/black_steel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "kubejs:basic_plating"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "immersiveengineering:ingot_hop_graphite"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "tfc:metal/sheet/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        },
+        {
+          "item": "firmalife:metal/sheet/chromium"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfc:metal/double_sheet/black_steel"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "tfc:metal/double_sheet/black_steel"
+  }
+}

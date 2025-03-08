@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ad_astra:ostrum_plates"
+    },
+    "G": {
+      "item": "ad_astra:large_gas_tank"
+    },
+    "I": {
+      "item": "ad_astra:etrionic_core"
+    }
+  },
+  "pattern": [
+    "###",
+    "IGI",
+    "###"
+  ],
+  "result": {
+    "item": "ad_astra:cryo_freezer"
+  },
+  "show_notification": true
+}

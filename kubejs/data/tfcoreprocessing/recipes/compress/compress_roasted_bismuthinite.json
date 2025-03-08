@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"tfcoreprocessing:roasted/bismuthinite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/bismuthinite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/bismuthinite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/bismuthinite"
+    },
+    {
+      "item":"tfcoreprocessing:roasted/bismuthinite"
+    }
+  ],
+  "result": {
+      "item":"tfcoreprocessing:roasted_brick/bismuthinite"
+  }
+}

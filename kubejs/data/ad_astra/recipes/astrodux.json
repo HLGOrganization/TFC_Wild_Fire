@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "patchouli"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "patchouli"
+    }
+  ],
+  "type": "patchouli:shaped_book_recipe",
+  "pattern": [
+    "#/#",
+    "ABA",
+    "#/#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_dye"
+    },
+    "/": {
+      "item": "ad_astra:desh_ingot"
+    },
+    "A": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "book": "ad_astra:astrodux"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:azure_fabric"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:thickened_skin"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:muketers_armor_leggings",
+    "count": 1
+  }
+}

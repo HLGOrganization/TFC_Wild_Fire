@@ -1,0 +1,250 @@
+[
+  {
+    "id": "hp",
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "max_health",
+          "value": 1,
+          "level_promote": 20,
+          "level_promote_value": 1,
+          "operation": "addition"
+        },
+        {
+          "attribute": "healing",
+          "value": 0.02,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "multiply_base"
+        }
+      ]
+    }
+  },
+  {
+    "id": "focus",
+    "conditions": [
+      "irons_spellbooks",
+      "ars_nouveau"
+    ],
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 10,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "addition"
+        },
+        {
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+          "value": 10,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "addition"
+        },
+        {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.02,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "multiply_base"
+        },
+        {
+          "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+          "value": 0.12,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "addition"
+        }
+      ]
+    }
+  },
+  {
+    "id": "power",
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "attack_damage",
+          "value": 0.5,
+          "level_promote": 15,
+          "level_promote_value": -0.05,
+          "operation": "addition",
+          "min": 0.1
+        },
+        {
+          "attribute": "ranged_damage",
+          "value": 0.4,
+          "level_promote": 15,
+          "level_promote_value": -0.04,
+          "operation": "addition",
+          "min": 0.1
+        }
+      ]
+    }
+  },
+  {
+    "id": "sturdy",
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "burden",
+          "value": 2,
+          "level_promote": 30,
+          "level_promote_value": -0.5,
+          "operation": "addition",
+          "min": 0.5
+        },
+        {
+          "attribute": "hunger",
+          "value": 0.01,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "multiply_base"
+        },
+        {
+          "attribute": "epicfight:staminar",
+          "value": 0.5,
+          "level_promote": 30,
+          "level_promote_value": -0.1,
+          "operation": "addition",
+          "min": 0.1
+        }
+      ]
+    }
+  },
+  {
+    "id": "endurance",
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "armor",
+          "value": 0.2,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "addition"
+        },
+        {
+          "attribute": "armor_toughness",
+          "value": 0.1,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "addition"
+        }
+      ]
+    }
+  },
+  {
+    "id": "brain",
+    "conditions": [
+      "irons_spellbooks",
+      "ars_nouveau"
+    ],
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.03,
+          "level_promote": 30,
+          "level_promote_value": -0.0075,
+          "operation": "multiply_base",
+          "min": 0.01
+        },
+        {
+          "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+          "value": 0.5,
+          "level_promote": 30,
+          "level_promote_value": -0.125,
+          "operation": "addition",
+          "min": 0.1
+        }
+      ]
+    }
+  },
+  {
+    "id": "agile",
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "attack_speed",
+          "value": 0.01,
+          "level_promote": 20,
+          "level_promote_value": -0.002,
+          "operation": "multiply_base",
+          "min": 0.002
+        },
+        {
+          "attribute": "movement_speed",
+          "value": 0.002,
+          "level_promote": 30,
+          "level_promote_value": -0.0005,
+          "operation": "multiply_base",
+          "min": 0.0002
+        },
+        {
+          "attribute": "jump",
+          "value": 0.004,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "multiply_base"
+        }
+      ]
+    }
+  },
+  {
+    "id": "trick",
+    "conditions": [
+      "irons_spellbooks"
+    ],
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.0125,
+          "level_promote": 20,
+          "level_promote_value": -0.0025,
+          "operation": "multiply_base",
+          "min": 0.0025
+        },
+        {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.0125,
+          "level_promote": 20,
+          "level_promote_value": -0.0025,
+          "operation": "multiply_base",
+          "min": 0.0025
+        }
+      ]
+    }
+  },
+  {
+    "id": "luck",
+    "data": {
+      "max_level": 99,
+      "points_rewards": [
+        {
+          "attribute": "luck",
+          "value": 0.5,
+          "level_promote": 0,
+          "level_promote_value": 0,
+          "operation": "addition"
+        },
+        {
+          "attribute": "critical_hit_rate",
+          "value": 2,
+          "level_promote": 8,
+          "level_promote_value": -0.5,
+          "operation": "addition",
+          "min": 1
+        }
+      ]
+    }
+  }
+]
