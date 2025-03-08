@@ -67,7 +67,7 @@ jobs:
             rm -f ${{ github.workspace }}/main/pack.toml
             rm -f ${{ github.workspace }}/main/index.toml
             rm -f ${{ github.workspace }}/main/options.txt
-            rm -f ${{ github.workspace }}/main/optionsof.txt
+            rm -f ${{ github.workspace }}/main/release_guide.md
       - name: Read and delete mods
         run: |
             mapfile -t prefixes < ${{ github.workspace }}/main/.clientonlymodlist
