@@ -1,8 +1,8 @@
 {
   "version": 2,
   "mixinEarly": false,
-  "checkOwnMessages": false,
-  "debugShowKey": true,
+  "checkOwnMessages": true,
+  "debugShowKey": false,
   "soundSource": "PLAYERS",
   "prefixes": [
     "/shout",
