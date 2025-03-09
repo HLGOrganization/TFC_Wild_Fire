@@ -30,4 +30,4 @@ ServerEvents.recipes(e=> {
     create.cutting('afc:wood/stripped_wood/fig','afc:wood/wood/rubber_fig')
     create.cutting('tfc:wood/stripped_wood/aspen','afc:wood/wood/poplar')
 })
-//测试
+//测试1
