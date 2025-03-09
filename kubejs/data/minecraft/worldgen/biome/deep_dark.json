@@ -39,12 +39,7 @@
       "ad_astra:moon_desh_ore",
       "ad_astra:moon_ice_shard_ore",
       "ad_astra:moon_iron_ore",
-      "ad_astra:moon_soul_soil",
-      "ad_astra:moon_scoria",
-      "ad_astra:moon_scorchia",
-      "ad_astra:moon_soul",
-      "ad_astra:moon_veridium",
-      "ad_astra:moon_magma"
+      "ad_astra:moon_soul_soil"
     ],
     [
       "minecraft:sculk_vein",
