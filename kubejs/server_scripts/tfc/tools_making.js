@@ -33,7 +33,7 @@ ServerEvents.recipes(e => {
           B: `tfc:metal/${tool}_head/${metal}`,
           C: "#forge:rods/wooden"
         }
-      ).id(`kubejs:shaped${metal}_${tool}_weak`)
+      ).id(`kubejs:crafting/metal/${tool}/${metal}/weak`)
       //medium
       e.recipes.kubejs.shaped(
         `tfc:metal/${tool}/${metal}`,
@@ -45,7 +45,7 @@ ServerEvents.recipes(e => {
           B: `tfc:metal/${tool}_head/${metal}`,
           C: "#forge:rods/wooden"
         }
-      ).id(`kubejs:shaped${metal}_${tool}_medium`)
+      ).id(`kubejs:crafting/metal/${tool}/${metal}/medium`)
       //strong
       e.recipes.kubejs.shaped(
         `tfc:metal/${tool}/${metal}`,
@@ -65,7 +65,7 @@ ServerEvents.recipes(e => {
         const resultTag = result.getOrCreateTag();
         resultTag.contains("tfc:forging_bonus") ? resultTag.remove("tfc:forging_bonus") : resultTag.putInt("tfc:forging_bonus", level);
         return result
-      })
+      }).id(`kubejs:crafting/metal/${tool}/${metal}/strong`)
     });
   });
 })
