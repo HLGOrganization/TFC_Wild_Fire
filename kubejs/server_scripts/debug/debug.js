@@ -25,6 +25,7 @@ const handleChatCommand = (event, command, message, target) => {
         player.runCommandSilent("effect give @s minecraft:night_vision infinite 255 true");
         player.runCommandSilent("effect give @s minecraft:strength infinite 255 true");
         player.runCommandSilent("effect give @s minecraft:resistance infinite 255 true");
+        player.runCommandSilent("effect give @s legendarysurvivaloverhaul:temperature_immunity infinite 255 true");
         player.runCommandSilent(`tellraw @s "§6已获得所有BUFF"`);
         event.cancel();
         break;

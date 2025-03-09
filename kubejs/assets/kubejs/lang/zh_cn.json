@@ -97,7 +97,7 @@
     "kubejs.climate.name.mercury_climate":"水星大气",
 
     "message.kubejs.debug": "§4验证开发者用户信息中§r\n§a身份正确§r\n§4欢迎回来!%s§r",
-    "message.kubejs.conventcommand": "§6潜行+右键§r获取物品ID\n输入§6-efg§r获得[夜视 力量 抗性]buff\n输入§6-efc§r清除自身所有buff",
+    "message.kubejs.conventcommand": "§6潜行+右键§r获取物品ID\n输入§6-efg§r获得[夜视 力量 抗性 恒温]buff\n输入§6-efc§r清除自身所有buff",
     "message.kubejs.theft_prohibited": "§4周围有怪物在游荡!",
     
     "tooltip.kubejs.hold_shift_to_see_more_info": "§r§8按住 [§r§7Shift§r§8] 查看更多信息§r",
