@@ -299,24 +299,6 @@
 			icon: {
 				Count: 1b
 				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 9.75d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									-946088443
-									2052410970
-									-1462143274
-									2003079266
-								]
-							}
-						}
-						attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":12}]"
-						heavy: 9.75d
-						recordPunishmentAttributeModifier: { }
-					}
 					"tfc:item_heat": {
 						heat: 0.0f
 						ticks: 0L
@@ -359,24 +341,6 @@
 			icon: {
 				Count: 1b
 				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 3.25d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									595467961
-									-454475554
-									-1511256291
-									-435735251
-								]
-							}
-						}
-						attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":4}]"
-						heavy: 3.25d
-						recordPunishmentAttributeModifier: { }
-					}
 					"tfc:item_heat": {
 						heat: 0.0f
 						ticks: 0L
@@ -1599,26 +1563,6 @@
 			hide: false
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 1.0d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									-796241265
-									-562869204
-									-1270953615
-									355191410
-								]
-							}
-						}
-						attributeNeed: "[]"
-						heavy: 1.0d
-						recordPunishmentAttributeModifier: { }
-					}
-				}
 				id: "minecraft:leather_helmet"
 				tag: {
 					Damage: 0

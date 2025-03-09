@@ -94,18 +94,16 @@
     "kubejs.climate.name.moon_climate":"月球大气",
     "kubejs.climate.name.mars_climate":"火星大气",
     "kubejs.climate.name.venus_climate":"金星大气",
-    "kubejs.climate.name.mercury_climate":"水星大气"
+    "kubejs.climate.name.mercury_climate":"水星大气",
+
+    "message.kubejs.debug": "§4验证开发者用户信息中§r\n§a身份正确§r\n§4欢迎回来!%s§r",
+    "message.kubejs.conventcommand": "§6潜行+右键§r获取物品ID\n输入§6-efg§r获得[夜视 力量 抗性]buff\n输入§6-efc§r清除自身所有buff",
+    "message.kubejs.theft_prohibited": "§4周围有怪物在游荡!",
     
-
-
-    
-    
-    
-    
-
-
-	
-
-
+    "tooltip.kubejs.hold_shift_to_see_more_info": "§r§8按住 [§r§7Shift§r§8] 查看更多信息§r",
+    "tooltip.kubejs.hold_shift": "§r§8按住 [§r§rShift§8] 查看更多信息§r",
+    "tooltip.kubejs.hold_ctrl_to_see_more_info": "§r§8按住 [§r§7Ctrl§r§8] 查看如何使用§r",
+    "tooltip.kubejs.hold_ctrl": "§r§8按住 [§r§rCtrl§8] 查看如何使用§r",
+    "tooltip.kubejs.shift_alumina_dioxide": "嗯. . 其实并不能这样加工()"
 
 }

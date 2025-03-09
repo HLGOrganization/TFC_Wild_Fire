@@ -1833,25 +1833,6 @@
 			]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 0.0d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									-1131508005
-									782781729
-									-1324619643
-									-1580238513
-								]
-							}
-						}
-						heavy: 0.0d
-						recordPunishmentAttributeModifier: { }
-					}
-				}
 				id: "butcher:pillagerdisguise_helmet"
 				tag: {
 					Damage: 0
@@ -1884,26 +1865,6 @@
 			]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 0.0d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									-1808848376
-									-1142796531
-									-1088999850
-									-990354356
-								]
-							}
-						}
-						attributeNeed: "[{\"attribute_id\":\"brain\",\"need_points\":10,\"punishment_id\":\"iron_magic\"}]"
-						heavy: 0.0d
-						recordPunishmentAttributeModifier: { }
-					}
-				}
 				id: "irons_spellbooks:copper_spell_book"
 				tag: {
 					ISB_Spells: {
@@ -1967,26 +1928,6 @@
 			]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 0.0d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									295437181
-									-248820923
-									-1203995355
-									-1322130648
-								]
-							}
-						}
-						attributeNeed: "[{\"attribute_id\":\"brain\",\"need_points\":26,\"punishment_id\":\"iron_magic\"}]"
-						heavy: 0.0d
-						recordPunishmentAttributeModifier: { }
-					}
-				}
 				id: "irons_spellbooks:evoker_spell_book"
 				tag: {
 					ISB_Spells: {
@@ -2133,25 +2074,6 @@
 			description: ["现在你可以用青金石和羊毛布制作火枪手套装专用的布料，火枪手套装可以显著提升火枪的cd时间让他开枪更快"]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 5.0d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									949071924
-									-1502459257
-									-1900978231
-									-436417210
-								]
-							}
-						}
-						heavy: 5.0d
-						recordPunishmentAttributeModifier: { }
-					}
-				}
 				id: "warriorsofpastepoch:muketers_armor_helmet"
 				tag: {
 					Damage: 0
@@ -2248,25 +2170,6 @@
 			]
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 0.0d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									-658242519
-									1898201751
-									-1923190666
-									-1074597640
-								]
-							}
-						}
-						heavy: 0.0d
-						recordPunishmentAttributeModifier: { }
-					}
-				}
 				id: "butcher:pillagerdisguise_helmet"
 				tag: {
 					Damage: 0

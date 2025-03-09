@@ -537,25 +537,6 @@
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					"lhmiracleroad:punishment_cap": {
-						attribute: {
-							heavy: {
-								Amount: 0.0d
-								Name: ""
-								Operation: 0
-								UUID: [I;
-									-1052166781
-									-94551186
-									-2146769211
-									1495958241
-								]
-							}
-						}
-						heavy: 0.0d
-						recordPunishmentAttributeModifier: { }
-					}
-				}
 				id: "butcher:pillagerdisguise_helmet"
 				tag: {
 					Damage: 0
