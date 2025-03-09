@@ -33,8 +33,6 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('create_power_loader:andesite_chunk_loader'),['create_power_loader:empty_andesite_chunk_loader']);//安山区块加载
  
   
-    event.replaceInput({output:'contact:red_postbox'},'minecraft:stone','#tfc:rock/smooth')
-    event.replaceInput({output:'contact:green_postbox'},'minecraft:stone','#tfc:rock/smooth')///邮箱替换石头
     //event.replaceInput({output:'tfc:fire_clay'},'tfc:powder/kaolinite','tfc:kaolin_clay')
     event.replaceInput({output:'ars_nouveau:scribes_table'},'#forge:logs/archwood','#forge:ingots/steel')
     event.replaceInput({output:'ars_nouveau:scribes_table'},'ars_nouveau:archwood_slab','immersiveengineering:slab_treated_wood_horizontal')

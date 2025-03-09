@@ -249,10 +249,6 @@ file = "config/chatnotify.json"
 hash = "896784d17b29ee969e4d61b37563670734a6302ce92af3eecb0dfd1553bcfa29"
 
 [[files]]
-file = "config/chatpatches.json"
-hash = "fbc164280a86b1bbb026730c32a28161a0b3a37dcff0c9aa449f50a68a84071b"
-
-[[files]]
 file = "config/citadel-common.toml"
 hash = "3fcd8013137a86c00953d4be1e56945b84b87594be722bbf3b3be8d752e2577f"
 
@@ -299,14 +295,6 @@ hash = "060e296a5fddce603e50034e3cdb6059c3a0e122d0aae3d85a0523341c82ea22"
 [[files]]
 file = "config/constructionwand-client.toml"
 hash = "49dab16d69ef53b3846431d403918762dc0b22a4efba307c80894eeec64a1118"
-
-[[files]]
-file = "config/contact.json"
-hash = "1a823b7a293a64d814809fc8646493031cdd6c34a87399ff626f91e176bef499"
-
-[[files]]
-file = "config/convenientdecor.json5"
-hash = "113915cdb6a8ff1d477d4c46b062dd48ea352303d04a35e0a05571ea9f6d9885"
 
 [[files]]
 file = "config/copycats-client.toml"
@@ -1007,10 +995,6 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "9b02b0eb5df90729ef42eae4f69619e6faaeef3aec4585b64e76b59cb198013e"
-
-[[files]]
-file = "config/modmenu.json"
-hash = "748cb550ed31f0d7f2a8faf26cd0c659826ae10cfabc4a89eee7d32eed98f157"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -11059,438 +11043,6 @@ hash = "4469de7945a3411eace4d376fec9126a43717bdfe5c83e6e82a90da4444a68c4"
 [[files]]
 file = "kubejs/data/call_of_yucutan/worldgen/template_pool/overgrown_temple_under.json"
 hash = "f8af00d1efbd231951b77b92baad81b41f69ad6d0c6b903f9a160a2068f962d2"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/acacia_leaf_pile.json"
-hash = "4dd89d210af87846a896ade1a426f6b252960502107ca364e443f7ac55fd56c2"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/allerts_umbrella.json"
-hash = "82944762998e0c3e46f1ff4b44c7653e46087537996468ea38e8f093076b8d6d"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/azalea_leaf_pile.json"
-hash = "39ab0dc27ac02f8c4181602b94513ad07c1998823bed5b193dd6edadd928eda5"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/birch_leaf_pile.json"
-hash = "829d693a584e08424e63e36d108595e14f130bf73cdde7fc280a5ca29cfedef4"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/black_plastic_shovel.json"
-hash = "0125d1a237d6237f6b31a7b920a25d0295f5e0ffc1c41dd96313e6ef7c260a0e"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/black_rain_boots.json"
-hash = "9a4e85c95835c6f09bc6f5a2e49562fb5bfde91d2f650411a8d4f23d7e563635"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/black_rain_hat.json"
-hash = "45445f6a74abc20822119fbcd735c902f495dc5025d5341afca7847f9b096a51"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/black_raincoat.json"
-hash = "41d844ef12356c728c57464af3a2d888f4c707f07e1b42b438e4680060bd38d8"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/black_umbrella.json"
-hash = "81d19d9ded8c7f1dacc4282f5dc1994af37ee114ef5571a361127b1ce34b0ab0"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/blue_plastic_shovel.json"
-hash = "012fa267f377ac2a70c63050f5c39e0f2cd007a298d405442f1bc8498dcc3a80"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/blue_rain_boots.json"
-hash = "e93985c287c5f6955718fcdbdd4738f17a575f29610cd4f8313126a579425081"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/blue_rain_hat.json"
-hash = "53d345107b998a14d69fd964e2460116e2af8bb8adfe0ee783573048d5e9d099"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/blue_raincoat.json"
-hash = "1418a791f588d5b33854cc4f8ab67a9d9b889cc25c586654b590d433c0e870f0"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/blue_umbrella.json"
-hash = "c00e2c6a39f459a389f3a4fd50e67a4d38a817621e6ba7ba3619181e9a81de37"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/brown_leaf_pile.json"
-hash = "cf60a36a4f8221f3d7b855fb7a2ceb7d1abc2ecdff238a82fa3db2244d76c782"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/brown_plastic_shovel.json"
-hash = "f87ef351669a8831dda288b8257ea443158dd70325fe67f62d55f45108d77aae"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/brown_rain_boots.json"
-hash = "8a7cbff2d7e35a4f444b0f8312679b4ac6d5bae7b3d15ab6c169078f0e491f56"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/brown_rain_hat.json"
-hash = "3323459547894976a869ce7e11412e5343b12221b28ef546711226eb270d2b86"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/brown_raincoat.json"
-hash = "00ac9be2b0c11244c0a1cefc5a3b4a8332d61c4cb95bb5c1b2dc25a277d5f9f0"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/brown_umbrella.json"
-hash = "4f2be6ab2cc336a2fbce221db10939efb11100efcc4d9091445333b5c10f34e2"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/cherry_leaf_pile.json"
-hash = "e5922b06d122778fb33ab034590472094df61594882de41a7052f93163d068be"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/copper_weather_vane.json"
-hash = "b26a87f83986ece80bf390eecb0c90f86d18428908852ae34e94f45284f44c59"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/cyan_plastic_shovel.json"
-hash = "c8bf4981d4148f31ed6502751e83af2cd5d522b91adebc7986017119ba56897f"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/cyan_rain_boots.json"
-hash = "9476dbe7ad674372392b2d4805e285953d337c25457bbfecaa6e42193a136049"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/cyan_rain_hat.json"
-hash = "1bd8ab9d034a630b610c3dbc17b06d651a04d58ba29e4b6e763e0f6a4269bce8"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/cyan_raincoat.json"
-hash = "0441ae651b8ff3f56f47da1ee953fa385532ecbd473d4d5944f1e03a34c71ca5"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/cyan_umbrella.json"
-hash = "d8e20fcc6317819cc92f893a2152fada05edfe071f2e6180e9e665fb55c33baf"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/dark_oak_leaf_pile.json"
-hash = "5dd3c53bc8079d271b97c263cb36b03afec79b9dccd45e615a32de6ec0dd5449"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/flowering_azalea_leaf_pile.json"
-hash = "61d3db2e25143b32d9da67fd7bb3fe445ca78d7957c6cad838f3d9695efa520a"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/gnome_plushie.json"
-hash = "81f416b9b258c5499dd874e626d711777f3c7002f3c68ddd6a84a65e4651dac6"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/gold_weather_vane.json"
-hash = "20eb6dbc7379fdb9560827633a17da4770f6185ea8d5c573e4f502cf9c9b0d28"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/gray_plastic_shovel.json"
-hash = "b425318009b4e1e4a57bc08d5d1d42705b04979420c0743f11c652407d1bb229"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/gray_rain_boots.json"
-hash = "df205864bf427afbad2b5df37f4e0ab72c447741ec5de215427f7f96ddadebc5"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/gray_rain_hat.json"
-hash = "04e3cdf69d26458662211a03cdd0a5a5f2b700fb06c73679f94f5feba0f45913"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/gray_raincoat.json"
-hash = "3bd6a85b525deea5852b49bd1373d1be5f0ae851b020d97fd76cd1a128407ecc"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/gray_umbrella.json"
-hash = "797b9e51d3b7267359f3fc334ee0f808a25f8c27ff2cb51918d85773dd52e698"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/green_plastic_shovel.json"
-hash = "6fbfac7ee9ad742c20210f0594726ae473612a97ae51f5e71d497a96efdbbb37"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/green_rain_boots.json"
-hash = "6b24349065c02aefe98b487ac59af90b560e86afcce6748e5818fdd8265aea66"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/green_rain_hat.json"
-hash = "f8943df85f27a8ba32b30d36949912469a65715218d1810218c4f1837a4647c1"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/green_raincoat.json"
-hash = "9c109a86f7ecacf3b05e060f962d9777726416e32510e77a6f7305fcb811f360"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/green_umbrella.json"
-hash = "5215f6b691832fb6a75128eef02e25c5d23998b971ee75ef6a89499f82e39ee8"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/hay_block.json"
-hash = "f4218230be8b9bf74483f3961daf6d6aac485d4add516f83d3715f7c2a141270"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/haystack_block.json"
-hash = "99e7bf910e500014b8fa93b55f1c433abc5a79d5e2af0fccb77eff7254722d1e"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/iron_weather_vane.json"
-hash = "4884446020a05660da17bd569145a3d8269979fb338d257ddef30ec3b976c944"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/jungle_leaf_pile.json"
-hash = "56973aa05b6bb38000336323577d5e65a7a825a0c4ed02a24601dfead1d397cb"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/leaf_pile.json"
-hash = "b68ac5ea37cbfea3b67d72725d829952f1bee711faf9ee1a2714e18cb4d99ec6"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_blue_plastic_shovel.json"
-hash = "242b2caef16f02fe15f492af7c6587c8e45c05359ac2c01632e3402be91e4a83"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_blue_rain_boots.json"
-hash = "449829bf073c78058cf6405172072f519e15eff9fd38944fd14fa18af9253137"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_blue_rain_hat.json"
-hash = "97555b9f02160467ac7f4005b0510ea5f543c5cea4d3d263e8cbeee219b39491"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_blue_raincoat.json"
-hash = "28b734aa11f6b318e4d39b665db9fc64d521cf9e695ed543a8c585339cf796d9"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_blue_umbrella.json"
-hash = "536b42dbdf8716f6d66c826af5cc2666a7e269a3e355750a95cf18ab7b738ce4"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_gray_plastic_shovel.json"
-hash = "a3a3bdcfd3a51d4c854e42d52c9a202c146276ed1fe382c0cd43ed4c710e3ec2"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_gray_rain_boots.json"
-hash = "63202a8609c282ba4733da31310fc93ca3b3b68ecd00f23b58bb7474c69f7c4d"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_gray_rain_hat.json"
-hash = "2d6654741ff82d63dd667d738bc1f32f18275fb3c4b009bab6d82645adbc2141"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_gray_raincoat.json"
-hash = "4370e5606bdc0706c3d0ec61053743e094589ce0c9979b3c6aa0ab4e3c94bf0a"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/light_gray_umbrella.json"
-hash = "8300718344cfc53cfacd8c79f739a767095711b8cc12f33a765cb10a89d0e224"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/lime_plastic_shovel.json"
-hash = "3c0608d2ffc6a0042c5e7558e2bfb10f29d59123a1fcd626bbd7fc9f3684d6b8"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/lime_rain_boots.json"
-hash = "24cd461d1e6066493b290a594101b02a4150da53a13738fc9db9d1c9a724fb99"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/lime_rain_hat.json"
-hash = "52b22a1608775f876a187ce669eb2720c869bab2fec66f0fc4aa6cfd65fe6753"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/lime_raincoat.json"
-hash = "07b497de94ecae348a1ad4744cfa052bbabcea5de36351c39c6fa0d7ef8345cd"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/lime_umbrella.json"
-hash = "82fe6efbc145823dccfaea1ab03d33c10897d796d03fb94ef373f0c604b4f1fd"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/magenta_plastic_shovel.json"
-hash = "7342c26f1dc4e9f874bcb5925a2db1d9c6a73961e7301998af00fc724475072f"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/magenta_rain_boots.json"
-hash = "efde668aa2b27d0797c120f630fed041c91f34dd81cab0e08288e5a775c711eb"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/magenta_rain_hat.json"
-hash = "bde361788b704d69749c0261a5afd5a9ed6791fd02442101b02b09ef1cb50138"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/magenta_raincoat.json"
-hash = "c8d10425425f33c9a1d3c4fdbbe1e8eba683c9555274390056eb1a4c6e70891b"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/magenta_umbrella.json"
-hash = "d2bf58188d1a03ac45e4f96c3c839b17f67393b92db8b6bcd9f56e994590f423"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/mangrove_leaf_pile.json"
-hash = "5ab18c599a74350ee4a9806324451f69fbe62fa114f6c7e7d1fbe0ccd963137b"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/netherite_weather_vane.json"
-hash = "b4d5e87a6a02045e3c026165c1e3d9636d932373f5af6d4ae8b3f6bb1f0447f7"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/orange_leaf_pile.json"
-hash = "e6b7957910830468169ec3b005a2f4de902ec1bbb99aff35cc1f36dcef0100be"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/orange_plastic_shovel.json"
-hash = "7d64673c6da77206a68227179beb8e7435c119444b72ffd29643b3ac68c0a0ce"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/orange_rain_boots.json"
-hash = "7f3526948aa3756cb055820a0539632a711935101a58549086ce83ebfb3c59f7"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/orange_rain_hat.json"
-hash = "effaa453752b8bb0759cb7ece267f86c8492cb4703320f92b98d5e329b66fb67"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/orange_raincoat.json"
-hash = "0daba6962464228b9ca400f1de0630d10c58cfe736d22732ba14a4614b52fffe"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/orange_umbrella.json"
-hash = "c63fa195923123c1922399d7f700b118c08978d69019ad02eab2549675a28a8f"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/pink_plastic_shovel.json"
-hash = "dbe3110c47f8dcd75ac8859cbd2cd7e89f7b0528e5a3fc737040d9424f804e7b"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/pink_rain_boots.json"
-hash = "7d776caf68f72b43953756ae1f429a4b9c331db8d860e786a2bf672a5437e8d3"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/pink_rain_hat.json"
-hash = "24f57a3f980fbeaa9430927e711324395afd9424d11f11a4d87ec0a51c0a6e95"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/pink_raincoat.json"
-hash = "bbb5cd58672fec6b98778b44b63faa875554706caa7b879f9178be1fa4f96206"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/pink_umbrella.json"
-hash = "8f26603733c1b080a2d3a5e60896dae506134b6e1858153b54997e1ffff3bd4b"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/pitchfork.json"
-hash = "569e1be1234914b66571093cb7f2c9d4c7378c15ef83fd3464b441b2a9534d6e"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/purple_plastic_shovel.json"
-hash = "ab70f3b36a3a0323773898bda399ab7d7b28497f7297b47dd17242d617000623"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/purple_rain_boots.json"
-hash = "9e32e0ba80076fa4f3e6dc9145781fa565be2a7f3b27f59c0cb5637cfe9c78e1"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/purple_rain_hat.json"
-hash = "11b173867d2270f265d9decae4c6c802c793cb40a875657fe5ea0226cc9d1e68"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/purple_raincoat.json"
-hash = "f9a39fc9ad131647b4ec1fcf3553ff1207bab50b3256cdd1041b6efce00fd12c"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/purple_umbrella.json"
-hash = "0b574fe24535ea6009d8ece551c8eabdc60de91e778f548ab61fd6bc1e842bbe"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/red_leaf_pile.json"
-hash = "54442e289bd555226d080a65dada3b1b9e1eb46b4495f924cc7ba62f870379ea"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/red_plastic_shovel.json"
-hash = "3278ec98f0d31925bd266157152c17b5608a1baa6c4599a1107e17c49712ca54"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/red_rain_boots.json"
-hash = "f1febf872754be34051ac030948e050c1109587b991d582f1d68fc9fa16b06a5"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/red_rain_hat.json"
-hash = "957537134ed170c9fbd86d54dd064172ae5d1901a34d82201afd2e1a2f67e1f2"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/red_raincoat.json"
-hash = "f7f152d46bea99806b9a4e43f1dbf0068d78c56fb5a2d1e281b00d71668061a9"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/red_umbrella.json"
-hash = "01895045d59362b3d77add6ec30acbce57d2c53dc960b375f74b5dbad8ed0a60"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/shovel.json"
-hash = "7bd355a8668e6c74b4405b75cb37cb59a68faacee360268429b95e819ec34744"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/silly_alien_plushie.json"
-hash = "4b470ce4dd4380886ee8e55aaf4d7bdd47536c747f61f5393a132523757c06fd"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/spruce_leaf_pile.json"
-hash = "84d40597d91aefb6ce60a03d650834869f9c75919aa16be1ab7e638066a10ab7"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/umbrella_stand.json"
-hash = "e4fcba02cead435388f36780120131e47e1d4d7ad5f7734d9ee006fee563ce6c"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/watering_can.json"
-hash = "74df4135ab9a1223359017222d73babf8cb602d01407f29a2f37f94a67ee3cd8"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/wheat_from_unbundled_hay_block.json"
-hash = "50e0aeffc2f7954c3e3b744ee2b5c4c10301ca74f5a1da2ebc2e1ac5b4962414"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/white_plastic_shovel.json"
-hash = "644af1d2358655cb532a02a034929d0dd3297e4fdd1be664bda3fe0ea95524a1"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/white_rain_boots.json"
-hash = "5b1cf7f62164ebff284dbdcbc1b008258cfa953af19b36f2a49bfb80d39d1cc8"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/white_rain_hat.json"
-hash = "336f9706b990fa81ab27fc4dfcea52a5b3045bd4b8af4d33c1404dd8a7c8ff8e"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/white_raincoat.json"
-hash = "41b69f56f1ee0e46a23665b126c69f8742d68262bc17da5417b0eb463b5cd21f"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/white_umbrella.json"
-hash = "6484e45ab8df55da710763ffdc6de746d1f181d66d15bd8d2fce433726107432"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/yellow_leaf_pile.json"
-hash = "fb09678760d036a640d08c30c737e6ebf389cccbd4181ba3a4e466a8401c6262"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/yellow_plastic_shovel.json"
-hash = "b382ef7e590a77941efa4ab41a5c75c0bbf6d7e4692ede6278dc1eaf14ef1c15"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/yellow_rain_boots.json"
-hash = "2a22bbc91df856d131bd935df9fa68f23031b59c581995e36d21dd278356a1c5"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/yellow_rain_hat.json"
-hash = "642af1f50fbf917242235021258ed49ad5622013eea2477ca195fb00421ab683"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/yellow_raincoat.json"
-hash = "59e724ea527a3d2cdfb076285d2991b8d1db1feece68083d2c4bd00daa7f382b"
-
-[[files]]
-file = "kubejs/data/convenientdecor/recipes/yellow_umbrella.json"
-hash = "8202edfc67df30442cb62defe4b98644b6b777cdb19622884ae81d5bb0c708d7"
 
 [[files]]
 file = "kubejs/data/create.lnk"
@@ -26498,11 +26050,6 @@ hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
 
 [[files]]
-file = "mods/chatpatches.pw.toml"
-hash = "f2170ccc79f57f6064be4c9fe001faef51f255f28dafa1a202b7712ca9cd0835"
-metafile = true
-
-[[files]]
 file = "mods/chloride-mod.pw.toml"
 hash = "d5200634ffefd1a0fc73a3cd3cb3dd0404df7cfcc4dfaf431e954aa7b00f5149"
 metafile = true
@@ -26539,11 +26086,6 @@ metafile = true
 [[files]]
 file = "mods/construction-wand.pw.toml"
 hash = "1613f68b9bdd242a957a3a20c5193b640672d11087abcb5c3abe5da45b235e35"
-metafile = true
-
-[[files]]
-file = "mods/contact.pw.toml"
-hash = "a9b1d72aa11e9b37930b89e64f891bcc627c38bcae7388221ff7b4b8e9651f56"
 metafile = true
 
 [[files]]
@@ -27116,11 +26658,6 @@ hash = "59c83aff76fec2f34cf0ddd59dc926b6c6a3baaed67764b9511bc77b52427156"
 metafile = true
 
 [[files]]
-file = "mods/modmenu.pw.toml"
-hash = "66d1b7bc973830475a7bae8a5b823ec42fbc1ed1f4d4c514f1e6a21b20177810"
-metafile = true
-
-[[files]]
 file = "mods/more-create-burners.pw.toml"
 hash = "506b3b01e2222d350221d8d99b6e51a35baf848eb1d03be595c587d9ceadf24a"
 metafile = true
@@ -27313,11 +26850,6 @@ metafile = true
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
 hash = "9e62033c569248a2a9b316747e7cc3e16347e93e0a6311d4b37a8d7e909b8a46"
-metafile = true
-
-[[files]]
-file = "mods/silveroak-outpost.pw.toml"
-hash = "5814ec5bc9429e21cb6a3a71eb2a5a6a48ebc8e007160333e07e206dcc049d4e"
 metafile = true
 
 [[files]]

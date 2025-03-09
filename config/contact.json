@@ -1,7 +1,5 @@
 {
   "blacklistID": [
-    "contact:parcel",
-    "contact:letter",
     "minecraft:shulker_box",
     "minecraft:bundle",
     "minecraft:white_shulker_box",
