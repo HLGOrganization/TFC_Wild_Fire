@@ -4,52 +4,9 @@ const DISABLED_EFFECTS = [
     'xaerominimap:no_waypoints',
     'xaerominimap:no_cave_maps'];
 const okdPlayers = new Set(); // 不受影响的玩家
-/*ItemEvents.rightClicked(event => {
-   
-    const { player, item } = event;
-    player.tell('点击'); 
-if (item.id == 'minecraft:iron_ingot') {
-    player.tell('点击铁成功')
-    okdPlayers.add(player.id)//开启小地图
-    player.tell('点击铁成功-解锁ok')
-    DISABLED_EFFECTS.forEach(effect => {
-        // 移除禁用效果
-        player.potionEffects.add(effect, 0,5,false, false);
-    });
-    player.tell('点击铁成功-去除buff')
-}})
-ItemEvents.rightClicked(event => {
-   
-    const { player, item } = event
-    player.tell('点击')
-if (item.id == 'minecraft:gold_ingot') {
 
-    player.tell('点击金成功')
-    okdPlayers.delete(player.id)//开启小地图
-    player.tell('点击金成功-禁用ok')
-    DISABLED_EFFECTS.forEach(effect => {
-        player.potionEffects.add(effect, -1, 1, false, false); 
-      })
-    player.tell('点击金成功-添加buff')
-}})
-PlayerEvents.tick(event => {
-    const { player, advancement } = event;
-        if (FishTFCAdvancement.checkAdvancement(player, "ad_astra:fishtfcmap")) {
-        player.tell('加入成功');
-    } 
-    
-
-
-
-
-
-});/advancement grant awhites only ad_astra:fishtfcmap
-
-*/
 PlayerEvents.chat(event => {
     const { player,} = event;
-
-    
     if (FishTFCAdvancement.checkAdvancement(player, "ad_astra:fishtfcmap")) {
         DISABLED_EFFECTS.forEach(effect => {
             // 移除禁用效果
