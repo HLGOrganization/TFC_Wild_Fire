@@ -12,7 +12,7 @@
 	"Localized Body Damage Enabled" = true
 
 	[core.advanced]
-		# How often player temperature is regularly synced between the client and server, in ticks.
+		# How often player temperature, thirst, body damage and health is regularly synced between the client and server, in ticks.
 		# Lower values will increase accuracy at the cost of performance.
 		#Range: > 1
 		"Routine Packet Sync" = 30
@@ -441,14 +441,15 @@
 		"Permanent Hearts" = 10
 
 	[health-overhaul.broken-hearts]
-		# Broken Hearts are an integration with the localized body damage feature. Enables both feature to have it.
-		# Broken Heart are lost hearts when a player's limb is severely injured and can be recovered by healing it.
-		# Resilient hearts number below which Broken Hearts can no longer be added.
-		#Range: 1 ~ 10000
-		"Minimum Player's Heart number With Broken Hearts (Broken Heart Resilience)" = 2
 		# Amount of Broken Hearts added per limbs fully injured.
 		#Range: 0 ~ 10000
 		"Added Broken Hearts Per Injured Limb" = 1
+		# Broken Hearts are an interaction with the localized body damage feature. Enables both feature to have it.
+		# Broken Hearts are lost hearts when a player's limb is severely injured and it can be recovered by healing the injured limb.
+		# The Resilient hearts is the number of heart below which Broken Hearts can no longer be added.
+		# By default, the player has 2 resilient heart, meaning no matter the amount of broken hearts, the player won't go below 2 hearts.
+		#Range: 1 ~ 10000
+		"Minimum Amount Of Player's Heart With Broken Hearts (Broken Heart Resilience)" = 2
 
 	# Options related to localized body damage
 	# The damageSourceBodyParts.json allows you to define for specific damage source, the damage spread across specified body parts.

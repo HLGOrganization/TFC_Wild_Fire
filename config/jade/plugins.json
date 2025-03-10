@@ -72,6 +72,9 @@
   "lootr": {
     "info": true
   },
+  "balm": {
+    "jade": true
+  },
   "platforms": {
     "hud": true
   },

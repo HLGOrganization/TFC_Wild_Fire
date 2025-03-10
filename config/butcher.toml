@@ -4,8 +4,6 @@
 	"Specific Tools Only" = true
 	#Enable/Disable End Dragon armor
 	"Dragon Armor" = true
-	#Enable/Disable the butchers house structure
-	Structures = true
 	#Enalbe/Disable guide book on first join
 	"Guide Book" = true
 	#Enable this to use vanilla foods instead of butchery's foods
@@ -32,6 +30,8 @@
 	Hints = true
 	#Enable/Disable organ drops
 	Organs = true
+	#Enable/Disable first join message.
+	"First Join Message" = true
 
 ["Boss Carcasses"]
 	#Enable/Disable End Dragon carcass
@@ -97,10 +97,17 @@
 	Piglin = true
 	"Zombified Piglin" = true
 	Slime = true
+	Horse = true
 
 [Seasonal]
 	#Enable/Disable the Halloween update
 	Halloween = true
 	#Enable/Disable the Christmas update
 	Christmas = false
+
+[Structures]
+	#Enable/Disable the butchers house structure
+	butchers_house = true
+	#Enable/Disable the salt formation structure
+	salt_formation = true
 
