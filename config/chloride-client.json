@@ -1,9 +1,9 @@
 {
   "modpackMode": false,
   "fullScreen": "BORDERLESS",
-  "fpsDisplayMode": "OFF",
-  "fpsDisplayGravity": "LEFT",
-  "fpsDisplaySystemMode": "GPU",
+  "fpsDisplayMode": "SIMPLE",
+  "fpsDisplayGravity": "RIGHT",
+  "fpsDisplaySystemMode": "ON",
   "fpsDisplayMargin": 12,
   "fpsDisplayShadow": false,
   "fog": true,
