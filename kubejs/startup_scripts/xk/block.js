@@ -1,5 +1,5 @@
 StartupEvents.registry("block",event=>{
-   event.create("create:andesite_chassis")
+   event.create("tfc_wf:andesite_chassis")
            .noValidSpawns(false) // 上面是否生成怪物
            .hardness(0.3) // 硬度
            .lightLevel(1)
