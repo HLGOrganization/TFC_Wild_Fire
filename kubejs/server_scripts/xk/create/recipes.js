@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {//手动合成
     create.item_application('create:mechanical_mixer',["create:andesite_Chassis",'create:whisk'],600,"none",false)//手动合成搅拌机
 
 
-
+//草饲花草
   
 
 
