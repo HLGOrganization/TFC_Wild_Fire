@@ -1,4 +1,0 @@
-#Settings for Water Flasks
-#Allow drinking when not thirsty? Could be useful or wasteful if that's not water in there... Default False
-thirstyDrinking = false
-
