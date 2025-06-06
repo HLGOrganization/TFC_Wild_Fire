@@ -114,11 +114,11 @@ jobs:
         # |||
         run: |
           mkdir -p $VERSION_FILE_DIR
-          echo "|||" > $VERSION_FILE_PATH
-          echo "$MODPACK_NAME $MODPACK_VERSION" >> $VERSION_FILE_PATH
-          echo "MIT License Copyright (c) 2025 HLG Organization" >> $VERSION_FILE_PATH
-          echo "|||" >> $VERSION_FILE_PATH
-          cat $VERSION_FILE_PATH
+          echo "|||" > $VERSION_FILE_DIR/version.md
+          echo "$MODPACK_NAME $MODPACK_VERSION" >> $VERSION_FILE_DIR/version.md
+          echo "MIT License Copyright (c) 2025 HLG Organization" >> $VERSION_FILE_DIR/version.md
+          echo "|||" >> $VERSION_FILE_DIR/version.md
+          cat $VERSION_FILE_DIR/version.md
       - name: 更新文件索引
         run: |
           ./packwiz refresh
