@@ -73,7 +73,7 @@ jobs:
       MODPACK_VERSION: ${{ needs.common-steps.outputs.modpack_ver }}
       MC_VERSION: ${{ needs.common-steps.outputs.mc_version }}
       FORGE_VERSION: ${{ needs.common-steps.outputs.forge_version }}
-      VERSION_FILE_PATH: ${{ github.workspace }}/config/fancymenu/assets/version.md
+      VERSION_FILE_DIR: config/fancymenu/assets/
       HMCL_DOWNLOAD_URL: https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.12/HMCL-3.6.12.jar
       JAVA_DOWNLOAD_URL: https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.msi
     if: >
@@ -108,18 +108,19 @@ jobs:
           chmod +x ./packwiz
       - name: 重命名HMCL配置和options
         run: |
-          mv .hmclversion.cfg hmclversion.cfg
-          mv .options.txt options.txt
+          mv -f .hmclversion.cfg hmclversion.cfg 
+          mv -f .options.txt options.txt
       - name: 写版本号文件供fancymenu展现在游戏首页
         # 格式如下，为此需要用 > 覆盖写第一行，用 >> 追加写后续行
         # |||
-        # Create-Delight-Remake x.x.x.x xxxx
-        # MIT License Copyright (c) 2025 JSI Production Team
+        # {Modpack Name} {Modpack version}
+        # MIT License Copyright (c) 2025 HLG Organization
         # |||
         run: |
+          mkdir -p $VERSION_FILE_DIR
           echo "|||" > $VERSION_FILE_PATH
           echo "$MODPACK_NAME $MODPACK_VERSION" >> $VERSION_FILE_PATH
-          echo "MIT License Copyright (c) 2025 JSI Production Team" >> $VERSION_FILE_PATH
+          echo "MIT License Copyright (c) 2025 HLG Organization" >> $VERSION_FILE_PATH
           echo "|||" >> $VERSION_FILE_PATH
           cat $VERSION_FILE_PATH
       - name: 更新文件索引
