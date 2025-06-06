@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
     create.compacting('4x minecraft:cobbled_deepslate','4x minecraft:cobblestone').heated()//深板岩
     create.compacting('minecraft:smooth_stone','minecraft:cobblestone').superheated()//平滑石头
     create.deploying('minecraft:paper',['tfc:unrefined_paper','#tfc:knives']).keepHeldItem()
-    create.filling('minecraft:glowstone_dust',['tfcorewashing:rock_powder',Fluid.of('minecraft:lava',20)]).superheated()//萤石
+    create.filling('minecraft:glowstone_dust',['kubejs:rock_powder',Fluid.of('minecraft:lava',20)]).superheated()//萤石
 
 
     event.recipes.tfc.barrel_sealed(5000).outputItem('tfc:unrefined_paper').inputs('farmersdelight:tree_bark', TFC.fluidStackIngredient('tfc:limewater', 50))//获取未精致纸
